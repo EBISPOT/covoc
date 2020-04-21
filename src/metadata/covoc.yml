@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/covoc
+
+idspace: COVOC
+base_url: /obo/covoc
+
+products:
+- covoc.owl: https://raw.githubusercontent.com/EBISPOT/covoc/master/covoc.owl
+- covoc.obo: https://raw.githubusercontent.com/EBISPOT/covoc/master/covoc.obo
+
+term_browser: ontobee
+example_terms:
+- covoc_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/EBISPOT/covoc/v
+
+- prefix: /tracker/
+  replacement: https://github.com/EBISPOT/covoc/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/COVOC?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/EBISPOT/covoc/master/
