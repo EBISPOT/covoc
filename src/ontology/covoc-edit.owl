@@ -1,36 +1,46 @@
-
 Prefix(:=<http://purl.obolibrary.org/obo/covoc.owl#>)
+Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
 Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
 Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
 Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
 Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
-Prefix(dce:=<http://purl.org/dc/elements/1.1/>)
 Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 
 Ontology(<http://purl.obolibrary.org/obo/covoc.owl>
-
+Import(<http://purl.obolibrary.org/obo/covoc/components/all_templates.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/clo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/covoc/imports/efo_import.owl>)
-
-
-Import(<http://purl.obolibrary.org/obo/covoc/patterns/definitions.owl>)
-
-Annotation(dce:title "Coronavirus Vocabulary")
-Annotation(dcterms:license <https://creativecommons.org/licenses/unspecified>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/ncbitaxon_import.owl>)
+Annotation(dce:creator "Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)")
+Annotation(dce:creator "Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)")
+Annotation(dce:creator "Michel Pierre-André (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)")
+Annotation(dce:creator "Mottaz Anaïs (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)")
+Annotation(dce:creator "Mottin Luc (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)")
+Annotation(dce:creator "Naderi Nona (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)")
+Annotation(dce:creator "Paola Roncaglia (EMBL-EBI)")
+Annotation(dce:creator "Ruch Patrick (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)")
+Annotation(dce:creator "Zoe Pendlington  (EMBL-EBI)")
 Annotation(dce:description "None")
+Annotation(dce:title "CoVoc Coronavirus Vocabulary")
+Annotation(dcterms:license <http://creativecommons.org/licenses/by/4.0/>)
 
 Declaration(Class(<http://purl.obolibrary.org/obo/COVOC_00000000>))
+Declaration(AnnotationProperty(dce:creator))
+Declaration(AnnotationProperty(dce:description))
+Declaration(AnnotationProperty(dce:title))
+Declaration(AnnotationProperty(dcterms:license))
 
 
 ############################
 #   Classes
 ############################
 
-# Class: <http://purl.obolibrary.org/obo/COVOC_00000000>
+# Class: <http://purl.obolibrary.org/obo/COVOC_00000000> (COVOC Term)
 
-AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COVOC_00000000> "root node"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COVOC_00000000> "Any term from the COVOC vocabulary")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COVOC_00000000> "COVOC Term"@en)
 
 
 )
-
