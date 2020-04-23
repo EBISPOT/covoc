@@ -1,0 +1,163 @@
+format-version: 1.2
+data-version: covoc/releases/2020-04-23/covoc-base.owl
+ontology: covoc/covoc-base
+property_value: http://purl.org/dc/elements/1.1/creator "Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "Michel Pierre-André (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "Mottaz Anaïs (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "Mottin Luc (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "Naderi Nona (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "Paola Roncaglia (EMBL-EBI)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "Ruch Patrick (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "Zoe Pendlington  (EMBL-EBI)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "CoVoc Coronavirus Vocabulary" xsd:string
+property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 xsd:string
+property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
+
+[Term]
+id: COVOC:00000000
+name: COVOC Term
+
+[Term]
+id: NCBITaxon:10239
+name: Viruses
+synonym: "Vira" EXACT []
+synonym: "Viridae" EXACT []
+synonym: "virus" EXACT []
+synonym: "viruses" EXACT []
+is_a: COVOC:00000000 ! COVOC Term
+
+[Term]
+id: NCBITaxon:11118
+name: Coronavirus
+synonym: "Coronaviridae" EXACT []
+synonym: "coronaviruses" EXACT []
+synonym: "cov" EXACT []
+synonym: "covs" EXACT []
+xref: UMLS:C0206419
+
+[Term]
+id: NCBITaxon:1335626
+name: MERS-CoV
+synonym: "MERS" EXACT []
+synonym: "MERS Coronavirus" EXACT []
+synonym: "MERS virus" EXACT []
+synonym: "Middle East Respiratory Syndrome Coronavirus" EXACT []
+synonym: "Middle East Respiratory Syndrome Coronavirus (MERS-CoV)" EXACT []
+xref: UMLS:C3698360
+
+[Term]
+id: NCBITaxon:196889
+name: Rhinolophus macrotis
+synonym: "Big-eared horseshoe bat" EXACT []
+synonym: "Horseshoe bats" EXACT []
+synonym: "Rhinolophus" EXACT []
+xref: PMID:32020836
+xref: UMLS:C1218105
+
+[Term]
+id: NCBITaxon:2697049
+name: COVID-19
+synonym: "2019-nCoV" EXACT []
+synonym: "SARS-CoV-2" EXACT []
+synonym: "SARS-CoV2" EXACT []
+synonym: "Severe Acute Respiratory Syndrome Coronavirus 2" EXACT []
+
+[Term]
+id: NCBITaxon:290028
+name: HKU1
+synonym: "CoV-HKU1" EXACT []
+synonym: "HCoV-HKU1" EXACT []
+synonym: "Human coronavirus HKU1" EXACT []
+synonym: "Human CoV/HKU1" EXACT []
+xref: UMLS:C1676985
+
+[Term]
+id: NCBITaxon:31631
+name: OC43
+synonym: "HCoV-OC43" EXACT []
+synonym: "Human coronavirus (strain OC43)" EXACT []
+synonym: "Human coronavirus OC43" EXACT []
+synonym: "Human coronavirus strain OC43" EXACT []
+xref: UMLS:C0949881
+
+[Term]
+id: NCBITaxon:40674
+name: Mammalia
+synonym: "mammal" EXACT []
+synonym: "mammals" EXACT []
+is_a: COVOC:00000000 ! COVOC Term
+
+[Term]
+id: NCBITaxon:694002
+name: Betacoronavirus
+synonym: "Coronavirus group 2" EXACT []
+synonym: "Group 2 species" EXACT []
+xref: UMLS:C2806453
+
+[Term]
+id: NCBITaxon:694009
+name: SARS-CoV
+synonym: "HCoV-SARS" EXACT []
+synonym: "Human coronavirus (strain SARS)" EXACT []
+synonym: "SARS" EXACT []
+synonym: "SARS coronavirus" EXACT []
+synonym: "SARS virus" EXACT []
+synonym: "SARS-like coronavirus" EXACT []
+synonym: "SARS-related coronavirus" EXACT []
+synonym: "SARSr-CoV" EXACT []
+synonym: "Severe acute respiratory distress syndrome coronavirus" EXACT []
+synonym: "Severe acute respiratory syndrome coronavirus" EXACT []
+xref: UMLS:C1175743
+
+[Term]
+id: NCBITaxon:9397
+name: Chiroptera
+synonym: "bat" EXACT []
+synonym: "bats" EXACT []
+xref: UMLS:C0008139
+
+[Term]
+id: NCBITaxon:9606
+name: Homo sapiens
+synonym: "Human" EXACT []
+synonym: "man" EXACT []
+xref: UMLS:C0086418
+
+[Term]
+id: NCBITaxon:9675
+name: Paguma larvata
+synonym: "Masked palm civet" EXACT []
+synonym: "Palm civet" EXACT []
+synonym: "palm civets" EXACT []
+synonym: "Paradoxurus hermaphroditus" EXACT []
+xref: UMLS:C0325072
+
+[Term]
+id: NCBITaxon:9836
+name: Camel
+synonym: "camels" EXACT []
+xref: UMLS:C0006801
+
+[Term]
+id: NCBITaxon:9838
+name: Camelus dromedarius
+synonym: "Arabian camel" EXACT []
+synonym: "camel" EXACT []
+synonym: "dromaderies" EXACT []
+synonym: "dromedaries" EXACT []
+synonym: "dromedary" EXACT []
+synonym: "dromedary camel" EXACT []
+synonym: "one-humped camel" EXACT []
+xref: PMID:31534035
+xref: UMLS:C0013127
+
+[Term]
+id: NCBITaxon:9972
+name: Manidae
+synonym: "pangolin" EXACT []
+synonym: "pangolins" EXACT []
+synonym: "scaly anteaters" EXACT []
+xref: UMLS:C0999626
+

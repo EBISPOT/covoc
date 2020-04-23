@@ -6,10 +6,17 @@
   <uri name="http://purl.obolibrary.org/obo/covoc/imports/efo_import.owl" uri="imports/efo_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/covoc/imports/efo_import.obo" uri="imports/efo_import.obo"/>
   
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/ncbitaxon_import.obo" uri="imports/ncbitaxon_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/clo_import.owl" uri="imports/clo_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/clo_import.obo" uri="imports/clo_import.obo"/>
+  
 
 
   
- 
-  <uri name="http://purl.obolibrary.org/obo/covoc/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/components/all_templates.owl" uri="components/all_templates.owl"/>
+  
+
 </group>
 </catalog>
