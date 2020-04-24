@@ -14,6 +14,11 @@ import_group:
     - id: ncbitaxon
       mirror_from: http://purl.obolibrary.org/obo/ncbitaxon.owl
     - id: clo
+    - id: hp
+    - id: mondo
+    - id: chebi
+    - id: gaz
+    - id: go
 components:
   products:
     - filename: all_templates.owl
