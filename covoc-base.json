@@ -2,6 +2,12 @@
   "graphs" : [ {
     "nodes" : [ {
       "id" : "http://purl.obolibrary.org/obo/COVOC_00000000",
+      "meta" : {
+        "definition" : {
+          "val" : "Any term from the COVOC vocabulary",
+          "xrefs" : [ ]
+        }
+      },
       "type" : "CLASS",
       "lbl" : "COVOC Term"
     }, {
@@ -183,11 +189,11 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "dromedaries",
+          "val" : "dromaderies",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "dromaderies",
+          "val" : "dromedaries",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -457,7 +463,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-04-23/covoc-base.json"
+      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-04-25/covoc-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],
