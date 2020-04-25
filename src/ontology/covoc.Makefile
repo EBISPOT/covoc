@@ -31,7 +31,16 @@ imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
 		remove -T imports/$*_terms_combined.txt --select complement --select "classes individuals" \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: imports/%_import.owl
-	
+
+## CLO gets special treatment by getting pruned to only those axioms with CLO ids in it.
+imports/clo_import.owl: mirror/clo.owl imports/clo_terms_combined.txt
+	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --force true --method BOT \
+		remove --base-iri $(URIBASE)"/CLO_" --axioms external --preserve-structure false --trim false \
+		query --update ../sparql/inject-subset-declaration.ru \
+		remove -T imports/$*_terms_combined.txt --select complement --select "classes individuals" \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: imports/clo_import.owl
+
 #mports/efo_import.owl: mirror/efo.owl imports/efo_terms_combined.txt
 #	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/efo_terms_combined.txt --force true --method BOT \
 #		remove --base-iri http://www.ebi.ac.uk/efo/EFO_ --axioms external --exclude-term IAO:0000117 --exclude-term IAO:0000119 --preserve-structure false --trim false
