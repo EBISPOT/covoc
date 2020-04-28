@@ -8,10 +8,9 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/efo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-04-23/imports/efo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-04-28/imports/efo_import.owl"/>
     </owl:Ontology>
     
 
@@ -27,12 +26,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -45,39 +38,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ncbitaxon#has_rank -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/ArrayExpress_label -->
-
-    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/ArrayExpress_label"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/EFO_URI -->
-
-    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_URI"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/branch_class -->
-
-    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/branch_class"/>
-    
-
-
     <!-- http://www.ebi.ac.uk/efo/organizational_class -->
 
     <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/organizational_class"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/source_definition -->
-
-    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/source_definition"/>
     
 
 
@@ -87,135 +50,15 @@
     
 
 
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
-    
-
-
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label>database_cross_reference</rdfs:label>
-    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     
 
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <obo:IAO_0000115>An alternative label for a given entity such as a commonly used abbreviation or synonym. </obo:IAO_0000115>
-        <rdfs:label>alternative_term</rdfs:label>
-        <rdfs:label>has_exact_synonym</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Object Properties
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0301 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0301">
-        <rdfs:label xml:lang="en">hasAncestryStatus</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Classes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
-        <obo:IAO_0000115>Minute infectious agents whose genomes are composed of DNA or RNA, but not both. They are characterized by a lack of independent metabolism and the inability to replicate outside living host cells.</obo:IAO_0000115>
-        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
-        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
-        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
-        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_superkingdom"/>
-        <efo:EFO_URI>http://www.ebi.ac.uk/efo/EFO_0001450</efo:EFO_URI>
-        <oboInOwl:hasDbXref>MO:372</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MSH:D014780</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIt:C14283</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT:49872002</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Animal Virus</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Animal Viruses</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Vira</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Viridae</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Virus, Animal</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Viruses</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Viruses, Animal</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Zoophaginae</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>viruses</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>NCBITaxon:10239</oboInOwl:id>
-        <rdfs:label>Virus</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
-        <obo:IAO_0000117>Class imported / merged by efoimporter</obo:IAO_0000117>
-        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
-        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
-        <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
-        <oboInOwl:hasDbXref>NCIt:C14225</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIt:C14366</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SNOMEDCT:337915000</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>human</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>man</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>NCBITaxon:9606</oboInOwl:id>
-        <rdfs:label>Homo sapiens</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>human</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>man</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
-    </owl:Axiom>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
 </rdf:RDF>
 
 

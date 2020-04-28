@@ -27,24 +27,30 @@ $(TEMPLATESDIR)/%.owl: $(TEMPLATESDIR)/%.tsv $(SRC)
 ## 
 imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
 	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --force true --method BOT \
+		remove --base-iri $(URIBASE)"/$(shell echo $* | tr a-z A-Z)_" --axioms external --preserve-structure false --trim false \
 		query --update ../sparql/inject-subset-declaration.ru \
 		remove -T imports/$*_terms_combined.txt --select complement --select "classes individuals" \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: imports/%_import.owl
 
-## CLO gets special treatment by getting pruned to only those axioms with CLO ids in it.
-imports/clo_import.owl: mirror/clo.owl imports/clo_terms_combined.txt
-	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/clo_terms_combined.txt --force true --method BOT \
-		remove --base-iri $(URIBASE)"/CLO_" --axioms external --preserve-structure false --trim false \
+# EFO needs special treatment because of non-obo IRI (http://www.ebi.ac.uk/efo/EFO_)
+imports/efo_import.owl: mirror/efo.owl imports/efo_terms_combined.txt
+	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/efo_terms_combined.txt --force true --method BOT \
+		remove --base-iri http://www.ebi.ac.uk/efo/EFO_ --axioms external --exclude-term IAO:0000117 --exclude-term IAO:0000119 --preserve-structure false --trim false \
 		query --update ../sparql/inject-subset-declaration.ru \
-		remove -T imports/clo_terms_combined.txt --select complement --select "classes individuals" \
+		remove -T imports/efo_terms_combined.txt --select complement --select "classes individuals" \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
-.PRECIOUS: imports/clo_import.owl
+.PRECIOUS: imports/efo_import.owl
+	
+# NCBITAXON gets special treatment because of non-capitalised IRI (http://purl.obolibrary.org/obo/NCBITaxon_2697049s)
+# On second thought, maybe that is not necessary. Experiment with removing this again
 
-#mports/efo_import.owl: mirror/efo.owl imports/efo_terms_combined.txt
-#	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/efo_terms_combined.txt --force true --method BOT \
-#		remove --base-iri http://www.ebi.ac.uk/efo/EFO_ --axioms external --exclude-term IAO:0000117 --exclude-term IAO:0000119 --preserve-structure false --trim false
-#		query --update ../sparql/inject-subset-declaration.ru \
-#		remove -T imports/$*_terms_combined.txt --select complement --select "classes individuals" \
-#		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
-#.PRECIOUS: imports/efo_import.owl
+imports/ncbitaxon_import.owl: mirror/ncbitaxon.owl imports/ncbitaxon_terms_combined.txt
+	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/ncbitaxon_terms_combined.txt --force true --method BOT \
+		remove --base-iri $(URIBASE)"/NCBITaxon_" --axioms external --preserve-structure false --trim false \
+		query --update ../sparql/inject-subset-declaration.ru \
+		remove -T imports/ncbitaxon_terms_combined.txt --select complement --select "classes individuals" \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: imports/ncbitaxon_import.owl
+
+
