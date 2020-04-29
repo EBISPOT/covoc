@@ -8,7 +8,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/components/all_templates.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-04-25/components/all_templates.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-04-29/components/all_templates.owl"/>
     </owl:Ontology>
     
 
@@ -24,6 +24,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeID -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeID"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
@@ -36,6 +42,12 @@
     
 
 
+    <!-- http://www.w3.org/2000/01/rdf-schema#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#prefLabel"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -44,6 +56,64 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002172">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:1</oboInOwl:hasAlternativeID>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0025</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32149036</oboInOwl:hasDbXref>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caco-2</rdfs:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002192">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:2</oboInOwl:hasAlternativeID>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0609</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32165541</oboInOwl:hasDbXref>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calu-3</rdfs:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002462">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:9</oboInOwl:hasAlternativeID>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0214</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.theage.com.au/national/coronavirus-outbreak-how-the-covid-19-vaccine-is-being-made-20200220-p542rh.html</oboInOwl:hasDbXref>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHO-K1</rdfs:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007059">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:10</oboInOwl:hasAlternativeID>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1016/j.medidd.2020.100026</oboInOwl:hasDbXref>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K-562</rdfs:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009524 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009524">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:6</oboInOwl:hasAlternativeID>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.03.02.972935v2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.03.19.997890v1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32149036</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32165541</oboInOwl:hasDbXref>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vero</rdfs:prefLabel>
+    </owl:Class>
     
 
 
@@ -61,7 +131,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viridae</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viruses</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viruses</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viruses</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -69,12 +139,13 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11118">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:5</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0206419</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronaviridae</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coronaviruses</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cov</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">covs</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronavirus</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronavirus</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -82,13 +153,14 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_1335626 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1335626">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:15</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C3698360</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERS Coronavirus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERS virus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle East Respiratory Syndrome Coronavirus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle East Respiratory Syndrome Coronavirus (MERS-CoV)</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERS-CoV</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERS-CoV</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -96,24 +168,32 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_196889 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_196889">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:20</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32020836</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1218105</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Big-eared horseshoe bat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Horseshoe bats</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhinolophus</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhinolophus macrotis</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhinolophus macrotis</rdfs:prefLabel>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2559587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2559587"/>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:6</oboInOwl:hasAlternativeID>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-nCoV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV-2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe Acute Respiratory Syndrome Coronavirus 2</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COVID-19</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COVID-19</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -121,12 +201,13 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_290028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_290028">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:9</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1676985</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoV-HKU1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCoV-HKU1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human CoV/HKU1</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human coronavirus HKU1</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HKU1</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HKU1</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -134,12 +215,13 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_31631 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_31631">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:17</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0949881</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCoV-OC43</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human coronavirus (strain OC43)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human coronavirus OC43</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human coronavirus strain OC43</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OC43</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OC43</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -150,7 +232,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammals</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalia</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalia</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -158,10 +240,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_694002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_694002">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:1</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C2806453</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronavirus group 2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Group 2 species</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betacoronavirus</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betacoronavirus</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -169,6 +252,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_694009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_694009">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:21</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1175743</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HCoV-SARS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human coronavirus (strain SARS)</oboInOwl:hasExactSynonym>
@@ -180,7 +264,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARSr-CoV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe acute respiratory distress syndrome coronavirus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe acute respiratory syndrome coronavirus</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -188,10 +272,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9397 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9397">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:4</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0008139</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bat</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bats</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chiroptera</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chiroptera</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -199,10 +284,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:11</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0086418</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">man</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -210,12 +296,13 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9675 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9675">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:18</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0325072</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Masked palm civet</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Palm civet</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paradoxurus hermaphroditus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">palm civets</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paguma larvata</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paguma larvata</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -223,9 +310,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9836 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9836">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:2</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0006801</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">camels</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camel</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camel</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -233,6 +321,7 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9838 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9838">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:3</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:31534035</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0013127</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arabian camel</oboInOwl:hasExactSynonym>
@@ -242,7 +331,7 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dromedary</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dromedary camel</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">one-humped camel</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camelus dromedarius</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camelus dromedarius</rdfs:prefLabel>
     </owl:Class>
     
 
@@ -250,11 +339,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9972 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9972">
+        <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:14</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0999626</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pangolin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pangolins</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scaly anteaters</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manidae</rdfs:label>
+        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manidae</rdfs:prefLabel>
     </owl:Class>
 </rdf:RDF>
 

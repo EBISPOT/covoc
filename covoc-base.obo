@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: covoc/releases/2020-04-28/covoc-base.owl
+data-version: covoc/releases/2020-04-29/covoc-base.owl
 ontology: covoc/covoc-base
 property_value: http://purl.org/dc/elements/1.1/creator "Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
@@ -16,90 +16,134 @@ property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 
 [Term]
+id: CLO:0002172
+xref: CVCL:0025
+xref: PMID:32149036
+property_value: hasAlternativeID CL:1 xsd:string
+property_value: prefLabel "Caco-2" xsd:string
+
+[Term]
+id: CLO:0002192
+xref: CVCL:0609
+xref: PMID:32165541
+property_value: hasAlternativeID CL:2 xsd:string
+property_value: prefLabel "Calu-3" xsd:string
+
+[Term]
+id: CLO:0002462
+xref: CVCL:0214
+xref: https://www.theage.com.au/national/coronavirus-outbreak-how-the-covid-19-vaccine-is-being-made-20200220-p542rh.html
+property_value: hasAlternativeID CL:9 xsd:string
+property_value: prefLabel "CHO-K1" xsd:string
+
+[Term]
+id: CLO:0007059
+xref: CVCL:0004
+xref: DOI:10.1016/j.medidd.2020.100026
+property_value: hasAlternativeID CL:10 xsd:string
+property_value: prefLabel "K-562" xsd:string
+
+[Term]
+id: CLO:0009524
+xref: CVCL:0059
+xref: DOI:10.1101/2020.03.02.972935v2
+xref: DOI:10.1101/2020.03.19.997890v1
+xref: PMID:32149036
+xref: PMID:32165541
+property_value: hasAlternativeID CL:6 xsd:string
+property_value: prefLabel "Vero" xsd:string
+
+[Term]
 id: COVOC:00000000
 name: COVOC Term
 def: "Any term from the COVOC vocabulary" []
 
 [Term]
 id: NCBITaxon:10239
-name: Viruses
 synonym: "Vira" EXACT []
 synonym: "Viridae" EXACT []
 synonym: "virus" EXACT []
 synonym: "viruses" EXACT []
 is_a: COVOC:00000000 ! COVOC Term
+property_value: prefLabel "Viruses" xsd:string
 
 [Term]
 id: NCBITaxon:11118
-name: Coronavirus
 synonym: "Coronaviridae" EXACT []
 synonym: "coronaviruses" EXACT []
 synonym: "cov" EXACT []
 synonym: "covs" EXACT []
 xref: UMLS:C0206419
+property_value: hasAlternativeID SP:5 xsd:string
+property_value: prefLabel "Coronavirus" xsd:string
 
 [Term]
 id: NCBITaxon:1335626
-name: MERS-CoV
 synonym: "MERS" EXACT []
 synonym: "MERS Coronavirus" EXACT []
 synonym: "MERS virus" EXACT []
 synonym: "Middle East Respiratory Syndrome Coronavirus" EXACT []
 synonym: "Middle East Respiratory Syndrome Coronavirus (MERS-CoV)" EXACT []
 xref: UMLS:C3698360
+property_value: hasAlternativeID SP:15 xsd:string
+property_value: prefLabel "MERS-CoV" xsd:string
 
 [Term]
 id: NCBITaxon:196889
-name: Rhinolophus macrotis
 synonym: "Big-eared horseshoe bat" EXACT []
 synonym: "Horseshoe bats" EXACT []
 synonym: "Rhinolophus" EXACT []
 xref: PMID:32020836
 xref: UMLS:C1218105
+property_value: hasAlternativeID SP:20 xsd:string
+property_value: prefLabel "Rhinolophus macrotis" xsd:string
 
 [Term]
 id: NCBITaxon:2697049
-name: COVID-19
 synonym: "2019-nCoV" EXACT []
 synonym: "SARS-CoV-2" EXACT []
 synonym: "SARS-CoV2" EXACT []
 synonym: "Severe Acute Respiratory Syndrome Coronavirus 2" EXACT []
+property_value: hasAlternativeID SP:6 xsd:string
+property_value: prefLabel "COVID-19" xsd:string
 
 [Term]
 id: NCBITaxon:290028
-name: HKU1
 synonym: "CoV-HKU1" EXACT []
 synonym: "HCoV-HKU1" EXACT []
 synonym: "Human coronavirus HKU1" EXACT []
 synonym: "Human CoV/HKU1" EXACT []
 xref: UMLS:C1676985
+property_value: hasAlternativeID SP:9 xsd:string
+property_value: prefLabel "HKU1" xsd:string
 
 [Term]
 id: NCBITaxon:31631
-name: OC43
 synonym: "HCoV-OC43" EXACT []
 synonym: "Human coronavirus (strain OC43)" EXACT []
 synonym: "Human coronavirus OC43" EXACT []
 synonym: "Human coronavirus strain OC43" EXACT []
 xref: UMLS:C0949881
+property_value: hasAlternativeID SP:17 xsd:string
+property_value: prefLabel "OC43" xsd:string
 
 [Term]
 id: NCBITaxon:40674
-name: Mammalia
 synonym: "mammal" EXACT []
 synonym: "mammals" EXACT []
 is_a: COVOC:00000000 ! COVOC Term
+property_value: prefLabel "Mammalia" xsd:string
 
 [Term]
 id: NCBITaxon:694002
-name: Betacoronavirus
 synonym: "Coronavirus group 2" EXACT []
 synonym: "Group 2 species" EXACT []
 xref: UMLS:C2806453
+property_value: hasAlternativeID SP:1 xsd:string
+property_value: prefLabel "Betacoronavirus" xsd:string
 
 [Term]
 id: NCBITaxon:694009
-name: SARS-CoV
 synonym: "HCoV-SARS" EXACT []
 synonym: "Human coronavirus (strain SARS)" EXACT []
 synonym: "SARS" EXACT []
@@ -111,39 +155,44 @@ synonym: "SARSr-CoV" EXACT []
 synonym: "Severe acute respiratory distress syndrome coronavirus" EXACT []
 synonym: "Severe acute respiratory syndrome coronavirus" EXACT []
 xref: UMLS:C1175743
+property_value: hasAlternativeID SP:21 xsd:string
+property_value: prefLabel "SARS-CoV" xsd:string
 
 [Term]
 id: NCBITaxon:9397
-name: Chiroptera
 synonym: "bat" EXACT []
 synonym: "bats" EXACT []
 xref: UMLS:C0008139
+property_value: hasAlternativeID SP:4 xsd:string
+property_value: prefLabel "Chiroptera" xsd:string
 
 [Term]
 id: NCBITaxon:9606
-name: Homo sapiens
 synonym: "Human" EXACT []
 synonym: "man" EXACT []
 xref: UMLS:C0086418
+property_value: hasAlternativeID SP:11 xsd:string
+property_value: prefLabel "Homo sapiens" xsd:string
 
 [Term]
 id: NCBITaxon:9675
-name: Paguma larvata
 synonym: "Masked palm civet" EXACT []
 synonym: "Palm civet" EXACT []
 synonym: "palm civets" EXACT []
 synonym: "Paradoxurus hermaphroditus" EXACT []
 xref: UMLS:C0325072
+property_value: hasAlternativeID SP:18 xsd:string
+property_value: prefLabel "Paguma larvata" xsd:string
 
 [Term]
 id: NCBITaxon:9836
-name: Camel
 synonym: "camels" EXACT []
 xref: UMLS:C0006801
+property_value: hasAlternativeID SP:2 xsd:string
+property_value: prefLabel "Camel" xsd:string
 
 [Term]
 id: NCBITaxon:9838
-name: Camelus dromedarius
 synonym: "Arabian camel" EXACT []
 synonym: "camel" EXACT []
 synonym: "dromaderies" EXACT []
@@ -153,12 +202,15 @@ synonym: "dromedary camel" EXACT []
 synonym: "one-humped camel" EXACT []
 xref: PMID:31534035
 xref: UMLS:C0013127
+property_value: hasAlternativeID SP:3 xsd:string
+property_value: prefLabel "Camelus dromedarius" xsd:string
 
 [Term]
 id: NCBITaxon:9972
-name: Manidae
 synonym: "pangolin" EXACT []
 synonym: "pangolins" EXACT []
 synonym: "scaly anteaters" EXACT []
 xref: UMLS:C0999626
+property_value: hasAlternativeID SP:14 xsd:string
+property_value: prefLabel "Manidae" xsd:string
 

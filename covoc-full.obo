@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: covoc/releases/2020-04-28/covoc-full.owl
+data-version: covoc/releases/2020-04-29/covoc-full.owl
 ontology: covoc/covoc-full
 property_value: http://purl.org/dc/elements/1.1/creator "Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
@@ -15,6 +15,44 @@ property_value: http://purl.org/dc/elements/1.1/title "CoVoc Coronavirus Vocabul
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 
 [Term]
+id: CLO:0002172
+xref: CVCL:0025
+xref: PMID:32149036
+property_value: hasAlternativeID CL:1 xsd:string
+property_value: prefLabel "Caco-2" xsd:string
+
+[Term]
+id: CLO:0002192
+xref: CVCL:0609
+xref: PMID:32165541
+property_value: hasAlternativeID CL:2 xsd:string
+property_value: prefLabel "Calu-3" xsd:string
+
+[Term]
+id: CLO:0002462
+xref: CVCL:0214
+xref: https://www.theage.com.au/national/coronavirus-outbreak-how-the-covid-19-vaccine-is-being-made-20200220-p542rh.html
+property_value: hasAlternativeID CL:9 xsd:string
+property_value: prefLabel "CHO-K1" xsd:string
+
+[Term]
+id: CLO:0007059
+xref: CVCL:0004
+xref: DOI:10.1016/j.medidd.2020.100026
+property_value: hasAlternativeID CL:10 xsd:string
+property_value: prefLabel "K-562" xsd:string
+
+[Term]
+id: CLO:0009524
+xref: CVCL:0059
+xref: DOI:10.1101/2020.03.02.972935v2
+xref: DOI:10.1101/2020.03.19.997890v1
+xref: PMID:32149036
+xref: PMID:32165541
+property_value: hasAlternativeID CL:6 xsd:string
+property_value: prefLabel "Vero" xsd:string
+
+[Term]
 id: COVOC:00000000
 name: COVOC Term
 def: "Any term from the COVOC vocabulary" []
@@ -22,142 +60,264 @@ def: "Any term from the COVOC vocabulary" []
 [Term]
 id: NCBITaxon:10239
 name: Viruses
+namespace: ncbi_taxonomy
 synonym: "Vira" EXACT []
+synonym: "Vira" RELATED synonym []
 synonym: "Viridae" EXACT []
+synonym: "Viridae" RELATED synonym []
 synonym: "virus" EXACT []
 synonym: "viruses" EXACT []
+synonym: "viruses" RELATED blast_name []
+xref: GC_ID:1
 is_a: COVOC:00000000 ! COVOC Term
+property_value: has_rank NCBITaxon:superkingdom
+property_value: prefLabel "Viruses" xsd:string
 
 [Term]
 id: NCBITaxon:11118
-name: Coronavirus
+name: Coronaviridae
+namespace: ncbi_taxonomy
 synonym: "Coronaviridae" EXACT []
 synonym: "coronaviruses" EXACT []
 synonym: "cov" EXACT []
 synonym: "covs" EXACT []
+xref: GC_ID:1
 xref: UMLS:C0206419
+is_a: NCBITaxon:10239 ! Viruses
+property_value: has_rank NCBITaxon:family
+property_value: hasAlternativeID SP:5 xsd:string
+property_value: prefLabel "Coronavirus" xsd:string
 
 [Term]
 id: NCBITaxon:1335626
-name: MERS-CoV
+name: Middle East respiratory syndrome-related coronavirus
+namespace: ncbi_taxonomy
+synonym: "MERS" BROAD acronym []
 synonym: "MERS" EXACT []
 synonym: "MERS Coronavirus" EXACT []
-synonym: "MERS virus" EXACT []
+synonym: "MERS coronavirus" EXACT equivalent_name []
+synonym: "MERS virus" EXACT equivalent_name []
+synonym: "MERS-CoV" BROAD genbank_acronym []
 synonym: "Middle East Respiratory Syndrome Coronavirus" EXACT []
-synonym: "Middle East Respiratory Syndrome Coronavirus (MERS-CoV)" EXACT []
+synonym: "Middle East respiratory syndrome coronavirus" EXACT equivalent_name []
+synonym: "Middle East Respiratory Syndrome Coronavirus (MERS-CoV)" EXACT equivalent_name []
+xref: GC_ID:1
 xref: UMLS:C3698360
+is_a: NCBITaxon:694002 ! Betacoronavirus
+property_value: has_rank NCBITaxon:species
+property_value: hasAlternativeID SP:15 xsd:string
+property_value: prefLabel "MERS-CoV" xsd:string
 
 [Term]
 id: NCBITaxon:196889
 name: Rhinolophus macrotis
+namespace: ncbi_taxonomy
+synonym: "Big-eared Horseshoe Bat" EXACT genbank_common_name []
 synonym: "Big-eared horseshoe bat" EXACT []
 synonym: "Horseshoe bats" EXACT []
 synonym: "Rhinolophus" EXACT []
+xref: GC_ID:1
 xref: PMID:32020836
 xref: UMLS:C1218105
+is_a: NCBITaxon:9397 ! Chiroptera
+property_value: has_rank NCBITaxon:species
+property_value: hasAlternativeID SP:20 xsd:string
+property_value: prefLabel "Rhinolophus macrotis" xsd:string
 
 [Term]
 id: NCBITaxon:2697049
-name: COVID-19
-synonym: "2019-nCoV" EXACT []
-synonym: "SARS-CoV-2" EXACT []
+name: Severe acute respiratory syndrome coronavirus 2
+namespace: ncbi_taxonomy
+synonym: "2019-nCoV" EXACT equivalent_name []
+synonym: "COVID-19" EXACT equivalent_name []
+synonym: "COVID-19 virus" EXACT equivalent_name []
+synonym: "COVID19" EXACT equivalent_name []
+synonym: "HCoV-19" EXACT equivalent_name []
+synonym: "Human coronavirus 2019" EXACT equivalent_name []
+synonym: "SARS-2" EXACT equivalent_name []
+synonym: "SARS-CoV-2" EXACT equivalent_name []
+synonym: "SARS-CoV2" BROAD genbank_acronym []
 synonym: "SARS-CoV2" EXACT []
+synonym: "SARS2" EXACT equivalent_name []
 synonym: "Severe Acute Respiratory Syndrome Coronavirus 2" EXACT []
+synonym: "Wuhan coronavirus" EXACT equivalent_name []
+synonym: "Wuhan seafood market pneumonia virus" EXACT equivalent_name []
+xref: GC_ID:1
+is_a: NCBITaxon:694009 ! Severe acute respiratory syndrome-related coronavirus
+property_value: hasAlternativeID SP:6 xsd:string
+property_value: prefLabel "COVID-19" xsd:string
 
 [Term]
 id: NCBITaxon:290028
-name: HKU1
-synonym: "CoV-HKU1" EXACT []
+name: Human coronavirus HKU1
+namespace: ncbi_taxonomy
+synonym: "CoV-HKU1" EXACT equivalent_name []
+synonym: "HCoV-HKU1" BROAD genbank_acronym []
 synonym: "HCoV-HKU1" EXACT []
 synonym: "Human coronavirus HKU1" EXACT []
-synonym: "Human CoV/HKU1" EXACT []
+synonym: "Human CoV/HKU1" EXACT equivalent_name []
+xref: GC_ID:1
 xref: UMLS:C1676985
+is_a: NCBITaxon:694002 ! Betacoronavirus
+property_value: has_rank NCBITaxon:species
+property_value: hasAlternativeID SP:9 xsd:string
+property_value: prefLabel "HKU1" xsd:string
 
 [Term]
 id: NCBITaxon:31631
-name: OC43
+name: Human coronavirus OC43
+namespace: ncbi_taxonomy
+synonym: "HCoV-OC43" BROAD genbank_acronym []
 synonym: "HCoV-OC43" EXACT []
-synonym: "Human coronavirus (strain OC43)" EXACT []
+synonym: "Human coronavirus (strain OC43)" EXACT equivalent_name []
 synonym: "Human coronavirus OC43" EXACT []
-synonym: "Human coronavirus strain OC43" EXACT []
+synonym: "Human coronavirus strain OC43" EXACT equivalent_name []
+xref: GC_ID:1
 xref: UMLS:C0949881
+is_a: NCBITaxon:694002 ! Betacoronavirus
+property_value: hasAlternativeID SP:17 xsd:string
+property_value: prefLabel "OC43" xsd:string
 
 [Term]
 id: NCBITaxon:40674
 name: Mammalia
+namespace: ncbi_taxonomy
 synonym: "mammal" EXACT []
-synonym: "mammals" EXACT []
+synonym: "mammals" EXACT genbank_common_name []
+synonym: "mammals" RELATED blast_name []
+xref: GC_ID:1
 is_a: COVOC:00000000 ! COVOC Term
+property_value: has_rank NCBITaxon:class
+property_value: prefLabel "Mammalia" xsd:string
 
 [Term]
 id: NCBITaxon:694002
 name: Betacoronavirus
-synonym: "Coronavirus group 2" EXACT []
-synonym: "Group 2 species" EXACT []
+namespace: ncbi_taxonomy
+alt_id: NCBITaxon:156439
+synonym: "Coronavirus" RELATED in_part []
+synonym: "Coronavirus group 2" EXACT equivalent_name []
+synonym: "Group 2 species" EXACT equivalent_name []
+xref: GC_ID:1
 xref: UMLS:C2806453
+is_a: NCBITaxon:11118 ! Coronaviridae
+property_value: has_rank NCBITaxon:genus
+property_value: hasAlternativeID SP:1 xsd:string
+property_value: prefLabel "Betacoronavirus" xsd:string
 
 [Term]
 id: NCBITaxon:694009
-name: SARS-CoV
+name: Severe acute respiratory syndrome-related coronavirus
+namespace: ncbi_taxonomy
+alt_id: NCBITaxon:227859
+alt_id: NCBITaxon:311178
+synonym: "HCoV-SARS" BROAD acronym []
 synonym: "HCoV-SARS" EXACT []
-synonym: "Human coronavirus (strain SARS)" EXACT []
+synonym: "Human coronavirus (strain SARS)" EXACT equivalent_name []
+synonym: "SARS" BROAD acronym []
 synonym: "SARS" EXACT []
-synonym: "SARS coronavirus" EXACT []
-synonym: "SARS virus" EXACT []
-synonym: "SARS-like coronavirus" EXACT []
-synonym: "SARS-related coronavirus" EXACT []
+synonym: "SARS coronavirus" EXACT equivalent_name []
+synonym: "SARS virus" EXACT equivalent_name []
+synonym: "SARS-like coronavirus" EXACT equivalent_name []
+synonym: "SARS-related coronavirus" EXACT equivalent_name []
+synonym: "SARSr-CoV" BROAD acronym []
 synonym: "SARSr-CoV" EXACT []
+synonym: "SARSrCoV" BROAD acronym []
 synonym: "Severe acute respiratory distress syndrome coronavirus" EXACT []
-synonym: "Severe acute respiratory syndrome coronavirus" EXACT []
+synonym: "Severe acute respiratory syndrome coronavirus" EXACT equivalent_name []
+xref: GC_ID:1
 xref: UMLS:C1175743
+is_a: NCBITaxon:694002 ! Betacoronavirus
+property_value: has_rank NCBITaxon:species
+property_value: hasAlternativeID SP:21 xsd:string
+property_value: prefLabel "SARS-CoV" xsd:string
 
 [Term]
 id: NCBITaxon:9397
 name: Chiroptera
+namespace: ncbi_taxonomy
 synonym: "bat" EXACT []
-synonym: "bats" EXACT []
+synonym: "bats" EXACT genbank_common_name []
+synonym: "bats" RELATED blast_name []
+xref: GC_ID:1
 xref: UMLS:C0008139
+is_a: NCBITaxon:40674 ! Mammalia
+property_value: has_rank NCBITaxon:order
+property_value: hasAlternativeID SP:4 xsd:string
+property_value: prefLabel "Chiroptera" xsd:string
 
 [Term]
 id: NCBITaxon:9606
 name: Homo sapiens
+namespace: ncbi_taxonomy
 synonym: "Human" EXACT []
-synonym: "man" EXACT []
+synonym: "human" EXACT genbank_common_name []
+synonym: "man" EXACT common_name []
+xref: GC_ID:1
 xref: UMLS:C0086418
+is_a: NCBITaxon:40674 ! Mammalia
+property_value: has_rank NCBITaxon:species
+property_value: hasAlternativeID SP:11 xsd:string
+property_value: prefLabel "Homo sapiens" xsd:string
 
 [Term]
 id: NCBITaxon:9675
 name: Paguma larvata
+namespace: ncbi_taxonomy
 synonym: "Masked palm civet" EXACT []
+synonym: "masked palm civet" EXACT genbank_common_name []
 synonym: "Palm civet" EXACT []
 synonym: "palm civets" EXACT []
 synonym: "Paradoxurus hermaphroditus" EXACT []
+xref: GC_ID:1
 xref: UMLS:C0325072
+is_a: NCBITaxon:40674 ! Mammalia
+property_value: has_rank NCBITaxon:species
+property_value: hasAlternativeID SP:18 xsd:string
+property_value: prefLabel "Paguma larvata" xsd:string
 
 [Term]
 id: NCBITaxon:9836
-name: Camel
+name: Camelus
+namespace: ncbi_taxonomy
 synonym: "camels" EXACT []
+xref: GC_ID:1
 xref: UMLS:C0006801
+is_a: NCBITaxon:40674 ! Mammalia
+property_value: has_rank NCBITaxon:genus
+property_value: hasAlternativeID SP:2 xsd:string
+property_value: prefLabel "Camel" xsd:string
 
 [Term]
 id: NCBITaxon:9838
 name: Camelus dromedarius
-synonym: "Arabian camel" EXACT []
-synonym: "camel" EXACT []
+namespace: ncbi_taxonomy
+synonym: "Arabian camel" EXACT genbank_common_name []
+synonym: "camel" EXACT common_name []
 synonym: "dromaderies" EXACT []
-synonym: "dromedaries" EXACT []
-synonym: "dromedary" EXACT []
-synonym: "dromedary camel" EXACT []
-synonym: "one-humped camel" EXACT []
+synonym: "dromedaries" EXACT common_name []
+synonym: "dromedary" EXACT common_name []
+synonym: "dromedary camel" EXACT common_name []
+synonym: "one-humped camel" EXACT common_name []
+xref: GC_ID:1
 xref: PMID:31534035
 xref: UMLS:C0013127
+is_a: NCBITaxon:9836 ! Camelus
+property_value: has_rank NCBITaxon:species
+property_value: hasAlternativeID SP:3 xsd:string
+property_value: prefLabel "Camelus dromedarius" xsd:string
 
 [Term]
 id: NCBITaxon:9972
 name: Manidae
+namespace: ncbi_taxonomy
 synonym: "pangolin" EXACT []
-synonym: "pangolins" EXACT []
-synonym: "scaly anteaters" EXACT []
+synonym: "pangolins" EXACT genbank_common_name []
+synonym: "scaly anteaters" EXACT common_name []
+xref: GC_ID:1
 xref: UMLS:C0999626
+is_a: NCBITaxon:40674 ! Mammalia
+property_value: has_rank NCBITaxon:family
+property_value: hasAlternativeID SP:14 xsd:string
+property_value: prefLabel "Manidae" xsd:string
 
