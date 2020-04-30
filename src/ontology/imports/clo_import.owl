@@ -231,7 +231,6 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <rdfs:label>Caco-2 cell</rdfs:label>
         <rdfs:label xml:lang="en">Caco-2 cell</rdfs:label>
-        <rdfs:label xml:lang="zh">Caco-2 细胞</rdfs:label>
     </owl:Class>
     
 
@@ -259,7 +258,6 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <rdfs:label>Calu-3 cell</rdfs:label>
         <rdfs:label xml:lang="en">Calu-3 cell</rdfs:label>
-        <rdfs:label xml:lang="zh">Calu-3 细胞</rdfs:label>
     </owl:Class>
     
 
@@ -272,7 +270,6 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <rdfs:label>CHO-K1 cell</rdfs:label>
         <rdfs:label xml:lang="en">CHO-K1 cell</rdfs:label>
-        <rdfs:label xml:lang="zh">CHO-K1 细胞</rdfs:label>
     </owl:Class>
     
 
@@ -298,7 +295,6 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <rdfs:label>K-562 cell</rdfs:label>
         <rdfs:label xml:lang="en">K-562 cell</rdfs:label>
-        <rdfs:label xml:lang="zh">K-562 细胞</rdfs:label>
     </owl:Class>
     
 
@@ -311,7 +307,6 @@ in CLO, this is a short cut relation that represents:
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <rdfs:label>Vero cell</rdfs:label>
         <rdfs:label xml:lang="en">Vero cell</rdfs:label>
-        <rdfs:label xml:lang="zh">Vero 细胞</rdfs:label>
     </owl:Class>
     
 

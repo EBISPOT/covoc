@@ -31,6 +31,7 @@ imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
 		query --update ../sparql/inject-subset-declaration.ru \
 		remove -T imports/$*_terms_combined.txt --select complement --select "classes individuals" \
 		remove --term rdfs:seeAlso --term rdfs:comment --select "annotation-properties" \
+		query --update ../sparql/remove_chinese.ru  \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: imports/%_import.owl
 

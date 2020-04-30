@@ -346,7 +346,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32149036</oboInOwl:hasDbXref>
         <rdfs:label>Caco-2 cell</rdfs:label>
         <rdfs:label xml:lang="en">Caco-2 cell</rdfs:label>
-        <rdfs:label xml:lang="zh">Caco-2 细胞</rdfs:label>
         <rdfs:prefLabel>Caco-2</rdfs:prefLabel>
     </owl:Class>
     
@@ -378,7 +377,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32165541</oboInOwl:hasDbXref>
         <rdfs:label>Calu-3 cell</rdfs:label>
         <rdfs:label xml:lang="en">Calu-3 cell</rdfs:label>
-        <rdfs:label xml:lang="zh">Calu-3 细胞</rdfs:label>
         <rdfs:prefLabel>Calu-3</rdfs:prefLabel>
     </owl:Class>
     
@@ -395,7 +393,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.theage.com.au/national/coronavirus-outbreak-how-the-covid-19-vaccine-is-being-made-20200220-p542rh.html</oboInOwl:hasDbXref>
         <rdfs:label>CHO-K1 cell</rdfs:label>
         <rdfs:label xml:lang="en">CHO-K1 cell</rdfs:label>
-        <rdfs:label xml:lang="zh">CHO-K1 细胞</rdfs:label>
         <rdfs:prefLabel>CHO-K1</rdfs:prefLabel>
     </owl:Class>
     
@@ -425,7 +422,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1016/j.medidd.2020.100026</oboInOwl:hasDbXref>
         <rdfs:label>K-562 cell</rdfs:label>
         <rdfs:label xml:lang="en">K-562 cell</rdfs:label>
-        <rdfs:label xml:lang="zh">K-562 细胞</rdfs:label>
         <rdfs:prefLabel>K-562</rdfs:prefLabel>
     </owl:Class>
     
@@ -445,7 +441,6 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32165541</oboInOwl:hasDbXref>
         <rdfs:label>Vero cell</rdfs:label>
         <rdfs:label xml:lang="en">Vero cell</rdfs:label>
-        <rdfs:label xml:lang="zh">Vero 细胞</rdfs:label>
         <rdfs:prefLabel>Vero</rdfs:prefLabel>
     </owl:Class>
     

@@ -279,11 +279,11 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Paradoxurus hermaphroditus",
+          "val" : "masked palm civet",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "masked palm civet",
+          "val" : "Paradoxurus hermaphroditus",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {

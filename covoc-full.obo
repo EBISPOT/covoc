@@ -17,7 +17,6 @@ property_value: http://purl.org/dc/terms/license http://creativecommons.org/lice
 [Term]
 id: CLO:0002172
 name: Caco-2 cell
-name: Caco-2 细胞
 xref: CVCL:0025
 xref: PMID:32149036
 property_value: CLO:0000178 "LCL-1170" xsd:string
@@ -31,7 +30,6 @@ property_value: prefLabel "Caco-2" xsd:string
 [Term]
 id: CLO:0002192
 name: Calu-3 cell
-name: Calu-3 细胞
 xref: CVCL:0609
 xref: PMID:32165541
 property_value: CLO:0000178 "LCL-1631" xsd:string
@@ -47,7 +45,6 @@ property_value: prefLabel "Calu-3" xsd:string
 [Term]
 id: CLO:0002462
 name: CHO-K1 cell
-name: CHO-K1 细胞
 xref: CVCL:0214
 xref: https://www.theage.com.au/national/coronavirus-outbreak-how-the-covid-19-vaccine-is-being-made-20200220-p542rh.html
 property_value: hasAlternativeID CL:9 xsd:string
@@ -59,7 +56,6 @@ property_value: prefLabel "CHO-K1" xsd:string
 [Term]
 id: CLO:0007059
 name: K-562 cell
-name: K-562 细胞
 xref: CVCL:0004
 xref: DOI:10.1016/j.medidd.2020.100026
 property_value: CLO:0000178 "LCL-1103" xsd:string
@@ -73,7 +69,6 @@ property_value: prefLabel "K-562" xsd:string
 [Term]
 id: CLO:0009524
 name: Vero cell
-name: Vero 细胞
 xref: CVCL:0059
 xref: DOI:10.1101/2020.03.02.972935v2
 xref: DOI:10.1101/2020.03.19.997890v1
