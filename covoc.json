@@ -1,46 +1,6 @@
 {
   "graphs" : [ {
     "nodes" : [ {
-      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_694002",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C2806453"
-        }, {
-          "val" : "GC_ID:1"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Coronavirus",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Coronavirus group 2",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Group 2 species",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
-          "val" : "Betacoronavirus"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
-          "val" : "SP:1"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "ncbi_taxonomy"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_genus"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "NCBITaxon:156439"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "Betacoronavirus"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_00000000",
       "meta" : {
         "definition" : {
@@ -51,134 +11,29 @@
       "type" : "CLASS",
       "lbl" : "COVOC Term"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_2697049",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "GC_ID:1"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "2019-nCoV",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "SARS-2",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Wuhan seafood market pneumonia virus",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Wuhan coronavirus",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "SARS2",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "SARS-CoV2",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "COVID-19",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "COVID19",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "HCoV-19",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Severe Acute Respiratory Syndrome Coronavirus 2",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasBroadSynonym",
-          "val" : "SARS-CoV2",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Human coronavirus 2019",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "SARS-CoV-2",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "COVID-19 virus",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
-          "val" : "SP:6"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
-          "val" : "COVID-19"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "ncbi_taxonomy"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "Severe acute respiratory syndrome coronavirus 2"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_11118",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "GC_ID:1"
-        }, {
-          "val" : "UMLS:C0206419"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "coronaviruses",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Coronaviridae",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "covs",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "cov",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
-          "val" : "SP:5"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "ncbi_taxonomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
-          "val" : "Coronavirus"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_family"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "Coronaviridae"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10239",
       "meta" : {
         "xrefs" : [ {
           "val" : "GC_ID:1"
         } ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
+          "pred" : "hasRelatedSynonym",
           "val" : "Vira",
           "xrefs" : [ ]
         }, {
           "pred" : "hasRelatedSynonym",
+          "val" : "Viridae",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "viruses",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "viruses",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "Vira",
           "xrefs" : [ ]
         }, {
@@ -189,25 +44,13 @@
           "pred" : "hasExactSynonym",
           "val" : "virus",
           "xrefs" : [ ]
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "Viridae",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "viruses",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "viruses",
-          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_superkingdom"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_superkingdom"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
           "val" : "Viruses"
@@ -216,49 +59,20 @@
       "type" : "CLASS",
       "lbl" : "Viruses"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9836",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0006801"
-        }, {
-          "val" : "GC_ID:1"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "camels",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "ncbi_taxonomy"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
-          "val" : "SP:2"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_genus"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
-          "val" : "Camel"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "Camelus"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9606",
       "meta" : {
         "xrefs" : [ {
-          "val" : "GC_ID:1"
-        }, {
           "val" : "UMLS:C0086418"
+        }, {
+          "val" : "GC_ID:1"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "man",
+          "val" : "human",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "human",
+          "val" : "man",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -269,11 +83,11 @@
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "ncbi_taxonomy"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
           "val" : "Homo sapiens"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
           "val" : "SP:11"
@@ -282,46 +96,14 @@
       "type" : "CLASS",
       "lbl" : "Homo sapiens"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_40674",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "GC_ID:1"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "mammal",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "mammals",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "mammals",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_class"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
-          "val" : "Mammalia"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "ncbi_taxonomy"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "Mammalia"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_196889",
       "meta" : {
         "xrefs" : [ {
+          "val" : "GC_ID:1"
+        }, {
           "val" : "UMLS:C1218105"
         }, {
           "val" : "PMID:32020836"
-        }, {
-          "val" : "GC_ID:1"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -357,61 +139,6 @@
       "type" : "CLASS",
       "lbl" : "Rhinolophus macrotis"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9838",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0013127"
-        }, {
-          "val" : "GC_ID:1"
-        }, {
-          "val" : "PMID:31534035"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "dromedaries",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Arabian camel",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "camel",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "one-humped camel",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "dromedary camel",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "dromedary",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "dromaderies",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
-          "val" : "SP:3"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "ncbi_taxonomy"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
-          "val" : "Camelus dromedarius"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "Camelus dromedarius"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CLO_0002192",
       "meta" : {
         "xrefs" : [ {
@@ -420,202 +147,138 @@
           "val" : "CVCL:0609"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3307390"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1631"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0609"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0002819"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1631"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
           "val" : "Calu-3"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
           "val" : "CL:2"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_694009",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C1175743"
         }, {
-          "val" : "GC_ID:1"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "SARS-related coronavirus",
-          "xrefs" : [ ]
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Calu-3"
         }, {
-          "pred" : "hasExactSynonym",
-          "val" : "HCoV-SARS",
-          "xrefs" : [ ]
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
         }, {
-          "pred" : "hasExactSynonym",
-          "val" : "SARS virus",
-          "xrefs" : [ ]
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZN"
         }, {
-          "pred" : "hasExactSynonym",
-          "val" : "SARS",
-          "xrefs" : [ ]
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0609"
         }, {
-          "pred" : "hasBroadSynonym",
-          "val" : "SARSrCoV",
-          "xrefs" : [ ]
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0002819"
         }, {
-          "pred" : "hasBroadSynonym",
-          "val" : "SARSr-CoV",
-          "xrefs" : [ ]
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: HTB-55"
         }, {
-          "pred" : "hasExactSynonym",
-          "val" : "SARS-like coronavirus",
-          "xrefs" : [ ]
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Calu-3"
         }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Human coronavirus (strain SARS)",
-          "xrefs" : [ ]
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3307390"
         }, {
-          "pred" : "hasExactSynonym",
-          "val" : "SARSr-CoV",
-          "xrefs" : [ ]
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: HTB-55"
         }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Severe acute respiratory syndrome coronavirus",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasBroadSynonym",
-          "val" : "SARS",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Severe acute respiratory distress syndrome coronavirus",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "SARS coronavirus",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasBroadSynonym",
-          "val" : "HCoV-SARS",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "ncbi_taxonomy"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "NCBITaxon:311178"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
-          "val" : "SP:21"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
-          "val" : "SARS-CoV"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
-          "val" : "NCBITaxon:227859"
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000117",
+          "val" : "ZN"
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "Severe acute respiratory syndrome-related coronavirus"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1335626",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "GC_ID:1"
-        }, {
-          "val" : "UMLS:C3698360"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "MERS Coronavirus",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Middle East respiratory syndrome coronavirus",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasBroadSynonym",
-          "val" : "MERS",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Middle East Respiratory Syndrome Coronavirus",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "MERS coronavirus",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "MERS",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Middle East Respiratory Syndrome Coronavirus (MERS-CoV)",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "MERS virus",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasBroadSynonym",
-          "val" : "MERS-CoV",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
-          "val" : "MERS-CoV"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "ncbi_taxonomy"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
-          "val" : "SP:15"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "Middle East respiratory syndrome-related coronavirus"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CLO_0009524",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "DOI:10.1101/2020.03.02.972935v2"
-        }, {
-          "val" : "CVCL:0059"
-        }, {
-          "val" : "PMID:32149036"
-        }, {
-          "val" : "DOI:10.1101/2020.03.19.997890v1"
-        }, {
-          "val" : "PMID:32165541"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
-          "val" : "Vero"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
-          "val" : "CL:6"
-        } ]
-      },
-      "type" : "CLASS"
+      "lbl" : "Calu-3 cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLO_0007059",
       "meta" : {
         "xrefs" : [ {
-          "val" : "DOI:10.1016/j.medidd.2020.100026"
-        }, {
           "val" : "CVCL:0004"
+        }, {
+          "val" : "DOI:10.1016/j.medidd.2020.100026"
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
-          "val" : "CL:10"
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-243"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
           "val" : "K-562"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0002067"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl2980"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3308378"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "K-562"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3308378"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl2980"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "disease: chronic myelo-   genous leukemia (bone marrow primary)"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D020014"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "K-562"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
+          "val" : "CL:10"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0004"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1103"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-243"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0004"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0002067"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1103"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "疾病：慢性骨髓性白血病（骨髓原发性）"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D020014"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "disease: chronic myelo-   genous leukemia (bone marrow primary)"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "K-562 cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9397",
       "meta" : {
@@ -638,38 +301,31 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
-          "val" : "SP:4"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_order"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
           "val" : "Chiroptera"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
+          "val" : "SP:4"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_order"
         } ]
       },
       "type" : "CLASS",
       "lbl" : "Chiroptera"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CLO_0002172",
+      "id" : "http://purl.obolibrary.org/obo/CLO_0037208",
       "meta" : {
-        "xrefs" : [ {
-          "val" : "CVCL:0025"
-        }, {
-          "val" : "PMID:32149036"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
-          "val" : "Caco-2"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
-          "val" : "CL:1"
-        } ]
+        "definition" : {
+          "val" : "a 'derives from' object property between an entity (i.e., cell line cell in CLO) and an anatomic part from an organism  where the cell line cell is derived from some cell in the anatomic part (e.g., tissue or organ). The anatomic part is typically defined by UBERON in CLO. \nin CLO, this is a short cut relation that represents:\n'derived from' some (cell and ('part of' some 'anatomic part'))",
+          "xrefs" : [ ]
+        }
       },
-      "type" : "CLASS"
+      "type" : "PROPERTY",
+      "lbl" : "derived from anatomic part"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9675",
       "meta" : {
@@ -688,11 +344,11 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "palm civets",
+          "val" : "masked palm civet",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "masked palm civet",
+          "val" : "palm civets",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -706,11 +362,11 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
           "val" : "Paguma larvata"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
         } ]
       },
       "type" : "CLASS",
@@ -725,11 +381,11 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "pangolins",
+          "val" : "pangolin",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "pangolin",
+          "val" : "pangolins",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
@@ -737,14 +393,14 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
-          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_family"
-        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "ncbi_taxonomy"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
           "val" : "SP:14"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_family"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
           "val" : "Manidae"
@@ -761,29 +417,41 @@
           "val" : "https://www.theage.com.au/national/coronavirus-outbreak-how-the-covid-19-vaccine-is-being-made-20200220-p542rh.html"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-61"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "CHO-K1"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-61"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "CHO-K1"
+        }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
           "val" : "CL:9"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
           "val" : "CHO-K1"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "CHO-K1 cell"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_31631",
       "meta" : {
         "xrefs" : [ {
-          "val" : "GC_ID:1"
-        }, {
           "val" : "UMLS:C0949881"
+        }, {
+          "val" : "GC_ID:1"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Human coronavirus OC43",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Human coronavirus (strain OC43)",
           "xrefs" : [ ]
         }, {
           "pred" : "hasBroadSynonym",
@@ -791,11 +459,15 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "Human coronavirus strain OC43",
+          "val" : "HCoV-OC43",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "HCoV-OC43",
+          "val" : "Human coronavirus (strain OC43)",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Human coronavirus strain OC43",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -815,21 +487,21 @@
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_290028",
       "meta" : {
         "xrefs" : [ {
-          "val" : "GC_ID:1"
-        }, {
           "val" : "UMLS:C1676985"
+        }, {
+          "val" : "GC_ID:1"
         } ],
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "CoV-HKU1",
+          "xrefs" : [ ]
+        }, {
           "pred" : "hasExactSynonym",
           "val" : "Human coronavirus HKU1",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "Human CoV/HKU1",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "CoV-HKU1",
           "xrefs" : [ ]
         }, {
           "pred" : "hasBroadSynonym",
@@ -841,14 +513,14 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
           "val" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
           "val" : "HKU1"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "ncbi_taxonomy"
         }, {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
           "val" : "SP:9"
@@ -856,12 +528,590 @@
       },
       "type" : "CLASS",
       "lbl" : "Human coronavirus HKU1"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_694002",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "UMLS:C2806453"
+        }, {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "Coronavirus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Coronavirus group 2",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Group 2 species",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
+          "val" : "SP:1"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "NCBITaxon:156439"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
+          "val" : "Betacoronavirus"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_genus"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Betacoronavirus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_2697049",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "2019-nCoV",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Wuhan seafood market pneumonia virus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Wuhan coronavirus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "SARS-CoV2",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "COVID-19",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "COVID19",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Human coronavirus 2019",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "SARS-CoV-2",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "SARS-2",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "SARS2",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "HCoV-19",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Severe Acute Respiratory Syndrome Coronavirus 2",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "SARS-CoV2",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "COVID-19 virus",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
+          "val" : "SP:6"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
+          "val" : "COVID-19"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Severe acute respiratory syndrome coronavirus 2"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_11118",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        }, {
+          "val" : "UMLS:C0206419"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cov",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "coronaviruses",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Coronaviridae",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "covs",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_family"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
+          "val" : "SP:5"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
+          "val" : "Coronavirus"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Coronaviridae"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9836",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "UMLS:C0006801"
+        }, {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "camels",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
+          "val" : "SP:2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_genus"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
+          "val" : "Camel"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Camelus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_40674",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "mammals",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mammal",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mammals",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
+          "val" : "Mammalia"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_class"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Mammalia"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9838",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        }, {
+          "val" : "UMLS:C0013127"
+        }, {
+          "val" : "PMID:31534035"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "dromedaries",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Arabian camel",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "one-humped camel",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dromaderies",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "camel",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dromedary camel",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "dromedary",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
+          "val" : "SP:3"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
+          "val" : "Camelus dromedarius"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Camelus dromedarius"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_694009",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GC_ID:1"
+        }, {
+          "val" : "UMLS:C1175743"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "SARS virus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "SARS",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "SARSrCoV",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Human coronavirus (strain SARS)",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "SARSr-CoV",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "HCoV-SARS",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "SARS-related coronavirus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "HCoV-SARS",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "SARSr-CoV",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "SARS-like coronavirus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Severe acute respiratory syndrome coronavirus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "SARS",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Severe acute respiratory distress syndrome coronavirus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "SARS coronavirus",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "NCBITaxon:227859"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "NCBITaxon:311178"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
+          "val" : "SP:21"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
+          "val" : "SARS-CoV"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Severe acute respiratory syndrome-related coronavirus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCBITaxon_1335626",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "UMLS:C3698360"
+        }, {
+          "val" : "GC_ID:1"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Middle East respiratory syndrome coronavirus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Middle East Respiratory Syndrome Coronavirus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "MERS-CoV",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "MERS Coronavirus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "MERS",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "MERS coronavirus",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "MERS",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Middle East Respiratory Syndrome Coronavirus (MERS-CoV)",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "MERS virus",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
+          "val" : "MERS-CoV"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "ncbi_taxonomy"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/ncbitaxon#has_rank",
+          "val" : "http://purl.obolibrary.org/obo/NCBITaxon_species"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
+          "val" : "SP:15"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Middle East respiratory syndrome-related coronavirus"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0009524",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "CVCL:0059"
+        }, {
+          "val" : "PMID:32149036"
+        }, {
+          "val" : "PMID:32165541"
+        }, {
+          "val" : "DOI:10.1101/2020.03.02.972935v2"
+        }, {
+          "val" : "DOI:10.1101/2020.03.19.997890v1"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Vero"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl4644"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
+          "val" : "Vero"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D014709"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl4644"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-81"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D014709"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Vero"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: CCL-81"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
+          "val" : "CL:6"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Vero 细胞"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0002172",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "CVCL:0025"
+        }, {
+          "val" : "PMID:32149036"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl618"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D018938"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0025"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3307519"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1170"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Caco-2"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0001099"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#prefLabel",
+          "val" : "Caco-2"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeID",
+          "val" : "CL:1"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000412",
+          "val" : "http://purl.obolibrary.org/obo/clo.owl"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CVCL: CVCL_0025"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "Caco-2"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: HTB-37"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "MeSH: D018938"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "disease: colorectal adenocarcinoma"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "CHEMBL: CHEMBL3307519"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "EFO: EFO_0001099"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "HyperCLDB: cl618"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/CLO_0000178",
+          "val" : "LCL-1170"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "disease: colorectal adenocarcinoma"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#seeAlso",
+          "val" : "ATCC: HTB-37"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "疾病：结肠直肠腺癌"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Caco-2 cell"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000015",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition_editor",
+          "val" : "Yongqun He"
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "a 'derives from' object property between an entity (in CLO case, cell line) and a  disease in a patient where the entity is derived from some cell in the patient who has the disease. \nThis is a short cut relation that represents:\n'derived from' some (cell and ('part of' some 'organism' and ('has disease' some disease)))"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "In most cases, the patient in the relation is used to refer human patient. However, an animal patient (or veterinary patient) can also be referred."
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "derives from patient having disease"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CLO_0000179",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition",
+          "val" : "an object property that represents a relation between a cell line cell and a disease."
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "This object property is largely equivalent to the previous term 'is model for' (http://www.ebi.ac.uk/cellline#is_model_for)."
+        }, {
+          "pred" : "http://www.ebi.ac.uk/cellline/definition_editor",
+          "val" : "Asiyah Yu Lin, Yongqun He"
+        } ]
+      },
+      "type" : "PROPERTY",
+      "lbl" : "is disease model for"
     } ],
     "edges" : [ {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9675",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_40674",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -874,10 +1124,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_694002",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_11118"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9606",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
@@ -886,17 +1132,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1335626",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_694002"
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0037208",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0001000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2697049",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_694009"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9972",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_694009",
       "pred" : "is_a",
@@ -914,13 +1156,37 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_694002"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_196889",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9397"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9838",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9836"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9675",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000015",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0001000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_694002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_11118"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1335626",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_694002"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9972",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CLO_0000179",
+      "pred" : "subPropertyOf",
+      "obj" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_196889",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9397"
     } ],
     "id" : "http://purl.obolibrary.org/obo/covoc.json",
     "meta" : {
@@ -963,7 +1229,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-04-29/covoc.json"
+      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-04-30/covoc.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

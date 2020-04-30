@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2020-04-29
+data-version: releases/2020-04-30
 ontology: covoc
 property_value: http://purl.org/dc/elements/1.1/creator "Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
@@ -16,41 +16,118 @@ property_value: http://purl.org/dc/terms/license http://creativecommons.org/lice
 
 [Term]
 id: CLO:0002172
+name: Caco-2 cell
+name: Caco-2 细胞
+comment: disease: colorectal adenocarcinoma
+comment: 疾病：结肠直肠腺癌
 xref: CVCL:0025
 xref: PMID:32149036
+property_value: CLO:0000178 "LCL-1170" xsd:string
+property_value: CLO:0000178 "LCL-1170" xsd:string
 property_value: hasAlternativeID CL:1 xsd:string
+property_value: IAO:0000118 "Caco-2" xsd:string
+property_value: IAO:0000118 "Caco-2" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
 property_value: prefLabel "Caco-2" xsd:string
+property_value: seeAlso "ATCC: HTB-37" xsd:string
+property_value: seeAlso "ATCC: HTB-37" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3307519" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3307519" xsd:string
+property_value: seeAlso "CVCL: CVCL_0025" xsd:string
+property_value: seeAlso "CVCL: CVCL_0025" xsd:string
+property_value: seeAlso "EFO: EFO_0001099" xsd:string
+property_value: seeAlso "EFO: EFO_0001099" xsd:string
+property_value: seeAlso "HyperCLDB: cl618" xsd:string
+property_value: seeAlso "HyperCLDB: cl618" xsd:string
+property_value: seeAlso "MeSH: D018938" xsd:string
+property_value: seeAlso "MeSH: D018938" xsd:string
 
 [Term]
 id: CLO:0002192
+name: Calu-3 cell
+name: Calu-3 细胞
 xref: CVCL:0609
 xref: PMID:32165541
+property_value: CLO:0000178 "LCL-1631" xsd:string
+property_value: CLO:0000178 "LCL-1631" xsd:string
 property_value: hasAlternativeID CL:2 xsd:string
+property_value: IAO:0000117 "ZN" xsd:string
+property_value: IAO:0000117 "ZN" xsd:string
+property_value: IAO:0000118 "Calu-3" xsd:string
+property_value: IAO:0000118 "Calu-3" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
 property_value: prefLabel "Calu-3" xsd:string
+property_value: seeAlso "ATCC: HTB-55" xsd:string
+property_value: seeAlso "ATCC: HTB-55" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3307390" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3307390" xsd:string
+property_value: seeAlso "CVCL: CVCL_0609" xsd:string
+property_value: seeAlso "CVCL: CVCL_0609" xsd:string
+property_value: seeAlso "EFO: EFO_0002819" xsd:string
+property_value: seeAlso "EFO: EFO_0002819" xsd:string
 
 [Term]
 id: CLO:0002462
+name: CHO-K1 cell
+name: CHO-K1 细胞
 xref: CVCL:0214
 xref: https://www.theage.com.au/national/coronavirus-outbreak-how-the-covid-19-vaccine-is-being-made-20200220-p542rh.html
 property_value: hasAlternativeID CL:9 xsd:string
+property_value: IAO:0000118 "CHO-K1" xsd:string
+property_value: IAO:0000118 "CHO-K1" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
 property_value: prefLabel "CHO-K1" xsd:string
+property_value: seeAlso "ATCC: CCL-61" xsd:string
+property_value: seeAlso "ATCC: CCL-61" xsd:string
 
 [Term]
 id: CLO:0007059
+name: K-562 cell
+name: K-562 细胞
+comment: disease: chronic myelo-   genous leukemia (bone marrow primary)
+comment: 疾病：慢性骨髓性白血病（骨髓原发性）
 xref: CVCL:0004
 xref: DOI:10.1016/j.medidd.2020.100026
+property_value: CLO:0000178 "LCL-1103" xsd:string
+property_value: CLO:0000178 "LCL-1103" xsd:string
 property_value: hasAlternativeID CL:10 xsd:string
+property_value: IAO:0000118 "K-562" xsd:string
+property_value: IAO:0000118 "K-562" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
 property_value: prefLabel "K-562" xsd:string
+property_value: seeAlso "ATCC: CCL-243" xsd:string
+property_value: seeAlso "ATCC: CCL-243" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3308378" xsd:string
+property_value: seeAlso "CHEMBL: CHEMBL3308378" xsd:string
+property_value: seeAlso "CVCL: CVCL_0004" xsd:string
+property_value: seeAlso "CVCL: CVCL_0004" xsd:string
+property_value: seeAlso "EFO: EFO_0002067" xsd:string
+property_value: seeAlso "EFO: EFO_0002067" xsd:string
+property_value: seeAlso "HyperCLDB: cl2980" xsd:string
+property_value: seeAlso "HyperCLDB: cl2980" xsd:string
+property_value: seeAlso "MeSH: D020014" xsd:string
+property_value: seeAlso "MeSH: D020014" xsd:string
 
 [Term]
 id: CLO:0009524
+name: Vero cell
+name: Vero 细胞
 xref: CVCL:0059
 xref: DOI:10.1101/2020.03.02.972935v2
 xref: DOI:10.1101/2020.03.19.997890v1
 xref: PMID:32149036
 xref: PMID:32165541
 property_value: hasAlternativeID CL:6 xsd:string
+property_value: IAO:0000118 "Vero" xsd:string
+property_value: IAO:0000118 "Vero" xsd:string
+property_value: IAO:0000412 http://purl.obolibrary.org/obo/clo.owl
 property_value: prefLabel "Vero" xsd:string
+property_value: seeAlso "ATCC: CCL-81" xsd:string
+property_value: seeAlso "ATCC: CCL-81" xsd:string
+property_value: seeAlso "HyperCLDB: cl4644" xsd:string
+property_value: seeAlso "HyperCLDB: cl4644" xsd:string
+property_value: seeAlso "MeSH: D014709" xsd:string
+property_value: seeAlso "MeSH: D014709" xsd:string
 
 [Term]
 id: COVOC:00000000
@@ -320,4 +397,25 @@ is_a: NCBITaxon:40674 ! Mammalia
 property_value: has_rank NCBITaxon:family
 property_value: hasAlternativeID SP:14 xsd:string
 property_value: prefLabel "Manidae" xsd:string
+
+[Typedef]
+id: CLO:0000015
+name: derives from patient having disease
+comment: In most cases, the patient in the relation is used to refer human patient. However, an animal patient (or veterinary patient) can also be referred.
+property_value: definition:editor "Yongqun He" xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "a 'derives from' object property between an entity (in CLO case, cell line) and a  disease in a patient where the entity is derived from some cell in the patient who has the disease. \nThis is a short cut relation that represents:\n'derived from' some (cell and ('part of' some 'organism' and ('has disease' some disease)))" xsd:string
+is_a: RO:0001000
+
+[Typedef]
+id: CLO:0000179
+name: is disease model for
+comment: This object property is largely equivalent to the previous term 'is model for' (http://www.ebi.ac.uk/cellline#is_model_for).
+property_value: definition:editor "Asiyah Yu Lin, Yongqun He" xsd:string
+property_value: http://www.ebi.ac.uk/cellline/definition "an object property that represents a relation between a cell line cell and a disease." xsd:string
+
+[Typedef]
+id: CLO:0037208
+name: derived from anatomic part
+def: "a 'derives from' object property between an entity (i.e., cell line cell in CLO) and an anatomic part from an organism  where the cell line cell is derived from some cell in the anatomic part (e.g., tissue or organ). The anatomic part is typically defined by UBERON in CLO. \nin CLO, this is a short cut relation that represents:\n'derived from' some (cell and ('part of' some 'anatomic part'))" []
+is_a: RO:0001000
 

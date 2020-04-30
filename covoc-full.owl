@@ -14,7 +14,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/covoc-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-04-29/covoc-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-04-30/covoc-full.owl"/>
         <dc:creator>Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
         <dc:creator>Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
         <dc:creator>Michel Pierre-André (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
@@ -42,9 +42,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLO_0000178 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0000178"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
     
 
 
@@ -105,6 +129,12 @@
     <!-- http://www.ebi.ac.uk/cellline/definition -->
 
     <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/cellline/definition"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/cellline/definition_editor -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/cellline/definition_editor"/>
     
 
 
@@ -191,9 +221,95 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000055 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000015 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0000015">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+        <cellline:definition>a &apos;derives from&apos; object property between an entity (in CLO case, cell line) and a  disease in a patient where the entity is derived from some cell in the patient who has the disease. 
+This is a short cut relation that represents:
+&apos;derived from&apos; some (cell and (&apos;part of&apos; some &apos;organism&apos; and (&apos;has disease&apos; some disease)))</cellline:definition>
+        <cellline:definition_editor>Yongqun He</cellline:definition_editor>
+        <rdfs:comment>In most cases, the patient in the relation is used to refer human patient. However, an animal patient (or veterinary patient) can also be referred.</rdfs:comment>
+        <rdfs:label xml:lang="en">derives from patient having disease</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0000179 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0000179">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <cellline:definition>an object property that represents a relation between a cell line cell and a disease.</cellline:definition>
+        <cellline:definition_editor>Asiyah Yu Lin, Yongqun He</cellline:definition_editor>
+        <rdfs:comment>This object property is largely equivalent to the previous term &apos;is model for&apos; (http://www.ebi.ac.uk/cellline#is_model_for).</rdfs:comment>
+        <rdfs:label xml:lang="en">is disease model for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0037208 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0037208">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+        <obo:IAO_0000115>a &apos;derives from&apos; object property between an entity (i.e., cell line cell in CLO) and an anatomic part from an organism  where the cell line cell is derived from some cell in the anatomic part (e.g., tissue or organ). The anatomic part is typically defined by UBERON in CLO. 
+in CLO, this is a short cut relation that represents:
+&apos;derived from&apos; some (cell and (&apos;part of&apos; some &apos;anatomic part&apos;))</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">derived from anatomic part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000295 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000295"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000312"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000643 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000643"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
     
 
 
@@ -211,10 +327,44 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0002172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002172">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:CLO_0000178>LCL-1170</obo:CLO_0000178>
+        <obo:CLO_0000178 xml:lang="en">LCL-1170</obo:CLO_0000178>
+        <obo:IAO_0000118>Caco-2</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Caco-2</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:1</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0025</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32149036</oboInOwl:hasDbXref>
-        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caco-2</rdfs:prefLabel>
+        <rdfs:comment>disease: colorectal adenocarcinoma</rdfs:comment>
+        <rdfs:comment xml:lang="en">disease: colorectal adenocarcinoma</rdfs:comment>
+        <rdfs:comment>疾病：结肠直肠腺癌</rdfs:comment>
+        <rdfs:label>Caco-2 cell</rdfs:label>
+        <rdfs:label xml:lang="en">Caco-2 cell</rdfs:label>
+        <rdfs:label xml:lang="zh">Caco-2 细胞</rdfs:label>
+        <rdfs:prefLabel>Caco-2</rdfs:prefLabel>
+        <rdfs:seeAlso>ATCC: HTB-37</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">ATCC: HTB-37</rdfs:seeAlso>
+        <rdfs:seeAlso>CHEMBL: CHEMBL3307519</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">CHEMBL: CHEMBL3307519</rdfs:seeAlso>
+        <rdfs:seeAlso>CVCL: CVCL_0025</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">CVCL: CVCL_0025</rdfs:seeAlso>
+        <rdfs:seeAlso>EFO: EFO_0001099</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">EFO: EFO_0001099</rdfs:seeAlso>
+        <rdfs:seeAlso>HyperCLDB: cl618</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">HyperCLDB: cl618</rdfs:seeAlso>
+        <rdfs:seeAlso>MeSH: D018938</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">MeSH: D018938</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -222,10 +372,39 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0002192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002192">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:CLO_0000178>LCL-1631</obo:CLO_0000178>
+        <obo:CLO_0000178 xml:lang="en">LCL-1631</obo:CLO_0000178>
+        <obo:IAO_0000117>ZN</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">ZN</obo:IAO_0000117>
+        <obo:IAO_0000118>Calu-3</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Calu-3</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:2</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0609</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32165541</oboInOwl:hasDbXref>
-        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calu-3</rdfs:prefLabel>
+        <rdfs:label>Calu-3 cell</rdfs:label>
+        <rdfs:label xml:lang="en">Calu-3 cell</rdfs:label>
+        <rdfs:label xml:lang="zh">Calu-3 细胞</rdfs:label>
+        <rdfs:prefLabel>Calu-3</rdfs:prefLabel>
+        <rdfs:seeAlso>ATCC: HTB-55</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">ATCC: HTB-55</rdfs:seeAlso>
+        <rdfs:seeAlso>CHEMBL: CHEMBL3307390</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">CHEMBL: CHEMBL3307390</rdfs:seeAlso>
+        <rdfs:seeAlso>CVCL: CVCL_0609</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">CVCL: CVCL_0609</rdfs:seeAlso>
+        <rdfs:seeAlso>EFO: EFO_0002819</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">EFO: EFO_0002819</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -233,10 +412,18 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0002462 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002462">
+        <obo:IAO_0000118>CHO-K1</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">CHO-K1</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:9</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0214</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.theage.com.au/national/coronavirus-outbreak-how-the-covid-19-vaccine-is-being-made-20200220-p542rh.html</oboInOwl:hasDbXref>
-        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHO-K1</rdfs:prefLabel>
+        <rdfs:label>CHO-K1 cell</rdfs:label>
+        <rdfs:label xml:lang="en">CHO-K1 cell</rdfs:label>
+        <rdfs:label xml:lang="zh">CHO-K1 细胞</rdfs:label>
+        <rdfs:prefLabel>CHO-K1</rdfs:prefLabel>
+        <rdfs:seeAlso>ATCC: CCL-61</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">ATCC: CCL-61</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -244,10 +431,44 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0007059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007059">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:CLO_0000178>LCL-1103</obo:CLO_0000178>
+        <obo:CLO_0000178 xml:lang="en">LCL-1103</obo:CLO_0000178>
+        <obo:IAO_0000118>K-562</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">K-562</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:10</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1016/j.medidd.2020.100026</oboInOwl:hasDbXref>
-        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K-562</rdfs:prefLabel>
+        <rdfs:comment>disease: chronic myelo-   genous leukemia (bone marrow primary)</rdfs:comment>
+        <rdfs:comment xml:lang="en">disease: chronic myelo-   genous leukemia (bone marrow primary)</rdfs:comment>
+        <rdfs:comment>疾病：慢性骨髓性白血病（骨髓原发性）</rdfs:comment>
+        <rdfs:label>K-562 cell</rdfs:label>
+        <rdfs:label xml:lang="en">K-562 cell</rdfs:label>
+        <rdfs:label xml:lang="zh">K-562 细胞</rdfs:label>
+        <rdfs:prefLabel>K-562</rdfs:prefLabel>
+        <rdfs:seeAlso>ATCC: CCL-243</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">ATCC: CCL-243</rdfs:seeAlso>
+        <rdfs:seeAlso>CHEMBL: CHEMBL3308378</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">CHEMBL: CHEMBL3308378</rdfs:seeAlso>
+        <rdfs:seeAlso>CVCL: CVCL_0004</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">CVCL: CVCL_0004</rdfs:seeAlso>
+        <rdfs:seeAlso>EFO: EFO_0002067</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">EFO: EFO_0002067</rdfs:seeAlso>
+        <rdfs:seeAlso>HyperCLDB: cl2980</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">HyperCLDB: cl2980</rdfs:seeAlso>
+        <rdfs:seeAlso>MeSH: D020014</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">MeSH: D020014</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -255,13 +476,25 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0009524 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009524">
+        <obo:IAO_0000118>Vero</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">Vero</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:6</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0059</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.03.02.972935v2</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.03.19.997890v1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32149036</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32165541</oboInOwl:hasDbXref>
-        <rdfs:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vero</rdfs:prefLabel>
+        <rdfs:label>Vero cell</rdfs:label>
+        <rdfs:label xml:lang="en">Vero cell</rdfs:label>
+        <rdfs:label xml:lang="zh">Vero 细胞</rdfs:label>
+        <rdfs:prefLabel>Vero</rdfs:prefLabel>
+        <rdfs:seeAlso>ATCC: CCL-81</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">ATCC: CCL-81</rdfs:seeAlso>
+        <rdfs:seeAlso>HyperCLDB: cl4644</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">HyperCLDB: cl4644</rdfs:seeAlso>
+        <rdfs:seeAlso>MeSH: D014709</rdfs:seeAlso>
+        <rdfs:seeAlso xml:lang="en">MeSH: D014709</rdfs:seeAlso>
     </owl:Class>
     
 
