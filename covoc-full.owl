@@ -241,7 +241,6 @@
 This is a short cut relation that represents:
 &apos;derived from&apos; some (cell and (&apos;part of&apos; some &apos;organism&apos; and (&apos;has disease&apos; some disease)))</cellline:definition>
         <cellline:definition_editor>Yongqun He</cellline:definition_editor>
-        <rdfs:comment>In most cases, the patient in the relation is used to refer human patient. However, an animal patient (or veterinary patient) can also be referred.</rdfs:comment>
         <rdfs:label xml:lang="en">derives from patient having disease</rdfs:label>
     </owl:ObjectProperty>
     
@@ -253,7 +252,6 @@ This is a short cut relation that represents:
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
         <cellline:definition>an object property that represents a relation between a cell line cell and a disease.</cellline:definition>
         <cellline:definition_editor>Asiyah Yu Lin, Yongqun He</cellline:definition_editor>
-        <rdfs:comment>This object property is largely equivalent to the previous term &apos;is model for&apos; (http://www.ebi.ac.uk/cellline#is_model_for).</rdfs:comment>
         <rdfs:label xml:lang="en">is disease model for</rdfs:label>
     </owl:ObjectProperty>
     
@@ -346,25 +344,10 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:1</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0025</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32149036</oboInOwl:hasDbXref>
-        <rdfs:comment>disease: colorectal adenocarcinoma</rdfs:comment>
-        <rdfs:comment xml:lang="en">disease: colorectal adenocarcinoma</rdfs:comment>
-        <rdfs:comment>疾病：结肠直肠腺癌</rdfs:comment>
         <rdfs:label>Caco-2 cell</rdfs:label>
         <rdfs:label xml:lang="en">Caco-2 cell</rdfs:label>
         <rdfs:label xml:lang="zh">Caco-2 细胞</rdfs:label>
         <rdfs:prefLabel>Caco-2</rdfs:prefLabel>
-        <rdfs:seeAlso>ATCC: HTB-37</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">ATCC: HTB-37</rdfs:seeAlso>
-        <rdfs:seeAlso>CHEMBL: CHEMBL3307519</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">CHEMBL: CHEMBL3307519</rdfs:seeAlso>
-        <rdfs:seeAlso>CVCL: CVCL_0025</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">CVCL: CVCL_0025</rdfs:seeAlso>
-        <rdfs:seeAlso>EFO: EFO_0001099</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">EFO: EFO_0001099</rdfs:seeAlso>
-        <rdfs:seeAlso>HyperCLDB: cl618</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">HyperCLDB: cl618</rdfs:seeAlso>
-        <rdfs:seeAlso>MeSH: D018938</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">MeSH: D018938</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -397,14 +380,6 @@ in CLO, this is a short cut relation that represents:
         <rdfs:label xml:lang="en">Calu-3 cell</rdfs:label>
         <rdfs:label xml:lang="zh">Calu-3 细胞</rdfs:label>
         <rdfs:prefLabel>Calu-3</rdfs:prefLabel>
-        <rdfs:seeAlso>ATCC: HTB-55</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">ATCC: HTB-55</rdfs:seeAlso>
-        <rdfs:seeAlso>CHEMBL: CHEMBL3307390</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">CHEMBL: CHEMBL3307390</rdfs:seeAlso>
-        <rdfs:seeAlso>CVCL: CVCL_0609</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">CVCL: CVCL_0609</rdfs:seeAlso>
-        <rdfs:seeAlso>EFO: EFO_0002819</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">EFO: EFO_0002819</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -422,8 +397,6 @@ in CLO, this is a short cut relation that represents:
         <rdfs:label xml:lang="en">CHO-K1 cell</rdfs:label>
         <rdfs:label xml:lang="zh">CHO-K1 细胞</rdfs:label>
         <rdfs:prefLabel>CHO-K1</rdfs:prefLabel>
-        <rdfs:seeAlso>ATCC: CCL-61</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">ATCC: CCL-61</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -450,25 +423,10 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:10</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1016/j.medidd.2020.100026</oboInOwl:hasDbXref>
-        <rdfs:comment>disease: chronic myelo-   genous leukemia (bone marrow primary)</rdfs:comment>
-        <rdfs:comment xml:lang="en">disease: chronic myelo-   genous leukemia (bone marrow primary)</rdfs:comment>
-        <rdfs:comment>疾病：慢性骨髓性白血病（骨髓原发性）</rdfs:comment>
         <rdfs:label>K-562 cell</rdfs:label>
         <rdfs:label xml:lang="en">K-562 cell</rdfs:label>
         <rdfs:label xml:lang="zh">K-562 细胞</rdfs:label>
         <rdfs:prefLabel>K-562</rdfs:prefLabel>
-        <rdfs:seeAlso>ATCC: CCL-243</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">ATCC: CCL-243</rdfs:seeAlso>
-        <rdfs:seeAlso>CHEMBL: CHEMBL3308378</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">CHEMBL: CHEMBL3308378</rdfs:seeAlso>
-        <rdfs:seeAlso>CVCL: CVCL_0004</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">CVCL: CVCL_0004</rdfs:seeAlso>
-        <rdfs:seeAlso>EFO: EFO_0002067</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">EFO: EFO_0002067</rdfs:seeAlso>
-        <rdfs:seeAlso>HyperCLDB: cl2980</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">HyperCLDB: cl2980</rdfs:seeAlso>
-        <rdfs:seeAlso>MeSH: D020014</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">MeSH: D020014</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -489,12 +447,6 @@ in CLO, this is a short cut relation that represents:
         <rdfs:label xml:lang="en">Vero cell</rdfs:label>
         <rdfs:label xml:lang="zh">Vero 细胞</rdfs:label>
         <rdfs:prefLabel>Vero</rdfs:prefLabel>
-        <rdfs:seeAlso>ATCC: CCL-81</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">ATCC: CCL-81</rdfs:seeAlso>
-        <rdfs:seeAlso>HyperCLDB: cl4644</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">HyperCLDB: cl4644</rdfs:seeAlso>
-        <rdfs:seeAlso>MeSH: D014709</rdfs:seeAlso>
-        <rdfs:seeAlso xml:lang="en">MeSH: D014709</rdfs:seeAlso>
     </owl:Class>
     
 
@@ -549,7 +501,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2559587"/>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_family"/>
         <oboInOwl:hasAlternativeID rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP:5</oboInOwl:hasAlternativeID>
         <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
@@ -653,7 +605,26 @@ in CLO, this is a short cut relation that represents:
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2559587 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2559587"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2559587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+        <oboInOwl:hasDbXref>GC_ID:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>RNA viruses</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>RNA viruses and viroids</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
+        <rdfs:label>Riboviria</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2559587"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>RNA viruses</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2559587"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>RNA viruses and viroids</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
+    </owl:Axiom>
     
 
 
@@ -1158,7 +1129,7 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0999626</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pangolin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pangolins</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scaly anteaters</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>scaly anteaters</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <rdfs:label>Manidae</rdfs:label>
         <rdfs:prefLabel>Manidae</rdfs:prefLabel>
@@ -1172,7 +1143,7 @@ in CLO, this is a short cut relation that represents:
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9972"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scaly anteaters</owl:annotatedTarget>
+        <owl:annotatedTarget>scaly anteaters</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/ncbitaxon#common_name"/>
     </owl:Axiom>
 </rdf:RDF>

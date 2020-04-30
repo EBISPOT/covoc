@@ -30,6 +30,7 @@ imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
 		remove --base-iri $(URIBASE)"/$(shell echo $* | tr a-z A-Z)_" --axioms external --preserve-structure false --trim false \
 		query --update ../sparql/inject-subset-declaration.ru \
 		remove -T imports/$*_terms_combined.txt --select complement --select "classes individuals" \
+		remove --term rdfs:seeAlso --term rdfs:comment --select "annotation-properties" \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: imports/%_import.owl
 
@@ -52,5 +53,3 @@ imports/ncbitaxon_import.owl: mirror/ncbitaxon.owl imports/ncbitaxon_terms_combi
 		remove -T imports/ncbitaxon_terms_combined.txt --select complement --select "classes individuals" \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: imports/ncbitaxon_import.owl
-
-
