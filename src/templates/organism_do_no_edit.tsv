@@ -1,0 +1,24 @@
+id	virus | animal	taxon id	Name	Synonym	CUI UMLS	Semantic Type UMLS	Source		Term import ID	COVoc ID	Preferred label	Synonym	Narrow synonym	Broad synonym	Related synonym	x-refs	Comment
+									ID	A cov:internal_covoc_id	A cov:preferred_covoc_label	A oboInOwl:hasExactSynonym SPLIT=||	A oboInOwl:hasNarrowSynonym SPLIT=||	A oboInOwl:hasBroadSynonym SPLIT=||	A oboInOwl:hasRelatedSynonym SPLIT=||	A oboInOwl:hasDbXref SPLIT=||	A rdfs:comment
+SP_1	virus		Betacoronavirus		C2806453	[Virus]			NCBITaxon:694002	SP_1						UMLS:C2806453	Virus
+SP_2	animal		Camel	camels	C0006801	[Mammal]			NCBITaxon:9836	SP_2		camels				UMLS:C0006801	Mammal
+SP_3	animal		Camelus dromedarius	dromedary||dromaderies||dromedary camel||dromedary camels	C0013127	[Mammal]	http://agritrop.cirad.fr/594121/		NCBITaxon:9838	SP_3||SP_8		dromedary||dromaderies||dromedary camel||dromedary camels				UMLS:C0013127||PMID:31534035	Mammal
+SP_4	animal		Chiroptera	bat | bats	C0008139	[Mammal]	https://allenai.org/data/cord-19		NCBITaxon:9397	SP_4		bat||bats				UMLS:C0008139||https://allenai.org/data/cord-19	Mammal
+SP_5			Coronavirus	coronaviruses | cov | covs	C0206419	[Virus]			NCBITaxon:11118	SP_5||SP_12||BMV_34		coronaviruses||cov||covs	human coronavirus||hcov			UMLS:C0206419||UMLS:C0206422	Virus
+SP_6	virus		COVID-19	Severe Acute Respiratory Syndrome Coronavirus 2 | SARS-CoV-2 | 2019-nCoV					NCBITaxon:2697049	SP_6||SP_16		Severe Acute Respiratory Syndrome Coronavirus 2||SARS-CoV-2||2019-nCoV	novel coronavirus				
+SP_7	animal		dog		C1510418	[Mammal]			NCBITaxon:9615	SP_7						UMLS:C1510418	Mammal
+SP_9	virus		HKU1	Human coronavirus HKU1	C1676985	[Virus]	https://allenai.org/data/cord-19		NCBITaxon:290028	SP_9		human coronavirus HKU1				UMLS:C1676985||https://allenai.org/data/cord-19	Virus
+SP_10	virus		HKU23	Camel coronavirus HKU23	C4168815	[Virus]	http://agritrop.cirad.fr/594121/		NCBITaxon:1479610	SP_10		camel coronavirus HKU23				UMLS:C4168815||PMID:31534035	Virus
+SP_11	animal	9606	Homo sapiens	Human	C0086418	[Human]			NCBITaxon:9606	SP_11		human				UMLS:C0086418	Human
+SP_14			Manidae	pangolin | pangolins	C0999626	[Mammal]			NCBITaxon:9972	SP_14		pangolin||pangolins				UMLS:C0999626	Mammal
+SP_15	virus		MERS-CoV	Middle East Respiratory Syndrome Coronavirus | MERS Coronavirus	C3698360	[Virus]			NCBITaxon:1335626	SP_15		Middle East Respiratory Syndrome Coronavirus||MERS Coronavirus				UMLS:C3698360	Virus
+SP_17	virus		OC43	Human coronavirus OC43	C0949881	[Virus]			NCBITaxon:31631	SP_17		human coronavirus OC43				UMLS:C0949881	Virus
+SP_18	animal	9675	Paguma larvata	Palm civet | Paradoxurus hermaphroditus | palm civets | Masked palm civet	C0325072	[Mammal]			NCBITaxon:9675	SP_18		palm civet||Paradoxurus hermaphroditus||palm civets||masked palm civet				UMLS:C0325072	Mammal
+SP_20	animal	196889	Rhinolophus macrotis	Horseshoe bats | Rhinolophus | Big-eared horseshoe bat	C1218105	[Mammal]	PMID: 32020836		NCBITaxon:196889	SP_20		horseshoe bats||Rhinolophus||big-eared horseshoe bat				UMLS:C1218105||PMID:32020836	Mammal
+SP_21	virus		SARS-CoV	Severe acute respiratory distress syndrome coronavirus | SARS coronavirus	C1175743	[Virus]			NCBITaxon:694009	SP_21		Severe acute respiratory distress syndrome coronavirus||SARS coronavirus				UMLS:C1175743	Virus
+			Viruses	virus					NCBITaxon:10239	BMV_163		virus				UMLS:C0521026	
+			Mammalia	mammal					NCBITaxon:40674			mammal					
+			Betacoronavirus						NCBITaxon:694002								
+			Orthomyxoviridae						NCBITaxon:11308	SP_13			influenza virus||influenzvirus||Alphainfluenzavirus||Influenzavirus A||Influenza A virus||Betainfluenzavirus||Influenzavirus B||Influenza B virus||Deltainfluenzavirus||Influenzavirus D||Influenza D virus||Gammainfluenzavirus||Influenzavirus C||Influenza C virus			UMLS:C4316910	
+			Riboviria	RNA virus||rnvirus||rnviruses					NCBITaxon:2559587	BMV_130||BMV_131||BMV_132||BMV_133		RNA virus||rnvirus||rnviruses				UMLS:C0035691	
+			Human orthopneumovirus			[Virus]			NCBITaxon:11250	SP_19				respiratory virus||respiratory viruses		UMLS:C0597404	Virus

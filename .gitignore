@@ -25,6 +25,7 @@ src/ontology/ontologyterms.txt
 src/ontology/simple_seed.txt
 src/ontology/patterns
 src/ontology/merged-covoc-edit.owl
+src/templates/*.owl
 
 src/ontology/target/
 src/ontology/tmp/*
