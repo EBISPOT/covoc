@@ -57,7 +57,11 @@ imports/ncbitaxon_import.owl: mirror/ncbitaxon.owl imports/ncbitaxon_terms_combi
 		remove -T imports/ncbitaxon_terms_combined.txt --select complement --select "classes individuals" \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: imports/ncbitaxon_import.owl
-	
+
+meta: covoc_metadata.tsv
+	mv covoc_metadata.tsv ../..
+
 covoc_metadata.tsv: $(SRC)
 	$(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/covoc_metadata.sparql $@
 
+covoc: prepare_templates prepare_release meta
