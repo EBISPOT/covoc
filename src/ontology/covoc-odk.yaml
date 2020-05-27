@@ -33,6 +33,5 @@ import_group:
 components:
   products:
     - filename: all_templates.owl
-    - filename: covoc_metadata.tsv
 robot_java_args: '-Xmx8G'
 allow_equivalents: asserted-only
