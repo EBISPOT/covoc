@@ -4179,6 +4179,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Spik
 [Term]
 id: COVOC:9999999
 name: obsolete example
+is_obsolete: true
 replaced_by: NCIT:C48938
 
 [Term]
@@ -7595,8 +7596,8 @@ name: Purification
 def: "The process of removing impurities." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
 comment: Functional Concept
 subset: NCIT:C112906
-synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P386="eManu", http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="FDA"}
 synonym: "Purified" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="AD", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Purify" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}

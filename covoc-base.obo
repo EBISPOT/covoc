@@ -1927,6 +1927,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Spik
 [Term]
 id: COVOC:9999999
 name: obsolete example
+is_obsolete: true
 replaced_by: NCIT:C48938
 
 [Term]

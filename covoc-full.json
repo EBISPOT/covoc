@@ -664,13 +664,13 @@
           "val" : "ORF4",
           "xrefs" : [ "GenPept:YP_009724392" ]
         }, {
-          "pred" : "hasExactSynonym",
-          "val" : "E (SARS2)",
-          "xrefs" : [ "PRO:DAN" ]
-        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "E",
           "xrefs" : [ "GenPept:YP_009724392", "UniProtKB:P0DTC4" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "E (SARS2)",
+          "xrefs" : [ "PRO:DAN" ]
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "sM protein",
@@ -3973,7 +3973,7 @@
           "val" : "http://purl.obolibrary.org/obo/NCIT_C48938"
         }, {
           "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "false"
+          "val" : "true"
         } ]
       },
       "type" : "CLASS",
@@ -22716,13 +22716,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000051"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0005091",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0004028",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_694009"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_P22301",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MONDO_0005091",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0004028",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_694009"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0000989",
       "pred" : "is_a",
@@ -22884,13 +22884,13 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_0030027"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PR_Q9H2X3",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50729",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PR_Q9H2X3",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0016246",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002211",

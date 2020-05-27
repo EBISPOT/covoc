@@ -3530,7 +3530,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_9999999">
         <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48938"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete example</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 

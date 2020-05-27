@@ -3973,7 +3973,7 @@
           "val" : "http://purl.obolibrary.org/obo/NCIT_C48938"
         }, {
           "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "false"
+          "val" : "true"
         } ]
       },
       "type" : "CLASS",
@@ -17228,11 +17228,11 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
           "val" : "Influenza||Respiratory viral infection"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
-          "val" : "C22H25BrN2O3S"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/C22H25BrN2O3S/c1-5-28-22(27)20-18(13-29-14-9-7-6-8-10-14)25(4)17-11-16(23)21(26)15(19(17)20)12-24(2)3/h6-11,26H,5,12-13H2,1-4H3"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
+          "val" : "C22H25BrN2O3S"
         } ]
       },
       "type" : "CLASS",
@@ -22884,13 +22884,13 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_0030027"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PR_Q9H2X3",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50729",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PR_Q9H2X3",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0016246",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002211",

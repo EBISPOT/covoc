@@ -4179,6 +4179,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Spik
 [Term]
 id: COVOC:9999999
 name: obsolete example
+is_obsolete: true
 replaced_by: NCIT:C48938
 
 [Term]
@@ -7066,8 +7067,8 @@ property_value: NCIT:P366 "Patient" xsd:string
 id: NCIT:C17021
 name: Protein
 def: "A group of complex organic macromolecules composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons. Proteins are fundamental genetically encoded components of living cells with specific structures and functions dictated by amino acid sequence." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
-synonym: "Protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="CDR0000046092", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 synonym: "Protein (NOS)" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="31102", http://purl.obolibrary.org/obo/NCIT_P384="DCP"}
 synonym: "Proteins" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
@@ -7595,8 +7596,8 @@ name: Purification
 def: "The process of removing impurities." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
 comment: Functional Concept
 subset: NCIT:C112906
-synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P386="eManu", http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="FDA"}
 synonym: "Purified" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="AD", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Purify" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
@@ -7665,8 +7666,8 @@ id: NCIT:C95533
 name: Neutralization
 def: "The act of rendering something ineffective or inactive." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
 synonym: "cross-neutralization" NARROW []
-synonym: "Neutralization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Neutralization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Neutralization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_35" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "cross-neutralization" xsd:string
 property_value: NCIT:NHC0 "C95533" xsd:string
