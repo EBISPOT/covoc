@@ -59,7 +59,7 @@ imports/ncbitaxon_import.owl: mirror/ncbitaxon.owl imports/ncbitaxon_terms_combi
 .PRECIOUS: imports/ncbitaxon_import.owl
 
 meta: reports/covoc_metadata.csv
-	cp $@ ../..
+	cp $< ../..
 
 reports/covoc_metadata.csv: $(SRC)
 	$(ROBOT) query --use-graphs true -f csv -i $< --query ../sparql/covoc_metadata.sparql $@
