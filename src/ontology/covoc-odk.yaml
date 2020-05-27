@@ -19,6 +19,7 @@ import_group:
     - id: chebi
     - id: go
     - id: bao
+      mirror_from: http://www.bioassayontology.org/bao/bao_complete.owl
     - id: chmo
     - id: cl
     - id: ido
