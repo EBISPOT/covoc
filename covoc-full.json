@@ -1,6 +1,16 @@
 {
   "graphs" : [ {
     "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+      "meta" : {
+        "definition" : {
+          "val" : "Label as preferred by the Editors of the COVOC.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "preferred covoc label"
+    }, {
       "id" : "http://dbpedia.org/resource/Asia",
       "meta" : {
         "xrefs" : [ {
@@ -654,13 +664,13 @@
           "val" : "ORF4",
           "xrefs" : [ "GenPept:YP_009724392" ]
         }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "E",
-          "xrefs" : [ "GenPept:YP_009724392", "UniProtKB:P0DTC4" ]
-        }, {
           "pred" : "hasExactSynonym",
           "val" : "E (SARS2)",
           "xrefs" : [ "PRO:DAN" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "E",
+          "xrefs" : [ "GenPept:YP_009724392", "UniProtKB:P0DTC4" ]
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "sM protein",
@@ -2362,6 +2372,16 @@
       },
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+      "meta" : {
+        "definition" : {
+          "val" : "Internal ID used by the editors of the COVOC. Should probably not be used by anyone else.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "internal covoc id"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010028",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -3946,6 +3966,19 @@
       "type" : "CLASS",
       "lbl" : "COVID-19"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_9999999",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
+          "val" : "http://purl.obolibrary.org/obo/NCIT_C48938"
+        }, {
+          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
+          "val" : "false"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "obsolete example"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_50729",
       "meta" : {
         "definition" : {
@@ -4474,16 +4507,6 @@
       },
       "type" : "CLASS",
       "lbl" : "indinavir"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/preferred_covoc_label",
-      "meta" : {
-        "definition" : {
-          "val" : "Label as preferred by the Editors of the COVOC.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "PROPERTY",
-      "lbl" : "preferred covoc label"
     }, {
       "id" : "http://www.ebi.ac.uk/efo/EFO_0004847",
       "meta" : {
@@ -6624,6 +6647,16 @@
       },
       "type" : "PROPERTY",
       "lbl" : "has_specified_output"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+      "meta" : {
+        "definition" : {
+          "val" : "Drug associated with disease.",
+          "xrefs" : [ ]
+        }
+      },
+      "type" : "PROPERTY",
+      "lbl" : "drug associated with disease"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OMIT_0013538",
       "meta" : {
@@ -10175,6 +10208,22 @@
       "type" : "CLASS",
       "lbl" : "molecular_function"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040028",
+      "meta" : {
+        "definition" : {
+          "val" : "Fingolimod in COVID-19",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04280588"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04280588 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0050071",
       "meta" : {
         "xrefs" : [ {
@@ -10183,6 +10232,22 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "CE_85"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040027",
+      "meta" : {
+        "definition" : {
+          "val" : "The Efficacy and Safety of Thalidomide Combined With Low-dose Hormones in the Treatment of Severe COVID-19",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04273581"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04273581 clinical trial"
         } ]
       },
       "type" : "CLASS"
@@ -10377,6 +10442,108 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "CE_84"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040029",
+      "meta" : {
+        "definition" : {
+          "val" : "Therapy for Pneumonia Patients iInfected by 2019 Novel Coronavirus",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04293692 clinical trial"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04293692"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040024",
+      "meta" : {
+        "definition" : {
+          "val" : "The Use of PUL-042 Inhalation Solution to Reduce the Severity of COVID-19 in Adults Positive for SARS-CoV-2 Infection",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04312997 clinical trial"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04312997"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040023",
+      "meta" : {
+        "definition" : {
+          "val" : "Hydroxychloroquine for the Treatment of Patients With Mild to Moderate COVID-19 to Prevent Progression to Severe Infection or Death",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:01611"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04323631"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04323631 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040026",
+      "meta" : {
+        "definition" : {
+          "val" : "The Efficacy and Safety of Thalidomide in the Adjuvant Treatment of Moderate New Coronavirus (COVID-19) Pneumonia",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04273529"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04273529 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040025",
+      "meta" : {
+        "definition" : {
+          "val" : "NestCell® Mesenchymal Stem Cell to Treat Patients With Severe COVID-19 Pneumonia (HOPE)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04315987"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04315987 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040020",
+      "meta" : {
+        "definition" : {
+          "val" : "Treatment of Moderate to Severe Coronavirus Disease (COVID-19) in Hospitalized Patients",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04321993"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Also has input of Hydroxychloroquine sulfate"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04321993 clinical trial"
         } ]
       },
       "type" : "CLASS"
@@ -10598,6 +10765,38 @@
       },
       "type" : "CLASS",
       "lbl" : "metamizole"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040022",
+      "meta" : {
+        "definition" : {
+          "val" : "The Use PUL-042 Inhalation Solution to Prevent COVID-19 in Adults Exposed to SARS-CoV-2",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04313023"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04313023 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040021",
+      "meta" : {
+        "definition" : {
+          "val" : "Treatment of COVID-19 Cases and Chemoprophylaxis of Contacts as Prevention (HCQ4COV19)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04304053 clinical trial"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04304053"
+        } ]
+      },
+      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HP_0002014",
       "meta" : {
@@ -11441,6 +11640,38 @@
       "type" : "CLASS",
       "lbl" : "afebrile"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040031",
+      "meta" : {
+        "definition" : {
+          "val" : "Treatment With Mesenchymal Stem Cells for Severe Corona Virus Disease 2019(COVID-19)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04288102"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04288102 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040030",
+      "meta" : {
+        "definition" : {
+          "val" : "CD24Fc as a Non-antiviral Immunomodulator in COVID-19 Treatment (SAC-COVID)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04317040 clinical trial"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04317040"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_9838",
       "meta" : {
         "xrefs" : [ {
@@ -11499,6 +11730,25 @@
       },
       "type" : "CLASS",
       "lbl" : "Camelus dromedarius"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040032",
+      "meta" : {
+        "definition" : {
+          "val" : "The Clinical Study of Carrimycin on Treatment Patients With COVID-19",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04286503"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Also has input of Carrimycin"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04286503 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C48938",
       "meta" : {
@@ -11672,16 +11922,6 @@
       },
       "type" : "CLASS",
       "lbl" : "Abdominal pain"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/internal_covoc_id",
-      "meta" : {
-        "definition" : {
-          "val" : "Internal ID used by the editors of the COVOC. Should probably not be used by anyone else.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "PROPERTY",
-      "lbl" : "internal covoc id"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0050076",
       "meta" : {
@@ -13026,9 +13266,9 @@
         }, {
           "val" : "UMLS:C0024117"
         }, {
-          "val" : "DOID:3083"
-        }, {
           "val" : "EFO:0000341"
+        }, {
+          "val" : "DOID:3083"
         }, {
           "val" : "ICD10:J44.9"
         }, {
@@ -15555,6 +15795,25 @@
       "type" : "CLASS",
       "lbl" : "viral infectious disease"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040009",
+      "meta" : {
+        "definition" : {
+          "val" : "Comparison of Hydroxychloroquine in Patients With Mild Coronavirus Disease (COVID-19)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:01611"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04307693"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04307693 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0002524",
       "meta" : {
         "definition" : {
@@ -15588,11 +15847,68 @@
       "type" : "CLASS",
       "lbl" : "hypersensitivity"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040006",
+      "meta" : {
+        "definition" : {
+          "val" : "Multicenter Clinical Study on the Efficacy and Safety of Xiyanping Injection in the Treatment of New Coronavirus Infection Pneumonia (General and Severe)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:01601"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04295551"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04295551 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0050050",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "CE_57"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040005",
+      "meta" : {
+        "definition" : {
+          "val" : "Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Severe Coronavirus Disease (COVID-19)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:14761"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04292899 clinical trial"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04292899"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040008",
+      "meta" : {
+        "definition" : {
+          "val" : "Tocilizumab vs CRRT in Management of Cytokine Release Syndrome (CRS) in COVID-19",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:06273"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04306705 clinical trial"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04306705"
         } ]
       },
       "type" : "CLASS"
@@ -15656,6 +15972,101 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "LOC_16"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040007",
+      "meta" : {
+        "definition" : {
+          "val" : "A Pilot Study of Sildenafil in COVID-19",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:00203"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04304313"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04304313 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040002",
+      "meta" : {
+        "definition" : {
+          "val" : "Recombinant Human Angiotensin-converting Enzyme 2 (rhACE2) as a Treatment for Patients With COVID-19",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:11842"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04287686"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04287686 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040001",
+      "meta" : {
+        "definition" : {
+          "val" : "Efficacy and Safety of Corticosteroids in COVID-19",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:00959"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04273321"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04273321 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040004",
+      "meta" : {
+        "definition" : {
+          "val" : "Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Moderate Coronavirus Disease (COVID-19) Compared to Standard of Care Treatment",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:14761"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04292730 clinical trial"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04292730"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040003",
+      "meta" : {
+        "definition" : {
+          "val" : "Eculizumab (Soliris) in Covid-19 Infected Patients",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:01257"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04288713 clinical trial"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04288713"
         } ]
       },
       "type" : "CLASS"
@@ -16316,6 +16727,25 @@
       "type" : "CLASS",
       "lbl" : "amino acid"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040017",
+      "meta" : {
+        "definition" : {
+          "val" : "Recombinant Human Angiotensin-converting Enzyme 2 (rhACE2) as a Treatment for Patients With COVID-19",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04287686 clinical trial"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Also has input of rhACE2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04287686"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0050061",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -16333,6 +16763,101 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "CE_69"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040016",
+      "meta" : {
+        "definition" : {
+          "val" : "Clinical Trial on Regularity of TCM Syndrome and Differentiation Treatment of COVID-19. (CTOROTSADTOC)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04306497 clinical trial"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Also has input of TCM prescriptions"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04306497"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040019",
+      "meta" : {
+        "definition" : {
+          "val" : "ACE Inhibitors, Angiotensin II Type-I Receptor Blockers and Severity of COVID-19 (CODIV-ACE)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:11842"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04318418 clinical trial"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04318418"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040018",
+      "meta" : {
+        "definition" : {
+          "val" : "Tocilizumab in COVID-19 Pneumonia (TOCIVID-19) (TOCIVID-19)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:06273"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04317092"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04317092 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040013",
+      "meta" : {
+        "definition" : {
+          "val" : "Hydroxychloroquine Treatment for Severe COVID-19 Pulmonary Infection (HYDRA Trial)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:01611"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04315896"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04315896 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040012",
+      "meta" : {
+        "definition" : {
+          "val" : "Evaluation of the Efficacy and Safety of Sarilumab in Hospitalized Patients With COVID-19",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:11767"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04315298"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04315298 clinical trial"
         } ]
       },
       "type" : "CLASS"
@@ -16381,6 +16906,44 @@
       },
       "type" : "CLASS",
       "lbl" : "Canis lupus familiaris"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040015",
+      "meta" : {
+        "definition" : {
+          "val" : "Hyperimmune Plasma for Critical Patients With COVID-19 (COV19-PLASMA)",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04321421"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Also has input of Hyperimmune plasma"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04321421 clinical trial"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040014",
+      "meta" : {
+        "definition" : {
+          "val" : "The Efficacy and Safety of Huai er in the Adjuvant Treatment of COVID-19",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04291053 clinical trial"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04291053"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Also has input of Huaier Granule"
+        } ]
+      },
+      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PR_O15393",
       "meta" : {
@@ -16564,6 +17127,46 @@
       },
       "type" : "CLASS",
       "lbl" : "Ebastine"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040011",
+      "meta" : {
+        "definition" : {
+          "val" : "Favipiravir Combined With Tocilizumab in the Treatment of Corona Virus Disease 2019",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:12466"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04310228 clinical trial"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04310228"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0040010",
+      "meta" : {
+        "definition" : {
+          "val" : "Comparison of Lopinavir/Ritonavir in Patients With Mild Coronavirus Disease (COVID-19)",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "DB:00503"
+        }, {
+          "val" : "DB:01601"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "NCT04307694 clinical trial"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "NCT:04307694"
+        } ]
+      },
+      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_134730",
       "meta" : {
@@ -20653,16 +21256,6 @@
       "type" : "CLASS",
       "lbl" : "atazanavir"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/drug_associated_with_disease",
-      "meta" : {
-        "definition" : {
-          "val" : "Drug associated with disease.",
-          "xrefs" : [ ]
-        }
-      },
-      "type" : "PROPERTY",
-      "lbl" : "drug associated with disease"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0016310",
       "meta" : {
         "definition" : {
@@ -21983,9 +22576,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040023",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_5801"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9615",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040006",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_31781"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_63628",
       "pred" : "is_a",
@@ -21994,6 +22595,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_37924",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040011",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030029"
     }, {
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0005384",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000086",
@@ -22011,6 +22616,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PR_000000001"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040025",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030023"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0003077",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
@@ -22023,6 +22632,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040021",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_367163"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0019079",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
@@ -22030,6 +22643,10 @@
       "sub" : "http://purl.obolibrary.org/obo/HP_0001025",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040012",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030027"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0016246",
       "pred" : "is_a",
@@ -22059,6 +22676,10 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000056"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040002",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_48432"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_71204",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
@@ -22066,6 +22687,10 @@
       "sub" : "http://purl.obolibrary.org/obo/HP_0001742",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040006",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_45409"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_31303",
       "pred" : "is_a",
@@ -22131,6 +22756,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040021",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_72291"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_290028",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_694002"
@@ -22146,6 +22775,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9675",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040001",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030021"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0046718",
       "pred" : "is_a",
@@ -22178,6 +22811,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_5801",
       "pred" : "http://purl.obolibrary.org/obo/chebi#has_functional_parent",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_3638"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040013",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_5801"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0021146",
       "pred" : "is_a",
@@ -22231,6 +22868,10 @@
       "pred" : "subPropertyOf",
       "obj" : "http://www.w3.org/2002/07/owl#topObjectProperty"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040003",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030014"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0002027",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HP_0012531"
@@ -22238,6 +22879,10 @@
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000661",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040020",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030027"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_Q9H2X3",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
@@ -22303,6 +22948,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040026",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_9513"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_P12821",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PR_000000001"
@@ -22322,6 +22971,14 @@
       "sub" : "http://purl.obolibrary.org/obo/OMIT_0000159",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040005",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_145994"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040020",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_31781"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
       "pred" : "is_a",
@@ -22375,9 +23032,29 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040027",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_9513"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040020",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_45409"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040004",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_145994"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_16240",
       "pred" : "http://purl.obolibrary.org/obo/RO_0000087",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_59163"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040032",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_31781"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040019",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_48432"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_15379",
       "pred" : "is_a",
@@ -22398,6 +23075,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_2549",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040032",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_45409"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_40674",
       "pred" : "is_a",
@@ -22523,6 +23204,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040030",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030011"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_P12821",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -22534,6 +23219,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C17105",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C17021"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040011",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_134722"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0000969",
       "pred" : "is_a",
@@ -22631,6 +23320,14 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0004026",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002048"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040008",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030029"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040010",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_31781"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005719",
       "pred" : "http://purl.obolibrary.org/obo/RO_0004028",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_11118"
@@ -22642,6 +23339,10 @@
       "sub" : "http://purl.obolibrary.org/obo/GO_0006310",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040007",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_9139"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17334",
       "pred" : "is_a",
@@ -22659,9 +23360,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040010",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_45409"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0016310",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040031",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030022"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000552",
       "pred" : "is_a",
@@ -22670,6 +23379,10 @@
       "sub" : "http://purl.obolibrary.org/obo/OBI_0001938",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000051"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040020",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030007"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0006810",
       "pred" : "is_a",
@@ -22699,13 +23412,13 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
     }, {
-      "sub" : "http://www.ebi.ac.uk/efo/EFO_0000785",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0001015"
-    }, {
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0000784",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0001025"
+    }, {
+      "sub" : "http://www.ebi.ac.uk/efo/EFO_0000785",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0001015"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_7496",
       "pred" : "is_a",
@@ -22747,6 +23460,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9397"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040022",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C135091"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OMIT_0000002",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OMIT_0000001"
@@ -22754,6 +23471,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_6960",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040032",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_134730"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9838",
       "pred" : "is_a",
@@ -22775,6 +23496,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HP_0012735"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040009",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_5801"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000070",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000011"
@@ -22790,6 +23515,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PR_P0DTC4",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2697049"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040028",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_63115"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0006260",
       "pred" : "is_a",
@@ -22807,6 +23536,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0006955"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040029",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030031"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C15206",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C15429"
@@ -22814,6 +23547,10 @@
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005002",
       "pred" : "http://purl.obolibrary.org/obo/RO_0004026",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002048"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040024",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C135091"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_9364",
       "pred" : "is_a",
@@ -22862,6 +23599,14 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10239",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040021",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_5801"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040018",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030029"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0010467",
       "pred" : "is_a",

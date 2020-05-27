@@ -1118,33 +1118,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/drug_associated_with_disease -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/drug_associated_with_disease">
-        <obo:IAO_0000115>Drug associated with disease.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">drug associated with disease</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/internal_covoc_id -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/internal_covoc_id">
-        <obo:IAO_0000115>Internal ID used by the editors of the COVOC. Should probably not be used by anyone else.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">internal covoc id</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/preferred_covoc_label -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/preferred_covoc_label">
-        <obo:IAO_0000115>Label as preferred by the Editors of the COVOC.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">preferred covoc label</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/chebi#1_STAR -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi#1_STAR">
@@ -1219,19 +1192,28 @@
 
     <!-- http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease">
+        <obo:IAO_0000115>Drug associated with disease.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">drug associated with disease</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/covoc/internal_covoc_id -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/covoc/internal_covoc_id"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/covoc/internal_covoc_id">
+        <obo:IAO_0000115>Internal ID used by the editors of the COVOC. Should probably not be used by anyone else.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">internal covoc id</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/covoc/preferred_covoc_label -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/covoc/preferred_covoc_label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/covoc/preferred_covoc_label">
+        <obo:IAO_0000115>Label as preferred by the Editors of the COVOC.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">preferred covoc label</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -14729,6 +14711,577 @@ in CLO, this is a short cut relation that represents:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040001">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COVOC_0030021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Efficacy and Safety of Corticosteroids in COVID-19</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04273321</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04273321 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:00959</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040002">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48432"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recombinant Human Angiotensin-converting Enzyme 2 (rhACE2) as a Treatment for Patients With COVID-19</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04287686</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04287686 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:11842</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040003">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COVOC_0030014"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eculizumab (Soliris) in Covid-19 Infected Patients</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04288713</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04288713 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:01257</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040004">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_145994"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Moderate Coronavirus Disease (COVID-19) Compared to Standard of Care Treatment</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04292730</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04292730 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:14761</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040005">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_145994"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Severe Coronavirus Disease (COVID-19)</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04292899</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04292899 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:14761</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040006">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_31781"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_45409"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multicenter Clinical Study on the Efficacy and Safety of Xiyanping Injection in the Treatment of New Coronavirus Infection Pneumonia (General and Severe)</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04295551</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04295551 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:01601</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040007">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9139"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Pilot Study of Sildenafil in COVID-19</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04304313</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04304313 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:00203</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040008">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COVOC_0030029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tocilizumab vs CRRT in Management of Cytokine Release Syndrome (CRS) in COVID-19</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04306705</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04306705 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:06273</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040009">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comparison of Hydroxychloroquine in Patients With Mild Coronavirus Disease (COVID-19)</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04307693</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04307693 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:01611</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040010">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_31781"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_45409"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comparison of Lopinavir/Ritonavir in Patients With Mild Coronavirus Disease (COVID-19)</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04307694</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04307694 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:00503</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:01601</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040011">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_134722"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COVOC_0030029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Favipiravir Combined With Tocilizumab in the Treatment of Corona Virus Disease 2019</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04310228</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04310228 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:12466</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040012">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COVOC_0030027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Evaluation of the Efficacy and Safety of Sarilumab in Hospitalized Patients With COVID-19</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04315298</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04315298 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:11767</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040013">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydroxychloroquine Treatment for Severe COVID-19 Pulmonary Infection (HYDRA Trial)</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04315896</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04315896 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:01611</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040014">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Efficacy and Safety of Huai er in the Adjuvant Treatment of COVID-19</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04291053</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04291053 clinical trial</covoc:preferred_covoc_label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Also has input of Huaier Granule</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040015">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hyperimmune Plasma for Critical Patients With COVID-19 (COV19-PLASMA)</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04321421</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04321421 clinical trial</covoc:preferred_covoc_label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Also has input of Hyperimmune plasma</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040016">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Clinical Trial on Regularity of TCM Syndrome and Differentiation Treatment of COVID-19. (CTOROTSADTOC)</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04306497</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04306497 clinical trial</covoc:preferred_covoc_label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Also has input of TCM prescriptions</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040017">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Recombinant Human Angiotensin-converting Enzyme 2 (rhACE2) as a Treatment for Patients With COVID-19</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04287686</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04287686 clinical trial</covoc:preferred_covoc_label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Also has input of rhACE2</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040018">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COVOC_0030029"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tocilizumab in COVID-19 Pneumonia (TOCIVID-19) (TOCIVID-19)</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04317092</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04317092 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:06273</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040019">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48432"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACE Inhibitors, Angiotensin II Type-I Receptor Blockers and Severity of COVID-19 (CODIV-ACE)</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04318418</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04318418 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:11842</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040020">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_31781"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_45409"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COVOC_0030007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COVOC_0030027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of Moderate to Severe Coronavirus Disease (COVID-19) in Hospitalized Patients</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04321993</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04321993 clinical trial</covoc:preferred_covoc_label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Also has input of Hydroxychloroquine sulfate</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040021">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_367163"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72291"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment of COVID-19 Cases and Chemoprophylaxis of Contacts as Prevention (HCQ4COV19)</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04304053</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04304053 clinical trial</covoc:preferred_covoc_label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040022">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C135091"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Use PUL-042 Inhalation Solution to Prevent COVID-19 in Adults Exposed to SARS-CoV-2</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04313023</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04313023 clinical trial</covoc:preferred_covoc_label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040023">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5801"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydroxychloroquine for the Treatment of Patients With Mild to Moderate COVID-19 to Prevent Progression to Severe Infection or Death</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04323631</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04323631 clinical trial</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:01611</oboInOwl:hasDbXref>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040024">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C135091"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Use of PUL-042 Inhalation Solution to Reduce the Severity of COVID-19 in Adults Positive for SARS-CoV-2 Infection</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04312997</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04312997 clinical trial</covoc:preferred_covoc_label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040025">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COVOC_0030023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NestCell® Mesenchymal Stem Cell to Treat Patients With Severe COVID-19 Pneumonia (HOPE)</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04315987</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04315987 clinical trial</covoc:preferred_covoc_label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040026">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9513"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Efficacy and Safety of Thalidomide in the Adjuvant Treatment of Moderate New Coronavirus (COVID-19) Pneumonia</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04273529</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04273529 clinical trial</covoc:preferred_covoc_label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040027">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9513"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Efficacy and Safety of Thalidomide Combined With Low-dose Hormones in the Treatment of Severe COVID-19</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04273581</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04273581 clinical trial</covoc:preferred_covoc_label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040028">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fingolimod in COVID-19</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04280588</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04280588 clinical trial</covoc:preferred_covoc_label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040029">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COVOC_0030031"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapy for Pneumonia Patients iInfected by 2019 Novel Coronavirus</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04293692</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04293692 clinical trial</covoc:preferred_covoc_label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040030">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COVOC_0030011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD24Fc as a Non-antiviral Immunomodulator in COVID-19 Treatment (SAC-COVID)</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04317040</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04317040 clinical trial</covoc:preferred_covoc_label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040031">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/COVOC_0030022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Treatment With Mesenchymal Stem Cells for Severe Corona Virus Disease 2019(COVID-19)</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04288102</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04288102 clinical trial</covoc:preferred_covoc_label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0040032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0040032">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_134730"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_31781"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_45409"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Clinical Study of Carrimycin on Treatment Patients With COVID-19</obo:IAO_0000115>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT:04286503</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCT04286503 clinical trial</covoc:preferred_covoc_label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Also has input of Carrimycin</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/COVOC_0050001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0050001">
@@ -15439,6 +15992,16 @@ in CLO, this is a short cut relation that represents:
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S glycoprotein</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProt:Q0Q475</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV-2 RBD</oboInOwl:hasNarrowSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_9999999 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_9999999">
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48938"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete example</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</owl:deprecated>
     </owl:Class>
     
 

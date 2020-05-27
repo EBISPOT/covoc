@@ -3542,6 +3542,259 @@ property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_79" x
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "UC-MSCs" xsd:string
 
 [Term]
+id: COVOC:0040001
+def: "Efficacy and Safety of Corticosteroids in COVID-19" []
+xref: DB:00959
+relationship: OBI:0000293 COVOC:0030021 ! has_input
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04273321 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04273321 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040002
+def: "Recombinant Human Angiotensin-converting Enzyme 2 (rhACE2) as a Treatment for Patients With COVID-19" []
+xref: DB:11842
+relationship: OBI:0000293 CHEBI:48432 ! has_input angiotensin II
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04287686 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04287686 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040003
+def: "Eculizumab (Soliris) in Covid-19 Infected Patients" []
+xref: DB:01257
+relationship: OBI:0000293 COVOC:0030014 ! has_input
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04288713 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04288713 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040004
+def: "Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Moderate Coronavirus Disease (COVID-19) Compared to Standard of Care Treatment" []
+xref: DB:14761
+relationship: OBI:0000293 CHEBI:145994 ! has_input remdesivir
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04292730 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04292730 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040005
+def: "Study to Evaluate the Safety and Antiviral Activity of Remdesivir (GS-5734™) in Participants With Severe Coronavirus Disease (COVID-19)" []
+xref: DB:14761
+relationship: OBI:0000293 CHEBI:145994 ! has_input remdesivir
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04292899 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04292899 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040006
+def: "Multicenter Clinical Study on the Efficacy and Safety of Xiyanping Injection in the Treatment of New Coronavirus Infection Pneumonia (General and Severe)" []
+xref: DB:01601
+relationship: OBI:0000293 CHEBI:31781 ! has_input lopinavir
+relationship: OBI:0000293 CHEBI:45409 ! has_input ritonavir
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04295551 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04295551 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040007
+def: "A Pilot Study of Sildenafil in COVID-19" []
+xref: DB:00203
+relationship: OBI:0000293 CHEBI:9139 ! has_input sildenafil
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04304313 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04304313 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040008
+def: "Tocilizumab vs CRRT in Management of Cytokine Release Syndrome (CRS) in COVID-19" []
+xref: DB:06273
+relationship: OBI:0000293 COVOC:0030029 ! has_input
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04306705 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04306705 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040009
+def: "Comparison of Hydroxychloroquine in Patients With Mild Coronavirus Disease (COVID-19)" []
+xref: DB:01611
+relationship: OBI:0000293 CHEBI:5801 ! has_input hydroxychloroquine
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04307693 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04307693 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040010
+def: "Comparison of Lopinavir/Ritonavir in Patients With Mild Coronavirus Disease (COVID-19)" []
+xref: DB:00503
+xref: DB:01601
+relationship: OBI:0000293 CHEBI:31781 ! has_input lopinavir
+relationship: OBI:0000293 CHEBI:45409 ! has_input ritonavir
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04307694 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04307694 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040011
+def: "Favipiravir Combined With Tocilizumab in the Treatment of Corona Virus Disease 2019" []
+xref: DB:12466
+relationship: OBI:0000293 CHEBI:134722 ! has_input favipiravir
+relationship: OBI:0000293 COVOC:0030029 ! has_input
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04310228 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04310228 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040012
+def: "Evaluation of the Efficacy and Safety of Sarilumab in Hospitalized Patients With COVID-19" []
+xref: DB:11767
+relationship: OBI:0000293 COVOC:0030027 ! has_input
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04315298 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04315298 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040013
+def: "Hydroxychloroquine Treatment for Severe COVID-19 Pulmonary Infection (HYDRA Trial)" []
+xref: DB:01611
+relationship: OBI:0000293 CHEBI:5801 ! has_input hydroxychloroquine
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04315896 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04315896 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040014
+def: "The Efficacy and Safety of Huai er in the Adjuvant Treatment of COVID-19" []
+comment: Also has input of Huaier Granule
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04291053 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04291053 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040015
+def: "Hyperimmune Plasma for Critical Patients With COVID-19 (COV19-PLASMA)" []
+comment: Also has input of Hyperimmune plasma
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04321421 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04321421 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040016
+def: "Clinical Trial on Regularity of TCM Syndrome and Differentiation Treatment of COVID-19. (CTOROTSADTOC)" []
+comment: Also has input of TCM prescriptions
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04306497 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04306497 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040017
+def: "Recombinant Human Angiotensin-converting Enzyme 2 (rhACE2) as a Treatment for Patients With COVID-19" []
+comment: Also has input of rhACE2
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04287686 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04287686 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040018
+def: "Tocilizumab in COVID-19 Pneumonia (TOCIVID-19) (TOCIVID-19)" []
+xref: DB:06273
+relationship: OBI:0000293 COVOC:0030029 ! has_input
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04317092 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04317092 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040019
+def: "ACE Inhibitors, Angiotensin II Type-I Receptor Blockers and Severity of COVID-19 (CODIV-ACE)" []
+xref: DB:11842
+relationship: OBI:0000293 CHEBI:48432 ! has_input angiotensin II
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04318418 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04318418 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040020
+def: "Treatment of Moderate to Severe Coronavirus Disease (COVID-19) in Hospitalized Patients" []
+comment: Also has input of Hydroxychloroquine sulfate
+relationship: OBI:0000293 CHEBI:31781 ! has_input lopinavir
+relationship: OBI:0000293 CHEBI:45409 ! has_input ritonavir
+relationship: OBI:0000293 COVOC:0030007 ! has_input
+relationship: OBI:0000293 COVOC:0030027 ! has_input
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04321993 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04321993 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040021
+def: "Treatment of COVID-19 Cases and Chemoprophylaxis of Contacts as Prevention (HCQ4COV19)" []
+relationship: OBI:0000293 CHEBI:367163 ! has_input darunavir
+relationship: OBI:0000293 CHEBI:5801 ! has_input hydroxychloroquine
+relationship: OBI:0000293 CHEBI:72291 ! has_input cobicistat
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04304053 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04304053 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040022
+def: "The Use PUL-042 Inhalation Solution to Prevent COVID-19 in Adults Exposed to SARS-CoV-2" []
+relationship: OBI:0000293 NCIT:C135091 ! has_input TLR 2/6/9 Agonist PUL-042
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04313023 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04313023 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040023
+def: "Hydroxychloroquine for the Treatment of Patients With Mild to Moderate COVID-19 to Prevent Progression to Severe Infection or Death" []
+xref: DB:01611
+relationship: OBI:0000293 CHEBI:5801 ! has_input hydroxychloroquine
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04323631 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04323631 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040024
+def: "The Use of PUL-042 Inhalation Solution to Reduce the Severity of COVID-19 in Adults Positive for SARS-CoV-2 Infection" []
+relationship: OBI:0000293 NCIT:C135091 ! has_input TLR 2/6/9 Agonist PUL-042
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04312997 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04312997 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040025
+def: "NestCell® Mesenchymal Stem Cell to Treat Patients With Severe COVID-19 Pneumonia (HOPE)" []
+relationship: OBI:0000293 COVOC:0030023 ! has_input
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04315987 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04315987 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040026
+def: "The Efficacy and Safety of Thalidomide in the Adjuvant Treatment of Moderate New Coronavirus (COVID-19) Pneumonia" []
+relationship: OBI:0000293 CHEBI:9513 ! has_input thalidomide
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04273529 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04273529 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040027
+def: "The Efficacy and Safety of Thalidomide Combined With Low-dose Hormones in the Treatment of Severe COVID-19" []
+relationship: OBI:0000293 CHEBI:9513 ! has_input thalidomide
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04273581 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04273581 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040028
+def: "Fingolimod in COVID-19" []
+relationship: OBI:0000293 CHEBI:63115 ! has_input fingolimod
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04280588 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04280588 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040029
+def: "Therapy for Pneumonia Patients iInfected by 2019 Novel Coronavirus" []
+relationship: OBI:0000293 COVOC:0030031 ! has_input
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04293692 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04293692 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040030
+def: "CD24Fc as a Non-antiviral Immunomodulator in COVID-19 Treatment (SAC-COVID)" []
+relationship: OBI:0000293 COVOC:0030011 ! has_input
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04317040 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04317040 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040031
+def: "Treatment With Mesenchymal Stem Cells for Severe Corona Virus Disease 2019(COVID-19)" []
+relationship: OBI:0000293 COVOC:0030022 ! has_input
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04288102 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04288102 clinical trial" xsd:string
+
+[Term]
+id: COVOC:0040032
+def: "The Clinical Study of Carrimycin on Treatment Patients With COVID-19" []
+comment: Also has input of Carrimycin
+relationship: OBI:0000293 CHEBI:134730 ! has_input umifenovir
+relationship: OBI:0000293 CHEBI:31781 ! has_input lopinavir
+relationship: OBI:0000293 CHEBI:45409 ! has_input ritonavir
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id NCT:04286503 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT04286503 clinical trial" xsd:string
+
+[Term]
 id: COVOC:0050001
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_1" xsd:string
 
@@ -3922,6 +4175,11 @@ synonym: "SARS-CoV-2 RBD" NARROW []
 xref: UniProt:Q0Q475
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_30" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Spike glycoprotein (BtCoV)" xsd:string
+
+[Term]
+id: COVOC:9999999
+name: obsolete example
+replaced_by: NCIT:C48938
 
 [Term]
 id: EFO:0000264
