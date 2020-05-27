@@ -11,17 +11,20 @@ TEMPLATES=$(patsubst %.tsv, $(TEMPLATESDIR)/%.owl, $(notdir $(wildcard $(TEMPLAT
 p:
 	echo $(TEMPLATES)
 
+../templates/config.txt:
+	wget "https://docs.google.com/spreadsheets/d/e/2PACX-1vToRKnnWN2qbIP-MJUI2jEn56kWmmai6IJS7yKAKdlEkhTcGDKiYIWbfBaXGwf1s6m8K8j5zWGWqqKX/pub?gid=2114679035&single=true&output=csv" -O $@
+
 prepare_templates: ../templates/config.txt
 	sh ../scripts/download_templates.sh $<
-	
+
 components/all_templates.owl: $(TEMPLATES)
 	$(ROBOT) merge $(patsubst %, -i %, $^) \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ \
 		--output $@.tmp.owl && mv $@.tmp.owl $@
 
 $(TEMPLATESDIR)/%.owl: $(TEMPLATESDIR)/%.tsv $(SRC)
-	$(ROBOT) merge -i $(SRC) template --template $< --output $@ && \
-	$(ROBOT) annotate --input $@ --ontology-iri $(ONTBASE)/components/$*.owl -o $@
+	$(ROBOT) -vvv merge -i $(SRC) template --template $< --prefix "cov: http://purl.obolibrary.org/obo/covoc/" --prefix "COVOC: http://purl.obolibrary.org/obo/COVOC_" --prefix "MAXO: http://purl.obolibrary.org/obo/MAXO_" --prefix "BAO: http://purl.obolibrary.org/obo/BAO_" --prefix "EFO: http://www.ebi.ac.uk/efo/EFO_" --output $@ && \
+	$(ROBOT) -vvv annotate --input $@ --ontology-iri $(ONTBASE)/components/$*.owl -o $@
 
 ## For COVOC we override imports altogether by removing post-facto all classes not in the seed.
 ## 
