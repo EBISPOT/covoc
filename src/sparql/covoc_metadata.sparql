@@ -26,6 +26,8 @@ WHERE {
 			REPLACE(
 				REPLACE(STR(?term), "http[:][/][/]purl[.]obolibrary[.]org[/]obo[/]|http[:][/][/]www[.]ebi[.]ac[.]uk[/]efo[/]|http[:][/][/]www[.]orpha.net[/]ORDO[/]", "", "i"),
 			"[_]", ":", "i")
-			,?term) 
-		AS ?acc)
+			, IF(	
+					regex(str(?term), "http[:][/][/]dbpedia[.]org[/]resource[/]"),
+					REPLACE(STR(?term), "http[:][/][/]dbpedia[.]org[/]resource[/]", "DBPEDIA:", "i")
+				,?term)) AS ?acc)
 }
