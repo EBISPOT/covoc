@@ -8,8 +8,8 @@ echo $file
 
 sed -i 's/\r$//g' $file
 sed -i -e '$a\' $file
-rm -r ../templates/*_do_no_edit.tsv
-rm -r ../templates/*_do_no_edit.owl
+rm -rf ../templates/*_do_no_edit.tsv
+rm -rf ../templates/*_do_no_edit.owl
 
 while IFS=',' read -r sheet url
 do 
