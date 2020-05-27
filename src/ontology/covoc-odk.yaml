@@ -17,8 +17,20 @@ import_group:
     - id: hp
     - id: mondo
     - id: chebi
-    - id: gaz
     - id: go
+    - id: bao
+      mirror_from: http://www.bioassayontology.org/bao/bao_complete.owl
+    - id: chmo
+    - id: cl
+    - id: ido
+    - id: maxo
+    - id: ncit
+    - id: obi
+    - id: omit
+    - id: pr
+    - id: uberon
+    - id: pato
+    - id: dbpedia
 components:
   products:
     - filename: all_templates.owl
