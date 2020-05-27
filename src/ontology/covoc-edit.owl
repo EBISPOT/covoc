@@ -27,10 +27,32 @@ Annotation(dce:title "CoVoc Coronavirus Vocabulary")
 Annotation(dcterms:license <http://creativecommons.org/licenses/by/4.0/>)
 
 Declaration(Class(<http://purl.obolibrary.org/obo/COVOC_00000000>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/COVOC_90000000>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/COVOC_90000001>))
+Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/COVOC_90000002>))
 Declaration(AnnotationProperty(dce:creator))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:title))
 Declaration(AnnotationProperty(dcterms:license))
+############################
+#   Annotation Properties
+############################
+
+# Annotation Property: <http://purl.obolibrary.org/obo/COVOC_90000000> (preferred covoc label)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COVOC_90000000> "Label as preferred by the Editors of the COVOC.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COVOC_90000000> "preferred covoc label"@en)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/COVOC_90000001> (internal covoc id)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COVOC_90000001> "Internal ID used by the editors of the COVOC. Should probably not be used by anyone else.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COVOC_90000001> "internal covoc id"@en)
+
+# Annotation Property: <http://purl.obolibrary.org/obo/COVOC_90000002> (drug associated with disease)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/COVOC_90000002> "Drug associated with disease.")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/COVOC_90000002> "drug associated with disease"@en)
+
 
 
 ############################
