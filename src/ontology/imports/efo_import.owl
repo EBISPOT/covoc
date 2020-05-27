@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/covoc/imports/efo_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/covoc/imports/efo_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:efo="http://www.ebi.ac.uk/efo/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -8,9 +9,11 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:patterns="http://www.co-ode.org/patterns#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/efo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-04-30/imports/efo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-05-27/imports/efo_import.owl"/>
     </owl:Ontology>
     
 
@@ -26,6 +29,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -38,15 +47,107 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0002161 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#closeMatch"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#exactMatch"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#excluded_subClassOf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#excluded_subClassOf"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#ordo_disease -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#ordo_disease">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://www.co-ode.org/patterns#createdBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.co-ode.org/patterns#createdBy"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/branch_class -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/branch_class"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/gwas_trait -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/gwas_trait"/>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/organizational_class -->
 
     <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/organizational_class"/>
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
     
 
 
@@ -59,6 +160,517 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#source -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#source"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo#has_role -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo#has_role"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000300 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000300"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001015 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001025 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001025"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002180 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002180"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002314 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002314"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004027 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004027"/>
+    
+
+
+    <!-- http://purl.org/obo/owl/OBO_REL#bearer_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#bearer_of"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000784 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_0000784">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+        <rdfs:label>has_disease_location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000785 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_0000785">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0001015"/>
+        <rdfs:label>is_location_of_disease</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#derives_from -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_participant -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#participates_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0003674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003674"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000384"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002048"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000264 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <obo:IAO_0000115>An antibody function (or antigen binding function) is an infection-fighting protein molecule in blood or secretory fluids that tags, neutralizes, and helps destroy pathogenic microorganisms such as bacteria, viruses and toxins.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>MO:833</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MSH:D000906</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C16295</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NIFSTD:birnlex_2110</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:68498002</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>antibodies</oboInOwl:hasExactSynonym>
+        <rdfs:label>antibody</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000532 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000532">
+        <obo:IAO_0000115>An animal or plant or part thereof that nourishes and supports a parasite either in a lab or natural environment.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>MO:101</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C66819</oboInOwl:hasDbXref>
+        <rdfs:label>host</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000544 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000544">
+        <obo:IAO_0000115>The state of being infected such as from the introduction of a foreign agent such as serum, vaccine, antigenic substance or organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>MSH:D007239</oboInOwl:hasDbXref>
+        <rdfs:label>infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000643 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000643">
+        <obo:IAO_0000115>A biological agent that causes disease or illness to its host</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>NCIt:C80324</oboInOwl:hasDbXref>
+        <rdfs:label>pathogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001184 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001184">
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <rdfs:label>HEK293T</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001426 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001426">
+        <obo:IAO_0000112>twin design</obo:IAO_0000112>
+        <obo:IAO_0000115>A study type is an experimental factor describing the method of investigating particular types of research questions or solving particular types of problems, for example, a  set of protocols (which may specify how and what kinds of data will be gathered).</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117>Jon Ison</obo:IAO_0000117>
+        <obo:IAO_0000117>Natalja Kurbatova</obo:IAO_0000117>
+        <efo:definition_citation>OBI_0500000</efo:definition_citation>
+        <oboInOwl:hasDbXref>NCIt:C15320</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PERSON: James Malone</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>experimental design</oboInOwl:hasExactSynonym>
+        <rdfs:label>study design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001461 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001461">
+        <obo:IAO_0000115>A control role is borne by a material in a process in which results obtained from an experimental sample and a control sample are compared.</obo:IAO_0000115>
+        <obo:IAO_0000115>The act of directing or determining; regulation or maintenance of a function or action; a relation of constraint of one entity (thing or person or group) by another.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>NCIt:C61299</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:246106000</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Controlled</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Controlling</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>reference sample</oboInOwl:hasExactSynonym>
+        <rdfs:label>control</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0002571 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002571">
+        <obo:IAO_0000115>An activity that produces an effect, or that is intended to alter the course of a disease in a patient or population. This is a general term that encompasses the medical, social, behavioral, and environmental acts that can have preventive, therapeutic, or palliative effects.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>ICD10:Z41</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C25218</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C79751</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:50731006</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Intervention</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Intervention Strategies</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Intervention or Procedure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Interventional</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Procedure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SURGICAL AND MEDICAL PROCEDURES</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>interventionDescription</oboInOwl:hasExactSynonym>
+        <rdfs:label>medical procedure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003765 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003765">
+        <obo:IAO_0000115>Clinical manifestations that can be either objective when observed by a physician, or subjective when perceived by the patient.</obo:IAO_0000115>
+        <obo:IAO_0000115>Objective evidence of disease perceptible to the examining physician (sign) and subjective evidence of disease perceived by the patient (symptom).</obo:IAO_0000115>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:definition_citation>OGMS_0000020</efo:definition_citation>
+        <efo:definition_citation>OGMS_0000024</efo:definition_citation>
+        <oboInOwl:hasDbXref>ICD10:R68</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MSH:D012816</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C100104</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C3367</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Clinical Finding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DESC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diagnostic Findings</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Finding</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SIGNS SYMPTOMS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Signs and Symptoms</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Symptoms and Signs</oboInOwl:hasExactSynonym>
+        <rdfs:label>sign or symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003919 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003919">
+        <obo:IAO_0000115>An aspect of personal behavior or lifestyle, environmental exposure, or inborn or inherited characteristic, which, on the basis of epidemiologic evidence, is known to be associated with a health-related condition considered important to prevent.</obo:IAO_0000115>
+        <obo:IAO_0000115>Any aspect of an individual&apos;s life, behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of a disease, condition or injury.</obo:IAO_0000115>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>MSH:D012307</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C17103</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:80943009</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Factor, Risk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Factors, Risk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Risk Factors</oboInOwl:hasExactSynonym>
+        <rdfs:label>risk factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004014 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004014">
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <efo:definition_citation>A genetic modification in which some nucleic acid is deleted from the genome of an individual</efo:definition_citation>
+        <efo:definition_citation>http://www.findmice.org/glossary.jsp</efo:definition_citation>
+        <oboInOwl:hasDbXref>NCIt:C61330</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>DEL</oboInOwl:hasExactSynonym>
+        <rdfs:label>deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004292 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004292">
+        <obo:IAO_0000115>Vaccination is: a process&apos; that involves in adding vaccine into a host (e.g., human, mouse) in vivo with the intend to invoke a protective immune response.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <efo:gwas_trait>true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>ICD10:Z24</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10:Z25</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10:Z26</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10:Z27</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MSH:D014611</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C15346</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:33879002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>obo:VO_0000002</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>active immunization</oboInOwl:hasExactSynonym>
+        <rdfs:label>vaccination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004847 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004847">
+        <obo:IAO_0000115>The age at which some process, or disease started in a human individual.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <efo:gwas_trait>true</efo:gwas_trait>
+        <rdfs:label>age at onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005384 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005384">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000384"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>HuH-7 is a well differentiated hepatocyte derived cellular carcinoma cell line that was originally taken from a liver tumor in a 57-year-old Japanese male in 1982. The line was established by Nakabayshi, H. and Sato, J. HuH-7 is an immortal cell line of epithelial-like tumorigenic cells. It usually grow in 2D monolayers.</obo:IAO_0000115>
+        <efo:definition_citation>http://cellbank.nibio.go.jp/legacy/celldata/jcrb0403.htm</efo:definition_citation>
+        <oboInOwl:hasDbXref>BTO:0001950</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Huh-7</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Huh7</oboInOwl:hasExactSynonym>
+        <rdfs:label>HuH-7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009641 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009641">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003765"/>
+        <obo:IAO_0000115>A feeling of general discomfort or uneasiness, an out-of-sorts feeling. [def-source: NCI][attr: CDC Glossary]</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD10:R53</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3832</oboInOwl:hasDbXref>
+        <rdfs:label>malaise</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009715 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009715">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003765"/>
+        <obo:IAO_0000115>A symptom and a finding during physical examination, characterized by a high-pitched, whistling sound during breathing. It results from the narrowing or obstruction of the respiratory airways. The most common causes of wheezing are asthma, chronic obstructive pulmonary disease, tracheobronchitis, and pulmonary edema. [ NCI ]</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C78718</oboInOwl:hasDbXref>
+        <rdfs:label>wheezing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009727 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009727">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003765"/>
+        <obo:IAO_0000115>A difficulty in breathing.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCIT:C99773</oboInOwl:hasDbXref>
+        <rdfs:label>shortness of breath</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010064 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010064">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002571"/>
+        <obo:IAO_0000115>Treatment of disease through the use of drugs.</obo:IAO_0000115>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>NCIT:C15986</oboInOwl:hasDbXref>
+        <rdfs:label>Pharmacotherapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010192 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010192">
+        <obo:IAO_0000115>An oligonucleotide used to start the reaction in a polymerase-chain reaction.</obo:IAO_0000115>
+        <dc:creator>Olamidipupo Ajigboye</dc:creator>
+        <oboInOwl:hasExactSynonym>oligonucleotide primer</oboInOwl:hasExactSynonym>
+        <rdfs:label>primer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010716 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010716">
+        <obo:IAO_0000115>The simultaneous infection of a host by multiple pathogen species.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <oboInOwl:hasDbXref>OMIT:0027719</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0275524</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Coinfection</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0003-0800-544X</oboInOwl:hasDbXref>
+        <rdfs:label>coinfection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010717 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010717">
+        <obo:IAO_0000115>The state of being free from fever.</obo:IAO_0000115>
+        <dc:creator>paola</dc:creator>
+        <oboInOwl:hasDbXref>SYMP:0000207</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://orcid.org/0000-0003-0800-544X</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>free from fever</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>not feverish</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>without fever</oboInOwl:hasExactSynonym>
+        <rdfs:label>afebrile</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 

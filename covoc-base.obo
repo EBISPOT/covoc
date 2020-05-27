@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: covoc/releases/2020-04-30/covoc-base.owl
+data-version: covoc/releases/2020-05-27/covoc-base.owl
 ontology: covoc/covoc-base
 property_value: http://purl.org/dc/elements/1.1/creator "Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
@@ -16,42 +16,671 @@ property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 
 [Term]
+id: BAO:0002424
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_164" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Western-Blot" xsd:string
+
+[Term]
+id: CHEBI:134722
+comment: Antiviral
+synonym: "Avigan" EXACT []
+synonym: "T-705" EXACT []
+xref: DB:12466
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Influenza||Ebola||Lassa" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_34" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Favipiravir" xsd:string
+
+[Term]
+id: CHEBI:134730
+comment: Antiviral
+synonym: "Arbidol" EXACT []
+synonym: "Arbidole" EXACT []
+xref: ATC:J05AX13
+xref: DB:13609
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Influenza||Respiratory viral infection" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_80" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Umifenovir" xsd:string
+
+[Term]
+id: CHEBI:135921
+comment: Small molecule
+synonym: "Dihydroartemisinin" EXACT []
+xref: ATC:P01BE05
+xref: ATC:P01BF05
+xref: DB:11638
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Malaria" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_6" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Artenimol" xsd:string
+
+[Term]
+id: CHEBI:145994
+comment: Antiviral
+synonym: "GS-5734" EXACT []
+xref: DB:14761
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Ebola||SARS-CoV||MERS-CoV" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_62" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Remdesivir" xsd:string
+
+[Term]
+id: CHEBI:15379
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_53" xsd:string
+
+[Term]
+id: CHEBI:16240
+comment: Small Molecule
+synonym: "Eskata" EXACT []
+xref: ATC:A01AB02
+xref: ATC:D08AX01
+xref: ATC:D11AX25
+xref: ATC:S02AA06
+xref: DB:11091
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_38" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Hydrogen peroxide" xsd:string
+
+[Term]
+id: CHEBI:17089
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_60" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "glycoprotein" xsd:string
+
+[Term]
+id: CHEBI:17334
+comment: Antibiotic
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_58" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "penicillin" xsd:string
+
+[Term]
+id: CHEBI:21241
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_81" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Vitamin C" xsd:string
+
+[Term]
+id: CHEBI:22198
+comment: Small Molecule
+synonym: "Acetadote" EXACT []
+synonym: "Cetylev" EXACT []
+synonym: "Mucomyst" EXACT []
+synonym: "Parvolex" EXACT []
+xref: ATC:R05CB01
+xref: ATC:S01XA08
+xref: ATC:V03AB23
+xref: DB:06151
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Mucositis" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_2" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Acetylcysteine" xsd:string
+
+[Term]
+id: CHEBI:22587
+comment: Pharmacologic Substance
+synonym: "antiviral" BROAD []
+synonym: "antiviral activities" EXACT []
+synonym: "antiviral activity" EXACT []
+synonym: "antiviral agents" EXACT []
+synonym: "antivirals" BROAD []
+xref: UMLS:C0003451
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_5||BMV_6||BMV_7" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Antiviral Agents" xsd:string
+
+[Term]
+id: CHEBI:2549
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_5" xsd:string
+
+[Term]
+id: CHEBI:26271
+comment: Amino Acid, Peptide, or Protein,Biologically Active Substance
+xref: UMLS:C0033382
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_19" xsd:string
+
+[Term]
+id: CHEBI:2955
+comment: Antibiotics
+synonym: "AzaSite" EXACT []
+xref: ATC:J01FA10
+xref: ATC:J01RA07
+xref: ATC:S01AA26
+xref: DB:00207
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_11" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Azithromycin" xsd:string
+
+[Term]
+id: CHEBI:31303
+comment: Small Molecule
+synonym: "Bisolvon" EXACT []
+xref: ATC:R05CB02
+xref: DB:09019
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Respiratory disorders" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_17" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Bromhexine hydrochloride" xsd:string
+
+[Term]
+id: CHEBI:31528
+comment: Small molecule
+xref: ATC:R06AX22
+xref: DB:11742
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Irritable Bowel Syndrome (IBS)||Urticaria" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_31" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Ebastine" xsd:string
+
+[Term]
+id: CHEBI:31781
+comment: Antiretroviral
+synonym: "Kaletra" EXACT []
+xref: ATC:J05AR10
+xref: DB:01601
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HIV" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_47" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Lopinavir" xsd:string
+
+[Term]
+id: CHEBI:32016
+comment: Small molecule
+synonym: "Esbriet" EXACT []
+xref: ATC:L04AX05
+xref: DB:04951
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Idiopathic pulmonary fibrosis" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_59" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Pirfenidone" xsd:string
+
+[Term]
+id: CHEBI:3638
+comment: Small molecule
+synonym: "N4-(7-chloro-4-quinolinyl)-N1,N1-diethyl-1,4-pentanediamine" EXACT []
+synonym: "Nivaquine" EXACT []
+xref: ATC:P01BA01
+xref: DB:00608
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Paludism" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_23" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Chloroquine" xsd:string
+
+[Term]
+id: CHEBI:367163
+comment: Antiviral
+synonym: "Prezista" EXACT []
+xref: ATC:G01AE10
+xref: ATC:J05AE10
+xref: ATC:J05AR14
+xref: ATC:J05AR22
+xref: DB:01264
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HIV-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_27" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Darunavir" xsd:string
+
+[Term]
+id: CHEBI:3732
+comment: Antibiotic
+synonym: "6-O-methyl erythromycin" EXACT []
+synonym: "Biaxin" EXACT []
+xref: ATC:A02BD04
+xref: ATC:A02BD05
+xref: ATC:A02BD06
+xref: ATC:A02BD07
+xref: ATC:A02BD09
+xref: ATC:A02BD11
+xref: ATC:J01FA09
+xref: DB:01211
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Acute otitis" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_24" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Clarithromycin" xsd:string
+
+[Term]
+id: CHEBI:37924
+comment: Antiretroviral
+synonym: "Atavir" EXACT []
+synonym: "ATZ" EXACT []
+synonym: "Reyataz" EXACT []
+xref: ATC:J05AE08
+xref: ATC:J05AR15
+xref: ATC:J05AR23
+xref: DB:01072
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HIV-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_8" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Atazanavir" xsd:string
+
+[Term]
+id: CHEBI:38545
+comment: Small molecule
+synonym: "Crestor" EXACT []
+xref: ATC:A10BH52
+xref: ATC:C10AA07
+xref: ATC:C10BA06
+xref: ATC:C10BX05
+xref: ATC:C10BX07
+xref: ATC:C10BX09
+xref: ATC:C10BX10
+xref: ATC:C10BX13
+xref: ATC:C10BX14
+xref: ATC:G01AE10
+xref: DB:01098
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Cholesterol" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_66" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Rosuvastatin" xsd:string
+
+[Term]
+id: CHEBI:40050
+comment: Antiretroviral
+synonym: "(3S)-Tetrahydro-3-furanyl ((1S,2R)-3-(((4-aminophenyl)sulfonyl)(2-methylpropyl)amino)-2-hydroxy-1-(phenylmethyl)propyl)carbamate" EXACT []
+xref: ATC:J05AE05
+xref: DB:00701
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HIV-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_4" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Amprenavir" xsd:string
+
+[Term]
+id: CHEBI:41977
+comment: chemotherapeutic agents
+synonym: "Cerubidine" EXACT []
+xref: ATC:L01DB02
+xref: ATC:L01XY01
+xref: DB:00694
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Leukemia||Other neoplasms" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_28" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Daunorubicin" xsd:string
+
+[Term]
+id: CHEBI:44032
+comment: Small molecule
+synonym: "Crixivan" EXACT []
+xref: ATC:J05AE02
+xref: DB:00224
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HIV-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_41" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Indinavir" xsd:string
+
+[Term]
+id: CHEBI:45409
+comment: Antiviral
+synonym: "Norvir" EXACT []
+xref: ATC:J05AE03
+xref: ATC:J05AP52
+xref: ATC:J05AP53
+xref: ATC:J05AR10
+xref: ATC:J05AR23
+xref: DB:00503
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HIV-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_65" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Ritonavir" xsd:string
+
+[Term]
+id: CHEBI:46195
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_2" xsd:string
+
+[Term]
+id: CHEBI:4653
+comment: Small molecule
+synonym: "Agilease" EXACT []
+synonym: "Cardoxin" EXACT []
+synonym: "Cleridium" EXACT []
+synonym: "Curantyl" EXACT []
+synonym: "Persantin" EXACT []
+xref: DB:00975
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Idiopathic pulmonary fibrosis" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_30" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Dipyridamole" xsd:string
+
+[Term]
+id: CHEBI:472657
+comment: Antibiotic
+synonym: "Suprax" EXACT []
+xref: ATC:J01DD08
+xref: DB:00671
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Pneumonia" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_22" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Cefixime" xsd:string
+
+[Term]
+id: CHEBI:48432
+xref: DB:11842
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_5" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Angiotensin II" xsd:string
+
+[Term]
+id: CHEBI:48923
+comment: Antibiotic
+synonym: "Abomacetin" EXACT []
+synonym: "Ilosone" EXACT []
+xref: ATC:D10AF02
+xref: ATC:D10AF52
+xref: ATC:J01FA01
+xref: ATC:S01AA17
+xref: DB:00199
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Respiratory tract infections" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_33" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Erythromycin" xsd:string
+
+[Term]
+id: CHEBI:50729
+comment: Small molecule
+synonym: "Novantrone" EXACT []
+xref: ATC:L01DB07
+xref: DB:01204
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_52" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Mitoxantrone" xsd:string
+
+[Term]
+id: CHEBI:52217
+comment: Pharmacologic Substance
+xref: UMLS:C0013227
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_108" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Pharmaceutical Preparations" xsd:string
+
+[Term]
+id: CHEBI:575568
+comment: Small Molecule
+synonym: "2-(trans-4-(p-Chlorophenyl)cyclohexyl)-3-hydroxy-1,4-naphthoquinone" EXACT []
+xref: ATC:P01AX06
+xref: DB:01117
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Malaria" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_9" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Atovaquone" xsd:string
+
+[Term]
+id: CHEBI:5801
+comment: Small molecule
+synonym: "Dolquine" EXACT []
+synonym: "HCQS" EXACT []
+synonym: "Oxichlorochine" EXACT []
+synonym: "Oxichloroquine" EXACT []
+synonym: "Plaquenil" EXACT []
+synonym: "Polirreumin" EXACT []
+synonym: "Quensyl" EXACT []
+xref: ATC:P01BA02
+xref: DB:01611
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Malaria||Rheumatoid arthritis||Chronic discoid lupus erythematosus||systemic lupus erythematosus" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_39" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Hydroxychloroquine" xsd:string
+
+[Term]
+id: CHEBI:5855
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_40" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "ibuprofen" xsd:string
+
+[Term]
+id: CHEBI:59163
+synonym: "biomarkers" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_17" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "biomarkers" xsd:string
+
+[Term]
+id: CHEBI:59343
+comment: Small molecule
+synonym: "Spectracef" EXACT []
+xref: ATC:J01DD16
+xref: DB:01066
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Bronchitis" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_21" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Cefditoren" xsd:string
+
+[Term]
+id: CHEBI:6078
+comment: Antiparasitic
+synonym: "Ascapil" EXACT []
+synonym: "Detebencil" EXACT []
+synonym: "Ermetin" EXACT []
+synonym: "Gotax" EXACT []
+synonym: "Imectin" EXACT []
+synonym: "Ivectin" EXACT []
+synonym: "Ivera" EXACT []
+synonym: "Ivergot" EXACT []
+synonym: "Ivermec" EXACT []
+synonym: "Ivexterm" EXACT []
+synonym: "Ivori" EXACT []
+synonym: "Kaonol" EXACT []
+synonym: "Kilox" EXACT []
+synonym: "Maikeding" EXACT []
+synonym: "Quanox" EXACT []
+synonym: "Revectina" EXACT []
+synonym: "Scabo" EXACT []
+synonym: "Scavista" EXACT []
+synonym: "Securo" EXACT []
+synonym: "Stromectol" EXACT []
+synonym: "Vermectin" EXACT []
+xref: ATC:P02CF01
+xref: ATC: D11AX22
+xref: DB:00602
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "broad-spectrum anti-parasite medication" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_44" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Ivermectin" xsd:string
+
+[Term]
+id: CHEBI:62088
+comment: Small molecule
+synonym: "Algocalmin" EXACT []
+synonym: "Algozone" EXACT []
+synonym: "Analgin" EXACT []
+synonym: "Dimethone" EXACT []
+synonym: "Dipirona" EXACT []
+synonym: "Neo-Melubrina" EXACT []
+synonym: "Novalgin" EXACT []
+synonym: "Optalgin" EXACT []
+synonym: "Protemp" EXACT []
+synonym: "Pyralgin" EXACT []
+xref: ATC:N02BB52
+xref: ATC:N02BB72
+xref: ATC: N02BB02
+xref: DB:04817
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Pain||Fever" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_50" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Metamizole" xsd:string
+
+[Term]
+id: CHEBI:63115
+comment: Small molecule
+synonym: "Gilenia" EXACT []
+synonym: "Gilenya" EXACT []
+xref: ATC:L04AA27
+xref: DB:08868
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Multiple sclerosis" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_35" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Fingolimod" xsd:string
+
+[Term]
+id: CHEBI:63580
+comment: Antiviral
+xref: ATC:J05AP01
+xref: DB:00811
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HCV" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_64" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Ribavirin" xsd:string
+
+[Term]
+id: CHEBI:63621
+comment: Antiretroviral
+synonym: "Invirase" EXACT []
+xref: ATC:J05AE01
+xref: DB:01232
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HIV-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_68" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Saquinavir" xsd:string
+
+[Term]
+id: CHEBI:63628
+comment: Antiviral
+synonym: "Aptivus" EXACT []
+xref: ATC:J05AE09
+xref: DB:00932
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HIV-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_75" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Tipranavir" xsd:string
+
+[Term]
+id: CHEBI:6402
+comment: Small molecule
+synonym: "Arava" EXACT []
+xref: ATC:L04AA13
+xref: DB:01097
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Rheumatoid arthritis||psoriatic arthritis" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_46" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Leflunomide" xsd:string
+
+[Term]
+id: CHEBI:66919
+comment: Small molecule
+synonym: "Jakafi" EXACT []
+synonym: "Jakavi" EXACT []
+xref: DB:08877
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Myelofibrosis||Polycythaemia vera||Graft-versus-host disease||bone marrow cancer" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_67" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Ruxolitinib" xsd:string
+
+[Term]
+id: CHEBI:6960
+comment: Small molecule
+synonym: "Univasc" EXACT []
+xref: ATC:C09AA13
+xref: ATC: C09BA13
+xref: DB:00691
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Hypertension (Angiotensin-converting enyzme (ACE) inhibitor" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_53" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Moexipril" xsd:string
+
+[Term]
+id: CHEBI:71204
+comment: Antihistamine
+synonym: "Bepreve" EXACT []
+xref: DB:04890
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_15" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Bepotastine" xsd:string
+
+[Term]
+id: CHEBI:72291
+comment: Small Molecule
+synonym: "Tybost" EXACT []
+xref: ATC:J05AR09
+xref: ATC:J05AR14
+xref: ATC:J05AR15
+xref: ATC:J05AR18
+xref: ATC:J05AR22
+xref: ATC:V03AX03
+xref: DB:09065
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HIV-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_25" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Cobicistat" xsd:string
+
+[Term]
+id: CHEBI:7496
+comment: Antiviral
+synonym: "Viracept" EXACT []
+xref: ATC:J05AE04
+xref: DB:00220
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_55" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Nelfinavir" xsd:string
+
+[Term]
+id: CHEBI:77572
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_77" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Tranilast" xsd:string
+
+[Term]
+id: CHEBI:82941
+comment: Small molecule
+synonym: "FOS-APV" EXACT []
+xref: ATC:J05AE07
+xref: DB:01319
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HIV" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_36" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Fosamprenavir" xsd:string
+
+[Term]
+id: CHEBI:85083
+comment: Antiviral
+synonym: "Sovaldi" EXACT []
+xref: ATC:J05AP08
+xref: ATC:J05AP51
+xref: ATC:J05AP55
+xref: ATC:J05AP56
+xref: DB:08934
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HCV" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_71" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Sofosbuvir" xsd:string
+
+[Term]
+id: CHEBI:87228
+synonym: "sulfonamide antibiotics" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_61" xsd:string
+
+[Term]
+id: CHEBI:9139
+comment: Small molecule
+xref: DB:00203
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Pulmonary hypertension||Erectile dysfunction" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_70" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Sildenafil" xsd:string
+
+[Term]
+id: CHEBI:9364
+comment: Antiparasitic
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "First-stage African trypanosomiasis and onchocerciasis" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_72" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Suramin sodium" xsd:string
+
+[Term]
+id: CHEBI:9513
+synonym: "Thalomid" EXACT []
+xref: ATC:L04AX02
+xref: DB:01041
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Erythema nodosum leprosum (ENL)||Multiple myeloma" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_73" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Thalidomide" xsd:string
+
+[Term]
+id: CHMO:0002413
+synonym: "Cryo-EM structure" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_37" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Cryo-EM structure" xsd:string
+
+[Term]
+id: CL:0000235
+comment: Cell
+xref: UMLS:C0024432
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_85" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Macrophage | macrophages" xsd:string
+
+[Term]
+id: CL:0000738
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_66" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "immune cell" xsd:string
+
+[Term]
 id: CLO:0002172
+comment: Successfully used to grow SARS-CoV-2
 xref: CVCL:0025
 xref: PMID:32149036
-property_value: hasAlternativeID CL:1 xsd:string
-property_value: prefLabel "Caco-2" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:1 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Caco-2" xsd:string
 
 [Term]
 id: CLO:0002192
+comment: Successfully used to grow SARS-CoV-2
 xref: CVCL:0609
 xref: PMID:32165541
-property_value: hasAlternativeID CL:2 xsd:string
-property_value: prefLabel "Calu-3" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:2 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Calu-3" xsd:string
 
 [Term]
 id: CLO:0002462
+comment: Cellular vaccines cell lines
 xref: CVCL:0214
 xref: https://www.theage.com.au/national/coronavirus-outbreak-how-the-covid-19-vaccine-is-being-made-20200220-p542rh.html
-property_value: hasAlternativeID CL:9 xsd:string
-property_value: prefLabel "CHO-K1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:9 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "CHO-K1" xsd:string
 
 [Term]
 id: CLO:0007059
+comment: Cellular vaccines cell lines
 xref: CVCL:0004
 xref: DOI:10.1016/j.medidd.2020.100026
-property_value: hasAlternativeID CL:10 xsd:string
-property_value: prefLabel "K-562" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:10 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "K-562" xsd:string
 
 [Term]
 id: CLO:0009524
+comment: Successfully used to grow SARS-CoV-2
 xref: CVCL:0059
 xref: DOI:10.1101/2020.03.02.972935v2
 xref: DOI:10.1101/2020.03.19.997890v1
 xref: PMID:32149036
 xref: PMID:32165541
-property_value: hasAlternativeID CL:6 xsd:string
-property_value: prefLabel "Vero" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:6 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Vero" xsd:string
 
 [Term]
 id: COVOC:00000000
@@ -59,158 +688,2393 @@ name: COVOC Term
 def: "Any term from the COVOC vocabulary" []
 
 [Term]
+id: COVOC:0010001
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_12" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "B-cell assays" xsd:string
+
+[Term]
+id: COVOC:0010002
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_27" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "clinical importance" xsd:string
+
+[Term]
+id: COVOC:0010003
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_31" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "confirmed case" xsd:string
+
+[Term]
+id: COVOC:0010004
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_32" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "conformational masking" xsd:string
+
+[Term]
+id: COVOC:0010005
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_48" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "fecal sample" xsd:string
+
+[Term]
+id: COVOC:0010006
+comment: Gene or Genome
+xref: UMLS:C0017428
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_56" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Genome" xsd:string
+
+[Term]
+id: COVOC:0010007
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_59" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "glycan shielding" xsd:string
+
+[Term]
+id: COVOC:0010008
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_62" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "homotrimer" xsd:string
+
+[Term]
+id: COVOC:0010009
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_73" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "immunogenicity" xsd:string
+
+[Term]
+id: COVOC:0010010
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_77" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "infection" xsd:string
+
+[Term]
+id: COVOC:0010011
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_78" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "infectivity" xsd:string
+
+[Term]
+id: COVOC:0010012
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_80" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "intensive care" xsd:string
+
+[Term]
+id: COVOC:0010013
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_81" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "interaction" xsd:string
+
+[Term]
+id: COVOC:0010014
+comment: Laboratory Procedure
+xref: UMLS:C0220862
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_82" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "isolation" xsd:string
+
+[Term]
+id: COVOC:0010015
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_83" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "low-input metagenomic next-generation sequencing" xsd:string
+
+[Term]
+id: COVOC:0010016
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_86" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Major histocompatibility complex binding assays" xsd:string
+
+[Term]
+id: COVOC:0010017
+comment: Molecular Biology Research Technique
+xref: UMLS:C2936622
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_87" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Massively-Parallel Sequencing" xsd:string
+
+[Term]
+id: COVOC:0010018
+comment: Therapeutic or Preventive Procedure
+xref: UMLS:C0199470
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_88" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Mechanical Ventilation" xsd:string
+
+[Term]
+id: COVOC:0010019
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_89" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "medications" xsd:string
+
+[Term]
+id: COVOC:0010020
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_91" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "microbiology" xsd:string
+
+[Term]
+id: COVOC:0010021
+comment: Intellectual Product
+xref: UMLS:C0220880
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_93" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "morbidity" xsd:string
+
+[Term]
+id: COVOC:0010022
+comment: Quantitative Concept | Quantitative Concept
+xref: UMLS:C0026565 | UMLS\:C0026566
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_94" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "mortality" xsd:string
+
+[Term]
+id: COVOC:0010023
+comment: Genetic Function
+xref: UMLS:C0026882
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_95" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Mutation" xsd:string
+
+[Term]
+id: COVOC:0010024
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_96" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "nasopharyngeal sample" xsd:string
+
+[Term]
+id: COVOC:0010025
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_98" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "next-generation sequencing" xsd:string
+
+[Term]
+id: COVOC:0010026
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_102" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "oropharyngeal sample" xsd:string
+
+[Term]
+id: COVOC:0010027
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_118" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rapid testing" xsd:string
+
+[Term]
+id: COVOC:0010028
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_120" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "replication" xsd:string
+
+[Term]
+id: COVOC:0010029
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_134" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "sequence" xsd:string
+
+[Term]
+id: COVOC:0010030
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_138" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "serum" xsd:string
+
+[Term]
+id: COVOC:0010031
+comment: Nucleotide Sequence
+xref: UMLS:C0752046
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_139" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Single Nucleotide Polymorphism" xsd:string
+
+[Term]
+id: COVOC:0010032
+comment: Functional Concept
+xref: UMLS:C0220921
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_140" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "survival" xsd:string
+
+[Term]
+id: COVOC:0010033
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_142" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "T-cell assays" xsd:string
+
+[Term]
+id: COVOC:0010034
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_143" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "T-cell epitopes" xsd:string
+
+[Term]
+id: COVOC:0010035
+comment: Therapeutic or Preventive Procedure
+xref: UMLS:C0087111
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_144" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Therapeutics" xsd:string
+
+[Term]
+id: COVOC:0010036
+comment: Functional Concept
+xref: UMLS:C0039798
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_145" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "therapy" xsd:string
+
+[Term]
+id: COVOC:0010037
+comment: Diagnostic Procedure
+xref: UMLS:C3665494
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_146" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Thoracic Radiography" xsd:string
+
+[Term]
+id: COVOC:0010038
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_147" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "transcription" xsd:string
+
+[Term]
+id: COVOC:0010039
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_148" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "transfection" xsd:string
+
+[Term]
+id: COVOC:0010040
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_149" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "transmissibility" xsd:string
+
+[Term]
+id: COVOC:0010041
+comment: Idea or Concept
+xref: UMLS:C0040722
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_150" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "transmission" xsd:string
+
+[Term]
+id: COVOC:0010042
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_151" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "treatment" xsd:string
+
+[Term]
+id: COVOC:0010043
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_152" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "triaging patients" xsd:string
+
+[Term]
+id: COVOC:0010044
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_153" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "trimer" xsd:string
+
+[Term]
+id: COVOC:0020001
+comment: Successfully used to grow SARS-CoV-2
+xref: CVCL:YZ47
+xref: PMID:20090954
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:3 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Calu-3 2B4" xsd:string
+
+[Term]
+id: COVOC:0020002
+comment: Successfully used to grow SARS-CoV-2
+synonym: "Vero C1008" EXACT []
+xref: CVCL:0574
+xref: DOI:10.1101/2020.03.02.972935v2
+xref: DOI:10.1101/2020.03.07.982264v2
+xref: PMID:31978945
+xref: PMID:32020029
+xref: PMID:32149036
+xref: PMID:32165541
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:7 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "VeroE6" xsd:string
+
+[Term]
+id: COVOC:0020003
+comment: Successfully used to grow SARS-CoV-2
+xref: CVCL:YQ49
+xref: PMID:32165541
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:8 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "VeroE6/TMPRSS2" xsd:string
+
+[Term]
+id: COVOC:0020004
+comment: Cellular vaccines cell lines
+xref: CVCL:G704
+xref: https://www.jnj.com/coronavirus
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:11 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "PER.C6" xsd:string
+
+[Term]
+id: COVOC:0020005
+comment: Hybridomas (prod. mAb against SARS-CoV)
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:12 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "47D11" xsd:string
+
+[Term]
+id: COVOC:0020006
+comment: Hybridomas (prod. mAb against SARS-CoV)
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:13 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "F26G1" xsd:string
+
+[Term]
+id: COVOC:0020007
+comment: Hybridomas (prod. mAb against SARS-CoV)
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:14 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "F26G6" xsd:string
+
+[Term]
+id: COVOC:0020008
+comment: Hybridomas (prod. mAb against SARS-CoV)
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:15 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "F26G8" xsd:string
+
+[Term]
+id: COVOC:0020009
+comment: Hybridomas (prod. mAb against SARS-CoV)
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:16 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "F26G18" xsd:string
+
+[Term]
+id: COVOC:0020010
+comment: Hybridomas (prod. mAb against SARS-CoV)
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:17 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "F26G19" xsd:string
+
+[Term]
+id: COVOC:0020011
+comment: Hybridomas (prod. mAb against SARS-CoV)
+xref: CVCL:XA76
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:18 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "N-176-15" xsd:string
+
+[Term]
+id: COVOC:0020012
+comment: Hybridomas (prod. mAb against SARS-CoV)
+xref: CVCL:XA77
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:19 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "S-9-11" xsd:string
+
+[Term]
+id: COVOC:0020013
+comment: Hybridomas (prod. mAb against SARS-CoV)
+xref: CVCL:YQ10
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:20 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-18" xsd:string
+
+[Term]
+id: COVOC:0020014
+comment: Hybridomas (prod. mAb against SARS-CoV)
+xref: CVCL:YQ13
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:21 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-21-2" xsd:string
+
+[Term]
+id: COVOC:0020015
+comment: Hybridomas (prod. mAb against SARS-CoV)
+xref: CVCL:YQ14
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:22 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-29" xsd:string
+
+[Term]
+id: COVOC:0020016
+comment: Hybridomas (prod. mAb against SARS-CoV)
+xref: CVCL:YQ11
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:23 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-122" xsd:string
+
+[Term]
+id: COVOC:0020017
+comment: Hybridomas (prod. mAb against SARS-CoV)
+xref: CVCL:YQ12
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:24 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-150" xsd:string
+
+[Term]
+id: COVOC:0030001
+comment: antiviral
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "3CLpro-1" xsd:string
+
+[Term]
+id: COVOC:0030002
+comment: Antibody
+xref: ATC:L04AB04
+xref: DB:00051
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Rheumatoid arthritis||Juvenile idiopathic arthritis||Ankylosing spondylitis||Psoriatic arthritis||Psoriasis||Hidradenitis suppurativa||Crohn’s disease||Ulcerative colitis | Uveitis" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_3" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Adalimumab" xsd:string
+
+[Term]
+id: COVOC:0030003
+comment: Antiretroviral
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HIV-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_7" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "ASC09" xsd:string
+
+[Term]
+id: COVOC:0030004
+comment: Small Molecule
+synonym: "RLF-100" EXACT []
+xref: DB:06260
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "SDRA (syndrome de détresse respiratoire aiguë)" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_10" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Aviptadil" xsd:string
+
+[Term]
+id: COVOC:0030005
+comment: Antiviral
+synonym: "RO-0622" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HIV-1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_12" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Azvudine" xsd:string
+
+[Term]
+id: COVOC:0030006
+comment: Antiviral
+synonym: "Xofluza" EXACT []
+xref: DB:13997
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "influenza A||influenza B" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_13" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Baloxavir marboxil" xsd:string
+
+[Term]
+id: COVOC:0030007
+comment: Small Molecule
+synonym: "Olumiant" EXACT []
+xref: ATC:L04AA37
+xref: DB:11817
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Severe active rheumatoid arthritis" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_14" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Baricitinib" xsd:string
+
+[Term]
+id: COVOC:0030008
+comment: Small Molecule
+synonym: "Pylera" EXACT []
+xref: DB:09275
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Peptic ulceration" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_16" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Bismuth potassium citrate" xsd:string
+
+[Term]
+id: COVOC:0030009
+comment: Antibody
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Hodgkin’s lymphoma||Nasopharyngeal carcinoma" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_18" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Camrelizumab" xsd:string
+
+[Term]
+id: COVOC:0030010
+comment: Antibiotic
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_19" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Carriomycin" xsd:string
+
+[Term]
+id: COVOC:0030011
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_20" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "CD24Fc" xsd:string
+
+[Term]
+id: COVOC:0030012
+comment: Antiretroviral
+synonym: "Ganovo" EXACT []
+xref: DB:11779
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "HCV" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_26" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Danoprevir" xsd:string
+
+[Term]
+id: COVOC:0030013
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_29" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Diammonium glycyrrhizinate" xsd:string
+
+[Term]
+id: COVOC:0030014
+comment: Antibody
+synonym: "Soliris" EXACT []
+xref: ATC:L04AA25
+xref: DB:01257
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "aHUS||PNH||Neuromyelitis Optica Spectrum Disorder" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_32" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Eculizumab" xsd:string
+
+[Term]
+id: COVOC:0030015
+comment: Antiviral
+synonym: "Immucillin A" EXACT []
+xref: DB:11676
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Ebola||Coronaviruses" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_37" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Galidesivir" xsd:string
+
+[Term]
+id: COVOC:0030016
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_42" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Inhaled gases" xsd:string
+
+[Term]
+id: COVOC:0030017
+comment: Interferon
+synonym: "IFN Alfacon-1" EXACT []
+synonym: "IFN-Con1" EXACT []
+synonym: "Infergen" EXACT []
+synonym: "Interferon alfacon-1" EXACT []
+xref: ATC:L03AB09
+xref: DB:00069
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_43" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Interferon alfacon-1" xsd:string
+
+[Term]
+id: COVOC:0030018
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_45" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Jakotinib hydrochloride" xsd:string
+
+[Term]
+id: COVOC:0030019
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_48" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "marijuana" xsd:string
+
+[Term]
+id: COVOC:0030020
+comment: Antibody
+synonym: "Nucala" EXACT []
+xref: ATC:R03DX09
+xref: DB:06612
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Eosinophilic asthma" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_49" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Mepolizumab" xsd:string
+
+[Term]
+id: COVOC:0030021
+comment: Corticosteroids
+synonym: "Depo-Medrol" EXACT []
+synonym: "Hybrisil" EXACT []
+synonym: "Medrol" EXACT []
+synonym: "Medroloan" EXACT []
+xref: DB:00959
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_51" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Methylprednisolone" xsd:string
+
+[Term]
+id: COVOC:0030022
+comment: Mesenchymal stem cell
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_54" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "MSCs" xsd:string
+
+[Term]
+id: COVOC:0030023
+comment: Mesenchymal stem cell
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_56" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NestCell" xsd:string
+
+[Term]
+id: COVOC:0030024
+comment: Antibody
+synonym: "PD-1" EXACT []
+synonym: "PD1" EXACT []
+synonym: "PD1 mAb" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_57" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "PD-1 mAb" xsd:string
+
+[Term]
+id: COVOC:0030025
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_60" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Polyinosinic-polycytidylic acid" xsd:string
+
+[Term]
+id: COVOC:0030026
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_63" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rhG-CSF" xsd:string
+
+[Term]
+id: COVOC:0030027
+comment: Antibody
+xref: ATC:L04AC14
+xref: DB:11767
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_69" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Sarilumab" xsd:string
+
+[Term]
+id: COVOC:0030028
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_74" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Thymosin" xsd:string
+
+[Term]
+id: COVOC:0030029
+comment: Antibody
+synonym: "Actemra" EXACT []
+synonym: "Atlizumab" EXACT []
+xref: ATC:L04AC07
+xref: DB:06273
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Rheumatoid arthritis||Systemic juvenile idiopathic arthritis||Juvenile idiopathic polyarthritis||Giant cell arteritis" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_76" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Tocilizumab" xsd:string
+
+[Term]
+id: COVOC:0030030
+comment: Antiviral
+property_value: http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease "Encephalitis virus" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_78" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Triazavirin" xsd:string
+
+[Term]
+id: COVOC:0030031
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_79" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "UC-MSCs" xsd:string
+
+[Term]
+id: COVOC:0050001
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_1" xsd:string
+
+[Term]
+id: COVOC:0050002
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_3" xsd:string
+
+[Term]
+id: COVOC:0050003
+xref: UMLS:C1524024
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_4" xsd:string
+
+[Term]
+id: COVOC:0050004
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_6" xsd:string
+
+[Term]
+id: COVOC:0050005
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_7" xsd:string
+
+[Term]
+id: COVOC:0050006
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_8" xsd:string
+
+[Term]
+id: COVOC:0050007
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_9" xsd:string
+
+[Term]
+id: COVOC:0050008
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_11" xsd:string
+
+[Term]
+id: COVOC:0050009
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_12" xsd:string
+
+[Term]
+id: COVOC:0050010
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_13" xsd:string
+
+[Term]
+id: COVOC:0050011
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_14" xsd:string
+
+[Term]
+id: COVOC:0050012
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_15" xsd:string
+
+[Term]
+id: COVOC:0050013
+xref: UMLS:C0993637
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_16" xsd:string
+
+[Term]
+id: COVOC:0050014
+xref: UMLS:C0011750
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_18" xsd:string
+
+[Term]
+id: COVOC:0050015
+xref: UMLS:C1704711
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_19" xsd:string
+
+[Term]
+id: COVOC:0050016
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_20" xsd:string
+
+[Term]
+id: COVOC:0050017
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_21" xsd:string
+
+[Term]
+id: COVOC:0050018
+xref: UMLS:C0220823
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_22" xsd:string
+
+[Term]
+id: COVOC:0050019
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_23" xsd:string
+
+[Term]
+id: COVOC:0050020
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_24" xsd:string
+
+[Term]
+id: COVOC:0050021
+xref: UMLS:C2607943
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_25" xsd:string
+
+[Term]
+id: COVOC:0050022
+xref: UMLS:C0815319
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_26" xsd:string
+
+[Term]
+id: COVOC:0050023
+xref: UMLS:C0017446
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_27" xsd:string
+
+[Term]
+id: COVOC:0050024
+xref: UMLS:C0220844
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_28" xsd:string
+
+[Term]
+id: COVOC:0050025
+xref: UMLS:C0282423
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_29" xsd:string
+
+[Term]
+id: COVOC:0050026
+xref: UMLS:C0162791
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_30" xsd:string
+
+[Term]
+id: COVOC:0050027
+xref: UMLS:C0220845
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_31" xsd:string
+
+[Term]
+id: COVOC:0050028
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_32" xsd:string
+
+[Term]
+id: COVOC:0050029
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_33" xsd:string
+
+[Term]
+id: COVOC:0050030
+xref: UMLS:C0018724
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_34" xsd:string
+
+[Term]
+id: COVOC:0050031
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_35" xsd:string
+
+[Term]
+id: COVOC:0050032
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_36" xsd:string
+
+[Term]
+id: COVOC:0050033
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_38" xsd:string
+
+[Term]
+id: COVOC:0050034
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_39" xsd:string
+
+[Term]
+id: COVOC:0050035
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_40" xsd:string
+
+[Term]
+id: COVOC:0050036
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_41" xsd:string
+
+[Term]
+id: COVOC:0050037
+xref: UMLS:C0220856
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_42" xsd:string
+
+[Term]
+id: COVOC:0050038
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_43" xsd:string
+
+[Term]
+id: COVOC:0050039
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_44" xsd:string
+
+[Term]
+id: COVOC:0050040
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_45" xsd:string
+
+[Term]
+id: COVOC:0050041
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_46" xsd:string
+
+[Term]
+id: COVOC:0050042
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_47" xsd:string
+
+[Term]
+id: COVOC:0050043
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_48" xsd:string
+
+[Term]
+id: COVOC:0050044
+xref: UMLS:C0876936
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_49" xsd:string
+
+[Term]
+id: COVOC:0050045
+xref: UMLS:C0025106
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_50" xsd:string
+
+[Term]
+id: COVOC:0050046
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_52" xsd:string
+
+[Term]
+id: COVOC:0050047
+xref: UMLS:C1615608
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_54" xsd:string
+
+[Term]
+id: COVOC:0050048
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_55" xsd:string
+
+[Term]
+id: COVOC:0050049
+xref: UMLS:C0031166
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_56" xsd:string
+
+[Term]
+id: COVOC:0050050
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_57" xsd:string
+
+[Term]
+id: COVOC:0050051
+xref: UMLS:C0031843
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_58" xsd:string
+
+[Term]
+id: COVOC:0050052
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_61" xsd:string
+
+[Term]
+id: COVOC:0050053
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_62" xsd:string
+
+[Term]
+id: COVOC:0050054
+xref: UMLS:C0033105
+xref: UMLS:C0220900
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_63" xsd:string
+
+[Term]
+id: COVOC:0050055
+xref: UMLS:C2700409
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_64" xsd:string
+
+[Term]
+id: COVOC:0050056
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_65" xsd:string
+
+[Term]
+id: COVOC:0050057
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_66" xsd:string
+
+[Term]
+id: COVOC:0050058
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_67" xsd:string
+
+[Term]
+id: COVOC:0050059
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_68" xsd:string
+
+[Term]
+id: COVOC:0050060
+xref: UMLS:C0035173
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_69" xsd:string
+
+[Term]
+id: COVOC:0050061
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_71" xsd:string
+
+[Term]
+id: COVOC:0050062
+xref: UMLS:C0036667
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_72" xsd:string
+
+[Term]
+id: COVOC:0050063
+synonym: "social distancing" EXACT []
+xref: UMLS:C0037412
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_75||CE_76" xsd:string
+
+[Term]
+id: COVOC:0050064
+xref: UMLS:C0037791
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_77" xsd:string
+
+[Term]
+id: COVOC:0050065
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_78" xsd:string
+
+[Term]
+id: COVOC:0050066
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_79" xsd:string
+
+[Term]
+id: COVOC:0050067
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_81" xsd:string
+
+[Term]
+id: COVOC:0050068
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_82" xsd:string
+
+[Term]
+id: COVOC:0050069
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_83" xsd:string
+
+[Term]
+id: COVOC:0050070
+xref: UMLS:C0220920
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_84" xsd:string
+
+[Term]
+id: COVOC:0050071
+xref: UMLS:C0040802
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_85" xsd:string
+
+[Term]
+id: COVOC:0050072
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_86" xsd:string
+
+[Term]
+id: COVOC:0050073
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_87" xsd:string
+
+[Term]
+id: COVOC:0050074
+xref: UMLS:C0242856
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_88" xsd:string
+
+[Term]
+id: COVOC:0050075
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_90" xsd:string
+
+[Term]
+id: COVOC:0050076
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_91" xsd:string
+
+[Term]
+id: COVOC:0050077
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_92" xsd:string
+
+[Term]
+id: COVOC:0070001
+synonym: "Wubei" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_15" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Wu Bei" xsd:string
+
+[Term]
+id: COVOC:0090001
+comment: Gene or Genome
+synonym: "CD209L" RELATED []
+xref: HGNC:13523
+xref: UMLS:C1539099
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_7" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "CLEC4M gene" xsd:string
+
+[Term]
+id: COVOC:0090002
+comment: Gene or Genome
+xref: UMLS:C1414141
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_10" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "DPP4 gene" xsd:string
+
+[Term]
+id: COVOC:0090003
+synonym: "pp1a" RELATED []
+xref: UniProt:P0C6F5
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_23" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "replicase polyprotein 1a (BtCoV)" xsd:string
+
+[Term]
+id: COVOC:0090004
+synonym: "pp1ab" RELATED []
+xref: UniProt:P0C6V9
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_25" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "replicase polyprotein 1ab (BtCoV)" xsd:string
+
+[Term]
+id: COVOC:0090005
+synonym: "S glycoprotein" BROAD []
+synonym: "SARS-CoV-2 RBD" NARROW []
+xref: UniProt:Q0Q475
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_30" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Spike glycoprotein (BtCoV)" xsd:string
+
+[Term]
+id: EFO:0000264
+synonym: "Ab" RELATED []
+synonym: "Abs" RELATED []
+synonym: "antibodies" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_3" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "antibody " xsd:string
+
+[Term]
+id: EFO:0000532
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_37" xsd:string
+
+[Term]
+id: EFO:0000544
+synonym: "infections" EXACT []
+xref: OBI:1110021
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_37||BMV_77" xsd:string
+
+[Term]
+id: EFO:0000643
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_104" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "pathogen" xsd:string
+
+[Term]
+id: EFO:0001184
+comment: Successfully used to grow SARS-CoV-2
+synonym: "293T " EXACT []
+xref: CVCL:0063
+xref: DOI:10.1101/2020.03.02.972935
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:4 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "HEK293T" xsd:string
+
+[Term]
+id: EFO:0001426
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_80" xsd:string
+
+[Term]
+id: EFO:0001461
+xref: UMLS:C0243148
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_10" xsd:string
+
+[Term]
+id: EFO:0002571
+comment: Therapeutic or Preventive Procedure
+xref: UMLS:C0184661
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_112" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Procedures" xsd:string
+
+[Term]
+id: EFO:0003765
+synonym: "clinical characteristic" NARROW []
+synonym: "clinical characteristics" NARROW []
+synonym: "clinical sign" NARROW []
+synonym: "clinical signs" NARROW []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_24||BMV_28||BMV_29" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "clinical characteristic" xsd:string
+
+[Term]
+id: EFO:0003919
+xref: UMLS:C0035648
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_70" xsd:string
+
+[Term]
+id: EFO:0004014
+comment: Cell or Molecular Dysfunction
+xref: UMLS:C1511760
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_38" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Deletion Mutation" xsd:string
+
+[Term]
+id: EFO:0004292
+comment: Therapeutic or Preventive Procedure
+xref: UMLS:C0042196
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_154" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Vaccination" xsd:string
+
+[Term]
+id: EFO:0004847
+synonym: "age of onset" EXACT []
+xref: UMLS:C0206132
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_2" xsd:string
+
+[Term]
+id: EFO:0005384
+comment: Successfully used to grow SARS-CoV-2
+xref: CVCL:0036
+xref: DOI:10.1101/2020.03.02.972935
+xref: PMID:31978945
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id CL:5 xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Huh-7" xsd:string
+
+[Term]
+id: EFO:0009641
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_40" xsd:string
+
+[Term]
+id: EFO:0009715
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_71" xsd:string
+
+[Term]
+id: EFO:0009727
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_74" xsd:string
+
+[Term]
+id: EFO:0010064
+comment: Therapeutic or Preventive Procedure
+xref: UMLS:C0013216
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_109" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Pharmacotherapy" xsd:string
+
+[Term]
+id: EFO:0010192
+comment: Nucleic Acid, Nucleoside, or Nucleotide
+synonym: "primers" EXACT []
+xref: UMLS:C0206415
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_100" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_111" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Oligonucleotide Primers" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "primer" xsd:string
+
+[Term]
+id: EFO:0010716
+xref: UMLS:C0275524
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_15" xsd:string
+
+[Term]
+id: EFO:0010717
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_4" xsd:string
+
+[Term]
+id: GO:0002250
+synonym: "antibody response" NARROW []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_4" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "antibody response" xsd:string
+
+[Term]
+id: GO:0002524
+comment: Pathologic Function
+xref: UMLS:C0020517
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_65" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Hypersensitivity" xsd:string
+
+[Term]
+id: GO:0003674
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_92" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "molecular mechanisms" xsd:string
+
+[Term]
+id: GO:0005730
+comment: Cell Component
+xref: UMLS:C0007609
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_22||BMV_99" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "nucleolus" xsd:string
+
+[Term]
+id: GO:0006260
+comment: Genetic Function
+xref: UMLS:C0598312
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_41" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "DNA Replication" xsd:string
+
+[Term]
+id: GO:0006310
+comment: Genetic Function
+synonym: "recombination" BROAD []
+xref: UMLS:C0034865
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_119" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_53" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Genetic Recombination" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "recombination" xsd:string
+
+[Term]
+id: GO:0006412
+comment: Molecular Function
+synonym: "protein expression" RELATED []
+xref: UMLS:C0597295
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_114" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_115" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Protein Biosynthesis" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "protein expression" xsd:string
+
+[Term]
+id: GO:0006810
+comment: Cell Function
+xref: UMLS:C0005528
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_16" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Biological Transport" xsd:string
+
+[Term]
+id: GO:0006914
+comment: Cell Function
+xref: UMLS:C0004391
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_11" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Autophagy" xsd:string
+
+[Term]
+id: GO:0006915
+comment: Cell Function
+xref: UMLS:C0162638
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_8" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Apoptosis" xsd:string
+
+[Term]
+id: GO:0006955
+synonym: "immunity" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_67||BMV_69" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "immune response" xsd:string
+
+[Term]
+id: GO:0008150
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_106" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "pathway" xsd:string
+
+[Term]
+id: GO:0008219
+comment: Cell Function
+xref: UMLS:C0007587
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_20" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Cell Death" xsd:string
+
+[Term]
+id: GO:0009058
+comment: Biologic Function
+xref: UMLS:C0220781
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_2" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Anabolism" xsd:string
+
+[Term]
+id: GO:0009405
+comment: Biologic Function
+comment: Organism Attribute
+synonym: "pathogenicity" RELATED []
+xref: UMLS:C0042765
+xref: UMLS:C1136169
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_105" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_160" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "pathogenicity" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Virulence" xsd:string
+
+[Term]
+id: GO:0010467
+comment: Genetic Function
+xref: UMLS:C0017262
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_49" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Gene Expression" xsd:string
+
+[Term]
+id: GO:0016246
+comment: Genetic Function
+xref: UMLS:C1136031
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_127" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "RNA Interference" xsd:string
+
+[Term]
+id: GO:0016310
+comment: Molecular Function
+xref: UMLS:C0031715
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_110" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Phosphorylation" xsd:string
+
+[Term]
+id: GO:0019013
+comment: Nucleic Acid, Nucleoside, or Nucleotide
+xref: UMLS:C0035736
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_159" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Viral RNA" xsd:string
+
+[Term]
+id: GO:0019079
+comment: Cell Function
+xref: UMLS:C0042774
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_162" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Virus Replication" xsd:string
+
+[Term]
+id: GO:0030154
+comment: Cell Function
+xref: UMLS:C0007589
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_21" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Cell Differentiation process" xsd:string
+
+[Term]
+id: GO:0043657
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_64" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "host cell" xsd:string
+
+[Term]
+id: GO:0046718
+comment: Biologic Function
+xref: UMLS:C1537068
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_158" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_161" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "viral entry" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Virus Internalization" xsd:string
+
+[Term]
+id: GO:0061025
+comment: Molecular Function
+xref: UMLS:C0025246
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_90" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Membrane Fusion" xsd:string
+
+[Term]
+id: GO:0097659
+comment: Genetic Function
+xref: UMLS:C0040649
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_55" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Genetic Transcription" xsd:string
+
+[Term]
+id: HP:0000822
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_36" xsd:string
+
+[Term]
+id: HP:0000969
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_26" xsd:string
+
+[Term]
+id: HP:0000988
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_51" xsd:string
+
+[Term]
+id: HP:0000989
+synonym: "itchy skin |pruritus" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_49" xsd:string
+
+[Term]
+id: HP:0001025
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_64" xsd:string
+
+[Term]
+id: HP:0001649
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_62" xsd:string
+
+[Term]
+id: HP:0001742
+synonym: "nasal congestion" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_17" xsd:string
+
+[Term]
+id: HP:0001945
+synonym: "febrile" EXACT []
+synonym: "feverish" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_30||DIS_31" xsd:string
+
+[Term]
+id: HP:0002013
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_69" xsd:string
+
+[Term]
+id: HP:0002014
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_22" xsd:string
+
+[Term]
+id: HP:0002017
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_45" xsd:string
+
+[Term]
+id: HP:0002018
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_44" xsd:string
+
+[Term]
+id: HP:0002027
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_1" xsd:string
+
+[Term]
+id: HP:0002094
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_25" xsd:string
+
+[Term]
+id: HP:0002789
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_63" xsd:string
+
+[Term]
+id: HP:0003077
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_35" xsd:string
+
+[Term]
+id: HP:0003326
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_43" xsd:string
+
+[Term]
+id: HP:0012378
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_29" xsd:string
+
+[Term]
+id: HP:0012531
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_47" xsd:string
+
+[Term]
+id: HP:0012735
+synonym: "coughing" EXACT []
+xref: UMLS:C0010200
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_19" xsd:string
+
+[Term]
+id: HP:0025143
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_12" xsd:string
+
+[Term]
+id: HP:0025406
+synonym: "weakness" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_70" xsd:string
+
+[Term]
+id: HP:0030830
+synonym: "crackles" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_50" xsd:string
+
+[Term]
+id: HP:0031246
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_24" xsd:string
+
+[Term]
+id: HP:0031417
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_56" xsd:string
+
+[Term]
+id: HP:0032016
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_60" xsd:string
+
+[Term]
+id: HP:0033006
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_23" xsd:string
+
+[Term]
+id: HP:0100749
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_11" xsd:string
+
+[Term]
+id: HP:0100806
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_57" xsd:string
+
+[Term]
+id: Hong:Kong
+xref: UMLS:C0019907
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_5" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Honk Kong" xsd:string
+
+[Term]
+id: IDO:0000503
+synonym: "global pandemic" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_58" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "global pandemic" xsd:string
+
+[Term]
+id: IDO:0000519
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_75" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "incubation period" xsd:string
+
+[Term]
+id: MAXO:0000609
+synonym: "serology" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_136" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "serological test" xsd:string
+
+[Term]
+id: MAXO:0000614
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_72" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "immunofluorescence test" xsd:string
+
+[Term]
+id: MAXO:0001001
+comment: Therapeutic or Preventive Procedure
+xref: UMLS:C0017296
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_50" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Gene therapy" xsd:string
+
+[Term]
+id: MONDO:0002050
+synonym: "depression" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_20" xsd:string
+
+[Term]
+id: MONDO:0002258
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_59" xsd:string
+
+[Term]
+id: MONDO:0002280
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_7" xsd:string
+
+[Term]
+id: MONDO:0004979
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_9" xsd:string
+
+[Term]
+id: MONDO:0004995
+synonym: "cardiac complication" EXACT []
+synonym: "cardiac complications" EXACT []
+synonym: "heart impact" EXACT []
+synonym: "heart impacts" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_10||DIS_34" xsd:string
+
+[Term]
+id: MONDO:0005002
+synonym: "copd" EXACT []
+xref: UMLS:C0024117
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_13||DIS_14" xsd:string
+
+[Term]
+id: MONDO:0005015
+synonym: "diabete" EXACT []
+synonym: "diabetes" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_21" xsd:string
+
+[Term]
+id: MONDO:0005087
+synonym: "respiratory diseases" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_52" xsd:string
+
+[Term]
+id: MONDO:0005091
+synonym: "SARS" EXACT []
+xref: UMLS:C1175175
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_58" xsd:string
+
+[Term]
+id: MONDO:0005108
+synonym: "viral illness" EXACT []
+synonym: "viral infections" EXACT []
+synonym: "virus disease" EXACT []
+synonym: "virus diseases" EXACT []
+synonym: "virus infections" EXACT []
+xref: UMLS:C0042769
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_65||DIS_67||DIS_68" xsd:string
+
+[Term]
+id: MONDO:0005249
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_48" xsd:string
+
+[Term]
+id: MONDO:0005550
+synonym: "communicable disease" EXACT []
+synonym: "communicable diseases" EXACT []
+synonym: "emerging communicable disease" NARROW []
+synonym: "emerging infectious disease" NARROW []
+synonym: "infectious diseases" EXACT []
+synonym: "transmissible disease" EXACT []
+xref: UMLS:C0872315
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_16||DIS_27||DIS_28||DIS_38" xsd:string
+
+[Term]
+id: MONDO:0005618
+synonym: "anxiety" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_8" xsd:string
+
+[Term]
+id: MONDO:0005719
+synonym: "coronavirus infections" EXACT []
+xref: UMLS:C0206750
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_18" xsd:string
+
+[Term]
+id: MONDO:0005812
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_39" xsd:string
+
+[Term]
+id: MONDO:0006502
+synonym: "ARDS" EXACT []
+synonym: "respiratory distress" EXACT []
+xref: UMLS:C0035222
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_3" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_53" xsd:string
+
+[Term]
+id: MONDO:0007186
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_32" xsd:string
+
+[Term]
+id: MONDO:0021146
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_33" xsd:string
+
+[Term]
+id: MONDO:0024352
+synonym: "viral respiratory infections" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_66" xsd:string
+
+[Term]
+id: MONDO:0024355
+synonym: "respiratory infection" EXACT []
+synonym: "respiratory infections" EXACT []
+synonym: "respiratory tract infections" EXACT []
+xref: UMLS:C0035243
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_54||DIS_55" xsd:string
+
+[Term]
+id: MONDO:0025481
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_165" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "zoonosis" xsd:string
+
+[Term]
+id: MONDO:0100053
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_6" xsd:string
+
+[Term]
+id: MONDO:0100096
+synonym: "ncp" NARROW []
+synonym: "novel coronavirus pneumonia" NARROW []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_46" xsd:string
+
+[Term]
+id: MONDO:0100116
+synonym: "MERS" EXACT []
+synonym: "mers-cov infection" EXACT []
+xref: UMLS:C3694279
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_41||DIS_42" xsd:string
+
+[Term]
+id: MONDO:0100120
+synonym: "vector-borne" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_157" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "vector-borne" xsd:string
+
+[Term]
+id: Middle:East
+xref: UMLS:C0026068
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_8" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Middle East" xsd:string
+
+[Term]
 id: NCBITaxon:10239
-synonym: "Vira" EXACT []
-synonym: "Viridae" EXACT []
 synonym: "virus" EXACT []
-synonym: "viruses" EXACT []
+xref: UMLS:C0521026
 is_a: COVOC:00000000 ! COVOC Term
-property_value: prefLabel "Viruses" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_163" xsd:string
 
 [Term]
 id: NCBITaxon:11118
-synonym: "Coronaviridae" EXACT []
+comment: Virus
 synonym: "coronaviruses" EXACT []
 synonym: "cov" EXACT []
 synonym: "covs" EXACT []
+synonym: "hcov" NARROW []
+synonym: "human coronavirus" NARROW []
 xref: UMLS:C0206419
-property_value: hasAlternativeID SP:5 xsd:string
-property_value: prefLabel "Coronavirus" xsd:string
+xref: UMLS:C0206422
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_5||SP_12||BMV_34" xsd:string
+
+[Term]
+id: NCBITaxon:11250
+comment: Virus
+synonym: "respiratory virus" BROAD []
+synonym: "respiratory viruses" BROAD []
+xref: UMLS:C0597404
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_19" xsd:string
+
+[Term]
+id: NCBITaxon:11308
+synonym: "Alphainfluenzavirus" NARROW []
+synonym: "Betainfluenzavirus" NARROW []
+synonym: "Deltainfluenzavirus" NARROW []
+synonym: "Gammainfluenzavirus" NARROW []
+synonym: "Influenza A virus" NARROW []
+synonym: "Influenza B virus" NARROW []
+synonym: "Influenza C virus" NARROW []
+synonym: "Influenza D virus" NARROW []
+synonym: "influenza virus" NARROW []
+synonym: "Influenzavirus A" NARROW []
+synonym: "Influenzavirus B" NARROW []
+synonym: "Influenzavirus C" NARROW []
+synonym: "Influenzavirus D" NARROW []
+synonym: "influenzvirus" NARROW []
+xref: UMLS:C4316910
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_13" xsd:string
 
 [Term]
 id: NCBITaxon:1335626
-synonym: "MERS" EXACT []
+comment: Virus
 synonym: "MERS Coronavirus" EXACT []
-synonym: "MERS virus" EXACT []
 synonym: "Middle East Respiratory Syndrome Coronavirus" EXACT []
-synonym: "Middle East Respiratory Syndrome Coronavirus (MERS-CoV)" EXACT []
 xref: UMLS:C3698360
-property_value: hasAlternativeID SP:15 xsd:string
-property_value: prefLabel "MERS-CoV" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_15" xsd:string
+
+[Term]
+id: NCBITaxon:1479610
+comment: Virus
+synonym: "camel coronavirus HKU23" EXACT []
+xref: PMID:31534035
+xref: UMLS:C4168815
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_10" xsd:string
 
 [Term]
 id: NCBITaxon:196889
-synonym: "Big-eared horseshoe bat" EXACT []
-synonym: "Horseshoe bats" EXACT []
+comment: Mammal
+synonym: "big-eared horseshoe bat" EXACT []
+synonym: "horseshoe bats" EXACT []
 synonym: "Rhinolophus" EXACT []
 xref: PMID:32020836
 xref: UMLS:C1218105
-property_value: hasAlternativeID SP:20 xsd:string
-property_value: prefLabel "Rhinolophus macrotis" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_20" xsd:string
+
+[Term]
+id: NCBITaxon:2559587
+synonym: "RNA virus" EXACT []
+synonym: "rnvirus" EXACT []
+synonym: "rnviruses" EXACT []
+xref: UMLS:C0035691
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_130||BMV_131||BMV_132||BMV_133" xsd:string
 
 [Term]
 id: NCBITaxon:2697049
 synonym: "2019-nCoV" EXACT []
+synonym: "novel coronavirus" NARROW []
 synonym: "SARS-CoV-2" EXACT []
-synonym: "SARS-CoV2" EXACT []
 synonym: "Severe Acute Respiratory Syndrome Coronavirus 2" EXACT []
-property_value: hasAlternativeID SP:6 xsd:string
-property_value: prefLabel "COVID-19" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_6||SP_16" xsd:string
 
 [Term]
 id: NCBITaxon:290028
-synonym: "CoV-HKU1" EXACT []
-synonym: "HCoV-HKU1" EXACT []
-synonym: "Human coronavirus HKU1" EXACT []
-synonym: "Human CoV/HKU1" EXACT []
+comment: Virus
+synonym: "human coronavirus HKU1" EXACT []
+xref: https://allenai.org/data/cord-19
 xref: UMLS:C1676985
-property_value: hasAlternativeID SP:9 xsd:string
-property_value: prefLabel "HKU1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_9" xsd:string
 
 [Term]
 id: NCBITaxon:31631
-synonym: "HCoV-OC43" EXACT []
-synonym: "Human coronavirus (strain OC43)" EXACT []
-synonym: "Human coronavirus OC43" EXACT []
-synonym: "Human coronavirus strain OC43" EXACT []
+comment: Virus
+synonym: "human coronavirus OC43" EXACT []
 xref: UMLS:C0949881
-property_value: hasAlternativeID SP:17 xsd:string
-property_value: prefLabel "OC43" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_17" xsd:string
+
+[Term]
+id: NCBITaxon:39733
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_9" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "astrovirus" xsd:string
 
 [Term]
 id: NCBITaxon:40674
 synonym: "mammal" EXACT []
-synonym: "mammals" EXACT []
 is_a: COVOC:00000000 ! COVOC Term
-property_value: prefLabel "Mammalia" xsd:string
 
 [Term]
 id: NCBITaxon:694002
-synonym: "Coronavirus group 2" EXACT []
-synonym: "Group 2 species" EXACT []
+comment: Virus
 xref: UMLS:C2806453
-property_value: hasAlternativeID SP:1 xsd:string
-property_value: prefLabel "Betacoronavirus" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_1" xsd:string
 
 [Term]
 id: NCBITaxon:694009
-synonym: "HCoV-SARS" EXACT []
-synonym: "Human coronavirus (strain SARS)" EXACT []
-synonym: "SARS" EXACT []
+comment: Virus
 synonym: "SARS coronavirus" EXACT []
-synonym: "SARS virus" EXACT []
-synonym: "SARS-like coronavirus" EXACT []
-synonym: "SARS-related coronavirus" EXACT []
-synonym: "SARSr-CoV" EXACT []
 synonym: "Severe acute respiratory distress syndrome coronavirus" EXACT []
-synonym: "Severe acute respiratory syndrome coronavirus" EXACT []
 xref: UMLS:C1175743
-property_value: hasAlternativeID SP:21 xsd:string
-property_value: prefLabel "SARS-CoV" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_21" xsd:string
 
 [Term]
 id: NCBITaxon:9397
+comment: Mammal
 synonym: "bat" EXACT []
 synonym: "bats" EXACT []
+xref: https://allenai.org/data/cord-19
 xref: UMLS:C0008139
-property_value: hasAlternativeID SP:4 xsd:string
-property_value: prefLabel "Chiroptera" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_4" xsd:string
 
 [Term]
 id: NCBITaxon:9606
-synonym: "Human" EXACT []
-synonym: "man" EXACT []
+comment: Human
+synonym: "human" EXACT []
 xref: UMLS:C0086418
-property_value: hasAlternativeID SP:11 xsd:string
-property_value: prefLabel "Homo sapiens" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_11" xsd:string
+
+[Term]
+id: NCBITaxon:9615
+comment: Mammal
+xref: UMLS:C1510418
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_7" xsd:string
 
 [Term]
 id: NCBITaxon:9675
-synonym: "Masked palm civet" EXACT []
-synonym: "Palm civet" EXACT []
+comment: Mammal
+synonym: "masked palm civet" EXACT []
+synonym: "palm civet" EXACT []
 synonym: "palm civets" EXACT []
 synonym: "Paradoxurus hermaphroditus" EXACT []
 xref: UMLS:C0325072
-property_value: hasAlternativeID SP:18 xsd:string
-property_value: prefLabel "Paguma larvata" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_18" xsd:string
 
 [Term]
 id: NCBITaxon:9836
+comment: Mammal
 synonym: "camels" EXACT []
 xref: UMLS:C0006801
-property_value: hasAlternativeID SP:2 xsd:string
-property_value: prefLabel "Camel" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_2" xsd:string
 
 [Term]
 id: NCBITaxon:9838
-synonym: "Arabian camel" EXACT []
-synonym: "camel" EXACT []
+comment: Mammal
 synonym: "dromaderies" EXACT []
-synonym: "dromedaries" EXACT []
 synonym: "dromedary" EXACT []
 synonym: "dromedary camel" EXACT []
-synonym: "one-humped camel" EXACT []
+synonym: "dromedary camels" EXACT []
 xref: PMID:31534035
 xref: UMLS:C0013127
-property_value: hasAlternativeID SP:3 xsd:string
-property_value: prefLabel "Camelus dromedarius" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_3||SP_8" xsd:string
 
 [Term]
 id: NCBITaxon:9972
+comment: Mammal
 synonym: "pangolin" EXACT []
 synonym: "pangolins" EXACT []
-synonym: "scaly anteaters" EXACT []
 xref: UMLS:C0999626
-property_value: hasAlternativeID SP:14 xsd:string
-property_value: prefLabel "Manidae" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_14" xsd:string
+
+[Term]
+id: NCIT:C102527
+comment: Gene or Genome
+xref: UMLS:C1422064
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_2" xsd:string
+
+[Term]
+id: NCIT:C13189
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_47" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "epitope" xsd:string
+
+[Term]
+id: NCIT:C13195
+synonym: "BALF" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_18" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "bronchoalveolar lavage fluid" xsd:string
+
+[Term]
+id: NCIT:C13292
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_101" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "orf" xsd:string
+
+[Term]
+id: NCIT:C13299
+comment: Nucleotide Sequence
+xref: UMLS:C0162326
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_42" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "DNA Sequence" xsd:string
+
+[Term]
+id: NCIT:C135091
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_61" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "PUL-042 Inhalation Solution" xsd:string
+
+[Term]
+id: NCIT:C13720
+comment: Amino Acid, Peptide, or Protein,Biologically Active Substance
+xref: UMLS:C1522002
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_128" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "RNA Recognition Motif" xsd:string
+
+[Term]
+id: NCIT:C15206
+comment: Research Activity
+xref: UMLS:C0008972
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_30" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Clinical Study" xsd:string
+
+[Term]
+id: NCIT:C15220
+comment: Diagnostic Procedure
+xref: UMLS:C0011900
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_39" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "diagnosis" xsd:string
+
+[Term]
+id: NCIT:C15258
+comment: Therapeutic or Preventive Procedure
+xref: UMLS:C0020971
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_70" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Immunization" xsd:string
+
+[Term]
+id: NCIT:C15320
+comment: Research Activity
+xref: UMLS:C0035171
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_123" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Research Design" xsd:string
+
+[Term]
+id: NCIT:C15429
+comment: Research Activity
+synonym: "research activities" EXACT []
+xref: C0035168
+xref: UMLS:C0242481
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_121||BMV_122" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Research Activities" xsd:string
+
+[Term]
+id: NCIT:C155831
+synonym: "nasopharyngeal swab" RELATED []
+synonym: "nasopharyngeal swabs" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_97" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "nasopharyngeal swabs" xsd:string
+
+[Term]
+id: NCIT:C15783
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_25" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "clinical data" xsd:string
+
+[Term]
+id: NCIT:C16006
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_156" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "vaccine design" xsd:string
+
+[Term]
+id: NCIT:C16556
+comment: Biomedical Occupation or Discipline
+xref: UMLS:C0014507
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_46" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Epidemiology" xsd:string
+
+[Term]
+id: NCIT:C16612
+synonym: "genes" EXACT []
+xref: UMLS:C0017337
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_51" xsd:string
+
+[Term]
+id: NCIT:C16960
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_107" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "patient" xsd:string
+
+[Term]
+id: NCIT:C17039
+comment: Biomedical Occupation or Discipline
+xref: UMLS:C0034019
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_116" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Public Health" xsd:string
+
+[Term]
+id: NCIT:C17105
+synonym: "rdr" RELATED []
+synonym: "rdrp" RELATED []
+synonym: "RNA replicase" BROAD []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_26" xsd:string
+
+[Term]
+id: NCIT:C17214
+comment: Pathologic Function
+xref: UMLS:C0242781
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_40" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "disease transmission" xsd:string
+
+[Term]
+id: NCIT:C17248
+comment: Natural Phenomenon or Process
+synonym: "Genetic Diversity" EXACT []
+xref: UMLS:C0042333
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_52" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Genetic Diversity" xsd:string
+
+[Term]
+id: NCIT:C17565
+comment: Laboratory Procedure,Molecular Biology Research Technique
+xref: UMLS:C0162801
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_135" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Sequence Analysis" xsd:string
+
+[Term]
+id: NCIT:C17712
+comment: Pathologic Function
+xref: UMLS:C0020963
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_68" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Immune Tolerance" xsd:string
+
+[Term]
+id: NCIT:C17898
+comment: Amino Acid, Peptide, or Protein,Immunologic Factor
+synonym: "cross-neutralizing antibody" NARROW []
+synonym: "neutralizing antibody" EXACT []
+xref: UMLS:C0475463
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_36" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_17" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "cross-neutralizing antibody" xsd:string
+
+[Term]
+id: NCIT:C18190
+comment: Biomedical Occupation or Discipline
+xref: UMLS:C0677043
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_61" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "histopathology" xsd:string
+
+[Term]
+id: NCIT:C18473
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_126" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "RNA analysis" xsd:string
+
+[Term]
+id: NCIT:C20401
+comment: Amino Acid, Peptide, or Protein,Immunologic Factor
+xref: UMLS:C0003250
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_16" xsd:string
+
+[Term]
+id: NCIT:C20464
+comment: Amino Acid, Peptide, or Protein,Immunologic Factor
+synonym: "cytokine" EXACT []
+xref: UMLS:C0079189
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_8" xsd:string
+
+[Term]
+id: NCIT:C20493
+synonym: "ifn" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_13" xsd:string
+
+[Term]
+id: NCIT:C21130
+comment: Finding
+xref: UMLS:C0013220
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_43" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Drug Tolerance" xsd:string
+
+[Term]
+id: NCIT:C24871
+synonym: "PRSS10" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_32" xsd:string
+
+[Term]
+id: NCIT:C25179
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_63" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "hospitalization" xsd:string
+
+[Term]
+id: NCIT:C25364
+comment: Functional Concept
+xref: UMLS:C0683368
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_141" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "id" xsd:string
+
+[Term]
+id: NCIT:C26028
+synonym: "clinical experimental vaccine research" NARROW []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_26" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "clinical experimental vaccine research" xsd:string
+
+[Term]
+id: NCIT:C26170
+comment: Pharmacologic Substance
+xref: UMLS:C0033613
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_113" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Protective Agents" xsd:string
+
+[Term]
+id: NCIT:C38103
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_23" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "chest radiography" xsd:string
+
+[Term]
+id: NCIT:C3833
+synonym: "asymptomatical" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_10" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "asymptomatic" xsd:string
+
+[Term]
+id: NCIT:C48938
+comment: Laboratory Procedure
+xref: UMLS:C0007584
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_19" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Cell Count" xsd:string
+
+[Term]
+id: NCIT:C49146
+xref: [Amino AUMLS:Cid\, Peptide\, or Protein\,ImmunologiUMLS\:C FaUMLS\:Ctor\,PharmaUMLS\:CologiUMLS\:C SubstanUMLS\:Ce]
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Adenovirus Vaccine" xsd:string
+
+[Term]
+id: NCIT:C62648
+comment: Disease/Finding
+synonym: "emergencies" EXACT []
+xref: UMLS:C2745965
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_44" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Emergencies" xsd:string
+
+[Term]
+id: NCIT:C68768
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_33" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "contamination" xsd:string
+
+[Term]
+id: NCIT:C68780
+comment: Functional Concept
+xref: UMLS:C0243114
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_117" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "purification" xsd:string
+
+[Term]
+id: NCIT:C89252
+comment: Nucleotide Sequence
+xref: UMLS:C0162327
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_129" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "RNA Sequence" xsd:string
+
+[Term]
+id: NCIT:C923
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_155" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "vaccine" xsd:string
+
+[Term]
+id: NCIT:C95533
+synonym: "cross-neutralization" NARROW []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_35" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "cross-neutralization" xsd:string
+
+[Term]
+id: OBI:0000070
+comment: Laboratory Procedure
+synonym: "Biological Assay" NARROW []
+xref: UMLS:C0005507
+xref: UMLS:C0243073
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_15" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_5" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Biological Assay" xsd:string
+
+[Term]
+id: OBI:0000181
+synonym: "Population Group" EXACT []
+xref: C1257890
+xref: UMLS:C0032659
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_59||CE_60" xsd:string
+
+[Term]
+id: OBI:0000552
+comment: Molecular Biology Research Technique
+xref: UMLS:C0599161
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_125" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Reverse Transcriptase Polymerase Chain Reaction" xsd:string
+
+[Term]
+id: OBI:0000661
+comment: Laboratory Procedure
+xref: UMLS:C0014441
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_45" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Enzyme-Linked Immunosorbent Assay" xsd:string
+
+[Term]
+id: OMIT:0002855
+comment: Nucleotide Sequence
+xref: UMLS:C0004793
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_14" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Base Sequence" xsd:string
+
+[Term]
+id: OMIT:0013538
+comment: Genetic Function
+synonym: "Genetic Selection" EXACT []
+xref: UMLS:C0036576
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_54" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Genetic Selection" xsd:string
+
+[Term]
+id: OMIT:0015767
+comment: Biomedical Occupation or Discipline
+xref: UMLS:C1456573
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_57" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Global Health" xsd:string
+
+[Term]
+id: OMIT:0015957
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_71" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "immunoblotting" xsd:string
+
+[Term]
+id: OMIT:0019104
+synonym: "B-cell epitope" EXACT []
+synonym: "B-cell epitopes" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_13" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "B-cell epitopes" xsd:string
+
+[Term]
+id: PATO:0000047
+xref: UMLS:C1522384
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_73" xsd:string
+
+[Term]
+id: PATO:0000169
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_89" xsd:string
+
+[Term]
+id: PATO:0000384
+synonym: "man" NARROW []
+synonym: "men" NARROW []
+xref: UMLS:C0025266
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_51" xsd:string
+
+[Term]
+id: PATO:0001422
+xref: UMLS:C0011065
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_17" xsd:string
+
+[Term]
+id: PR:000001341
+comment: Amino Acid, Peptide, or Protein,Enzyme
+synonym: "CD26" RELATED []
+synonym: "receptor to MERS-CoV" RELATED []
+xref: UMLS:C1447020
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_9" xsd:string
+
+[Term]
+id: PR:000001471
+comment: Amino Acid, Peptide, or Protein,Immunologic Factor
+synonym: "il-10" RELATED []
+xref: UMLS:C0085295
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_14" xsd:string
+
+[Term]
+id: PR:000018931
+comment: Amino Acid, Peptide, or Protein,Biologically Active Substance,Pharmacologic Substance
+xref: UMLS:C0003018
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_5" xsd:string
+
+[Term]
+id: PR:000050252
+synonym: "IgG" RELATED []
+synonym: "immunoglobulin g" BROAD []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_74" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "immunolobulin g" xsd:string
+
+[Term]
+id: PR:O15393
+synonym: "Serine protease 10" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_33" xsd:string
+
+[Term]
+id: PR:P0DTC1
+synonym: "3cl pro" NARROW []
+synonym: "3CLpro" NARROW []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_22" xsd:string
+
+[Term]
+id: PR:P0DTC2
+synonym: "binding receptor host cells" RELATED []
+synonym: "E2" RELATED []
+synonym: "Peplomer protein" BROAD []
+synonym: "receptor-binding domain" BROAD []
+synonym: "S protein" BROAD []
+synonym: "SARS-S" RELATED []
+synonym: "Spike glycoprotein" BROAD []
+synonym: "spike protein" NARROW []
+synonym: "spike proteins" NARROW []
+synonym: "surface protein of CoV" RELATED []
+xref: PMID:32203189
+xref: UMLS:C3711684
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_28||PG_29" xsd:string
+
+[Term]
+id: PR:P0DTC3
+synonym: "Protein U274" RELATED []
+synonym: "Protein X1" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_20" xsd:string
+
+[Term]
+id: PR:P0DTC4
+synonym: "E protein" BROAD []
+synonym: "sM protein" BROAD []
+synonym: "small envelope protein" BROAD []
+synonym: "surface protein of CoV" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_11" xsd:string
+
+[Term]
+id: PR:P0DTC5
+synonym: "M protein" BROAD []
+synonym: "matrix glycoprotein" BROAD []
+synonym: "surface protein of CoV" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_15" xsd:string
+
+[Term]
+id: PR:P0DTC7
+synonym: "Accessory protein 7a" RELATED []
+synonym: "Protein U122|Protein X4" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_21" xsd:string
+
+[Term]
+id: PR:P0DTC9
+synonym: "N protein" BROAD []
+synonym: "nucleocapsid protein " BROAD []
+synonym: "surface protein of CoV" RELATED []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_18" xsd:string
+
+[Term]
+id: PR:P0DTD1
+synonym: "3cl pro" NARROW []
+synonym: "3CLpro" NARROW []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_24" xsd:string
+
+[Term]
+id: PR:P12821
+comment: Amino Acid, Peptide, or Protein,Biologically Active Substance
+synonym: "ACE human protein" EXACT []
+xref: UMLS:C1452534
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_3" xsd:string
+
+[Term]
+id: PR:P22301
+comment: Amino Acid, Peptide, or Protein,Immunologic Factor
+xref: UMLS:C1699802
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_12" xsd:string
+
+[Term]
+id: PR:Q9BYF1
+comment: Amino Acid, Peptide, or Protein,Enzyme
+synonym: "ACE-related carboxypeptidase" BROAD []
+synonym: "ACE2" RELATED []
+synonym: "ACEH" RELATED []
+synonym: "alternative receptor-gateway" RELATED []
+synonym: "hACE2" RELATED []
+synonym: "human ACE2" EXACT []
+synonym: "human angiotensin-converting enzyme 2" EXACT []
+synonym: "receptor to MERS-CoV " RELATED []
+xref: UMLS:C1610422
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_4" xsd:string
+
+[Term]
+id: PR:Q9H2X3
+comment: Amino Acid, Peptide, or Protein,Immunologic Factor
+synonym: "C-type lectin domain family 4 member M" BROAD []
+xref: UMLS:C0966484
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "PG_6" xsd:string
+
+[Term]
+id: Saudi:Arabia
+xref: UMLS:C0036243
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_9" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Saudi Arabia" xsd:string
+
+[Term]
+id: South:Korea
+xref: UMLS:C0022773
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_11" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "South Korea" xsd:string
+
+[Term]
+id: UBERON:0002048
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_84" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "lungs" xsd:string
+
+[Term]
+id: United:States
+synonym: "USA" EXACT []
+xref: UMLS:C0041703
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_13" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "United States" xsd:string
+
+[Term]
+id: West:Africa
+xref: UMLS:C0001747
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_14" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Western Africa" xsd:string
+
+[Term]
+id: Wu:Han
+synonym: "Wuhan" EXACT []
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_16" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Wu Han" xsd:string
+
+[Term]
+id: http://dbpedia.org/resource/Asia
+synonym: "Asian" EXACT []
+xref: UMLS:C0003980
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Asia" xsd:string
+
+[Term]
+id: http://dbpedia.org/resource/Canada
+xref: UMLS:C0006823
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_2" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Canada" xsd:string
+
+[Term]
+id: http://dbpedia.org/resource/China
+synonym: "Mainland china" EXACT []
+xref: UMLS:C0008115
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_3" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "China" xsd:string
+
+[Term]
+id: http://dbpedia.org/resource/Europe
+synonym: "E.U" EXACT []
+synonym: "European" EXACT []
+synonym: "UE" EXACT []
+xref: UMLS:C0015176
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_4" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Europe" xsd:string
+
+[Term]
+id: http://dbpedia.org/resource/Hubei
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_6" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Hubei" xsd:string
+
+[Term]
+id: http://dbpedia.org/resource/Jordan
+synonym: "Jordanian" EXACT []
+xref: UMLS:C0022418
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_7" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Jordan" xsd:string
+
+[Term]
+id: http://dbpedia.org/resource/Singapore
+xref: UMLS:C0037173
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_10" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Singapore" xsd:string
+
+[Term]
+id: http://dbpedia.org/resource/Taiwan
+xref: UMLS:C0039260
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_12" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Taiwan" xsd:string
+
+[Typedef]
+id: OBI:0000293
+name: has_input
 

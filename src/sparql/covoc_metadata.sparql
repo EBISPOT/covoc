@@ -1,0 +1,28 @@
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+SELECT DISTINCT ?term ?acc ?name ?covoc_id ?is_obsolete
+WHERE {
+  OPTIONAL
+  { 
+    ?term rdfs:label ?name .
+  }
+  OPTIONAL
+  { 
+    ?term <http://purl.obolibrary.org/obo/covoc/internal_covoc_id> ?covoc_id .
+  }
+  OPTIONAL
+  { 
+    ?term owl:deprecated ?is_obsolete .
+  }
+  FILTER(isIRI(?term))
+	BIND(
+		IF(	
+			regex(str(?term), "http[:][/][/]www[.]ebi[.]ac[.]uk[/]efo[/]EFO[_]")
+				|| regex(str(?term), "http[:][/][/]purl[.]obolibrary[.]org[/]obo[/]")
+				|| regex(str(?term), "http[:][/][/]www[.]orpha.net[/]ORDO[/]"),
+			REPLACE(
+				REPLACE(STR(?term), "http[:][/][/]purl[.]obolibrary[.]org[/]obo[/]|http[:][/][/]www[.]ebi[.]ac[.]uk[/]efo[/]|http[:][/][/]www[.]orpha.net[/]ORDO[/]", "", "i"),
+			"[_]", ":", "i")
+			,?term) 
+		AS ?acc)
+}

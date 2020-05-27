@@ -55,7 +55,7 @@ DG_52	DB01204	L01DB07	Small molecule	Mitoxantrone	Novantrone				Approved, Invest
 DG_53	DB00691	C09AA13 | C09BA13	Small molecule	Moexipril	Univasc	Hypertension (Angiotensin-converting enyzme (ACE) inhibitor		utsouthwestern.edu	Approved					CHEBI:6960	DG_53	Moexipril	Univasc				Hypertension (Angiotensin-converting enyzme (ACE) inhibitor	DB:00691||ATC:C09AA13||ATC: C09BA13	Small molecule
 DG_54			Mesenchymal stem cell	MSCs										COVOC:0030022	DG_54	MSCs							Mesenchymal stem cell
 DG_55	DB00220	J05AE04	Antiviral	Nelfinavir	Viracept			utsouthwestern.edu	Approved					CHEBI:7496	DG_55	Nelfinavir	Viracept					DB:00220||ATC:J05AE04	Antiviral
-DG_56			Mesenchymal stem cell	NestCell®										COVOC:0030023	DG_56	NestCell®							Mesenchymal stem cell
+DG_56			Mesenchymal stem cell	NestCell®										COVOC:0030023	DG_56	NestCell							Mesenchymal stem cell
 DG_57			Antibody	PD-1 mAb	PD1 | PD-1 | PD1 mAb									COVOC:0030024	DG_57	PD-1 mAb	PD1||PD-1||PD1 mAb						Antibody
 DG_58			Antibiotic	penicillin				PUBLIC - Clinical observations extracted from ED notes of SARS-CoV-2 tested patients 3/31/2020 - https://docs.google.com/spreadsheets/d/1iZZvbv94fpZdC6XaiPosiniMOh18etSPliAXVlLLr1w/edit#gid=0						CHEBI:17334	DG_58	penicillin							Antibiotic
 DG_59	DB04951	L04AX05	Small molecule	Pirfenidone	Esbriet	Idiopathic pulmonary fibrosis			Approved, Investigational					CHEBI:32016	DG_59	Pirfenidone	Esbriet				Idiopathic pulmonary fibrosis	DB:04951||ATC:L04AX05	Small molecule

@@ -10,9 +10,26 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/covoc.owl>
 Import(<http://purl.obolibrary.org/obo/covoc/components/all_templates.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/bao_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/chebi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/chmo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/cl_import.owl>)
 Import(<http://purl.obolibrary.org/obo/covoc/imports/clo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/dbpedia_import.owl>)
 Import(<http://purl.obolibrary.org/obo/covoc/imports/efo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/go_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/hp_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/ido_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/maxo_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/mondo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/covoc/imports/ncbitaxon_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/ncit_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/obi_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/omit_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/pato_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/pr_import.owl>)
+Import(<http://purl.obolibrary.org/obo/covoc/imports/uberon_import.owl>)
+
 Annotation(dce:creator "Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)")
 Annotation(dce:creator "Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)")
 Annotation(dce:creator "Michel Pierre-André (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)")
@@ -30,6 +47,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/COVOC_00000000>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/drug_associated_with_disease>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/internal_covoc_id>))
 Declaration(AnnotationProperty(<http://purl.obolibrary.org/obo/preferred_covoc_label>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))
 Declaration(AnnotationProperty(dce:creator))
 Declaration(AnnotationProperty(dce:description))
 Declaration(AnnotationProperty(dce:title))
@@ -53,7 +71,7 @@ AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/internal_covoc_id
 AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/preferred_covoc_label> "Label as preferred by the Editors of the COVOC.")
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/preferred_covoc_label> "preferred covoc label"@en)
 
-
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/OBI_0000293> "has_input")
 
 ############################
 #   Classes

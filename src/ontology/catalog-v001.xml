@@ -12,6 +12,50 @@
   <uri name="http://purl.obolibrary.org/obo/covoc/imports/clo_import.owl" uri="imports/clo_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/covoc/imports/clo_import.obo" uri="imports/clo_import.obo"/>
   
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/hp_import.owl" uri="imports/hp_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/hp_import.obo" uri="imports/hp_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/mondo_import.owl" uri="imports/mondo_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/mondo_import.obo" uri="imports/mondo_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/chebi_import.owl" uri="imports/chebi_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/chebi_import.obo" uri="imports/chebi_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/go_import.owl" uri="imports/go_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/go_import.obo" uri="imports/go_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/bao_import.owl" uri="imports/bao_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/bao_import.obo" uri="imports/bao_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/chmo_import.owl" uri="imports/chmo_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/chmo_import.obo" uri="imports/chmo_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/cl_import.owl" uri="imports/cl_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/cl_import.obo" uri="imports/cl_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/ido_import.owl" uri="imports/ido_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/ido_import.obo" uri="imports/ido_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/maxo_import.owl" uri="imports/maxo_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/maxo_import.obo" uri="imports/maxo_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/ncit_import.owl" uri="imports/ncit_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/ncit_import.obo" uri="imports/ncit_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/obi_import.owl" uri="imports/obi_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/obi_import.obo" uri="imports/obi_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/omit_import.owl" uri="imports/omit_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/omit_import.obo" uri="imports/omit_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/pr_import.owl" uri="imports/pr_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/pr_import.obo" uri="imports/pr_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/uberon_import.obo" uri="imports/uberon_import.obo"/>
+  
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/pato_import.owl" uri="imports/pato_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/pato_import.obo" uri="imports/pato_import.obo"/>
 
 
   
