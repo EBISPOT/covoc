@@ -1,2 +1,8 @@
-organism|https://docs.google.com/spreadsheets/d/e/2PACX-1vToRKnnWN2qbIP-MJUI2jEn56kWmmai6IJS7yKAKdlEkhTcGDKiYIWbfBaXGwf1s6m8K8j5zWGWqqKX/pub?gid=1651793804&single=true&output=tsv
-cell_lines|https://docs.google.com/spreadsheets/d/e/2PACX-1vToRKnnWN2qbIP-MJUI2jEn56kWmmai6IJS7yKAKdlEkhTcGDKiYIWbfBaXGwf1s6m8K8j5zWGWqqKX/pub?gid=1346872355&single=true&output=tsv
+biomed,https://docs.google.com/spreadsheets/d/e/2PACX-1vToRKnnWN2qbIP-MJUI2jEn56kWmmai6IJS7yKAKdlEkhTcGDKiYIWbfBaXGwf1s6m8K8j5zWGWqqKX/pub?gid=214379834&single=true&output=tsv
+cell_lines,https://docs.google.com/spreadsheets/d/e/2PACX-1vToRKnnWN2qbIP-MJUI2jEn56kWmmai6IJS7yKAKdlEkhTcGDKiYIWbfBaXGwf1s6m8K8j5zWGWqqKX/pub?gid=512873334&single=true&output=tsv
+chemical,https://docs.google.com/spreadsheets/d/e/2PACX-1vToRKnnWN2qbIP-MJUI2jEn56kWmmai6IJS7yKAKdlEkhTcGDKiYIWbfBaXGwf1s6m8K8j5zWGWqqKX/pub?gid=230430356&single=true&output=tsv
+conceptual,https://docs.google.com/spreadsheets/d/e/2PACX-1vToRKnnWN2qbIP-MJUI2jEn56kWmmai6IJS7yKAKdlEkhTcGDKiYIWbfBaXGwf1s6m8K8j5zWGWqqKX/pub?gid=642531399&single=true&output=tsv
+disease,https://docs.google.com/spreadsheets/d/e/2PACX-1vToRKnnWN2qbIP-MJUI2jEn56kWmmai6IJS7yKAKdlEkhTcGDKiYIWbfBaXGwf1s6m8K8j5zWGWqqKX/pub?gid=1941298175&single=true&output=tsv
+geo,https://docs.google.com/spreadsheets/d/e/2PACX-1vToRKnnWN2qbIP-MJUI2jEn56kWmmai6IJS7yKAKdlEkhTcGDKiYIWbfBaXGwf1s6m8K8j5zWGWqqKX/pub?gid=573817673&single=true&output=tsv
+organism,https://docs.google.com/spreadsheets/d/e/2PACX-1vToRKnnWN2qbIP-MJUI2jEn56kWmmai6IJS7yKAKdlEkhTcGDKiYIWbfBaXGwf1s6m8K8j5zWGWqqKX/pub?gid=1093864577&single=true&output=tsv
+protein_genome,https://docs.google.com/spreadsheets/d/e/2PACX-1vToRKnnWN2qbIP-MJUI2jEn56kWmmai6IJS7yKAKdlEkhTcGDKiYIWbfBaXGwf1s6m8K8j5zWGWqqKX/pub?gid=334122417&single=true&output=tsv
