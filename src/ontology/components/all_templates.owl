@@ -10,7 +10,7 @@
      xmlns:covoc="http://purl.obolibrary.org/obo/covoc/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/components/all_templates.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-05-27/components/all_templates.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-05-28/components/all_templates.owl"/>
     </owl:Ontology>
     
 
@@ -282,7 +282,9 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_134722 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_134722">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Influenza||Ebola||Lassa</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ebola</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Influenza</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lassa</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_34</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Favipiravir</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:12466</oboInOwl:hasDbXref>
@@ -296,7 +298,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_134730 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_134730">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Influenza||Respiratory viral infection</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Influenza</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Respiratory viral infection</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_80</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Umifenovir</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATC:J05AX13</oboInOwl:hasDbXref>
@@ -326,7 +329,9 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_145994 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_145994">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ebola||SARS-CoV||MERS-CoV</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ebola</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERS-CoV</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_62</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Remdesivir</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:14761</oboInOwl:hasDbXref>
@@ -410,7 +415,9 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_22587 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22587">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_5||BMV_6||BMV_7</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_5</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_6</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_7</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antiviral Agents</covoc:preferred_covoc_label>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antiviral</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antivirals</oboInOwl:hasBroadSynonym>
@@ -427,6 +434,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_2549">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_5</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">albuterol</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -435,6 +443,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26271">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_19</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proline</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0033382</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amino Acid, Peptide, or Protein,Biologically Active Substance</rdfs:comment>
     </owl:Class>
@@ -473,7 +482,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_31528 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_31528">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irritable Bowel Syndrome (IBS)||Urticaria</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Irritable Bowel Syndrome (IBS)</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Urticaria</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_31</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ebastine</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATC:R06AX22</oboInOwl:hasDbXref>
@@ -513,7 +523,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_33709 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33709">
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid</covoc:preferred_covoc_label>
+    </owl:Class>
     
 
 
@@ -628,7 +640,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_41977 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_41977">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukemia||Other neoplasms</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leukemia</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other neoplasms</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_28</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Daunorubicin</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATC:L01DB02</oboInOwl:hasDbXref>
@@ -676,6 +689,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46195">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_2</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acetaminophen</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -780,7 +794,10 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_5801 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5801">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malaria||Rheumatoid arthritis||Chronic discoid lupus erythematosus||systemic lupus erythematosus</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chronic discoid lupus erythematosus</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malaria</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatoid arthritis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">systemic lupus erythematosus</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_39</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydroxychloroquine</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATC:P01BA02</oboInOwl:hasDbXref>
@@ -868,7 +885,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_62088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_62088">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain||Fever</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fever</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pain</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_50</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Metamizole</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATC:N02BB52</oboInOwl:hasDbXref>
@@ -949,7 +967,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_6402 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6402">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatoid arthritis||psoriatic arthritis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatoid arthritis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psoriatic arthritis</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_46</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Leflunomide</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATC:L04AA13</oboInOwl:hasDbXref>
@@ -963,7 +982,10 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_66919 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_66919">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myelofibrosis||Polycythaemia vera||Graft-versus-host disease||bone marrow cancer</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graft-versus-host disease</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myelofibrosis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Polycythaemia vera</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bone marrow cancer</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_67</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruxolitinib</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:08877</oboInOwl:hasDbXref>
@@ -1077,6 +1099,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_87228">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_61</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfonamide antibiotic</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sulfonamide antibiotics</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -1085,7 +1108,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_9139 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9139">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulmonary hypertension||Erectile dysfunction</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erectile dysfunction</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pulmonary hypertension</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_70</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sildenafil</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:00203</oboInOwl:hasDbXref>
@@ -1108,7 +1132,8 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_9513 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_9513">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythema nodosum leprosum (ENL)||Multiple myeloma</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Erythema nodosum leprosum (ENL)</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Multiple myeloma</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_73</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thalidomide</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATC:L04AX02</oboInOwl:hasDbXref>
@@ -1131,7 +1156,7 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0002172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002172">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:1</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_1</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Caco-2</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0025</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32149036</oboInOwl:hasDbXref>
@@ -1143,7 +1168,7 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0002192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002192">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:2</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_2</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calu-3</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0609</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32165541</oboInOwl:hasDbXref>
@@ -1155,7 +1180,7 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0002462 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002462">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:9</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_9</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHO-K1</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0214</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.theage.com.au/national/coronavirus-outbreak-how-the-covid-19-vaccine-is-being-made-20200220-p542rh.html</oboInOwl:hasDbXref>
@@ -1167,7 +1192,7 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0007059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007059">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:10</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_10</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K-562</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1016/j.medidd.2020.100026</oboInOwl:hasDbXref>
@@ -1179,7 +1204,7 @@
     <!-- http://purl.obolibrary.org/obo/CLO_0009524 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009524">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:6</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_6</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vero</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0059</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.03.02.972935v2</oboInOwl:hasDbXref>
@@ -1195,8 +1220,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000235">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_85</covoc:internal_covoc_id>
-        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macrophage | macrophages</covoc:preferred_covoc_label>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Macrophage</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0024432</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">macrophages</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell</rdfs:comment>
     </owl:Class>
     
@@ -1220,8 +1246,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_12</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cell assays</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cell assays</rdfs:label>
     </owl:Class>
     
 
@@ -1229,8 +1257,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_27</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical importance</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical importance</rdfs:label>
     </owl:Class>
     
 
@@ -1238,8 +1268,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_31</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confirmed case</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">confirmed case</rdfs:label>
     </owl:Class>
     
 
@@ -1247,8 +1279,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_32</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conformational masking</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conformational masking</rdfs:label>
     </owl:Class>
     
 
@@ -1256,8 +1290,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_48</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fecal sample</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fecal sample</rdfs:label>
     </owl:Class>
     
 
@@ -1265,10 +1301,12 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_56</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0017428</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene or Genome</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genome</rdfs:label>
     </owl:Class>
     
 
@@ -1276,8 +1314,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_59</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycan shielding</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glycan shielding</rdfs:label>
     </owl:Class>
     
 
@@ -1285,8 +1325,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_62</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homotrimer</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homotrimer</rdfs:label>
     </owl:Class>
     
 
@@ -1294,8 +1336,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_73</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunogenicity</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunogenicity</rdfs:label>
     </owl:Class>
     
 
@@ -1303,8 +1347,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_77</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infection</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infection</rdfs:label>
     </owl:Class>
     
 
@@ -1312,8 +1358,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_78</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infectivity</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infectivity</rdfs:label>
     </owl:Class>
     
 
@@ -1321,8 +1369,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_80</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intensive care</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intensive care</rdfs:label>
     </owl:Class>
     
 
@@ -1330,8 +1380,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_81</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interaction</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interaction</rdfs:label>
     </owl:Class>
     
 
@@ -1339,10 +1391,12 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_82</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isolation</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0220862</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laboratory Procedure</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">isolation</rdfs:label>
     </owl:Class>
     
 
@@ -1350,8 +1404,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_83</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low-input metagenomic next-generation sequencing</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">low-input metagenomic next-generation sequencing</rdfs:label>
     </owl:Class>
     
 
@@ -1359,8 +1415,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_86</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Major histocompatibility complex binding assays</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Major histocompatibility complex binding assays</rdfs:label>
     </owl:Class>
     
 
@@ -1368,10 +1426,12 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_87</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Massively-Parallel Sequencing</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C2936622</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Biology Research Technique</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Massively-Parallel Sequencing</rdfs:label>
     </owl:Class>
     
 
@@ -1379,10 +1439,12 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_88</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanical Ventilation</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0199470</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapeutic or Preventive Procedure</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mechanical Ventilation</rdfs:label>
     </owl:Class>
     
 
@@ -1390,8 +1452,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010019 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_89</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medications</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medications</rdfs:label>
     </owl:Class>
     
 
@@ -1399,8 +1463,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_91</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microbiology</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">microbiology</rdfs:label>
     </owl:Class>
     
 
@@ -1408,10 +1474,12 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_93</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morbidity</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0220880</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intellectual Product</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">morbidity</rdfs:label>
     </owl:Class>
     
 
@@ -1419,10 +1487,12 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_94</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mortality</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0026565 | UMLS:C0026566</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative Concept | Quantitative Concept</rdfs:comment>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative Concept||Quantitative Concept</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mortality</rdfs:label>
     </owl:Class>
     
 
@@ -1430,10 +1500,12 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_95</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutation</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0026882</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Genetic Function</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mutation</rdfs:label>
     </owl:Class>
     
 
@@ -1441,8 +1513,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_96</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nasopharyngeal sample</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nasopharyngeal sample</rdfs:label>
     </owl:Class>
     
 
@@ -1450,8 +1524,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_98</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">next-generation sequencing</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">next-generation sequencing</rdfs:label>
     </owl:Class>
     
 
@@ -1459,8 +1535,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_102</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oropharyngeal sample</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oropharyngeal sample</rdfs:label>
     </owl:Class>
     
 
@@ -1468,8 +1546,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_118</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rapid testing</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rapid testing</rdfs:label>
     </owl:Class>
     
 
@@ -1477,8 +1557,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_120</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">replication</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">replication</rdfs:label>
     </owl:Class>
     
 
@@ -1486,8 +1568,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_134</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</rdfs:label>
     </owl:Class>
     
 
@@ -1495,8 +1579,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_138</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serum</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serum</rdfs:label>
     </owl:Class>
     
 
@@ -1504,10 +1590,12 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_139</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Single Nucleotide Polymorphism</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0752046</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nucleotide Sequence</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Single Nucleotide Polymorphism</rdfs:label>
     </owl:Class>
     
 
@@ -1515,10 +1603,12 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_140</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survival</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0220921</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional Concept</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">survival</rdfs:label>
     </owl:Class>
     
 
@@ -1526,8 +1616,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_142</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell assays</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell assays</rdfs:label>
     </owl:Class>
     
 
@@ -1535,8 +1627,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_143</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell epitopes</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell epitopes</rdfs:label>
     </owl:Class>
     
 
@@ -1544,10 +1638,12 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_144</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapeutics</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0087111</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapeutic or Preventive Procedure</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapeutics</rdfs:label>
     </owl:Class>
     
 
@@ -1555,10 +1651,12 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_145</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapy</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0039798</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Functional Concept</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">therapy</rdfs:label>
     </owl:Class>
     
 
@@ -1566,10 +1664,12 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_146</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thoracic Radiography</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C3665494</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic Procedure</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thoracic Radiography</rdfs:label>
     </owl:Class>
     
 
@@ -1577,8 +1677,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_147</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription</rdfs:label>
     </owl:Class>
     
 
@@ -1586,8 +1688,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_148</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transfection</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transfection</rdfs:label>
     </owl:Class>
     
 
@@ -1595,8 +1699,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_149</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmissibility</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmissibility</rdfs:label>
     </owl:Class>
     
 
@@ -1604,10 +1710,12 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_150</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmission</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0040722</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Idea or Concept</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmission</rdfs:label>
     </owl:Class>
     
 
@@ -1615,8 +1723,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_151</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment</rdfs:label>
     </owl:Class>
     
 
@@ -1624,8 +1734,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_152</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">triaging patients</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">triaging patients</rdfs:label>
     </owl:Class>
     
 
@@ -1633,8 +1745,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_153</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trimer</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trimer</rdfs:label>
     </owl:Class>
     
 
@@ -1642,7 +1756,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020001">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:3</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_3</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calu-3 2B4</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YZ47</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:20090954</oboInOwl:hasDbXref>
@@ -1654,7 +1768,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020002">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:7</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_7</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VeroE6</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0574</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.03.02.972935v2</oboInOwl:hasDbXref>
@@ -1672,7 +1786,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020003">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:8</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_8</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VeroE6/TMPRSS2</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YQ49</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32165541</oboInOwl:hasDbXref>
@@ -1684,7 +1798,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020004">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:11</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_11</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PER.C6</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:G704</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.jnj.com/coronavirus</oboInOwl:hasDbXref>
@@ -1696,7 +1810,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020005">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:12</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_12</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47D11</covoc:preferred_covoc_label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
     </owl:Class>
@@ -1706,7 +1820,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020006">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:13</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_13</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F26G1</covoc:preferred_covoc_label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
     </owl:Class>
@@ -1716,7 +1830,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020007">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:14</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_14</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F26G6</covoc:preferred_covoc_label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
     </owl:Class>
@@ -1726,7 +1840,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020008">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:15</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_15</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F26G8</covoc:preferred_covoc_label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
     </owl:Class>
@@ -1736,7 +1850,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020009">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:16</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_16</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F26G18</covoc:preferred_covoc_label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
     </owl:Class>
@@ -1746,7 +1860,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020010">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:17</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_17</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F26G19</covoc:preferred_covoc_label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
     </owl:Class>
@@ -1756,7 +1870,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020011">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:18</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_18</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-176-15</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:XA76</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
@@ -1767,7 +1881,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020012">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:19</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_19</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S-9-11</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:XA77</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
@@ -1778,7 +1892,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020013">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:20</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_20</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rSN-18</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YQ10</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
@@ -1789,7 +1903,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020014">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:21</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_21</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rSN-21-2</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YQ13</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
@@ -1800,7 +1914,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020015">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:22</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_22</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rSN-29</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YQ14</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
@@ -1811,7 +1925,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020016">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:23</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_23</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rSN-122</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YQ11</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
@@ -1822,7 +1936,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0020017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020017">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:24</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_24</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rSN-150</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YQ12</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
@@ -1843,7 +1957,14 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0030002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0030002">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatoid arthritis||Juvenile idiopathic arthritis||Ankylosing spondylitis||Psoriatic arthritis||Psoriasis||Hidradenitis suppurativa||Crohn’s disease||Ulcerative colitis | Uveitis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ankylosing spondylitis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn’s disease</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hidradenitis suppurativa</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile idiopathic arthritis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psoriasis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Psoriatic arthritis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatoid arthritis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ulcerative colitis | Uveitis</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_3</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adalimumab</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATC:L04AB04</oboInOwl:hasDbXref>
@@ -1892,7 +2013,8 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0030006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0030006">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">influenza A||influenza B</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">influenza A</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">influenza B</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_13</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baloxavir marboxil</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:13997</oboInOwl:hasDbXref>
@@ -1932,7 +2054,8 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0030009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0030009">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hodgkin’s lymphoma||Nasopharyngeal carcinoma</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hodgkin’s lymphoma</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nasopharyngeal carcinoma</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_18</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camrelizumab</covoc:preferred_covoc_label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antibody</rdfs:comment>
@@ -1984,7 +2107,9 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0030014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0030014">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aHUS||PNH||Neuromyelitis Optica Spectrum Disorder</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neuromyelitis Optica Spectrum Disorder</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PNH</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aHUS</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_32</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eculizumab</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATC:L04AA25</oboInOwl:hasDbXref>
@@ -1998,7 +2123,8 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0030015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0030015">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ebola||Coronaviruses</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronaviruses</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ebola</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_37</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galidesivir</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DB:11676</oboInOwl:hasDbXref>
@@ -2155,7 +2281,10 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0030029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0030029">
-        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatoid arthritis||Systemic juvenile idiopathic arthritis||Juvenile idiopathic polyarthritis||Giant cell arteritis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giant cell arteritis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Juvenile idiopathic polyarthritis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rheumatoid arthritis</covoc:drug_associated_with_disease>
+        <covoc:drug_associated_with_disease rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systemic juvenile idiopathic arthritis</covoc:drug_associated_with_disease>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_76</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tocilizumab</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATC:L04AC07</oboInOwl:hasDbXref>
@@ -3281,7 +3410,8 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0050063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0050063">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CE_75||CE_76</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CE_75</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CE_76</covoc:internal_covoc_id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0037412</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">social distancing</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -3410,6 +3540,7 @@
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_15</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu Bei</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wubei</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu Bei</rdfs:label>
     </owl:Class>
     
 
@@ -3443,6 +3574,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0090003">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_23</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">replicase polyprotein 1a (BtCoV)</covoc:preferred_covoc_label>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Replicase polyprotein 1a</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProt:P0C6F5</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pp1a</oboInOwl:hasRelatedSynonym>
     </owl:Class>
@@ -3454,6 +3586,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0090004">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_25</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">replicase polyprotein 1ab (BtCoV)</covoc:preferred_covoc_label>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Replicase polyprotein 1ab</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProt:P0C6V9</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pp1ab</oboInOwl:hasRelatedSynonym>
     </owl:Class>
@@ -3464,8 +3597,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0090005">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_30</covoc:internal_covoc_id>
-        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spike glycoprotein (BtCoV)</covoc:preferred_covoc_label>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spike glycoprotein (BtCoV)</covoc:preferred_covoc_label>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S glycoprotein</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spike glycoprotein</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProt:Q0Q475</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV-2 RBD</oboInOwl:hasNarrowSynonym>
     </owl:Class>
@@ -3515,7 +3649,8 @@
     <!-- http://purl.obolibrary.org/obo/GO_0005730 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005730">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_22||BMV_99</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_22</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_99</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleolus</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0007609</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell Component</rdfs:comment>
@@ -3598,7 +3733,8 @@
     <!-- http://purl.obolibrary.org/obo/GO_0006955 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006955">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_67||BMV_69</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_67</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_69</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immune response</covoc:preferred_covoc_label>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunity</oboInOwl:hasRelatedSynonym>
     </owl:Class>
@@ -3766,6 +3902,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000822">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_36</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypertension</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3774,6 +3911,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000969">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_26</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">edema</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3782,6 +3920,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000988">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_51</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rash</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3790,7 +3929,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000989">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_49</covoc:internal_covoc_id>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">itchy skin |pruritus</oboInOwl:hasExactSynonym>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pruritis</covoc:preferred_covoc_label>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">itchy skin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pruritus</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -3799,6 +3940,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001025">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_64</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">urticaria</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3807,6 +3949,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001649">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_62</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tachycardia</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3815,6 +3958,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001742">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_17</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nasal obstruction</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nasal congestion</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -3823,7 +3967,9 @@
     <!-- http://purl.obolibrary.org/obo/HP_0001945 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001945">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_30||DIS_31</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_30</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_31</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fever</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">febrile</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feverish</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -3834,6 +3980,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002013">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_69</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vomiting</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3842,6 +3989,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002014">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_22</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diarrhea</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3850,6 +3998,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002017">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_45</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nausea and vomiting</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3858,6 +4007,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002018">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_44</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nausea</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3866,6 +4016,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002027">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_1</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">abdominal pain</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3874,6 +4025,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002094">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_25</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dyspnea</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3882,6 +4034,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002789">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_63</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tachypnea</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3890,6 +4043,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003077">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_35</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperlipidemia</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3898,6 +4052,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003326">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_43</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myalgia</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3906,6 +4061,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012378">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_29</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fatigue</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3914,6 +4070,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012531">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_47</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pain</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3922,6 +4079,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012735">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_19</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cough</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0010200</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coughing</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -3932,6 +4090,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025143">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_12</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chills</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3940,6 +4099,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025406">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_70</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weakness</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">weakness</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -3949,6 +4109,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030830">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_50</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rales</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crackles</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -3958,6 +4119,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031246">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_24</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dry cough</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3966,6 +4128,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031417">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_56</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rhinorrhea</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3974,6 +4137,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032016">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_60</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sputum</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3982,6 +4146,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033006">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_23</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diffuse alveolar damage</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3990,6 +4155,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100749">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_11</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chest pain</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -3998,6 +4164,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100806">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_57</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sepsis</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -4053,7 +4220,9 @@
 
     <!-- http://purl.obolibrary.org/obo/MONDO_0000001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001">
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease or disorder</covoc:preferred_covoc_label>
+    </owl:Class>
     
 
 
@@ -4061,6 +4230,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002050">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_20</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depressive disorder</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depression</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -4070,6 +4240,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002258">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_59</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sore throat</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -4078,6 +4249,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002280">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_7</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anemia</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -4086,6 +4258,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004979">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_9</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asthma</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -4093,7 +4266,9 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0004995 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004995">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_10||DIS_34</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_10</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_34</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular disease</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac complication</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiac complications</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart impact</oboInOwl:hasExactSynonym>
@@ -4105,7 +4280,9 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0005002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005002">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_13||DIS_14</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_13</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_14</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic obstructive pulmonary disease</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0024117</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copd</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -4116,6 +4293,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005015">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_21</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes mellitus (disease)</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabete</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -4126,6 +4304,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005087">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_52</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory disease</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory diseases</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -4135,6 +4314,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005091">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_58</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe Acute Respiratory Syndrome</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1175175</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -4144,7 +4324,10 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0005108 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005108">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_65||DIS_67||DIS_68</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_65</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_67</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_68</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral infectious disease</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0042769</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral illness</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral infections</oboInOwl:hasExactSynonym>
@@ -4159,6 +4342,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005249">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_48</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pneumonia</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -4166,7 +4350,11 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0005550 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005550">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_16||DIS_27||DIS_28||DIS_38</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_16</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_27</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_28</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_38</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infectious disease</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0872315</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">communicable disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">communicable diseases</oboInOwl:hasExactSynonym>
@@ -4182,6 +4370,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005618">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_8</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anxiety disorder</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anxiety</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -4191,6 +4380,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005719">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_18</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coronavirus infection</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0206750</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coronavirus infections</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -4201,6 +4391,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005812">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_39</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">influenza</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -4210,6 +4401,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0006502">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_3</covoc:internal_covoc_id>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_53</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acute respiratory distress syndrome</covoc:preferred_covoc_label>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory distress syndrome</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0035222</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARDS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory distress</oboInOwl:hasExactSynonym>
@@ -4221,6 +4414,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0007186">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_32</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastroesophageal reflux disorder</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -4229,6 +4423,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021146">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_33</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">headache</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -4237,6 +4432,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0024352">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_66</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral respiratory infection</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">viral respiratory infections</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -4245,7 +4441,9 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0024355 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0024355">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_54||DIS_55</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_54</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_55</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory tract infection</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0035243</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory infection</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory infections</oboInOwl:hasExactSynonym>
@@ -4267,6 +4465,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0100053">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_6</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anaphylaxis</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -4275,6 +4474,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0100096">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_46</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COVID-19</covoc:preferred_covoc_label>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncp</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">novel coronavirus pneumonia</oboInOwl:hasNarrowSynonym>
     </owl:Class>
@@ -4284,7 +4484,9 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0100116 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0100116">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_41||DIS_42</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_41</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_42</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle East Respiratory Syndrome</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C3694279</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mers-cov infection</oboInOwl:hasExactSynonym>
@@ -4307,6 +4509,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_163</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Viruses</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0521026</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">virus</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -4316,7 +4519,10 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_11118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11118">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_5||SP_12||BMV_34</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_34</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_12</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_5</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Coronavirus</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0206419</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0206422</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coronaviruses</oboInOwl:hasExactSynonym>
@@ -4333,6 +4539,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11250">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_19</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human orthopneumovirus</covoc:preferred_covoc_label>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory virus</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory viruses</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0597404</oboInOwl:hasDbXref>
@@ -4345,6 +4552,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11308">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_13</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orthomyxoviridae</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C4316910</oboInOwl:hasDbXref>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alphainfluenzavirus</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betainfluenzavirus</oboInOwl:hasNarrowSynonym>
@@ -4368,6 +4576,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1335626">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_15</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERS-CoV</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C3698360</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MERS Coronavirus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle East Respiratory Syndrome Coronavirus</oboInOwl:hasExactSynonym>
@@ -4380,6 +4589,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1479610">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_10</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HKU23</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:31534035</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C4168815</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">camel coronavirus HKU23</oboInOwl:hasExactSynonym>
@@ -4392,6 +4602,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_196889">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_20</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhinolophus macrotis</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:32020836</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1218105</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rhinolophus</oboInOwl:hasExactSynonym>
@@ -4405,7 +4616,11 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2559587 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2559587">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_130||BMV_131||BMV_132||BMV_133</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_130</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_131</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_132</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_133</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Riboviria</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0035691</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA virus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rnvirus</oboInOwl:hasExactSynonym>
@@ -4417,7 +4632,9 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_6||SP_16</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_16</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_6</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COVID-19</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2019-nCoV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV-2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe Acute Respiratory Syndrome Coronavirus 2</oboInOwl:hasExactSynonym>
@@ -4430,6 +4647,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_290028">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_9</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HKU1</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1676985</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://allenai.org/data/cord-19</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human coronavirus HKU1</oboInOwl:hasExactSynonym>
@@ -4442,6 +4660,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_31631">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_17</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OC43</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0949881</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human coronavirus OC43</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Virus</rdfs:comment>
@@ -4462,6 +4681,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40674">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammalia</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mammal</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -4471,6 +4691,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_694002">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_1</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Betacoronavirus</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C2806453</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Virus</rdfs:comment>
     </owl:Class>
@@ -4481,6 +4702,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_694009">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_21</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1175743</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS coronavirus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Severe acute respiratory distress syndrome coronavirus</oboInOwl:hasExactSynonym>
@@ -4493,6 +4715,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9397">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_4</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Chiroptera</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0008139</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://allenai.org/data/cord-19</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bat</oboInOwl:hasExactSynonym>
@@ -4506,6 +4729,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_11</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homo sapiens</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0086418</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Human</rdfs:comment>
@@ -4517,6 +4741,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9615">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_7</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dog</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1510418</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammal</rdfs:comment>
     </owl:Class>
@@ -4527,6 +4752,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9675">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_18</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paguma larvata</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0325072</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paradoxurus hermaphroditus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">masked palm civet</oboInOwl:hasExactSynonym>
@@ -4541,6 +4767,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9836">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_2</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">camel</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0006801</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">camels</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mammal</rdfs:comment>
@@ -4551,7 +4778,9 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9838 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9838">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_3||SP_8</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_3</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_8</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Camelus dromedarius</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:31534035</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0013127</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dromaderies</oboInOwl:hasExactSynonym>
@@ -4567,6 +4796,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9972">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_14</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manidae</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0999626</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pangolin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pangolins</oboInOwl:hasExactSynonym>
@@ -4579,6 +4809,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C102527">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_2</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACE2</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1422064</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene or Genome</rdfs:comment>
     </owl:Class>
@@ -4691,7 +4922,8 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C15429 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15429">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_121||BMV_122</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_121</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_122</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research Activities</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0035168</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0242481</oboInOwl:hasDbXref>
@@ -4745,6 +4977,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16612">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_51</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0017337</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genes</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -4762,7 +4995,9 @@
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C17021 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17021"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17021">
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</covoc:preferred_covoc_label>
+    </owl:Class>
     
 
 
@@ -4781,6 +5016,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17105">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_26</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA-dependent RNA polymerase</covoc:preferred_covoc_label>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RNA replicase</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rdr</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rdrp</oboInOwl:hasRelatedSynonym>
@@ -4839,6 +5075,7 @@
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_36</covoc:internal_covoc_id>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_17</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cross-neutralizing antibody</covoc:preferred_covoc_label>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutralizing antibodies</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0475463</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neutralizing antibody</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cross-neutralizing antibody</oboInOwl:hasNarrowSynonym>
@@ -4871,6 +5108,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20401">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_16</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monoclonal antibodies</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0003250</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amino Acid, Peptide, or Protein,Immunologic Factor</rdfs:comment>
     </owl:Class>
@@ -4881,6 +5119,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20464">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_8</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytokines</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0079189</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cytokine</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amino Acid, Peptide, or Protein,Immunologic Factor</rdfs:comment>
@@ -4892,6 +5131,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20493">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_13</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon</covoc:preferred_covoc_label>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ifn</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     
@@ -4912,6 +5152,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C24871">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_32</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TMPRSS2</covoc:preferred_covoc_label>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRSS10</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     
@@ -4993,7 +5234,6 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C49146">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_1</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adenovirus Vaccine</covoc:preferred_covoc_label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Amino AUMLS:Cid, Peptide, or Protein,ImmunologiUMLS:C FaUMLS:Ctor,PharmaUMLS:CologiUMLS:C SubstanUMLS:Ce]</oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -5077,7 +5317,8 @@
     <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CE_59||CE_60</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CE_59</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CE_60</covoc:internal_covoc_id>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1257890</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0032659</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Population Group</oboInOwl:hasExactSynonym>
@@ -5200,7 +5441,9 @@
 
     <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</covoc:preferred_covoc_label>
+    </owl:Class>
     
 
 
@@ -5208,6 +5451,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001341">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_9</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DPP4</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1447020</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD26</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">receptor to MERS-CoV</oboInOwl:hasRelatedSynonym>
@@ -5220,6 +5464,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001471">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_14</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interleukin-10</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0085295</oboInOwl:hasDbXref>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">il-10</oboInOwl:hasRelatedSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amino Acid, Peptide, or Protein,Immunologic Factor</rdfs:comment>
@@ -5231,6 +5476,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018931">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_5</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angiotensins</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0003018</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amino Acid, Peptide, or Protein,Biologically Active Substance,Pharmacologic Substance</rdfs:comment>
     </owl:Class>
@@ -5252,15 +5498,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_O15393">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_33</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transmembrane protease serine 2</covoc:preferred_covoc_label>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Serine protease 10</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PR_P0DTC1 -->
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC1-1 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC1">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC1-1">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_22</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">replicase polyprotein 1a</covoc:preferred_covoc_label>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3CLpro</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3cl pro</oboInOwl:hasNarrowSynonym>
     </owl:Class>
@@ -5270,7 +5518,9 @@
     <!-- http://purl.obolibrary.org/obo/PR_P0DTC2 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC2">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_28||PG_29</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_28</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_29</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">spike glycoprotein</covoc:preferred_covoc_label>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peplomer protein</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S protein</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Spike glycoprotein</oboInOwl:hasBroadSynonym>
@@ -5291,6 +5541,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC3">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_20</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein 3a</covoc:preferred_covoc_label>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein U274</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein X1</oboInOwl:hasRelatedSynonym>
     </owl:Class>
@@ -5301,6 +5552,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC4">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_11</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">envelope small membrane protein</covoc:preferred_covoc_label>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E protein</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sM protein</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">small envelope protein</oboInOwl:hasBroadSynonym>
@@ -5313,6 +5565,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC5">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_15</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane protein</covoc:preferred_covoc_label>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M protein</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">matrix glycoprotein</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface protein of CoV</oboInOwl:hasRelatedSynonym>
@@ -5324,6 +5577,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC7">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_21</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein 7a</covoc:preferred_covoc_label>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Accessory protein 7a</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Protein U122|Protein X4</oboInOwl:hasRelatedSynonym>
     </owl:Class>
@@ -5334,6 +5588,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC9">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_18</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleoprotein</covoc:preferred_covoc_label>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N protein</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleocapsid protein </oboInOwl:hasBroadSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">surface protein of CoV</oboInOwl:hasRelatedSynonym>
@@ -5341,10 +5596,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PR_P0DTD1 -->
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTD1-1 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD1">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTD1-1">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_24</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">replicase polyprotein 1ab</covoc:preferred_covoc_label>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3CLpro</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3cl pro</oboInOwl:hasNarrowSynonym>
     </owl:Class>
@@ -5355,6 +5611,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P12821">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_3</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angiontensin-converting enyme human protein</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1452534</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACE human protein</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amino Acid, Peptide, or Protein,Biologically Active Substance</rdfs:comment>
@@ -5366,6 +5623,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P22301">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_12</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IL10 human protein</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1699802</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amino Acid, Peptide, or Protein,Immunologic Factor</rdfs:comment>
     </owl:Class>
@@ -5376,6 +5634,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q9BYF1">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_4</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">angiotensin-converting enzyme 2</covoc:preferred_covoc_label>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ACE-related carboxypeptidase</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1610422</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">human ACE2</oboInOwl:hasExactSynonym>
@@ -5394,6 +5653,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q9H2X3">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PG_6</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CLEC4M</covoc:preferred_covoc_label>
         <oboInOwl:hasBroadSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-type lectin domain family 4 member M</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0966484</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amino Acid, Peptide, or Protein,Immunologic Factor</rdfs:comment>
@@ -5433,7 +5693,9 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0000544 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000544">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_37||BMV_77</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_77</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_37</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infection</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI:1110021</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">infections</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -5452,7 +5714,7 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0001184 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001184">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:4</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_4</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEK293T</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0063</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.03.02.972935</oboInOwl:hasDbXref>
@@ -5493,8 +5755,11 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0003765 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003765">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_24||BMV_28||BMV_29</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_24</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_28</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_29</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical characteristic</covoc:preferred_covoc_label>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sign or symptom</covoc:preferred_covoc_label>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical characteristic</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical characteristics</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clinical sign</oboInOwl:hasNarrowSynonym>
@@ -5547,7 +5812,7 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0005384 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005384">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL:5</covoc:internal_covoc_id>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_5</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huh-7</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0036</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI:10.1101/2020.03.02.972935</oboInOwl:hasDbXref>
@@ -5561,6 +5826,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009641">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_40</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">malaise</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -5569,6 +5835,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009715">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_71</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">wheezing</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -5610,6 +5877,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010716">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_15</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coinfection</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0275524</oboInOwl:hasDbXref>
     </owl:Class>
     
@@ -5619,6 +5887,7 @@
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010717">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_4</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">afebrile</covoc:preferred_covoc_label>
     </owl:Class>
 </rdf:RDF>
 

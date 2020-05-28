@@ -47,6 +47,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "nucleoprotein"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_18"
         } ]
@@ -111,6 +114,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "protein 7a"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_21"
         } ]
@@ -122,24 +128,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_32"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PR_P0DTC1",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasNarrowSynonym",
-          "val" : "3cl pro",
-          "xrefs" : [ ]
         }, {
-          "pred" : "hasNarrowSynonym",
-          "val" : "3CLpro",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "PG_22"
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "gastroesophageal reflux disorder"
         } ]
       },
       "type" : "CLASS"
@@ -194,6 +185,9 @@
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Mammal"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Chiroptera"
         } ]
       },
       "type" : "CLASS"
@@ -218,6 +212,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "envelope small membrane protein"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_11"
         } ]
@@ -242,6 +239,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_15"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "membrane protein"
         } ]
       },
       "type" : "CLASS"
@@ -314,7 +314,13 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "PG_28||PG_29"
+          "val" : "PG_29"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "PG_28"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "spike glycoprotein"
         } ]
       },
       "type" : "CLASS"
@@ -334,6 +340,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "neutralizing antibodies"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Amino Acid, Peptide, or Protein,Immunologic Factor"
         }, {
@@ -361,6 +370,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "protein 3a"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_20"
         } ]
@@ -448,7 +460,8 @@
           "val" : "BMV_153"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "trimer"
     }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0008219",
       "meta" : {
@@ -473,6 +486,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_6"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "anaphylaxis"
         } ]
       },
       "type" : "CLASS"
@@ -588,6 +604,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_19"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "cough"
         } ]
       },
       "type" : "CLASS"
@@ -632,7 +651,8 @@
           "val" : "Functional Concept"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "therapy"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010035",
       "meta" : {
@@ -650,7 +670,8 @@
           "val" : "BMV_144"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Therapeutics"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010034",
       "meta" : {
@@ -662,7 +683,8 @@
           "val" : "T-cell epitopes"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "T-cell epitopes"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010033",
       "meta" : {
@@ -674,7 +696,8 @@
           "val" : "T-cell assays"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "T-cell assays"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C25179",
       "meta" : {
@@ -698,7 +721,8 @@
           "val" : "transfection"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "transfection"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C26028",
       "meta" : {
@@ -727,7 +751,8 @@
           "val" : "BMV_147"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "transcription"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010037",
       "meta" : {
@@ -745,7 +770,8 @@
           "val" : "Thoracic Radiography"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Thoracic Radiography"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HP_0001945",
       "meta" : {
@@ -760,7 +786,13 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "DIS_30||DIS_31"
+          "val" : "DIS_30"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "fever"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DIS_31"
         } ]
       },
       "type" : "CLASS"
@@ -770,15 +802,15 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_60"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "sputum"
         } ]
       },
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C49146",
       "meta" : {
-        "xrefs" : [ {
-          "val" : "[Amino AUMLS:Cid, Peptide, or Protein,ImmunologiUMLS:C FaUMLS:Ctor,PharmaUMLS:CologiUMLS:C SubstanUMLS:Ce]"
-        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Adenovirus Vaccine"
@@ -854,11 +886,11 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "CHO-K1"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:9"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Cellular vaccines cell lines"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CL_9"
         } ]
       },
       "type" : "CLASS"
@@ -873,7 +905,8 @@
           "val" : "BMV_152"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "triaging patients"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010042",
       "meta" : {
@@ -885,7 +918,8 @@
           "val" : "treatment"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "treatment"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010041",
       "meta" : {
@@ -903,7 +937,8 @@
           "val" : "Idea or Concept"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "transmission"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C13195",
       "meta" : {
@@ -932,7 +967,8 @@
           "val" : "BMV_149"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "transmissibility"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010025",
       "meta" : {
@@ -944,7 +980,8 @@
           "val" : "next-generation sequencing"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "next-generation sequencing"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010024",
       "meta" : {
@@ -956,7 +993,8 @@
           "val" : "nasopharyngeal sample"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "nasopharyngeal sample"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010023",
       "meta" : {
@@ -974,7 +1012,8 @@
           "val" : "Genetic Function"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Mutation"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010022",
       "meta" : {
@@ -982,17 +1021,18 @@
           "val" : "UMLS:C0026565 | UMLS:C0026566"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Quantitative Concept||Quantitative Concept"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_94"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "mortality"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Quantitative Concept | Quantitative Concept"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "mortality"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010029",
       "meta" : {
@@ -1004,7 +1044,8 @@
           "val" : "BMV_134"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "sequence"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010028",
       "meta" : {
@@ -1016,7 +1057,8 @@
           "val" : "BMV_120"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "replication"
     }, {
       "id" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
       "meta" : {
@@ -1038,7 +1080,8 @@
           "val" : "BMV_118"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "rapid testing"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OMIT_0019104",
       "meta" : {
@@ -1080,16 +1123,24 @@
           "val" : "BMV_102"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "oropharyngeal sample"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HP_0000989",
       "meta" : {
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "itchy skin |pruritus",
+          "val" : "itchy skin",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "pruritus",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "pruritis"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_49"
         } ]
@@ -1101,6 +1152,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_51"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "rash"
         } ]
       },
       "type" : "CLASS"
@@ -1120,25 +1174,8 @@
           "val" : "Wu Bei"
         } ]
       },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/PR_P0DTD1",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasNarrowSynonym",
-          "val" : "3CLpro",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasNarrowSynonym",
-          "val" : "3cl pro",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "PG_24"
-        } ]
-      },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Wu Bei"
     }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0006260",
       "meta" : {
@@ -1193,10 +1230,13 @@
           "val" : "Leflunomide"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Rheumatoid arthritis||psoriatic arthritis"
+          "val" : "psoriatic arthritis"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_46"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Rheumatoid arthritis"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Small molecule"
@@ -1286,6 +1326,46 @@
           "val" : "survival"
         } ]
       },
+      "type" : "CLASS",
+      "lbl" : "survival"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_66919",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "DB:08877"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Jakavi",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Jakafi",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Polycythaemia vera"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DG_67"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "bone marrow cancer"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Myelofibrosis"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Ruxolitinib"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Graft-versus-host disease"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Small molecule"
+        } ]
+      },
       "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010031",
@@ -1304,37 +1384,8 @@
           "val" : "Single Nucleotide Polymorphism"
         } ]
       },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CHEBI_66919",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "DB:08877"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Jakavi",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "Jakafi",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "DG_67"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Ruxolitinib"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Small molecule"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Myelofibrosis||Polycythaemia vera||Graft-versus-host disease||bone marrow cancer"
-        } ]
-      },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Single Nucleotide Polymorphism"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010030",
       "meta" : {
@@ -1346,11 +1397,15 @@
           "val" : "serum"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "serum"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HP_0001649",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "tachycardia"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_62"
         } ]
@@ -1462,6 +1517,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Virus"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "HKU1"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "SP_9"
         } ]
@@ -1491,6 +1549,18 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_39"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "influenza"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/MONDO_0000001",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "disease or disorder"
         } ]
       },
       "type" : "CLASS"
@@ -1500,6 +1570,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_47"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "pain"
         } ]
       },
       "type" : "CLASS"
@@ -1518,6 +1591,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_46"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "COVID-19"
         } ]
       },
       "type" : "CLASS"
@@ -1616,14 +1692,14 @@
           "val" : "PMID:32149036"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CL_1"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Successfully used to grow SARS-CoV-2"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Caco-2"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:1"
         } ]
       },
       "type" : "CLASS"
@@ -1646,6 +1722,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_26"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "RNA-dependent RNA polymerase"
         } ]
       },
       "type" : "CLASS"
@@ -1744,6 +1823,9 @@
       "id" : "http://purl.obolibrary.org/obo/HP_0031246",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "dry cough"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_24"
         } ]
@@ -1798,6 +1880,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_17"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "nasal obstruction"
         } ]
       },
       "type" : "CLASS"
@@ -1841,6 +1926,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "angiotensin-converting enzyme 2"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Amino Acid, Peptide, or Protein,Enzyme"
         }, {
@@ -1873,8 +1961,17 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "clinical characteristic"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "sign or symptom"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_24||BMV_28||BMV_29"
+          "val" : "BMV_24"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_28"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_29"
         } ]
       },
       "type" : "CLASS"
@@ -1897,6 +1994,9 @@
       "id" : "http://purl.obolibrary.org/obo/MONDO_0021146",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "headache"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_33"
         } ]
@@ -1923,6 +2023,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_16"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "monoclonal antibodies"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Amino Acid, Peptide, or Protein,Immunologic Factor"
@@ -2005,11 +2108,11 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "N-176-15"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:18"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Hybridomas (prod. mAb against SARS-CoV)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CL_18"
         } ]
       },
       "type" : "CLASS"
@@ -2017,11 +2120,11 @@
       "id" : "http://purl.obolibrary.org/obo/COVOC_0020010",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:17"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Hybridomas (prod. mAb against SARS-CoV)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CL_17"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "F26G19"
@@ -2039,7 +2142,7 @@
           "val" : "Hybridomas (prod. mAb against SARS-CoV)"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:20"
+          "val" : "CL_20"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "rSN-18"
@@ -2053,14 +2156,14 @@
           "val" : "CVCL:XA77"
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:19"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "S-9-11"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Hybridomas (prod. mAb against SARS-CoV)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CL_19"
         } ]
       },
       "type" : "CLASS"
@@ -2078,7 +2181,7 @@
           "val" : "Hybridomas (prod. mAb against SARS-CoV)"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:22"
+          "val" : "CL_22"
         } ]
       },
       "type" : "CLASS"
@@ -2089,11 +2192,11 @@
           "val" : "CVCL:YQ13"
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:21"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "rSN-21-2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CL_21"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Hybridomas (prod. mAb against SARS-CoV)"
@@ -2114,7 +2217,7 @@
           "val" : "rSN-150"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:24"
+          "val" : "CL_24"
         } ]
       },
       "type" : "CLASS"
@@ -2129,7 +2232,7 @@
           "val" : "rSN-122"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:23"
+          "val" : "CL_23"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Hybridomas (prod. mAb against SARS-CoV)"
@@ -2145,6 +2248,10 @@
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
           "val" : "pp1ab",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "Replicase polyprotein 1ab",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
@@ -2171,6 +2278,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Virus"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "OC43"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "SP_17"
         } ]
@@ -2180,6 +2290,9 @@
       "id" : "http://purl.obolibrary.org/obo/HP_0002094",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "dyspnea"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_25"
         } ]
@@ -2199,13 +2312,17 @@
           "pred" : "hasBroadSynonym",
           "val" : "S glycoprotein",
           "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "spike glycoprotein",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "spike glycoprotein (BtCoV)"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_30"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Spike glycoprotein (BtCoV)"
         } ]
       },
       "type" : "CLASS"
@@ -2262,6 +2379,10 @@
           "pred" : "hasRelatedSynonym",
           "val" : "pp1a",
           "xrefs" : [ ]
+        }, {
+          "pred" : "hasBroadSynonym",
+          "val" : "Replicase polyprotein 1a",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
@@ -2284,6 +2405,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_19"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "proline"
         } ]
       },
       "type" : "CLASS"
@@ -2311,14 +2435,14 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CL_7"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Successfully used to grow SARS-CoV-2"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "VeroE6"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:7"
         } ]
       },
       "type" : "CLASS"
@@ -2338,7 +2462,7 @@
           "val" : "Successfully used to grow SARS-CoV-2"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:3"
+          "val" : "CL_3"
         } ]
       },
       "type" : "CLASS"
@@ -2358,7 +2482,7 @@
           "val" : "Cellular vaccines cell lines"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:11"
+          "val" : "CL_11"
         } ]
       },
       "type" : "CLASS"
@@ -2374,11 +2498,11 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "VeroE6/TMPRSS2"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:8"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Successfully used to grow SARS-CoV-2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CL_8"
         } ]
       },
       "type" : "CLASS"
@@ -2386,11 +2510,11 @@
       "id" : "http://purl.obolibrary.org/obo/COVOC_0020006",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CL_13"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Hybridomas (prod. mAb against SARS-CoV)"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:13"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "F26G1"
@@ -2405,7 +2529,7 @@
           "val" : "Hybridomas (prod. mAb against SARS-CoV)"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:12"
+          "val" : "CL_12"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "47D11"
@@ -2453,7 +2577,7 @@
           "val" : "F26G8"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:15"
+          "val" : "CL_15"
         } ]
       },
       "type" : "CLASS"
@@ -2468,7 +2592,7 @@
           "val" : "Hybridomas (prod. mAb against SARS-CoV)"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:14"
+          "val" : "CL_14"
         } ]
       },
       "type" : "CLASS"
@@ -2476,11 +2600,11 @@
       "id" : "http://purl.obolibrary.org/obo/COVOC_0020009",
       "meta" : {
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:16"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Hybridomas (prod. mAb against SARS-CoV)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CL_16"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "F26G18"
@@ -2493,6 +2617,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_35"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "hyperlipidemia"
         } ]
       },
       "type" : "CLASS"
@@ -2509,6 +2636,15 @@
       },
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C17021",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "protein"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CLO_0002192",
       "meta" : {
         "xrefs" : [ {
@@ -2517,11 +2653,11 @@
           "val" : "PMID:32165541"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CL_2"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Successfully used to grow SARS-CoV-2"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:2"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Calu-3"
@@ -2656,6 +2792,10 @@
           "pred" : "hasExactSynonym",
           "val" : "mammal",
           "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Mammalia"
         } ]
       },
       "type" : "CLASS"
@@ -2699,7 +2839,13 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "DIS_41||DIS_42"
+          "val" : "DIS_42"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DIS_41"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Middle East Respiratory Syndrome"
         } ]
       },
       "type" : "CLASS"
@@ -2736,6 +2882,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "SP_15"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "MERS-CoV"
         } ]
       },
       "type" : "CLASS"
@@ -2773,10 +2922,19 @@
           "val" : "Tocilizumab"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Rheumatoid arthritis||Systemic juvenile idiopathic arthritis||Juvenile idiopathic polyarthritis||Giant cell arteritis"
+          "val" : "Giant cell arteritis"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Systemic juvenile idiopathic arthritis"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_76"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Juvenile idiopathic polyarthritis"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Rheumatoid arthritis"
         } ]
       },
       "type" : "CLASS"
@@ -2845,7 +3003,10 @@
           "val" : "Thalidomide"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Erythema nodosum leprosum (ENL)||Multiple myeloma"
+          "val" : "Multiple myeloma"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Erythema nodosum leprosum (ENL)"
         } ]
       },
       "type" : "CLASS"
@@ -2999,7 +3160,8 @@
           "val" : "isolation"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "isolation"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010013",
       "meta" : {
@@ -3011,7 +3173,8 @@
           "val" : "BMV_81"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "interaction"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010012",
       "meta" : {
@@ -3023,7 +3186,8 @@
           "val" : "intensive care"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "intensive care"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010011",
       "meta" : {
@@ -3035,7 +3199,8 @@
           "val" : "infectivity"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "infectivity"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010018",
       "meta" : {
@@ -3053,7 +3218,8 @@
           "val" : "BMV_88"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Mechanical Ventilation"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010017",
       "meta" : {
@@ -3071,7 +3237,8 @@
           "val" : "Massively-Parallel Sequencing"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Massively-Parallel Sequencing"
     }, {
       "id" : "http://purl.obolibrary.org/obo/MONDO_0100120",
       "meta" : {
@@ -3100,7 +3267,8 @@
           "val" : "BMV_86"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Major histocompatibility complex binding assays"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010015",
       "meta" : {
@@ -3112,13 +3280,17 @@
           "val" : "low-input metagenomic next-generation sequencing"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "low-input metagenomic next-generation sequencing"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_46195",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "acetaminophen"
         } ]
       },
       "type" : "CLASS"
@@ -3133,7 +3305,8 @@
           "val" : "medications"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "medications"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_196889",
       "meta" : {
@@ -3159,8 +3332,32 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Mammal"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Rhinolophus macrotis"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "SP_20"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PR_P0DTD1-1",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasNarrowSynonym",
+          "val" : "3CLpro",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "3cl pro",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "PG_24"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "replicase polyprotein 1ab"
         } ]
       },
       "type" : "CLASS"
@@ -3175,6 +3372,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_52"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "respiratory disease"
         } ]
       },
       "type" : "CLASS"
@@ -3207,7 +3407,21 @@
           "val" : "morbidity"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "morbidity"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0010020",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "microbiology"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_91"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "microbiology"
     }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0019013",
       "meta" : {
@@ -3223,18 +3437,6 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Viral RNA"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/COVOC_0010020",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "microbiology"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_91"
         } ]
       },
       "type" : "CLASS"
@@ -3267,7 +3469,8 @@
           "val" : "confirmed case"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "confirmed case"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010002",
       "meta" : {
@@ -3279,7 +3482,8 @@
           "val" : "BMV_27"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "clinical importance"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010001",
       "meta" : {
@@ -3291,7 +3495,8 @@
           "val" : "BMV_12"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "B-cell assays"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_71204",
       "meta" : {
@@ -3326,7 +3531,8 @@
           "val" : "BMV_59"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "glycan shielding"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010006",
       "meta" : {
@@ -3344,7 +3550,8 @@
           "val" : "Gene or Genome"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Genome"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010005",
       "meta" : {
@@ -3356,7 +3563,8 @@
           "val" : "BMV_48"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "fecal sample"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010004",
       "meta" : {
@@ -3368,7 +3576,8 @@
           "val" : "BMV_32"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "conformational masking"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010009",
       "meta" : {
@@ -3380,7 +3589,8 @@
           "val" : "BMV_73"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "immunogenicity"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0010008",
       "meta" : {
@@ -3392,13 +3602,17 @@
           "val" : "homotrimer"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "homotrimer"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HP_0000969",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_26"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "edema"
         } ]
       },
       "type" : "CLASS"
@@ -3430,7 +3644,7 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:6"
+          "val" : "CL_6"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Successfully used to grow SARS-CoV-2"
@@ -3471,14 +3685,17 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "chemotherapeutic agents"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Other neoplasms"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Daunorubicin"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Leukemia"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_28"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Leukemia||Other neoplasms"
         } ]
       },
       "type" : "CLASS"
@@ -3494,6 +3711,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "cytokines"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Amino Acid, Peptide, or Protein,Immunologic Factor"
         }, {
@@ -3514,6 +3734,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Severe Acute Respiratory Syndrome"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_58"
         } ]
@@ -3530,7 +3753,8 @@
           "val" : "BMV_77"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "infection"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C102527",
       "meta" : {
@@ -3540,6 +3764,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Gene or Genome"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "ACE2"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_2"
@@ -3668,6 +3895,9 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Virus"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Betacoronavirus"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "SP_1"
         } ]
@@ -3705,14 +3935,14 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:4"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "HEK293T"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Successfully used to grow SARS-CoV-2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CL_4"
         } ]
       },
       "type" : "CLASS"
@@ -3720,6 +3950,9 @@
       "id" : "http://purl.obolibrary.org/obo/HP_0000822",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "hypertension"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_36"
         } ]
@@ -3734,6 +3967,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "interferon"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_13"
         } ]
@@ -3758,8 +3994,32 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Virus"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "SARS-CoV"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "SP_21"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/PR_P0DTC1-1",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasNarrowSynonym",
+          "val" : "3CLpro",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "3cl pro",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "replicase polyprotein 1a"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "PG_22"
         } ]
       },
       "type" : "CLASS"
@@ -3769,6 +4029,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_56"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "rhinorrhea"
         } ]
       },
       "type" : "CLASS"
@@ -3943,7 +4206,10 @@
           "val" : "Cell Component"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_22||BMV_99"
+          "val" : "BMV_99"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_22"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "nucleolus"
@@ -3990,6 +4256,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_71"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "wheezing"
         } ]
       },
       "type" : "CLASS"
@@ -4116,6 +4385,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "depressive disorder"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_20"
         } ]
@@ -4194,14 +4466,17 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Metamizole"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Pain"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_50"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Pain||Fever"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Small molecule"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Fever"
         } ]
       },
       "type" : "CLASS"
@@ -4225,6 +4500,9 @@
       "id" : "http://purl.obolibrary.org/obo/HP_0002014",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "diarrhea"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_22"
         } ]
@@ -4236,6 +4514,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_69"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "vomiting"
         } ]
       },
       "type" : "CLASS"
@@ -4243,6 +4524,9 @@
       "id" : "http://purl.obolibrary.org/obo/HP_0002018",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "nausea"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_44"
         } ]
@@ -4252,6 +4536,9 @@
       "id" : "http://purl.obolibrary.org/obo/HP_0002017",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "nausea and vomiting"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_45"
         } ]
@@ -4261,6 +4548,9 @@
       "id" : "http://purl.obolibrary.org/obo/HP_0100806",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "sepsis"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_57"
         } ]
@@ -4300,7 +4590,10 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CE_75||CE_76"
+          "val" : "CE_76"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CE_75"
         } ]
       },
       "type" : "CLASS"
@@ -4394,6 +4687,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_12"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "IL10 human protein"
         } ]
       },
       "type" : "CLASS"
@@ -4406,6 +4702,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Amino Acid, Peptide, or Protein,Biologically Active Substance,Pharmacologic Substance"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "angiotensins"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_5"
@@ -4422,7 +4721,10 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_67||BMV_69"
+          "val" : "BMV_69"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_67"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "immune response"
@@ -4438,6 +4740,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "TMPRSS2"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_32"
         } ]
@@ -4487,6 +4792,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "SP_2"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "camel"
         } ]
       },
       "type" : "CLASS"
@@ -4499,6 +4807,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_15"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "coinfection"
         } ]
       },
       "type" : "CLASS"
@@ -4524,6 +4835,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_4"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "afebrile"
         } ]
       },
       "type" : "CLASS"
@@ -4557,7 +4871,13 @@
           "val" : "Mammal"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "SP_3||SP_8"
+          "val" : "SP_3"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "SP_8"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Camelus dromedarius"
         } ]
       },
       "type" : "CLASS"
@@ -4636,6 +4956,9 @@
       "id" : "http://purl.obolibrary.org/obo/HP_0002027",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "abdominal pain"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_1"
         } ]
@@ -4667,13 +4990,16 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Pulmonary hypertension||Erectile dysfunction"
+          "val" : "Pulmonary hypertension"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Sildenafil"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Small molecule"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Erectile dysfunction"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_70"
@@ -4778,6 +5104,9 @@
       "id" : "http://purl.obolibrary.org/obo/HP_0001025",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "urticaria"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_64"
         } ]
@@ -4816,6 +5145,9 @@
       "id" : "http://purl.obolibrary.org/obo/HP_0003326",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "myalgia"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_43"
         } ]
@@ -4955,6 +5287,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_7"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "anemia"
         } ]
       },
       "type" : "CLASS"
@@ -4991,7 +5326,19 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "DIS_16||DIS_27||DIS_28||DIS_38"
+          "val" : "DIS_16"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DIS_28"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DIS_27"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DIS_38"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "infectious disease"
         } ]
       },
       "type" : "CLASS"
@@ -5019,12 +5366,17 @@
         "xrefs" : [ {
           "val" : "UMLS:C0024432"
         } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "macrophages",
+          "xrefs" : [ ]
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_85"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Macrophage | macrophages"
+          "val" : "Macrophage"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Cell"
@@ -5067,7 +5419,10 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CE_59||CE_60"
+          "val" : "CE_59"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CE_60"
         } ]
       },
       "type" : "CLASS"
@@ -5077,6 +5432,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_48"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "pneumonia"
         } ]
       },
       "type" : "CLASS"
@@ -5092,8 +5450,14 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "chronic obstructive pulmonary disease"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "DIS_13||DIS_14"
+          "val" : "DIS_13"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DIS_14"
         } ]
       },
       "type" : "CLASS"
@@ -5161,6 +5525,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Orthomyxoviridae"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "SP_13"
         } ]
@@ -5206,7 +5573,7 @@
           "val" : "K-562"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:10"
+          "val" : "CL_10"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Cellular vaccines cell lines"
@@ -5317,14 +5684,23 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Small molecule"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Rheumatoid arthritis"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Chronic discoid lupus erythematosus"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_39"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Malaria||Rheumatoid arthritis||Chronic discoid lupus erythematosus||systemic lupus erythematosus"
+          "val" : "Malaria"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Hydroxychloroquine"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "systemic lupus erythematosus"
         } ]
       },
       "type" : "CLASS"
@@ -5416,14 +5792,17 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Antiviral"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Ebola"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Coronaviruses"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_37"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Galidesivir"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Ebola||Coronaviruses"
         } ]
       },
       "type" : "CLASS"
@@ -5450,6 +5829,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Neuromyelitis Optica Spectrum Disorder"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_32"
         }, {
@@ -5460,7 +5842,10 @@
           "val" : "Antibody"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "aHUS||PNH||Neuromyelitis Optica Spectrum Disorder"
+          "val" : "PNH"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "aHUS"
         } ]
       },
       "type" : "CLASS"
@@ -5636,10 +6021,16 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Ebola||SARS-CoV||MERS-CoV"
+          "val" : "MERS-CoV"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Antiviral"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Ebola"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "SARS-CoV"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_62"
@@ -5701,11 +6092,11 @@
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Small molecule"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Chloroquine"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_23"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Chloroquine"
         } ]
       },
       "type" : "CLASS"
@@ -5715,6 +6106,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "albuterol"
         } ]
       },
       "type" : "CLASS"
@@ -5731,6 +6125,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "diabetes mellitus (disease)"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_21"
         } ]
@@ -5740,6 +6137,9 @@
       "id" : "http://www.ebi.ac.uk/efo/EFO_0009641",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "malaise"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_40"
         } ]
@@ -5810,11 +6210,14 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Camrelizumab"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Hodgkin’s lymphoma||Nasopharyngeal carcinoma"
-        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Antibody"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Hodgkin’s lymphoma"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Nasopharyngeal carcinoma"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_18"
@@ -5891,7 +6294,10 @@
           "val" : "Antiviral"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "influenza A||influenza B"
+          "val" : "influenza A"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "influenza B"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Baloxavir marboxil"
@@ -6042,17 +6448,38 @@
           "val" : "ATC:L04AB04"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Hidradenitis suppurativa"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Juvenile idiopathic arthritis"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Ankylosing spondylitis"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_3"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Psoriasis"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Antibody"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Rheumatoid arthritis||Juvenile idiopathic arthritis||Ankylosing spondylitis||Psoriatic arthritis||Psoriasis||Hidradenitis suppurativa||Crohn’s disease||Ulcerative colitis | Uveitis"
+          "val" : "Ulcerative colitis | Uveitis"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Rheumatoid arthritis"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Adalimumab"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Crohn’s disease"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Psoriatic arthritis"
         } ]
       },
       "type" : "CLASS"
@@ -6220,8 +6647,17 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "viral infectious disease"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "DIS_65||DIS_67||DIS_68"
+          "val" : "DIS_68"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DIS_67"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DIS_65"
         } ]
       },
       "type" : "CLASS"
@@ -6456,6 +6892,9 @@
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Human"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Homo sapiens"
         } ]
       },
       "type" : "CLASS"
@@ -6519,6 +6958,9 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "SP_14"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Manidae"
         } ]
       },
       "type" : "CLASS"
@@ -6533,6 +6975,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_50"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "rales"
         } ]
       },
       "type" : "CLASS"
@@ -6548,6 +6993,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "CLEC4M"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_6"
         }, {
@@ -6590,17 +7038,23 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Favipiravir"
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Ebola"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Influenza||Ebola||Lassa"
+          "val" : "Lassa"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Favipiravir"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_34"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Antiviral"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Influenza"
         } ]
       },
       "type" : "CLASS"
@@ -6658,20 +7112,23 @@
       },
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/HP_0100749",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "chest pain"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DIS_11"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0050041",
       "meta" : {
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "CE_46"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HP_0100749",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "DIS_11"
         } ]
       },
       "type" : "CLASS"
@@ -6744,6 +7201,15 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "CE_49"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/CHEBI_33709",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "amino acid"
         } ]
       },
       "type" : "CLASS"
@@ -6913,6 +7379,9 @@
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Mammal"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "dog"
         } ]
       },
       "type" : "CLASS"
@@ -6944,6 +7413,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "transmembrane protease serine 2"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_33"
         } ]
@@ -6960,14 +7432,14 @@
           "val" : "DOI:10.1101/2020.03.02.972935"
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CL_5"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Successfully used to grow SARS-CoV-2"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Huh-7"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CL:5"
         } ]
       },
       "type" : "CLASS"
@@ -6998,14 +7470,17 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_31"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Urticaria"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Ebastine"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Irritable Bowel Syndrome (IBS)"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Small molecule"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Irritable Bowel Syndrome (IBS)||Urticaria"
         } ]
       },
       "type" : "CLASS"
@@ -7073,11 +7548,14 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DG_80"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
+          "val" : "Respiratory viral infection"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Umifenovir"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
-          "val" : "Influenza||Respiratory viral infection"
+          "val" : "Influenza"
         } ]
       },
       "type" : "CLASS"
@@ -7215,6 +7693,9 @@
       "id" : "http://purl.obolibrary.org/obo/HP_0025143",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "chills"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_12"
         } ]
@@ -7262,8 +7743,14 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "cardiovascular disease"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "DIS_10||DIS_34"
+          "val" : "DIS_10"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DIS_34"
         } ]
       },
       "type" : "CLASS"
@@ -7299,7 +7786,13 @@
           "val" : "Pharmacologic Substance"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_5||BMV_6||BMV_7"
+          "val" : "BMV_7"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_5"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_6"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Antiviral Agents"
@@ -7347,6 +7840,9 @@
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Mammal"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Paguma larvata"
         } ]
       },
       "type" : "CLASS"
@@ -7379,6 +7875,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "coronavirus infection"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_18"
         } ]
@@ -7405,7 +7904,13 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "DIS_54||DIS_55"
+          "val" : "DIS_54"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DIS_55"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "respiratory tract infection"
         } ]
       },
       "type" : "CLASS"
@@ -7443,7 +7948,16 @@
           "val" : "Virus"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "SP_5||SP_12||BMV_34"
+          "val" : "SP_12"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Coronavirus"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_34"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "SP_5"
         } ]
       },
       "type" : "CLASS"
@@ -7456,6 +7970,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "weakness"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_70"
         } ]
@@ -7522,6 +8039,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "viral respiratory infection"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_66"
         } ]
@@ -7551,6 +8071,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "gene"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_51"
         } ]
@@ -7562,6 +8085,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_63"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "tachypnea"
         } ]
       },
       "type" : "CLASS"
@@ -7619,6 +8145,9 @@
       "id" : "http://purl.obolibrary.org/obo/MONDO_0004979",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "asthma"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_9"
         } ]
@@ -7638,6 +8167,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_163"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Viruses"
         } ]
       },
       "type" : "CLASS"
@@ -7801,6 +8333,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "HKU23"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "SP_10"
         }, {
@@ -7860,7 +8395,13 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "SP_6||SP_16"
+          "val" : "SP_6"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "SP_16"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "COVID-19"
         } ]
       },
       "type" : "CLASS"
@@ -8018,8 +8559,14 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "infection"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "DIS_37||BMV_77"
+          "val" : "BMV_77"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DIS_37"
         } ]
       },
       "type" : "CLASS"
@@ -8037,6 +8584,9 @@
       "id" : "http://purl.obolibrary.org/obo/MONDO_0002258",
       "meta" : {
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "sore throat"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_59"
         } ]
@@ -8080,11 +8630,14 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Research Activities"
         }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Research Activity"
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_122"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_121||BMV_122"
+          "val" : "BMV_121"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Research Activity"
         } ]
       },
       "type" : "CLASS"
@@ -8094,6 +8647,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_23"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "diffuse alveolar damage"
         } ]
       },
       "type" : "CLASS"
@@ -8108,6 +8664,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_61"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "sulfonamide antibiotic"
         } ]
       },
       "type" : "CLASS"
@@ -8127,6 +8686,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "DPP4"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_9"
         }, {
@@ -8152,6 +8714,9 @@
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Amino Acid, Peptide, or Protein,Biologically Active Substance"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "angiontensin-converting enyme human protein"
         } ]
       },
       "type" : "CLASS"
@@ -8191,6 +8756,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_29"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "fatigue"
         } ]
       },
       "type" : "CLASS"
@@ -8212,6 +8780,12 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_3"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "acute respiratory distress syndrome"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "respiratory distress syndrome"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_53"
@@ -8282,6 +8856,9 @@
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Amino Acid, Peptide, or Protein,Immunologic Factor"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Interleukin-10"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "PG_14"
@@ -8525,6 +9102,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "anxiety disorder"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "DIS_8"
         } ]
@@ -8627,7 +9207,19 @@
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_130||BMV_131||BMV_132||BMV_133"
+          "val" : "BMV_133"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_132"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_131"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_130"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Riboviria"
         } ]
       },
       "type" : "CLASS"
@@ -8690,6 +9282,15 @@
       },
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/PR_000000001",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "protein"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C16556",
       "meta" : {
         "xrefs" : [ {
@@ -8723,6 +9324,9 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Human orthopneumovirus"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "SP_19"
         }, {
@@ -8783,9 +9387,21 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_0030029"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010041",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040022",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C135091"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010028",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040032",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
@@ -8795,29 +9411,57 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_134722"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010019",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040026",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_9513"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040025",
-      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030023"
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010037",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040005",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_145994"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040025",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0030023"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040020",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_31781"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010024",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040009",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_5801"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040021",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_367163"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010033",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010020",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040012",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
@@ -8826,6 +9470,18 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040028",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_63115"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010011",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010042",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010029",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040027",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
@@ -8843,6 +9499,10 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_48432"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040004",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_145994"
@@ -8850,6 +9510,10 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040006",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_45409"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010025",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040032",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
@@ -8863,6 +9527,10 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_0030029"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010016",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040010",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_31781"
@@ -8871,9 +9539,33 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C135091"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010038",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010021",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010043",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040007",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_9139"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010034",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040032",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
@@ -8891,6 +9583,14 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_0030022"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010017",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040021",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_72291"
@@ -8902,6 +9602,10 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040020",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_0030007"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040021",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
@@ -8915,13 +9619,89 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_0030021"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010039",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010026",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010044",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010031",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010035",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010022",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010040",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040013",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_5801"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010018",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010036",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010027",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010032",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010023",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040003",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_0030014"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     } ],
     "id" : "http://purl.obolibrary.org/obo/covoc/covoc-base.json",
     "meta" : {
@@ -8967,7 +9747,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-05-27/covoc-base.json"
+      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-05-28/covoc-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

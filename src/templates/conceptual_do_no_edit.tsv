@@ -1,92 +1,92 @@
-id	Preferred term	Synonymes	CUI UMLS	Semantic Type UMLS	Source		Term import ID	COVoc ID	Preferred label	Synonym	Narrow synonym	Broad synonym	Related synonym	x-refs	Comment	Paola's comments
-							ID	A cov:internal_covoc_id	A cov:preferred_covoc_label	A oboInOwl:hasExactSynonym SPLIT=||	A oboInOwl:hasNarrowSynonym SPLIT=||	A oboInOwl:hasBroadSynonym SPLIT=||	A oboInOwl:hasRelatedSynonym SPLIT=||	A oboInOwl:hasDbXref SPLIT=||	A rdfs:comment	
-CE_1	“crown-like” appearance						COVOC:0050001	CE_1								
-CE_2	age of onset		C0206132	[Quantitative Concept]			EFO:0004847	CE_2		age of onset				UMLS:C0206132		
-CE_3	alcohol sanitizer	alcohol sanitizers					COVOC:0050002	CE_3								
-CE_4	analysis		C1524024	[Functional Concept]			COVOC:0050003	CE_4						UMLS:C1524024		
-CE_5	assay		C0243073	[Qualitative Concept]			OBI:0000070	CE_5						UMLS:C0243073		
-CE_6	climate conditions	climate condition					COVOC:0050004	CE_6								
-CE_7	cluster	clusters					COVOC:0050005	CE_7								
-CE_8	contact tracing						COVOC:0050006	CE_8								
-CE_9	containment						COVOC:0050007	CE_9								
-CE_10	control		C0243148	[Qualitative Concept]			EFO:0001461	CE_10						UMLS:C0243148		
-CE_11	control measure	control measures					COVOC:0050008	CE_11								
-CE_12	cross protection						COVOC:0050009	CE_12								
-CE_13	crucial role	crucial roles					COVOC:0050010	CE_13								
-CE_14	cumulative number	cumulative numbers					COVOC:0050011	CE_14								
-CE_15	current study	current studies					COVOC:0050012	CE_15								
-CE_16	Database		C0993637	[Intellectual Product]			COVOC:0050013	CE_16						UMLS:C0993637		
-CE_17	Death		C0011065	[Organism Function]			PATO:0001422	CE_17						UMLS:C0011065		
-CE_18	Developing Countries	developing country	C0011750	[Qualitative Concept]			COVOC:0050014	CE_18						UMLS:C0011750		
-CE_19	distribution		C1704711	[Functional Concept]			COVOC:0050015	CE_19						UMLS:C1704711		
-CE_20	drug repurposing	drugs repurposing					COVOC:0050016	CE_20								
-CE_21	epicenter						COVOC:0050017	CE_21								
-CE_22	epidemics	epidemic	C0220823	[Functional Concept]			COVOC:0050018	CE_22						UMLS:C0220823		
-CE_23	epidemiological investigation	epidemiological investigations					COVOC:0050019	CE_23								create as child of OBI_0000066 investigation?
-CE_24	expression level	expression levels					COVOC:0050020	CE_24								
-CE_25	findings		C2607943	[Functional Concept]			COVOC:0050021	CE_25						UMLS:C2607943		
-CE_26	Geographic Information Systems		C0815319	[Intellectual Product]			COVOC:0050022	CE_26						UMLS:C0815319		
-CE_27	Geographic Locations		C0017446	[Geographic Area]			COVOC:0050023	CE_27						UMLS:C0017446		
-CE_28	growth		C0220844	[Physiologic Function]			COVOC:0050024	CE_28						UMLS:C0220844		
-CE_29	Guideline		C0282423	[Intellectual Product]			COVOC:0050025	CE_29						UMLS:C0282423		
-CE_30	Guidelines		C0162791	[Intellectual Product]			COVOC:0050026	CE_30						UMLS:C0162791		
-CE_31	guiding characteristics		C0220845	[Intellectual Product]			COVOC:0050027	CE_31						UMLS:C0220845		
-CE_32	hand sanitizer	hand sanitizers					COVOC:0050028	CE_32								
-CE_33	health emergency	health emergencies					COVOC:0050029	CE_33								
-CE_34	Health Personnel		C0018724	[Professional or Occupational Group]			COVOC:0050030	CE_34						UMLS:C0018724		
-CE_35	healthcare workers	health care workers					COVOC:0050031	CE_35								
-CE_36	hospitalisation						COVOC:0050032	CE_36								
-CE_37	host						EFO:0000532	CE_37								
-CE_38	Huanan market	Huanan markets					COVOC:0050033	CE_38								
-CE_39	human health						COVOC:0050034	CE_39								
-CE_40	human-to-human transmission						COVOC:0050035	CE_40								
-CE_41	imported case	imported cases					COVOC:0050036	CE_41								
-CE_42	incidence		C0220856	[Functional Concept]			COVOC:0050037	CE_42						UMLS:C0220856		
-CE_43	infected animal	infected animals					COVOC:0050038	CE_43								
-CE_44	intermediate host	intermediate hosts					COVOC:0050039	CE_44								create as child of EFO host?
-CE_45	international concern						COVOC:0050040	CE_45								
-CE_46	large number	large numbers					COVOC:0050041	CE_46								
-CE_47	lethality						COVOC:0050042	CE_47								
-CE_48	masks	mask					COVOC:0050043	CE_48								
-CE_49	Mathematical Model	mathematical models	C0876936	[Intellectual Product]			COVOC:0050044	CE_49						UMLS:C0876936		
-CE_50	Medical Staff		C0025106	[Professional or Occupational Group]			COVOC:0050045	CE_50						UMLS:C0025106		
-CE_51	Men		C0025266	[Population Group]			PATO:0000384	CE_51			man||men			UMLS:C0025266		
-CE_52	non-social distancing						COVOC:0050046	CE_52								
-CE_53	oxygen				PUBLIC - Clinical observations extracted from ED notes of SARS-CoV-2 tested patients 3/31/2020 - https://docs.google.com/spreadsheets/d/1iZZvbv94fpZdC6XaiPosiniMOh18etSPliAXVlLLr1w/edit#gid=0		CHEBI:15379	CE_53								
-CE_54	Pandemics	pandemic	C1615608	[Phenomenon or Process]			COVOC:0050047	CE_54						UMLS:C1615608		
-CE_55	permission	permissions					COVOC:0050048	CE_55								
-CE_56	Permissiveness		C0031166	[Individual Behavior]			COVOC:0050049	CE_56						UMLS:C0031166		
-CE_57	person-to-person transmission						COVOC:0050050	CE_57								
-CE_58	physiology		C0031843	[Physiologic Function]			COVOC:0050051	CE_58						UMLS:C0031843		
-CE_59	Population		C0032659	[Quantitative Concept]||[Population Group]			OBI:0000181	CE_59||CE_60		Population Group				UMLS:C0032659||C1257890		
-CE_61	positive rate						COVOC:0050052	CE_61								
-CE_62	preparedness						COVOC:0050053	CE_62								
-CE_63	prevalence		C0033105 | C0220900	[Quantitative Concept] | [Quantitative Concept]			COVOC:0050054	CE_63						UMLS:C0033105||UMLS:C0220900		
-CE_64	prevention		C2700409	[Qualitative Concept]			COVOC:0050055	CE_64						UMLS:C2700409		
-CE_65	public health emergency						COVOC:0050056	CE_65								
-CE_66	public health emergency of international concern						COVOC:0050057	CE_66								
-CE_67	publicly funded repository	publicly funded repositories					COVOC:0050058	CE_67								
-CE_68	quarantine						COVOC:0050059	CE_68								
-CE_69	Research Personnel		C0035173	[Professional or Occupational Group]			COVOC:0050060	CE_69						UMLS:C0035173		
-CE_70	Risk Factors	risk factor	C0035648	[Finding]			EFO:0003919	CE_70						UMLS:C0035648		
-CE_71	school closures						COVOC:0050061	CE_71								
-CE_72	Sensitivity		C0036667	[Quantitative Concept]			COVOC:0050062	CE_72						UMLS:C0036667		
-CE_73	Sex		C1522384	[Organism Attribute]			PATO:0000047	CE_73						UMLS:C1522384		
-CE_74	shortness of breath						EFO:0009727	CE_74								
-CE_75	Social Distance	social distancing	C0037412	[Social Behavior]			COVOC:0050063	CE_75||CE_76		social distancing				UMLS:C0037412		
-CE_77	Specificity		C0037791	[Quantitative Concept]			COVOC:0050064	CE_77						UMLS:C0037791		
-CE_78	spread						COVOC:0050065	CE_78								
-CE_79	spreaders	spreader					COVOC:0050066	CE_79								
-CE_80	study design						EFO:0001426	CE_80								
-CE_81	subset						COVOC:0050067	CE_81								
-CE_82	supplementary information						COVOC:0050068	CE_82								create as child of 'information entity'?
-CE_83	surface	surfaces					COVOC:0050069	CE_83								
-CE_84	surveillance		C0220920	[Functional Concept]			COVOC:0050070	CE_84						UMLS:C0220920		
-CE_85	Travel		C0040802	[Daily or Recreational Activity]			COVOC:0050071	CE_85						UMLS:C0040802		
-CE_86	urgent need						COVOC:0050072	CE_86								
-CE_87	vast majority						COVOC:0050073	CE_87								
-CE_88	Veterinarian		C0242856	[Professional or Occupational Group]			COVOC:0050074	CE_88						UMLS:C0242856		
-CE_89	viability						PATO:0000169	CE_89								
-CE_90	weather changes						COVOC:0050075	CE_90								
-CE_91	wide range						COVOC:0050076	CE_91								
-CE_92	World Health Organization	WHO					COVOC:0050077	CE_92								
+id	Preferred term	Synonymes	CUI UMLS	Semantic Type UMLS	Source		Term import ID	COVoc ID	Temporary label (COVOC IDs only)	Child of	Preferred label	Synonym	Narrow synonym	Broad synonym	Related synonym	x-refs	Comment	Paola's comments	Curation stats
+							ID	A cov:internal_covoc_id  SPLIT=||	LABEL	SC %	A cov:preferred_covoc_label	A oboInOwl:hasExactSynonym SPLIT=||	A oboInOwl:hasNarrowSynonym SPLIT=||	A oboInOwl:hasBroadSynonym SPLIT=||	A oboInOwl:hasRelatedSynonym SPLIT=||	A oboInOwl:hasDbXref SPLIT=||	A rdfs:comment		
+CE_1	“crown-like” appearance						COVOC:0050001	CE_1											
+CE_2	age of onset		C0206132	[Quantitative Concept]			EFO:0004847	CE_2				age of onset				UMLS:C0206132			
+CE_3	alcohol sanitizer	alcohol sanitizers					COVOC:0050002	CE_3											
+CE_4	analysis		C1524024	[Functional Concept]			COVOC:0050003	CE_4								UMLS:C1524024			
+CE_5	assay		C0243073	[Qualitative Concept]			OBI:0000070	CE_5								UMLS:C0243073			
+CE_6	climate conditions	climate condition					COVOC:0050004	CE_6											
+CE_7	cluster	clusters					COVOC:0050005	CE_7											
+CE_8	contact tracing						COVOC:0050006	CE_8											
+CE_9	containment						COVOC:0050007	CE_9											
+CE_10	control		C0243148	[Qualitative Concept]			EFO:0001461	CE_10								UMLS:C0243148			
+CE_11	control measure	control measures					COVOC:0050008	CE_11											
+CE_12	cross protection						COVOC:0050009	CE_12											
+CE_13	crucial role	crucial roles					COVOC:0050010	CE_13											
+CE_14	cumulative number	cumulative numbers					COVOC:0050011	CE_14											
+CE_15	current study	current studies					COVOC:0050012	CE_15											
+CE_16	Database		C0993637	[Intellectual Product]			COVOC:0050013	CE_16								UMLS:C0993637			
+CE_17	Death		C0011065	[Organism Function]			PATO:0001422	CE_17								UMLS:C0011065			
+CE_18	Developing Countries	developing country	C0011750	[Qualitative Concept]			COVOC:0050014	CE_18								UMLS:C0011750			
+CE_19	distribution		C1704711	[Functional Concept]			COVOC:0050015	CE_19								UMLS:C1704711			
+CE_20	drug repurposing	drugs repurposing					COVOC:0050016	CE_20											
+CE_21	epicenter						COVOC:0050017	CE_21											
+CE_22	epidemics	epidemic	C0220823	[Functional Concept]			COVOC:0050018	CE_22								UMLS:C0220823			
+CE_23	epidemiological investigation	epidemiological investigations					COVOC:0050019	CE_23										create as child of OBI_0000066 investigation?	
+CE_24	expression level	expression levels					COVOC:0050020	CE_24											
+CE_25	findings		C2607943	[Functional Concept]			COVOC:0050021	CE_25								UMLS:C2607943			
+CE_26	Geographic Information Systems		C0815319	[Intellectual Product]			COVOC:0050022	CE_26								UMLS:C0815319			
+CE_27	Geographic Locations		C0017446	[Geographic Area]			COVOC:0050023	CE_27								UMLS:C0017446			
+CE_28	growth		C0220844	[Physiologic Function]			COVOC:0050024	CE_28								UMLS:C0220844			
+CE_29	Guideline		C0282423	[Intellectual Product]			COVOC:0050025	CE_29								UMLS:C0282423			
+CE_30	Guidelines		C0162791	[Intellectual Product]			COVOC:0050026	CE_30								UMLS:C0162791			
+CE_31	guiding characteristics		C0220845	[Intellectual Product]			COVOC:0050027	CE_31								UMLS:C0220845			
+CE_32	hand sanitizer	hand sanitizers					COVOC:0050028	CE_32											
+CE_33	health emergency	health emergencies					COVOC:0050029	CE_33											
+CE_34	Health Personnel		C0018724	[Professional or Occupational Group]			COVOC:0050030	CE_34								UMLS:C0018724			
+CE_35	healthcare workers	health care workers					COVOC:0050031	CE_35											
+CE_36	hospitalisation						COVOC:0050032	CE_36											
+CE_37	host						EFO:0000532	CE_37											
+CE_38	Huanan market	Huanan markets					COVOC:0050033	CE_38											
+CE_39	human health						COVOC:0050034	CE_39											
+CE_40	human-to-human transmission						COVOC:0050035	CE_40											
+CE_41	imported case	imported cases					COVOC:0050036	CE_41											
+CE_42	incidence		C0220856	[Functional Concept]			COVOC:0050037	CE_42								UMLS:C0220856			
+CE_43	infected animal	infected animals					COVOC:0050038	CE_43											
+CE_44	intermediate host	intermediate hosts					COVOC:0050039	CE_44										create as child of EFO host?	
+CE_45	international concern						COVOC:0050040	CE_45											
+CE_46	large number	large numbers					COVOC:0050041	CE_46											
+CE_47	lethality						COVOC:0050042	CE_47											
+CE_48	masks	mask					COVOC:0050043	CE_48											
+CE_49	Mathematical Model	mathematical models	C0876936	[Intellectual Product]			COVOC:0050044	CE_49								UMLS:C0876936			
+CE_50	Medical Staff		C0025106	[Professional or Occupational Group]			COVOC:0050045	CE_50								UMLS:C0025106			
+CE_51	Men		C0025266	[Population Group]			PATO:0000384	CE_51					man||men			UMLS:C0025266			
+CE_52	non-social distancing						COVOC:0050046	CE_52											
+CE_53	oxygen				PUBLIC - Clinical observations extracted from ED notes of SARS-CoV-2 tested patients 3/31/2020 - https://docs.google.com/spreadsheets/d/1iZZvbv94fpZdC6XaiPosiniMOh18etSPliAXVlLLr1w/edit#gid=0		CHEBI:15379	CE_53											
+CE_54	Pandemics	pandemic	C1615608	[Phenomenon or Process]			COVOC:0050047	CE_54								UMLS:C1615608			
+CE_55	permission	permissions					COVOC:0050048	CE_55											
+CE_56	Permissiveness		C0031166	[Individual Behavior]			COVOC:0050049	CE_56								UMLS:C0031166			
+CE_57	person-to-person transmission						COVOC:0050050	CE_57											
+CE_58	physiology		C0031843	[Physiologic Function]			COVOC:0050051	CE_58								UMLS:C0031843			
+CE_59	Population		C0032659	[Quantitative Concept]||[Population Group]			OBI:0000181	CE_59||CE_60				Population Group				UMLS:C0032659||C1257890			
+CE_61	positive rate						COVOC:0050052	CE_61											
+CE_62	preparedness						COVOC:0050053	CE_62											
+CE_63	prevalence		C0033105 | C0220900	[Quantitative Concept] | [Quantitative Concept]			COVOC:0050054	CE_63								UMLS:C0033105||UMLS:C0220900			
+CE_64	prevention		C2700409	[Qualitative Concept]			COVOC:0050055	CE_64								UMLS:C2700409			
+CE_65	public health emergency						COVOC:0050056	CE_65											
+CE_66	public health emergency of international concern						COVOC:0050057	CE_66											
+CE_67	publicly funded repository	publicly funded repositories					COVOC:0050058	CE_67											
+CE_68	quarantine						COVOC:0050059	CE_68											
+CE_69	Research Personnel		C0035173	[Professional or Occupational Group]			COVOC:0050060	CE_69								UMLS:C0035173			
+CE_70	Risk Factors	risk factor	C0035648	[Finding]			EFO:0003919	CE_70								UMLS:C0035648			
+CE_71	school closures						COVOC:0050061	CE_71											
+CE_72	Sensitivity		C0036667	[Quantitative Concept]			COVOC:0050062	CE_72								UMLS:C0036667			
+CE_73	Sex		C1522384	[Organism Attribute]			PATO:0000047	CE_73								UMLS:C1522384			
+CE_74	shortness of breath						EFO:0009727	CE_74											
+CE_75	Social Distance	social distancing	C0037412	[Social Behavior]			COVOC:0050063	CE_75||CE_76				social distancing				UMLS:C0037412			
+CE_77	Specificity		C0037791	[Quantitative Concept]			COVOC:0050064	CE_77								UMLS:C0037791			
+CE_78	spread						COVOC:0050065	CE_78											
+CE_79	spreaders	spreader					COVOC:0050066	CE_79											
+CE_80	study design						EFO:0001426	CE_80											
+CE_81	subset						COVOC:0050067	CE_81											
+CE_82	supplementary information						COVOC:0050068	CE_82										create as child of 'information entity'?	
+CE_83	surface	surfaces					COVOC:0050069	CE_83											
+CE_84	surveillance		C0220920	[Functional Concept]			COVOC:0050070	CE_84								UMLS:C0220920			
+CE_85	Travel		C0040802	[Daily or Recreational Activity]			COVOC:0050071	CE_85								UMLS:C0040802			
+CE_86	urgent need						COVOC:0050072	CE_86											
+CE_87	vast majority						COVOC:0050073	CE_87											
+CE_88	Veterinarian		C0242856	[Professional or Occupational Group]			COVOC:0050074	CE_88								UMLS:C0242856			
+CE_89	viability						PATO:0000169	CE_89											
+CE_90	weather changes						COVOC:0050075	CE_90											
+CE_91	wide range						COVOC:0050076	CE_91											
+CE_92	World Health Organization	WHO					COVOC:0050077	CE_92											
