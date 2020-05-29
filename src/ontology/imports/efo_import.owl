@@ -13,7 +13,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:patterns="http://www.co-ode.org/patterns#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/efo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-05-28/imports/efo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-05-29/imports/efo_import.owl"/>
     </owl:Ontology>
     
 
@@ -228,6 +228,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000299"/>
@@ -306,6 +312,14 @@
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0006351 -->
+
+    <owl:ObjectProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_0006351">
+        <rdfs:label>has_about_it</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.obofoundry.org/ro/ro.owl#derives_from -->
 
     <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
@@ -335,6 +349,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17089"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_59163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59163"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0003674 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0003674"/>
@@ -350,6 +388,12 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9606 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000181"/>
     
 
 
@@ -384,6 +428,21 @@
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000510 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000510">
+        <obo:IAO_0000112>Examples of genetic modification include specification of a transgene or the gene knocked-out or details of transient transfection</obo:IAO_0000112>
+        <obo:IAO_0000115>A genetic modification of the genome of  an organism which may occur naturally by spontaneous mutation, or be introduced by some experimental means. Examples of genetic modification include specification of a transgene or the gene knocked-out or details of transient transfection.</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:organizational_class>true</efo:organizational_class>
+        <oboInOwl:hasDbXref>MO:927</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>genetic_modification</oboInOwl:hasExactSynonym>
+        <rdfs:label>genetic modification</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0000532 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000532">
@@ -409,6 +468,24 @@
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000638 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000638">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000714"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A measurement of the survival rate for a group of individuals suffering from a disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <efo:gwas_trait>true</efo:gwas_trait>
+        <rdfs:label>overall survival</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0000643 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000643">
@@ -416,6 +493,62 @@
         <obo:IAO_0000117>James Malone</obo:IAO_0000117>
         <oboInOwl:hasDbXref>NCIt:C80324</oboInOwl:hasDbXref>
         <rdfs:label>pathogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000714 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000714">
+        <obo:IAO_0000115>Time of survival is an information entity which is about the length of time a material entity has survived after some adverse event, such as infection from a disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <efo:gwas_trait>true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MSH:D013534</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C17177</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PERSON: James Malone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:445320007</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>survival</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>time of survival</oboInOwl:hasExactSynonym>
+        <rdfs:label>survival time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000715 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000715">
+        <obo:IAO_0000115>The probabilty of continuance of life or existence especially under adverse conditions; Probably need a parent survival metric or similar</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <rdfs:label>survival probability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000726 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000726">
+        <obo:IAO_0000115>The process of bringing about genetic alteration of any cell or organism by a variety of means including recombinant DNA technology, viruses, chemical mutagens and X-rays.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>MO:849</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MSH:D014162</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C17209</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>transfect</oboInOwl:hasExactSynonym>
+        <rdfs:label>transfection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000727 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000727">
+        <obo:IAO_0000115>A process in which the act is intended to modify or alter some other material entity,</obo:IAO_0000115>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:organizational_class>true</efo:organizational_class>
+        <oboInOwl:hasDbXref>MO:23</oboInOwl:hasDbXref>
+        <rdfs:label>treatment</rdfs:label>
     </owl:Class>
     
 
@@ -528,6 +661,7 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0004014 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004014">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000510"/>
         <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
         <efo:definition_citation>A genetic modification in which some nucleic acid is deleted from the genome of an individual</efo:definition_citation>
         <efo:definition_citation>http://www.findmice.org/glossary.jsp</efo:definition_citation>
@@ -558,6 +692,42 @@
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004352 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004352">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000181"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Is the quantification of the number of deaths is a population.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <efo:gwas_trait>true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MSH:D009026</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MSH:Q000401</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C16880</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:409651001</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>mortality rate</oboInOwl:hasExactSynonym>
+        <rdfs:label>mortality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004420 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004420">
+        <obo:IAO_0000115>A genome is the full genetic content of an organism, contained in either DNA or RNA (such as for viruses).</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>MSH:D016678</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C16629</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:18470003</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>whole genome</oboInOwl:hasExactSynonym>
+        <rdfs:label>genome</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0004847 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004847">
@@ -584,6 +754,16 @@
         <oboInOwl:hasExactSynonym>Huh-7</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Huh7</oboInOwl:hasExactSynonym>
         <rdfs:label>HuH-7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0007056 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007056">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000727"/>
+        <obo:IAO_0000115>Where a drug or surgery has been used to treat an individual with a particular condition.</obo:IAO_0000115>
+        <rdfs:label>clinical treatment</rdfs:label>
     </owl:Class>
     
 

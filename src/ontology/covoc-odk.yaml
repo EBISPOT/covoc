@@ -30,6 +30,7 @@ import_group:
     - id: pr
     - id: uberon
     - id: pato
+    - id: ero
 components:
   products:
     - filename: all_templates.owl

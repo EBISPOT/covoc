@@ -1,6 +1,6 @@
 id	Preferred term	Synonyms	Source	CUI UMLS	Semantic Type UMLS		Term import ID	Future ID	COVoc ID	Temporary label (COVOC IDs only)	Child of	Preferred label	Synonym	Narrow synonym	Broad synonym	Related synonym	x-refs	Comments	Paola's comments	Curation stats
 							ID		A cov:internal_covoc_id  SPLIT=||	LABEL	SC %	A cov:preferred_covoc_label	A oboInOwl:hasExactSynonym SPLIT=||	A oboInOwl:hasNarrowSynonym SPLIT=||	A oboInOwl:hasBroadSynonym SPLIT=||	A oboInOwl:hasRelatedSynonym SPLIT=||	A oboInOwl:hasDbXref SPLIT=||	A rdfs:comment		
-BMV_164	Western-Blot	western-blotting||WB||western blotting					COVOC:0010045		BMV_164	Western-Blot	COVOC:00000000	Western-Blot							Keep pref label as syn. BAO:0002424	
+BMV_164	Western-Blot	western-blotting||WB||western blotting					COVOC:0010045		BMV_164	Western-Blot	obo:COVOC_00000000	Western-Blot							Keep pref label as syn. BAO:0002424	
 BMV_60	glycoprotein	glycoproteins					CHEBI:17089		BMV_60			glycoprotein								
 BMV_7	Antiviral Agents			C0003451	[Pharmacologic Substance]		CHEBI:22587		BMV_5||BMV_6||BMV_7			Antiviral Agents	antiviral agents||antiviral activity||antiviral activities		antiviral||antivirals		UMLS:C0003451	Pharmacologic Substance		
 BMV_108	Pharmaceutical Preparations			C0013227	[Pharmacologic Substance]		CHEBI:52217		BMV_108			Pharmaceutical Preparations					UMLS:C0013227	Pharmacologic Substance	Keep pref label as syn	
@@ -52,7 +52,7 @@ BMV_72	immunofluorescence test						MAXO:0000614		BMV_72			immunofluorescence te
 BMV_136	serological test	serological tests					MAXO:0000609		BMV_136			serological test				serology			Keep pref label as syn; add 'serology' as related syn	
 BMV_50	Gene therapy			C0017296	[Therapeutic or Preventive Procedure]		MAXO:0001001		BMV_50			Gene therapy					UMLS:C0017296	Therapeutic or Preventive Procedure		
 BMV_165	zoonosis	zoonose||zoonotic disease					MONDO:0025481		BMV_165			zoonosis								Term existed in Mondo but had errors; we had them fixed.
-BMV_157	vector-borne						COVOC:0010046	MONDO:0100120	BMV_157	vector-borne	COVOC:00000000	vector-borne				vector-borne				Term didn't exist in any other ontology and we requested it to Mondo. Its axiomatization unveiled issues in Mondo that were then addressed.
+BMV_157	vector-borne						COVOC:0010046	MONDO:0100120	BMV_157	vector-borne	obo:COVOC_00000000	vector-borne				vector-borne				Term didn't exist in any other ontology and we requested it to Mondo. Its axiomatization unveiled issues in Mondo that were then addressed.
 BMV_9	astrovirus	astroviruses					NCBITaxon:39733		BMV_9			astrovirus							Keep pref label	
 BMV_42	DNA Sequence			C0162326	[Nucleotide Sequence]		NCIT:C13299		BMV_42			DNA Sequence					UMLS:C0162326	Nucleotide Sequence		
 BMV_30	Clinical Study			C0008972	[Research Activity]		NCIT:C15206		BMV_30			Clinical Study					UMLS:C0008972	Research Activity		
@@ -71,7 +71,7 @@ BMV_39	diagnosis	diagnoses | diagnose		C0011900	[Diagnostic Procedure]		NCIT:C15
 BMV_70	Immunization			C0020971	[Therapeutic or Preventive Procedure]		NCIT:C15258		BMV_70			Immunization					UMLS:C0020971	Therapeutic or Preventive Procedure		
 BMV_123	Research Design			C0035171	[Research Activity]		NCIT:C15320		BMV_123			Research Design					UMLS:C0035171	Research Activity		
 BMV_122	Research Activities			C0242481	[Research Activity]		NCIT:C15429		BMV_121||BMV_122			Research Activities	research activities				UMLS:C0242481||C0035168	Research Activity		
-BMV_97	nasopharyngeal swabs						NCIT:C155831		BMV_97			nasopharyngeal swabs				nasopharyngeal swab||nasopharyngeal swabs				
+BMV_97	nasopharyngeal swabs						NCIT:C155831		BMV_97			nasopharyngeal swabs				nasopharyngeal swab||nasopharyngeal swabs				May need a new EFO term, this is more specific than 'nasopharyngeal sample'
 BMV_156	vaccine design						NCIT:C16006		BMV_156			vaccine design								
 BMV_107	patient	patients					NCIT:C16960		BMV_107			patient								
 BMV_116	Public Health			C0034019	[Biomedical Occupation or Discipline]		NCIT:C17039		BMV_116			Public Health					UMLS:C0034019	Biomedical Occupation or Discipline		
@@ -102,48 +102,56 @@ BMV_14	Base Sequence			C0004793	[Nucleotide Sequence]		OMIT:0002855		BMV_14			Ba
 BMV_13	B-cell epitopes						OMIT:0019104		BMV_13			B-cell epitopes	B-cell epitope||B-cell epitopes							
 BMV_74	immunolobulin g	igg					PR:000050252		BMV_74			immunolobulin g			immunoglobulin g	IgG				
 BMV_84	lungs						UBERON:0002048		BMV_84			lungs							Keep pref label as syn	
-BMV_12	B-cell assays						COVOC:0010001		BMV_12	B-cell assays	COVOC:00000000	B-cell assays								
-BMV_27	clinical importance						COVOC:0010002		BMV_27	clinical importance	COVOC:00000000	clinical importance								
-BMV_31	confirmed case	confirmed cases					COVOC:0010003		BMV_31	confirmed case	COVOC:00000000	confirmed case								
-BMV_32	conformational masking						COVOC:0010004		BMV_32	conformational masking	COVOC:00000000	conformational masking								
-BMV_48	fecal sample	fecal samples					COVOC:0010005		BMV_48	fecal sample	COVOC:00000000	fecal sample								
-BMV_56	Genome			C0017428	[Gene or Genome]		COVOC:0010006		BMV_56	Genome	COVOC:00000000	Genome					UMLS:C0017428	Gene or Genome		
-BMV_59	glycan shielding						COVOC:0010007		BMV_59	glycan shielding	COVOC:00000000	glycan shielding								
-BMV_62	homotrimer	homotrimers					COVOC:0010008		BMV_62	homotrimer	COVOC:00000000	homotrimer								
-BMV_73	immunogenicity						COVOC:0010009		BMV_73	immunogenicity	COVOC:00000000	immunogenicity								
-BMV_77	infection						COVOC:0010010		BMV_77	infection	COVOC:00000000	infection								
-BMV_78	infectivity						COVOC:0010011		BMV_78	infectivity	COVOC:00000000	infectivity								
-BMV_80	intensive care						COVOC:0010012		BMV_80	intensive care	COVOC:00000000	intensive care								
-BMV_81	interaction	interactions					COVOC:0010013		BMV_81	interaction	COVOC:00000000	interaction								
-BMV_82	isolation			C0220862	[Laboratory Procedure]		COVOC:0010014		BMV_82	isolation	COVOC:00000000	isolation					UMLS:C0220862	Laboratory Procedure		
-BMV_83	low-input metagenomic next-generation sequencing	mNGS					COVOC:0010015		BMV_83	low-input metagenomic next-generation sequencing	COVOC:00000000	low-input metagenomic next-generation sequencing								
-BMV_86	Major histocompatibility complex binding assays	MHC binding assays					COVOC:0010016		BMV_86	Major histocompatibility complex binding assays	COVOC:00000000	Major histocompatibility complex binding assays								
-BMV_87	Massively-Parallel Sequencing			C2936622	[Molecular Biology Research Technique]		COVOC:0010017		BMV_87	Massively-Parallel Sequencing	COVOC:00000000	Massively-Parallel Sequencing					UMLS:C2936622	Molecular Biology Research Technique		
-BMV_88	Mechanical Ventilation			C0199470	[Therapeutic or Preventive Procedure]		COVOC:0010018		BMV_88	Mechanical Ventilation	COVOC:00000000	Mechanical Ventilation					UMLS:C0199470	Therapeutic or Preventive Procedure		
-BMV_89	medications	medication					COVOC:0010019		BMV_89	medications	COVOC:00000000	medications								
-BMV_91	microbiology						COVOC:0010020		BMV_91	microbiology	COVOC:00000000	microbiology								
-BMV_93	morbidity			C0220880	[Intellectual Product]		COVOC:0010021		BMV_93	morbidity	COVOC:00000000	morbidity					UMLS:C0220880	Intellectual Product		
-BMV_94	mortality			C0026565 | C0026566	[Quantitative Concept] | [Quantitative Concept]		COVOC:0010022		BMV_94	mortality	COVOC:00000000	mortality					UMLS:C0026565 | UMLS:C0026566	Quantitative Concept||Quantitative Concept		
-BMV_95	Mutation	mutations		C0026882	[Genetic Function]		COVOC:0010023		BMV_95	Mutation	COVOC:00000000	Mutation					UMLS:C0026882	Genetic Function		
-BMV_96	nasopharyngeal sample	nasopharyngeal samples					COVOC:0010024		BMV_96	nasopharyngeal sample	COVOC:00000000	nasopharyngeal sample								
-BMV_98	next-generation sequencing	ngs					COVOC:0010025		BMV_98	next-generation sequencing	COVOC:00000000	next-generation sequencing								
-BMV_102	oropharyngeal sample	oropharyngeal samples					COVOC:0010026		BMV_102	oropharyngeal sample	COVOC:00000000	oropharyngeal sample								
-BMV_118	rapid testing						COVOC:0010027		BMV_118	rapid testing	COVOC:00000000	rapid testing								
-BMV_120	replication						COVOC:0010028		BMV_120	replication	COVOC:00000000	replication								
-BMV_134	sequence	sequences					COVOC:0010029		BMV_134	sequence	COVOC:00000000	sequence								
-BMV_138	serum	sera					COVOC:0010030		BMV_138	serum	COVOC:00000000	serum								
-BMV_139	Single Nucleotide Polymorphism	snp | snps | single nucleotide polymorphisms		C0752046	[Nucleotide Sequence]		COVOC:0010031		BMV_139	Single Nucleotide Polymorphism	COVOC:00000000	Single Nucleotide Polymorphism					UMLS:C0752046	Nucleotide Sequence		
-BMV_140	survival			C0220921	[Functional Concept]		COVOC:0010032		BMV_140	survival	COVOC:00000000	survival					UMLS:C0220921	Functional Concept		
-BMV_142	T-cell assays						COVOC:0010033		BMV_142	T-cell assays	COVOC:00000000	T-cell assays								
-BMV_143	T-cell epitopes						COVOC:0010034		BMV_143	T-cell epitopes	COVOC:00000000	T-cell epitopes								
-BMV_144	Therapeutics			C0087111	[Therapeutic or Preventive Procedure]		COVOC:0010035		BMV_144	Therapeutics	COVOC:00000000	Therapeutics					UMLS:C0087111	Therapeutic or Preventive Procedure		
-BMV_145	therapy			C0039798	[Functional Concept]		COVOC:0010036		BMV_145	therapy	COVOC:00000000	therapy					UMLS:C0039798	Functional Concept		
-BMV_146	Thoracic Radiography			C3665494	[Diagnostic Procedure]		COVOC:0010037		BMV_146	Thoracic Radiography	COVOC:00000000	Thoracic Radiography					UMLS:C3665494	Diagnostic Procedure		
-BMV_147	transcription						COVOC:0010038		BMV_147	transcription	COVOC:00000000	transcription								
-BMV_148	transfection	transfections					EFO:0000726		BMV_148	transfection	COVOC:00000000	transfection								
-BMV_149	transmissibility						IDO:0000463		BMV_149	transmissibility	COVOC:00000000	infectious agent transmissibility			transmissibility	disease transmissibility				I added useful synonyms in COVOC
-BMV_150	transmission			C0040722	[Idea or Concept]		NCIT:C17214		BMV_150	transmission	COVOC:00000000	disease transmission			transmission		UMLS:C0040722	Idea or Concept		I added useful synonyms in COVOC
-BMV_151	treatment						EFO:0000727		BMV_151	treatment	COVOC:00000000	treatment								I suspect they might refer to the more specific term 'clinical treatment', so I imported that one too and gave it a broad synonym 'treatment'.
-BMV_152	triaging patients						NCIT:C101230		BMV_152	triaging patients	COVOC:00000000	triage status				triaging patients				Mapping is not perfect (NCIT term is about status rather than procedure).
-BMV_153	trimer	trimers					COVOC:0010044		BMV_153	trimer	COVOC:00000000	trimer								
+BMV_12	B-cell assays						COVOC:0010001		BMV_12	B-cell assays	obo:COVOC_00000000	B-cell assays								
+BMV_27	clinical importance						NCIT:C82562		BMV_27			clinical significance	clinical importance							
+BMV_31	confirmed case	confirmed cases					COVOC:0010003		BMV_31	confirmed case	obo:COVOC_00000000	confirmed case								
+BMV_32	conformational masking						COVOC:0010004		BMV_32	conformational masking	obo:COVOC_00000000	conformational masking								
+BMV_48	fecal sample	fecal samples					COVOC:0010005		BMV_48	fecal sample	obo:COVOC_00000000	fecal sample								
+BMV_56	Genome			C0017428	[Gene or Genome]		EFO:0004420		BMV_56			Genome					UMLS:C0017428	Gene or Genome		
+BMV_59	glycan shielding						COVOC:0010007		BMV_59	glycan shielding	obo:COVOC_00000000	glycan shielding								
+BMV_62	homotrimer	homotrimers					COVOC:0010008		BMV_62	homotrimer	obo:COVOC_00000000	homotrimer								
+BMV_73	immunogenicity						COVOC:0010009		BMV_73	immunogenicity	obo:COVOC_00000000	immunogenicity								
+BMV_77	infection						EFO:0000544		BMV_77			infection								
+BMV_78	infectivity						IDO:0000464		BMV_78			infectivity								
+BMV_80	intensive care						COVOC:0010012		BMV_80	intensive care	obo:COVOC_00000000	intensive care								Request to MAXO or create in EFO under 'treatment'
+BMV_81	interaction	interactions					COVOC:0010013		BMV_81	interaction	obo:COVOC_00000000	interaction								
+BMV_82	isolation			C0220862	[Laboratory Procedure]		COVOC:0010014		BMV_82	isolation	obo:COVOC_00000000	isolation					UMLS:C0220862	Laboratory Procedure		
+BMV_83	low-input metagenomic next-generation sequencing	mNGS					COVOC:0010015		BMV_83	low-input metagenomic next-generation sequencing	obo:COVOC_00000000	low-input metagenomic next-generation sequencing								
+BMV_86	Major histocompatibility complex binding assays	MHC binding assays					COVOC:0010016		BMV_86	Major histocompatibility complex binding assays	obo:COVOC_00000000	Major histocompatibility complex binding assays								
+BMV_87	Massively-Parallel Sequencing			C2936622	[Molecular Biology Research Technique]		ERO:0001211		BMV_87			massively-parallel sequencing	massively parallel sequencing				UMLS:C2936622	Molecular Biology Research Technique		
+BMV_88	Mechanical Ventilation			C0199470	[Therapeutic or Preventive Procedure]		NCIT:C70909		BMV_88			mechanical ventilation					UMLS:C0199470	Therapeutic or Preventive Procedure		
+BMV_89	medications	medication					NCIT:C459		BMV_89			medication	medications							
+BMV_91	microbiology						NCIT:C16851		BMV_91			microbiology								
+BMV_93	morbidity			C0220880	[Intellectual Product]		NCIT:C16877		BMV_93			morbidity					UMLS:C0220880	Intellectual Product		
+BMV_94	mortality			C0026565 | C0026566	[Quantitative Concept] | [Quantitative Concept]		EFO:0004352		BMV_94			mortality					UMLS:C0026565 | UMLS:C0026566	Quantitative Concept||Quantitative Concept		Unveiled tiny issues in EFO term.
+BMV_95	Mutation	mutations		C0026882	[Genetic Function]		EFO:0000510		BMV_95			genetic modification				mutation	UMLS:C0026882	Genetic Function		
+BMV_96	nasopharyngeal sample	nasopharyngeal samples					COVOC:0010024		BMV_96	nasopharyngeal sample	obo:COVOC_00000000	nasopharyngeal sample								
+BMV_98	next-generation sequencing	ngs					NCIT:C101293		BMV_98			next-generation sequencing								See if there's an EFO term for this (or that could have this as a synonym); maybe EFO:0002697? 
+BMV_102	oropharyngeal sample	oropharyngeal samples					COVOC:0010026		BMV_102	oropharyngeal sample	obo:COVOC_00000000	oropharyngeal sample								
+BMV_118	rapid testing						COVOC:0010027		BMV_118	rapid testing	obo:COVOC_00000000	rapid testing								Discussion: Paola: "We could use the specific term NCIT:C53465 'Rapid Antigen Test', or I  could make 'rapid testing' a narrow synonym of the more generic term  NCIT:C15336 'Testing'. Are you referring to antigen testing  specifically?"; Patrick: "This is likely not limited to antigen testing. I think rapid testing  lack a clear definition but it is something significantly faster than  the state of the art. E.g. 16s antibiograms vs. cluture based  antibiograms. So I would keep it."
+BMV_120	replication						GO:0019079		BMV_120			viral genome replication			replication||viral replication||virus replication					The requested term ('replication') was broad, so I also added 2 more specific terms.
+BMV_134	sequence	sequences					NCIT:C14134		BMV_134			macromolecular structure				sequence				The requested term ('sequence') was meant broadly to cover DNA, RNA etc, so I also added 3 specific terms.
+BMV_138	serum	sera					NCIT:C13325		BMV_138			serum								
+BMV_139	Single Nucleotide Polymorphism	snp | snps | single nucleotide polymorphisms		C0752046	[Nucleotide Sequence]		NCIT:C18279		BMV_139			Single Nucleotide Polymorphism					UMLS:C0752046	Nucleotide Sequence		
+BMV_140	survival			C0220921	[Functional Concept]		NCIT:C17177		BMV_140			survival					UMLS:C0220921	Functional Concept		This is a generic term, so I also added 3 more specific EFO survival terms (and made 'survival' a related synonym of all 3). I also unveiled some issues with EFO survival-related terms.
+BMV_142	T-cell assays						COVOC:0010033		BMV_142	T-cell assays	obo:COVOC_00000000	T-cell assays								
+BMV_143	T-cell epitopes						COVOC:0010034		BMV_143	T-cell epitopes	obo:COVOC_00000000	T-cell epitopes								
+BMV_144	Therapeutics			C0087111	[Therapeutic or Preventive Procedure]		NCIT:C25277		BMV_144			Therapeutics					UMLS:C0087111	Therapeutic or Preventive Procedure		
+BMV_145	therapy			C0039798	[Functional Concept]		EFO:0000727		BMV_145			treatment	therapy				UMLS:C0039798	Functional Concept		I added a useful synonym in COVOC and unveiled issues in the EFO term
+BMV_146	Thoracic Radiography			C3665494	[Diagnostic Procedure]		NCIT:C38103		BMV_146			Thoracic Radiography					UMLS:C3665494	Diagnostic Procedure		
+BMV_147	transcription						GO:0097659		BMV_147			nucleic acid-templated transcription			transcription					I chose a broader GO term that accommodates DNA- as well as RNA-templated transcription
+BMV_148	transfection	transfections					EFO:0000726		BMV_148			transfection								
+BMV_149	transmissibility						IDO:0000463		BMV_149			infectious agent transmissibility			transmissibility	disease transmissibility				I added useful synonyms in COVOC
+BMV_150	transmission			C0040722	[Idea or Concept]		NCIT:C17214		BMV_150			disease transmission			transmission		UMLS:C0040722	Idea or Concept		I added useful synonyms in COVOC
+BMV_151	treatment						EFO:0000727		BMV_151			treatment								I suspect they might refer to the more specific term 'clinical treatment', so I imported that one too and gave it a broad synonym 'treatment'.
+BMV_152	triaging patients						NCIT:C101230		BMV_152			triage status				triaging patients				Mapping is not perfect (NCIT term is about status rather than procedure).
+BMV_153	trimer	trimers					COVOC:0010044		BMV_153	trimer	obo:COVOC_00000000	trimer								
 							EFO:0007056								treatment					
+							EFO:0000715						survival rate			survival				I unveiled issues with EFO term(s)
+							EFO:0000714									survival				I unveiled issues with EFO term(s)
+							EFO:0000638									survival				I unveiled issues with EFO term(s)
+							NCIT:C13187								sequence					The requested term ('sequence') was meant broadly, so I added 3 specific terms instead.
+							NCIT:C13299								sequence					The requested term ('sequence') was meant broadly, so I added 3 specific terms instead.
+							NCIT:C89252								sequence					The requested term ('sequence') was meant broadly, so I added 3 specific terms instead.
+							GO:0039693					viral DNA genome replication	viral DNA replication||virus DNA replication							
+							GO:0039694					viral RNA genome replication	viral RNA replication||virus RNA replication							
