@@ -658,13 +658,13 @@
           "val" : "ORF4",
           "xrefs" : [ "GenPept:YP_009724392" ]
         }, {
-          "pred" : "hasExactSynonym",
-          "val" : "E (SARS2)",
-          "xrefs" : [ "PRO:DAN" ]
-        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "E",
           "xrefs" : [ "GenPept:YP_009724392", "UniProtKB:P0DTC4" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "E (SARS2)",
+          "xrefs" : [ "PRO:DAN" ]
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "sM protein",
@@ -1123,6 +1123,18 @@
       "type" : "CLASS",
       "lbl" : "Open Reading Frame"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0010045",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Western-Blot"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_164"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_22198",
       "meta" : {
         "subsets" : [ "http://purl.obolibrary.org/obo/chebi#3_STAR" ],
@@ -1439,18 +1451,6 @@
       },
       "type" : "CLASS",
       "lbl" : "saquinavir"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/BAO_0002424",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_164"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Western-Blot"
-        } ]
-      },
-      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_63628",
       "meta" : {
@@ -2010,6 +2010,9 @@
           "val" : "A class of viral vaccines based on adenovirus genome which was engineered to harbor gene of therapeutic interest, and were to be used in vaccination against cancers.",
           "xrefs" : [ ]
         },
+        "xrefs" : [ {
+          "val" : "UMLS:C1552907"
+        } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "Adenovirus Vaccine",
@@ -13674,9 +13677,9 @@
         }, {
           "val" : "UMLS:C0024117"
         }, {
-          "val" : "EFO:0000341"
-        }, {
           "val" : "DOID:3083"
+        }, {
+          "val" : "EFO:0000341"
         }, {
           "val" : "ICD10:J44.9"
         }, {
@@ -14755,9 +14758,9 @@
         }, {
           "val" : "ATC:R05CB02"
         }, {
-          "val" : "KEGG:D01778"
-        }, {
           "val" : "DB:09019"
+        }, {
+          "val" : "KEGG:D01778"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -23306,6 +23309,10 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_0030027"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020013",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0016246",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
@@ -23386,17 +23393,29 @@
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/BFO_0000051"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PR_P22301",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005091",
       "pred" : "http://purl.obolibrary.org/obo/RO_0004028",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_694009"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/PR_P22301",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0000989",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHMO_0000001",
       "pred" : "is_a",
@@ -23486,6 +23505,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020014",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0000988",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
@@ -23557,6 +23580,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PR_P0DTC2",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PR_000000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CLO_0000179",
       "pred" : "subPropertyOf",
@@ -23866,6 +23893,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020011",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005249",
       "pred" : "http://purl.obolibrary.org/obo/RO_0004026",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0002048"
@@ -23942,6 +23973,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000169",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000001"
@@ -23985,6 +24020,10 @@
       "sub" : "http://purl.obolibrary.org/obo/PR_O15393",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020008",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005249",
       "pred" : "is_a",
@@ -24053,6 +24092,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_66919",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020007",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005091",
       "pred" : "is_a",
@@ -24214,6 +24257,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020009",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010036",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -24243,6 +24290,14 @@
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9397"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010010",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020017",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020004",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
@@ -24315,6 +24370,14 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_63115"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010011",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020016",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
@@ -24406,6 +24469,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PATO_0000001"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_10239",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -24477,6 +24544,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_135921",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0007186",
       "pred" : "is_a",
@@ -24571,7 +24642,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-05-28/covoc-full.json"
+      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-05-29/covoc-full.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

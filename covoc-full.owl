@@ -30,7 +30,7 @@
      xmlns:patterns="http://www.co-ode.org/patterns#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/covoc-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-05-28/covoc-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-05-29/covoc-full.owl"/>
         <dc:creator>Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
         <dc:creator>Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
         <dc:creator>Michel Pierre-André (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
@@ -3658,15 +3658,6 @@ in CLO, this is a short cut relation that represents:
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_16</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu Han</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wuhan</oboInOwl:hasExactSynonym>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BAO_0002424 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BAO_0002424">
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_164</covoc:internal_covoc_id>
-        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Western-Blot</covoc:preferred_covoc_label>
     </owl:Class>
     
 
@@ -14276,9 +14267,19 @@ in CLO, this is a short cut relation that represents:
     
 
 
+    <!-- http://purl.obolibrary.org/obo/COVOC_0010045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010045">
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_164</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Western-Blot</covoc:preferred_covoc_label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/COVOC_0020001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_3</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Calu-3 2B4</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YZ47</oboInOwl:hasDbXref>
@@ -14291,6 +14292,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_7</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VeroE6</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:0574</oboInOwl:hasDbXref>
@@ -14309,6 +14311,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_8</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VeroE6/TMPRSS2</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YQ49</oboInOwl:hasDbXref>
@@ -14321,6 +14324,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020004 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_11</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PER.C6</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:G704</oboInOwl:hasDbXref>
@@ -14333,6 +14337,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_12</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">47D11</covoc:preferred_covoc_label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
@@ -14343,6 +14348,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_13</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F26G1</covoc:preferred_covoc_label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
@@ -14353,6 +14359,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020007 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_14</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F26G6</covoc:preferred_covoc_label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
@@ -14363,6 +14370,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_15</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F26G8</covoc:preferred_covoc_label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
@@ -14373,6 +14381,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_16</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F26G18</covoc:preferred_covoc_label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
@@ -14383,6 +14392,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_17</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F26G19</covoc:preferred_covoc_label>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybridomas (prod. mAb against SARS-CoV)</rdfs:comment>
@@ -14393,6 +14403,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_18</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N-176-15</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:XA76</oboInOwl:hasDbXref>
@@ -14404,6 +14415,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_19</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">S-9-11</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:XA77</oboInOwl:hasDbXref>
@@ -14415,6 +14427,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_20</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rSN-18</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YQ10</oboInOwl:hasDbXref>
@@ -14426,6 +14439,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_21</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rSN-21-2</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YQ13</oboInOwl:hasDbXref>
@@ -14437,6 +14451,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_22</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rSN-29</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YQ14</oboInOwl:hasDbXref>
@@ -14448,6 +14463,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_23</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rSN-122</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YQ11</oboInOwl:hasDbXref>
@@ -14459,6 +14475,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/COVOC_0020017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0020017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CL_24</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rSN-150</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CVCL:YQ12</oboInOwl:hasDbXref>
@@ -26031,6 +26048,7 @@ in CLO, this is a short cut relation that represents:
         <obo:NCIT_P366>Adenovirus_Vaccine</obo:NCIT_P366>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_1</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label>Adenovirus Vaccine</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C1552907</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Adenovirus Vaccine</oboInOwl:hasExactSynonym>
         <rdfs:label>Adenovirus Vaccine</rdfs:label>
     </owl:Class>

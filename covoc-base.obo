@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: covoc/releases/2020-05-28/covoc-base.owl
+data-version: covoc/releases/2020-05-29/covoc-base.owl
 ontology: covoc/covoc-base
 property_value: http://purl.org/dc/elements/1.1/creator "Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
@@ -14,11 +14,6 @@ property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "CoVoc Coronavirus Vocabulary" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
-
-[Term]
-id: BAO:0002424
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_164" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Western-Blot" xsd:string
 
 [Term]
 id: CHEBI:134722
@@ -1050,10 +1045,16 @@ property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_153"
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "trimer" xsd:string
 
 [Term]
+id: COVOC:0010045
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_164" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Western-Blot" xsd:string
+
+[Term]
 id: COVOC:0020001
 comment: Successfully used to grow SARS-CoV-2
 xref: CVCL:YZ47
 xref: PMID:20090954
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_3" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Calu-3 2B4" xsd:string
 
@@ -1068,6 +1069,7 @@ xref: PMID:31978945
 xref: PMID:32020029
 xref: PMID:32149036
 xref: PMID:32165541
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_7" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "VeroE6" xsd:string
 
@@ -1076,6 +1078,7 @@ id: COVOC:0020003
 comment: Successfully used to grow SARS-CoV-2
 xref: CVCL:YQ49
 xref: PMID:32165541
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_8" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "VeroE6/TMPRSS2" xsd:string
 
@@ -1084,42 +1087,49 @@ id: COVOC:0020004
 comment: Cellular vaccines cell lines
 xref: CVCL:G704
 xref: https://www.jnj.com/coronavirus
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_11" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "PER.C6" xsd:string
 
 [Term]
 id: COVOC:0020005
 comment: Hybridomas (prod. mAb against SARS-CoV)
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_12" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "47D11" xsd:string
 
 [Term]
 id: COVOC:0020006
 comment: Hybridomas (prod. mAb against SARS-CoV)
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_13" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "F26G1" xsd:string
 
 [Term]
 id: COVOC:0020007
 comment: Hybridomas (prod. mAb against SARS-CoV)
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_14" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "F26G6" xsd:string
 
 [Term]
 id: COVOC:0020008
 comment: Hybridomas (prod. mAb against SARS-CoV)
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_15" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "F26G8" xsd:string
 
 [Term]
 id: COVOC:0020009
 comment: Hybridomas (prod. mAb against SARS-CoV)
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_16" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "F26G18" xsd:string
 
 [Term]
 id: COVOC:0020010
 comment: Hybridomas (prod. mAb against SARS-CoV)
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_17" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "F26G19" xsd:string
 
@@ -1127,6 +1137,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "F26G
 id: COVOC:0020011
 comment: Hybridomas (prod. mAb against SARS-CoV)
 xref: CVCL:XA76
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_18" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "N-176-15" xsd:string
 
@@ -1134,6 +1145,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "N-17
 id: COVOC:0020012
 comment: Hybridomas (prod. mAb against SARS-CoV)
 xref: CVCL:XA77
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_19" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "S-9-11" xsd:string
 
@@ -1141,6 +1153,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "S-9-
 id: COVOC:0020013
 comment: Hybridomas (prod. mAb against SARS-CoV)
 xref: CVCL:YQ10
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_20" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-18" xsd:string
 
@@ -1148,6 +1161,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-
 id: COVOC:0020014
 comment: Hybridomas (prod. mAb against SARS-CoV)
 xref: CVCL:YQ13
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_21" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-21-2" xsd:string
 
@@ -1155,6 +1169,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-
 id: COVOC:0020015
 comment: Hybridomas (prod. mAb against SARS-CoV)
 xref: CVCL:YQ14
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_22" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-29" xsd:string
 
@@ -1162,6 +1177,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-
 id: COVOC:0020016
 comment: Hybridomas (prod. mAb against SARS-CoV)
 xref: CVCL:YQ11
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_23" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-122" xsd:string
 
@@ -1169,6 +1185,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-
 id: COVOC:0020017
 comment: Hybridomas (prod. mAb against SARS-CoV)
 xref: CVCL:YQ12
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CL_24" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rSN-150" xsd:string
 
@@ -3243,6 +3260,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Cell
 
 [Term]
 id: NCIT:C49146
+xref: UMLS:C1552907
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_1" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Adenovirus Vaccine" xsd:string
 

@@ -23,7 +23,7 @@ components/all_templates.owl: $(TEMPLATES)
 		--output $@.tmp.owl && mv $@.tmp.owl $@
 
 $(TEMPLATESDIR)/%.owl: $(TEMPLATESDIR)/%.tsv $(SRC)
-	$(ROBOT) -vvv merge -i $(SRC) template --template $< --prefix "BAO: http://www.bioassayontology.org/bao#" --prefix "cov: http://purl.obolibrary.org/obo/covoc/" --prefix "COVOC: http://purl.obolibrary.org/obo/COVOC_" --prefix "DBPEDIA: http://dbpedia.org/resource/" --prefix "MAXO: http://purl.obolibrary.org/obo/MAXO_" --prefix "BAO: http://purl.obolibrary.org/obo/BAO_" --prefix "EFO: http://www.ebi.ac.uk/efo/EFO_" --output $@ && \
+	$(ROBOT) -vvv merge -i $(SRC) template --template $< --prefix "cov: http://purl.obolibrary.org/obo/covoc/" --prefix "COVOC: http://purl.obolibrary.org/obo/COVOC_" --prefix "dbpedia: http://dbpedia.org/resource/" --prefix "DBPEDIA: http://dbpedia.org/resource/" --prefix "MAXO: http://purl.obolibrary.org/obo/MAXO_" --prefix "BAO: http://purl.obolibrary.org/obo/BAO_" --prefix "EFO: http://www.ebi.ac.uk/efo/EFO_" --output $@ && \
 	$(ROBOT) -vvv annotate --input $@ --ontology-iri $(ONTBASE)/components/$*.owl -o $@
 
 ## For COVOC we override imports altogether by removing post-facto all classes not in the seed.

@@ -21,9 +21,239 @@
     
 
 
+    <!-- http://dbpedia.org/resource/Asia -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Asia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Canada -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Canada">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/China -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/China">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Europe -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Europe">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hong_Kong -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Hong_Kong">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hubei -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Hubei">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jordan -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Jordan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Middle_East -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Middle_East">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saudi_Arabia -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Saudi_Arabia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Singapore -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Singapore">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/South_Korea -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/South_Korea">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Taiwan -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Taiwan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/United_States">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/West_Africa -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/West_Africa">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Wu_Han -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Wu_Han">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_21241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_21241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_59163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0002462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002462">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009524 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009524">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/COVOC_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
     
 
 
@@ -38,6 +268,134 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_40674 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000532 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000544 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000544">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000643 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001184 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001426 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001426">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001461 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001461">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0002571 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002571">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003765 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003765">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003919 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003919">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004014 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004292 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004292">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004847 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004847">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005384 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010192 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010716 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010717 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010717">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
     </owl:Class>
 </rdf:RDF>
