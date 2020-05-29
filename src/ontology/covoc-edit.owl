@@ -10,7 +10,6 @@ Prefix(dcterms:=<http://purl.org/dc/terms/>)
 
 Ontology(<http://purl.obolibrary.org/obo/covoc.owl>
 Import(<http://purl.obolibrary.org/obo/covoc/components/all_templates.owl>)
-Import(<http://purl.obolibrary.org/obo/covoc/imports/bao_import.owl>)
 Import(<http://purl.obolibrary.org/obo/covoc/imports/chebi_import.owl>)
 Import(<http://purl.obolibrary.org/obo/covoc/imports/chmo_import.owl>)
 Import(<http://purl.obolibrary.org/obo/covoc/imports/cl_import.owl>)
