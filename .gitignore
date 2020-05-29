@@ -17,7 +17,6 @@ src/ontology/covoc-basic.*
 src/ontology/covoc-full.*
 src/ontology/covoc-simple.*
 src/ontology/covoc-simple-non-classified.*
-src/ontology/imports/*_terms.txt
 
 src/ontology/seed.txt
 src/ontology/dosdp-tools.log
