@@ -32,8 +32,6 @@ src/ontology/target/
 src/ontology/tmp/*
 !src/ontology/tmp/README.md
 
-src/ontology/imports/*_terms_combined.txt
-
 src/patterns/data/**/*.ofn
 src/patterns/data/**/*.txt
 src/patterns/pattern_owl_seed.txt
