@@ -6113,11 +6113,11 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
           "val" : "Paludism"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "DG_23"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Chloroquine"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DG_23"
         } ]
       },
       "type" : "CLASS"
@@ -9755,11 +9755,11 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "antibody response"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_4"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "antibody response"
         } ]
       },
       "type" : "CLASS"
@@ -10309,11 +10309,11 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050010",
+      "sub" : "http://www.ebi.ac.uk/efo/EFO_0000643",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://www.ebi.ac.uk/efo/EFO_0000643",
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050010",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
@@ -10489,11 +10489,11 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050053",
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010005",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010005",
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050053",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
@@ -10685,13 +10685,13 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_134730"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050074",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040026",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_9513"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050074",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040009",
       "pred" : "is_a",
@@ -11253,13 +11253,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C48938",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://dbpedia.org/resource/Canada",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C48938",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://dbpedia.org/resource/Asia",
       "pred" : "is_a",
@@ -11269,11 +11269,11 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0030014",
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C20401",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C20401",
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0030014",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
@@ -11349,7 +11349,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-05-29/covoc-base.json"
+      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-06-01/covoc-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

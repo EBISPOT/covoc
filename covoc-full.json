@@ -13,21 +13,57 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C25277",
       "meta" : {
+        "definition" : {
+          "val" : "Relating to or involved in therapy.",
+          "xrefs" : [ ]
+        },
         "xrefs" : [ {
           "val" : "UMLS:C0087111"
         } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "therapeutic",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Therapeutic",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Therapeutic",
+          "xrefs" : [ ]
+        } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Therapeutic"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_144"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Therapeutics"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Conceptual Entity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C0302350"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Therapeutic or Preventive Procedure"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Therapeutic"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C25277"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "Having to do with treating disease and helping healing take place."
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Therapeutic"
     }, {
       "id" : "http://dbpedia.org/resource/Asia",
       "meta" : {
@@ -1518,13 +1554,61 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C13187",
       "meta" : {
+        "definition" : {
+          "val" : "The sequence of amino acids along a polypeptide chain.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/NCIT_C105631", "http://purl.obolibrary.org/obo/NCIT_C54452" ],
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "AMINO ACID SEQUENCE",
+          "xrefs" : [ ]
+        }, {
           "pred" : "hasBroadSynonym",
           "val" : "sequence",
           "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Primary Protein Structure",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Protein Sequence",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Amino Acid Sequence",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "amino acid sequence",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C0002518"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Amino Acid Sequence"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Amino Acid Sequence"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Protein_Sequence"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "The arrangement of amino acids in a protein. Proteins can be made from 20 different kinds of amino acids, and the structure and function of each type of protein are determined by the kinds of amino acids used to make it and how they are arranged."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "FDA"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C13187"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Amino Acid Sequence"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_63628",
       "meta" : {
@@ -6298,20 +6382,60 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C101230",
       "meta" : {
+        "definition" : {
+          "val" : "The degree of urgency in which a medical procedure must be performed. (ACC)",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/NCIT_C119015", "http://purl.obolibrary.org/obo/NCIT_C119014", "http://purl.obolibrary.org/obo/NCIT_C61410", "http://purl.obolibrary.org/obo/NCIT_C66830" ],
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Procedure Urgency Status Type",
+          "xrefs" : [ ]
+        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "triaging patients",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Procedure Urgency Status Type",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Triage Status",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "PRUSTAT",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "triage status"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C101230"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Triage Status"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Qualitative Concept"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C3538930"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "The degree of urgency in which a medical procedure must be performed."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_152"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "CDISC"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Triage Status"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLO_0002192",
       "meta" : {
@@ -6703,21 +6827,46 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C70909",
       "meta" : {
+        "definition" : {
+          "val" : "A method to mechanically assist or replace spontaneous breathing in patients by use of a powered device that forces oxygenated air into the lungs.",
+          "xrefs" : [ ]
+        },
         "xrefs" : [ {
           "val" : "UMLS:C0199470"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Mechanical Ventilation",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Therapeutic or Preventive Procedure"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Mechanical Ventilation"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Mechanical_Ventilation"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C0199470"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "mechanical ventilation"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Therapeutic or Preventive Procedure"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_88"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C70909"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Mechanical Ventilation"
     }, {
       "id" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
       "meta" : {
@@ -8011,21 +8160,65 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C17177",
       "meta" : {
+        "definition" : {
+          "val" : "Continuance of life or existence especially under adverse conditions; includes methods and philosophy of survival.",
+          "xrefs" : [ ]
+        },
         "xrefs" : [ {
           "val" : "UMLS:C0220921"
         } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Survivorship Issues",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Survival",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "survivorship",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Survivorship",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Survival",
+          "xrefs" : [ ]
+        } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C0038952"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Survival"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_140"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Conceptual Entity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C17177"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Survival"
+        }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Functional Concept"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "In cancer, survivorship covers the physical, psychosocial, and economic issues of cancer, from diagnosis until the end of life. It focuses on the health and life of a person with cancer beyond the diagnosis and treatment phases. Survivorship includes issues related to the ability to get health care and follow-up treatment, late effects of treatment, second cancers, and quality of life. Family members, friends, and caregivers are also part of the survivorship experience."
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "survival"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Survival"
     }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0019013",
       "meta" : {
@@ -8665,6 +8858,75 @@
       "type" : "CLASS",
       "lbl" : "daunorubicin"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C18279",
+      "meta" : {
+        "definition" : {
+          "val" : "A variation of a single nucleotide at a specific location of the genome due to base substitution, present at an appreciable frequency between individuals of a single interbreeding population.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "UMLS:C0752046"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Polymorphism, Single Base",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Single Nucleotide Polymorphism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Polymorphism, Single Nucleotide",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "SNP",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "single nucleotide polymorphism",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "SNP",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Single Nucleotide Polymorphism"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_139"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Single Nucleotide Polymorphism"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Nucleotide Sequence"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "DNA sequence variations that occur when a single nucleotide (adenine, thymine, cytosine, or guanine) in the genome sequence is altered; usually present in at least 1% of the population; pronounced snip."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Single_Nucleotide_Polymorphism"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C18279"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Nucleotide Sequence"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C0752046"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P98",
+          "val" : "SNPs occur, on average, once every 1000 bases and can be used in gene mapping and linkage analysis."
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Single Nucleotide Polymorphism"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_R139",
       "meta" : {
         "definition" : {
@@ -8692,24 +8954,6 @@
       },
       "type" : "PROPERTY",
       "lbl" : "Disease_Excludes_Abnormal_Cell"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/NCIT_C18279",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0752046"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_139"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Single Nucleotide Polymorphism"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Nucleotide Sequence"
-        } ]
-      },
-      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/IDO_0000463",
       "meta" : {
@@ -14300,6 +14544,81 @@
       "type" : "CLASS",
       "lbl" : "Jakotinib hydrochloride"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C101293",
+      "meta" : {
+        "definition" : {
+          "val" : "Technologies that facilitate the rapid determination of the DNA sequence of large numbers of strands or segments of DNA.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/NCIT_C85492", "http://purl.obolibrary.org/obo/NCIT_C118169", "http://purl.obolibrary.org/obo/NCIT_C116977", "http://purl.obolibrary.org/obo/NCIT_C61410", "http://purl.obolibrary.org/obo/NCIT_C66830" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Next Generation Sequencing",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Massively Parallel DNA Sequencing",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "NGS",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Next Generation Sequencing",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Next-Generation Sequencing",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Massively Parallel Sequencing",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Massively Parallel Sequencing",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "NEXT GENERATION SEQUENCING",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "A type of sequencing technology that makes use of high-throughput parallel sequencing of multiple fragments of DNA or RNA."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Molecular Biology Research Technique"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "next-generation sequencing"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Next Generation Sequencing"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_98"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "CTRP"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P107",
+          "val" : "Next Generation Sequencing"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C101293"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C2936622"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "CDISC"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Next Generation Sequencing"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0030017",
       "meta" : {
         "xrefs" : [ {
@@ -14337,18 +14656,6 @@
       },
       "type" : "CLASS",
       "lbl" : "Interferon alfacon-1"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/NCIT_C101293",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "next-generation sequencing"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_98"
-        } ]
-      },
-      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0030016",
       "meta" : {
@@ -18676,15 +18983,76 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C13325",
       "meta" : {
+        "definition" : {
+          "val" : "The clear portion of the blood that remains after the removal of the blood cells and the clotting proteins.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/NCIT_C77529", "http://purl.obolibrary.org/obo/NCIT_C77526", "http://purl.obolibrary.org/obo/NCIT_C78734", "http://purl.obolibrary.org/obo/NCIT_C61410", "http://purl.obolibrary.org/obo/NCIT_C66830" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Serum",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "SERUM",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Sera",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Serum",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Sera",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "serum",
+          "xrefs" : [ ]
+        } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Serum"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "The clear portion of the blood that remains after the removal of the blood cells and the clotting proteins. (NCI)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "The clear liquid part of the blood that remains after blood cells and clotting proteins have been removed."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C13325"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "serum"
         }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C0229671"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "CDISC"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Serum"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P375",
+          "val" : "Serum"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_138"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P375",
+          "val" : "Serum"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Body Substance"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Serum"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C16960",
       "meta" : {
@@ -19676,15 +20044,40 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C16851",
       "meta" : {
+        "definition" : {
+          "val" : "The science that deals with the study of microorganisms, including algae, archaea, bacteria, fungi, protozoa, and viruses.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Microbiology",
+          "xrefs" : [ ]
+        } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C16851"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "microbiology"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_91"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C0025952"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Biomedical Occupation or Discipline"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Microbiology"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Microbiology"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Microbiology"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HP_0000002",
       "meta" : {
@@ -19972,21 +20365,46 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0039693",
       "meta" : {
+        "definition" : {
+          "val" : "The replication of a viral DNA genome.",
+          "xrefs" : [ "GOC:bf", "GOC:jl", "VZ:915" ]
+        },
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "viral DNA replication",
+          "xrefs" : [ "GOC:bf", "GOC:jl" ]
+        }, {
           "pred" : "hasExactSynonym",
           "val" : "virus DNA replication",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "viral DNA replication",
+          "val" : "viral DNA-dependent DNA replication",
           "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "DNA-dependent viral DNA replication",
+          "xrefs" : [ "GOC:bf", "GOC:jl" ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "biological_process"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2013-10-23T15:22:31Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "GO:0039681"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "viral DNA genome replication"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "bf"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "viral DNA genome replication"
     }, {
       "id" : "http://www.ebi.ac.uk/efo/EFO_0000638",
       "meta" : {
@@ -20012,6 +20430,10 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0039694",
       "meta" : {
+        "definition" : {
+          "val" : "The replication of a viral RNA genome.",
+          "xrefs" : [ "GOC:bf", "GOC:jl" ]
+        },
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
           "val" : "viral RNA replication",
@@ -20022,11 +20444,21 @@
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "bf"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2013-10-23T15:24:36Z"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "viral RNA genome replication"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "biological_process"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "viral RNA genome replication"
     }, {
       "id" : "http://purl.obolibrary.org/obo/MAXO_0000614",
       "meta" : {
@@ -20074,9 +20506,9 @@
         }, {
           "val" : "ICD9:493.9"
         }, {
-          "val" : "EFO:0000270"
-        }, {
           "val" : "DOID:2841"
+        }, {
+          "val" : "EFO:0000270"
         }, {
           "val" : "ICD9:493.81"
         }, {
@@ -20158,6 +20590,65 @@
       "type" : "CLASS",
       "lbl" : "asthma"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C82562",
+      "meta" : {
+        "definition" : {
+          "val" : "A finding that has treatment or management implications for a patient's condition.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/NCIT_C82590", "http://purl.obolibrary.org/obo/NCIT_C67497", "http://purl.obolibrary.org/obo/NCIT_C61410" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "CLSIG",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Clinical Significance",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "clinical importance",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "clinical significance",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "Change in a subject's clinical condition regarded as important whether or not due to the test intervention. NOTE: some statistically significant changes (in blood tests, for example) have no clinical significance. The criterion or criteria for clinical significance should be stated in the protocol. The term \"clinical significance\" is not advisable unless operationally defined."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Finding"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_27"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C2826293"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "clinical significance"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Clinical_Significance"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "CDISC-GLOSS"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Clinical Significance"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "CDISC"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C82562"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Clinical Significance"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_10239",
       "meta" : {
         "xrefs" : [ {
@@ -20198,23 +20689,6 @@
       },
       "type" : "CLASS",
       "lbl" : "Viruses"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/NCIT_C82562",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "clinical importance",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_27"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "clinical significance"
-        } ]
-      },
-      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0050007",
       "meta" : {
@@ -20964,6 +21438,59 @@
       "type" : "CLASS",
       "lbl" : "distribution"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C16877",
+      "meta" : {
+        "definition" : {
+          "val" : "Morbidity; the relative incidence of a particular disease in a population.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "UMLS:C0220880"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Morbidity",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "morbidity",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "A disease or the incidence of disease within a population. Morbidity also refers to adverse effects caused by a treatment."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C0026538"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "morbidity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Morbidity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P375",
+          "val" : "Unknown and unspecified causes of morbidity"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Quantitative Concept"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_93"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C16877"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Intellectual Product"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Morbidity"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Morbidity"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0001938",
       "meta" : {
         "definition" : {
@@ -20986,24 +21513,6 @@
       },
       "type" : "PROPERTY",
       "lbl" : "has value specification"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/NCIT_C16877",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0220880"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "morbidity"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_93"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Intellectual Product"
-        } ]
-      },
-      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_32016",
       "meta" : {
@@ -21917,6 +22426,91 @@
       "type" : "CLASS",
       "lbl" : "Identifier"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C459",
+      "meta" : {
+        "definition" : {
+          "val" : "A drug product that contains one or more active and/or inactive ingredients; it is intended to treat, prevent or alleviate the symptoms of disease. This term does not refer to the individual ingredients that make up the product.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/NCIT_C61410", "http://purl.obolibrary.org/obo/NCIT_C67497", "http://purl.obolibrary.org/obo/NCIT_C156954", "http://purl.obolibrary.org/obo/NCIT_C156952", "http://purl.obolibrary.org/obo/NCIT_C156953" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Drug Product",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Medication",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "drug product",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "medications",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "medication",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Medication Name",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Medications",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Medicine",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Drug",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Medication"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "CPTAC"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "A finished dosage form, for example, tablet, capsule, solution, etc., that contains an active drug ingredient generally, but not necessarily, in association with inactive ingredients. The term also includes a finished dosage form that does not contain an active ingredient but is intended to be used as a placebo. [21CFR210.3]"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_89"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P98",
+          "val" : "This category represents drug products, not their individual ingredients."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "CDISC-GLOSS"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "A legal drug that is used to prevent, treat, or relieve symptoms of a disease or abnormal condition."
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Medication"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C0013227"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "medication"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C459"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Pharmacologic Substance"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Medication"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/HP_0012378",
       "meta" : {
         "definition" : {
@@ -21968,23 +22562,6 @@
       },
       "type" : "CLASS",
       "lbl" : "Fatigue"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/NCIT_C459",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "medications",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_89"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "medication"
-        } ]
-      },
-      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/MONDO_0006502",
       "meta" : {
@@ -23699,20 +24276,48 @@
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C14134",
       "meta" : {
+        "definition" : {
+          "val" : "Any very large complex molecule including, proteins, nucleic acids and carbohydrates, especially refering to the particular arrangement of its component atoms and groups.",
+          "xrefs" : [ ]
+        },
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Macromolecular Structure",
+          "xrefs" : [ ]
+        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "sequence",
           "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Molecular Structure",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Macromolecular Structure"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C0026383"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C14134"
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "macromolecular structure"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_134"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Macromolecular_Structure"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Spatial Concept"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Macromolecular Structure"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PR_000000001",
       "meta" : {
@@ -23983,6 +24588,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C89252",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C14134"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C70909",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -24003,10 +24612,6 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2697049"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C13187",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_11308",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2559587"
@@ -24014,6 +24619,10 @@
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005087",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C18279",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C17248"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_P0DTC5",
       "pred" : "is_a",
@@ -24187,10 +24796,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C13189",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010016",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -24255,13 +24860,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PR_P22301",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005091",
       "pred" : "http://purl.obolibrary.org/obo/RO_0004028",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_694009"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PR_P22301",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0050023",
       "pred" : "is_a",
@@ -24368,10 +24973,6 @@
       "obj" : "http://purl.obolibrary.org/obo/PR_000000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010004",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C13720",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
@@ -24595,6 +25196,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0039693",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0019079"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C26028",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C15429"
@@ -24632,10 +25237,6 @@
       "obj" : "http://purl.obolibrary.org/obo/HP_0012735"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHMO_0000002",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C13299",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
@@ -24762,6 +25363,10 @@
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0000057"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0039694",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0019079"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0050068",
       "pred" : "is_a",
@@ -25067,10 +25672,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0039694",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0050031",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -25135,13 +25736,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C48938",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://dbpedia.org/resource/Canada",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C48938",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0008150",
       "pred" : "is_a",
@@ -25239,10 +25840,6 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0039693",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0020008",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -25322,10 +25919,6 @@
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0004979",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MONDO_0005087"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C89252",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040004",
       "pred" : "is_a",
@@ -25418,6 +26011,10 @@
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0001461",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C13720",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C14134"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005719",
       "pred" : "http://purl.obolibrary.org/obo/RO_0004028",
@@ -25587,13 +26184,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2697049"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0002258",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005087"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CLO_0002172",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MONDO_0002258",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005087"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OMIT_0019104",
       "pred" : "is_a",
@@ -25710,6 +26307,10 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0060001",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C13187",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C14134"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030018",
       "pred" : "is_a",
@@ -26027,6 +26628,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MONDO_0024352"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C13189",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C14134"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0006412",
       "pred" : "http://purl.obolibrary.org/obo/BFO_0000050",
       "obj" : "http://purl.obolibrary.org/obo/GO_0010467"
@@ -26175,6 +26780,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C13299",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C14134"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005015",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
@@ -26291,10 +26900,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C18279",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://dbpedia.org/resource/Asia",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
@@ -26376,7 +26981,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-05-29/covoc-full.json"
+      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-06-01/covoc-full.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

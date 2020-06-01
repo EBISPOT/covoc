@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/covoc-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-05-29/covoc-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-06-01/covoc-base.owl"/>
         <dc:creator>Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
         <dc:creator>Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
         <dc:creator>Michel Pierre-André (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
