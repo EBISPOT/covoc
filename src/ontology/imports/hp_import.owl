@@ -11,7 +11,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/hp_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-05-28/imports/hp_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-19/imports/hp_import.owl"/>
     </owl:Ontology>
     
 
@@ -154,15 +154,45 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000120 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000120"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSPO_0000121 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0000121"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002314 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002314"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002371 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002371"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002503 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002503"/>
     
 
 
@@ -189,6 +219,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_21241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_21241"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_26271 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26271"/>
@@ -201,9 +243,33 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000235 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000235"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000624"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000625"/>
     
 
 
@@ -213,9 +279,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000787"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0002250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002250"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0006955 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006955"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0040007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0040007"/>
     
 
 
@@ -740,13 +824,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
+        <obo:IAO_0000115>Nausea is a commonly encountered symptom that has been defined as an unpleasant painless subjective feeling that one will imminently vomit. Vomiting has been defined as the forceful expulsion of the contents of the stomach, duodenum, or jejunum through the oral cavity. While nausea and vomiting are often thought to exist on a temporal continuum, this is not always the case. There are situations when severe nausea may be present without emesis and less frequently, when emesis may be present without preceding nausea.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>SNOMEDCT_US:16932000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0027498</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Nausea and vomiting</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0002017</oboInOwl:id>
         <rdfs:label>Nausea and vomiting</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002017"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Nausea is a commonly encountered symptom that has been defined as an unpleasant painless subjective feeling that one will imminently vomit. Vomiting has been defined as the forceful expulsion of the contents of the stomach, duodenum, or jejunum through the oral cavity. While nausea and vomiting are often thought to exist on a temporal continuum, this is not always the case. There are situations when severe nausea may be present without emesis and less frequently, when emesis may be present without preceding nausea.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:26770271</oboInOwl:hasDbXref>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002017"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
@@ -766,7 +856,6 @@
         <oboInOwl:hasDbXref>SNOMEDCT_US:422587007</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0027497</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Nausea</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0002018</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hp#hposlim_core"/>
         <rdfs:label>Nausea</rdfs:label>
@@ -776,6 +865,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A sensation of unease in the stomach together with an urge to vomit.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:probinson</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:26770271</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002018"/>
@@ -885,6 +975,7 @@
         <oboInOwl:hasExactSynonym>Abnormal breathing</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Breathing difficulty</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Difficult to breathe</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dyspnoea</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Trouble breathing</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0002094</oboInOwl:id>
@@ -895,6 +986,12 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Difficult or labored breathing.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:probinson</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002094"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Dyspnoea</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#uk_spelling"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002094"/>
@@ -1009,6 +1106,29 @@
         <owl:annotatedTarget>Myalgias</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:skoehler</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#plural_form"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011950 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011950">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
+        <obo:IAO_0000115>Inflammation of the bronchioles.</obo:IAO_0000115>
+        <oboInOwl:created_by>peter</oboInOwl:created_by>
+        <oboInOwl:creation_date>2012-06-21T08:36:11Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>MSH:D001988</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US:4120002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0006271</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>HP:0011950</oboInOwl:id>
+        <rdfs:label>Bronchiolitis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0011950"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Inflammation of the bronchioles.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>DDD:tkuijpers</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1241,6 +1361,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0033006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
+        <obo:IAO_0000115>Diffuse alveolar damage (DAD) describes a comon histologic injury pattern of the lung. The early stages are characterized by epithelial cell necrosis and sloughing, fibrous exsudate, edema, and hyaline membranes made of surfactant and proteins, filling the alveoli. This results in impaired gas exchange. In later stages, type II cells and myofibroblasts proliferate within the interstitium and airspaces. The corresponding clinical entity is acute respiratory distress syndrome (ARDS). DAD may result from pulmonary drug toxicity, occurs in immunosuppressed, severe viral infections, acute interstial pneumonitis and crack cocaine inhalation.</obo:IAO_0000115>
+        <oboInOwl:created_by>peter</oboInOwl:created_by>
+        <rdfs:label>Diffuse alveolar damage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0033006"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Diffuse alveolar damage (DAD) describes a comon histologic injury pattern of the lung. The early stages are characterized by epithelial cell necrosis and sloughing, fibrous exsudate, edema, and hyaline membranes made of surfactant and proteins, filling the alveoli. This results in impaired gas exchange. In later stages, type II cells and myofibroblasts proliferate within the interstitium and airspaces. The corresponding clinical entity is acute respiratory distress syndrome (ARDS). DAD may result from pulmonary drug toxicity, occurs in immunosuppressed, severe viral infections, acute interstial pneumonitis and crack cocaine inhalation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>LMU:mgriese</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28570160</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:32364264</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0100749 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100749">
@@ -1294,6 +1433,30 @@
         <oboInOwl:hasDbXref>ORCID:0000-0002-6548-5200</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001088"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001988"/>
     
 
 

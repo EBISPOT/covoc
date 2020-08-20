@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/covoc/imports/cl_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/covoc/imports/cl_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -10,7 +11,7 @@
      xmlns:ubprop="http://purl.obolibrary.org/obo/ubprop#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/cl_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-05-28/imports/cl_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-19/imports/cl_import.owl"/>
     </owl:Ontology>
     
 
@@ -43,6 +44,12 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ubprop#_upper_level">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
     
 
 
@@ -159,6 +166,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0002104 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002104"/>
@@ -168,6 +181,12 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002160 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002160"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162"/>
     
 
 
@@ -189,9 +208,27 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/cl#has_completed -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/cl#has_completed"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cl#has_high_plasma_membrane_amount -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/cl#has_high_plasma_membrane_amount"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/cl#has_low_plasma_membrane_amount -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/cl#has_low_plasma_membrane_amount"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cl#has_not_completed -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/cl#has_not_completed"/>
     
 
 
@@ -250,6 +287,102 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <obo:IAO_0000115>A cell in vitro that is or has been maintained or propagated as part of a cell culture.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
+        <rdfs:label>cultured cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cell in vitro that is or has been maintained or propagated as part of a cell culture.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ReO:mhb</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002215"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0030154"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A connective tissue cell that normally gives rise to other cells that are organized as three-dimensional masses. This cell type is CD73-positive, CD90-positive, CD105-positive, CD45-negative, CD34-negative, and MHCII-negative. They may further differentiate into osteoblasts, adipocytes, myocytes, neurons, or chondroblasts in vitro. Originally described as residing in the bone marrow, this cell type is now known to reside in many, if not all, adult organs.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId>CL:0002452</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>BTO:0002625</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0003298</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:70546</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>BMSC</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>bone marrow stromal cells</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>colony-forming unit-fibroblast</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>marrow stromal cells</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>CFU-F</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>MSC</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>mesenchymal precursor cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>mesenchymal progenitor cells</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>mesenchymal stem cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>mesenchymal stromal cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>mesenchymal stromal cells</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>stem cells, mesenchymal</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>mesenchymal stem cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>stem cells, mesenchymal</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>MESH:D044982</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#PLURAL"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A connective tissue cell that normally gives rise to other cells that are organized as three-dimensional masses. This cell type is CD73-positive, CD90-positive, CD105-positive, CD45-negative, CD34-negative, and MHCII-negative. They may further differentiate into osteoblasts, adipocytes, myocytes, neurons, or chondroblasts in vitro. Originally described as residing in the bone marrow, this cell type is now known to reside in many, if not all, adult organs.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FB:ma</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMCID:PMC2613570</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:10102814j</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16923606</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17986482</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19960544</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Mesenchymal_stem_cell</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://www.copewithcytokines.de/cope.cgi?key=mesenchymal%20stem%20cells</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>marrow stromal cells</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11378515</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>MSC</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:11378515</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>mesenchymal progenitor cells</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>MESH:D044982</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#PLURAL"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>mesenchymal stromal cells</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/cl#PLURAL"/>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000235 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000235">
@@ -273,6 +406,52 @@
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:16213494</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:1919437</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000624 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CL_0000625"/>
+        <obo:IAO_0000115>A mature alpha-beta T cell that expresses an alpha-beta T cell receptor and the CD4 coreceptor.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>CD4-positive, alpha-beta T lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CD4-positive, alpha-beta T-cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CD4-positive, alpha-beta T-lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
+        <rdfs:label>CD4-positive, alpha-beta T cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000624"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A mature alpha-beta T cell that expresses an alpha-beta T cell receptor and the CD4 coreceptor.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781735149</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <obo:IAO_0000115>A T cell expressing an alpha-beta T cell receptor and the CD8 coreceptor.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>CD8-positive, alpha-beta T lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CD8-positive, alpha-beta T-cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CD8-positive, alpha-beta T-lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
+        <rdfs:label>CD8-positive, alpha-beta T cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000625"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A T cell expressing an alpha-beta T cell receptor and the CD8 coreceptor.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:tfm</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781735149</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -302,6 +481,60 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000787 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000787">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000738"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_40674"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A memory B cell is a mature B cell that is long-lived, readily activated upon re-encounter of its antigenic determinant, and has been selected for expression of higher affinity immunoglobulin. This cell type has the phenotype CD19-positive, CD20-positive, MHC Class II-positive, and CD138-negative.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>memory B lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>memory B-cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>memory B-lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
+        <rdfs:label>memory B cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0000787"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A memory B cell is a mature B cell that is long-lived, readily activated upon re-encounter of its antigenic determinant, and has been selected for expression of higher affinity immunoglobulin. This cell type has the phenotype CD19-positive, CD20-positive, MHC Class II-positive, and CD138-negative.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:add</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dsd</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:rhs</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO_REF:0000031</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781735149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20081059</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20839338</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>http://en.wikipedia.org/wiki/Memory_B_cell</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0002569 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0002569">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000134"/>
+        <obo:IAO_0000115>A mesenchymal stem cell of the umbilical cord.</obo:IAO_0000115>
+        <oboInOwl:created_by>tmeehan</oboInOwl:created_by>
+        <oboInOwl:creation_date>2011-03-01T09:55:12Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace>cell</oboInOwl:hasOBONamespace>
+        <rdfs:label>mesenchymal stem cell of umbilical cord</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CL_0002569"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A mesenchymal stem cell of the umbilical cord.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:tfm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0005730 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005730"/>
@@ -311,6 +544,12 @@
     <!-- http://purl.obolibrary.org/obo/GO_0030154 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0030154"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_40674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_40674"/>
     
 
 

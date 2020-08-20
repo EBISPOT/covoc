@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:cellline="http://www.ebi.ac.uk/cellline/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/clo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-05-28/imports/clo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-19/imports/clo_import.owl"/>
     </owl:Ontology>
     
 
@@ -219,6 +219,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/CLO_0002172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
@@ -244,6 +245,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/CLO_0002192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
@@ -271,6 +273,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/CLO_0002462 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002462">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
         <obo:IAO_0000118>CHO-K1</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">CHO-K1</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
@@ -283,6 +286,7 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/CLO_0007059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0007059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
@@ -308,12 +312,25 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/CLO_0009524 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009524">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
         <obo:IAO_0000118>Vero</obo:IAO_0000118>
         <obo:IAO_0000118 xml:lang="en">Vero</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <rdfs:label>Vero cell</rdfs:label>
         <rdfs:label xml:lang="en">Vero cell</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000010"/>
     
 
 
@@ -338,6 +355,12 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_9615 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_9615"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
 </rdf:RDF>
 
 
