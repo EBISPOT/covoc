@@ -10,7 +10,7 @@
      xmlns:covoc="http://purl.obolibrary.org/obo/covoc/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/components/all_templates.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-19/components/all_templates.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-20/components/all_templates.owl"/>
     </owl:Ontology>
     
 
@@ -1621,6 +1621,20 @@
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">probable case</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ecdc.europa.eu/en/covid-19/surveillance/case-definition</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">probable case</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0010048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_87</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively-parallel sequencing</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERO:0001211</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C2936622</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively parallel sequencing</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Biology Research Technique</rdfs:comment>
     </owl:Class>
     
 
@@ -3608,19 +3622,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ERO_0001211 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001211">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_87</covoc:internal_covoc_id>
-        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively-parallel sequencing</covoc:preferred_covoc_label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C2936622</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively parallel sequencing</oboInOwl:hasExactSynonym>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Biology Research Technique</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0002250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002250">
@@ -4004,14 +4005,6 @@
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
     </owl:Class>
     
@@ -4403,14 +4396,6 @@
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene therapy</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0017296</oboInOwl:hasDbXref>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Therapeutic or Preventive Procedure</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MONDO_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
     </owl:Class>
     
 

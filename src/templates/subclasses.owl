@@ -203,14 +203,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IDO_0000463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000463">
@@ -222,14 +214,6 @@
     <!-- http://purl.obolibrary.org/obo/IDO_0000464 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000464">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MONDO_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
     </owl:Class>
     

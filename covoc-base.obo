@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: covoc/releases/2020-08-19/covoc-base.owl
+data-version: covoc/releases/2020-08-20/covoc-base.owl
 ontology: covoc/covoc-base
 property_value: http://purl.org/dc/elements/1.1/creator "Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
@@ -965,6 +965,16 @@ def: "Any person meeting the clinical criteria for COVID-19 with an epidemiologi
 xref: https://www.ecdc.europa.eu/en/covid-19/surveillance/case-definition
 is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "probable case" xsd:string
+
+[Term]
+id: COVOC:0010048
+comment: Molecular Biology Research Technique
+synonym: "massively parallel sequencing" EXACT []
+xref: ERO:0001211
+xref: UMLS:C2936622
+is_a: OBI:0000070
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_87" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "massively-parallel sequencing" xsd:string
 
 [Term]
 id: COVOC:0020001
@@ -2479,15 +2489,6 @@ property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_4" x
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "afebrile" xsd:string
 
 [Term]
-id: ERO:0001211
-comment: Molecular Biology Research Technique
-synonym: "massively parallel sequencing" EXACT []
-xref: UMLS:C2936622
-is_a: OBI:0000070
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_87" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "massively-parallel sequencing" xsd:string
-
-[Term]
 id: GO:0002250
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_4" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "antibody response" xsd:string
@@ -2733,10 +2734,6 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "nucl
 
 [Term]
 id: HANCESTRO:0003
-is_a: COVOC:00000000 ! COVOC Term
-
-[Term]
-id: HP:0000001
 is_a: COVOC:00000000 ! COVOC Term
 
 [Term]
@@ -2987,10 +2984,6 @@ xref: UMLS:C0017296
 is_a: EFO:0010063
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_50" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "gene therapy" xsd:string
-
-[Term]
-id: MONDO:0000001
-is_a: COVOC:00000000 ! COVOC Term
 
 [Term]
 id: MONDO:0002050

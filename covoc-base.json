@@ -150,29 +150,6 @@
       },
       "type" : "CLASS"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/ERO_0001211",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C2936622"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "massively parallel sequencing",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Molecular Biology Research Technique"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_87"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "massively-parallel sequencing"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_59343",
       "meta" : {
         "xrefs" : [ {
@@ -619,6 +596,31 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "anaphylaxis"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0010048",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "ERO:0001211"
+        }, {
+          "val" : "UMLS:C2936622"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "massively parallel sequencing",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "massively-parallel sequencing"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_87"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Molecular Biology Research Technique"
         } ]
       },
       "type" : "CLASS"
@@ -6720,11 +6722,11 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
           "val" : "Paludism"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "DG_23"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "Chloroquine"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "DG_23"
         } ]
       },
       "type" : "CLASS"
@@ -11286,6 +11288,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010048",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0050019",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -11321,10 +11327,6 @@
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0000714",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ERO_0001211",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/UBERON_0001988",
       "pred" : "is_a",
@@ -11582,11 +11584,11 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/IDO_0000463",
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050012",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050012",
+      "sub" : "http://purl.obolibrary.org/obo/IDO_0000463",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
@@ -11630,13 +11632,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0006502",
-      "pred" : "is_a",
-      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040031",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000134"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MONDO_0006502",
+      "pred" : "is_a",
+      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C15220",
       "pred" : "is_a",
@@ -11986,10 +11988,6 @@
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0000001",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_52217",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -12170,13 +12168,13 @@
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0100120",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005550"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0020011",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MONDO_0100120",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/MONDO_0005550"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0050002",
       "pred" : "is_a",
@@ -12193,10 +12191,6 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030017",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0000001",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0070001",
       "pred" : "is_a",
@@ -12298,13 +12292,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0003326",
-      "pred" : "is_a",
-      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030021",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HP_0003326",
+      "pred" : "is_a",
+      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0033006",
       "pred" : "is_a",
@@ -12454,7 +12448,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-08-19/covoc-base.json"
+      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-08-20/covoc-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

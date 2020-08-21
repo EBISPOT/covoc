@@ -37,25 +37,25 @@ BMV_3	antibody 	antibodies | Ab | Abs					EFO:0000264		BMV_3			antibody 	antibod
 							EFO:0000408					disease									
 BMV_95	Mutation	mutations		C0026882	[Genetic Function]		EFO:0000510		BMV_95			genetic modification				mutation		UMLS:C0026882	Genetic Function		
 BMV_77	infection						EFO:0000544		BMV_77			infection									
-							EFO:0000638									survival					I unveiled issues with EFO term(s)
+							EFO:0000638									survival					Paola unveiled issues with EFO term(s)
 BMV_104	pathogen	pathogens					EFO:0000643		BMV_104			pathogen									
 							EFO:0000651					phenotype									
-							EFO:0000714									survival					I unveiled issues with EFO term(s)
-							EFO:0000715						survival rate			survival					I unveiled issues with EFO term(s)
+							EFO:0000714									survival					Paola unveiled issues with EFO term(s)
+							EFO:0000715						survival rate			survival					Paola unveiled issues with EFO term(s)
 BMV_148	transfection	transfections					EFO:0000726		BMV_148			transfection									
-BMV_145	therapy			C0039798	[Functional Concept]		EFO:0000727		BMV_145||BMV_151			treatment	therapy					UMLS:C0039798	Functional Concept		I added a useful synonym in COVOC and unveiled issues in the EFO term
+BMV_145	therapy			C0039798	[Functional Concept]		EFO:0000727		BMV_145||BMV_151			treatment	therapy					UMLS:C0039798	Functional Concept		Paola added a synonym in COVOC and unveiled issues in the EFO term
 BMV_112	Procedures			C0184661	[Therapeutic or Preventive Procedure]		EFO:0002571		BMV_112			procedure						UMLS:C0184661	Therapeutic or Preventive Procedure		
 BMV_24	clinical characteristic	clinical characteristics					EFO:0003765		BMV_24||BMV_28||BMV_29			clinical characteristic		clinical characteristic||clinical characteristics||clinical sign||clinical signs							
 BMV_38	Deletion Mutation			C1511760	[Cell or Molecular Dysfunction]		EFO:0004014		BMV_38			deletion mutation						UMLS:C1511760	Cell or Molecular Dysfunction		
 BMV_154	Vaccination			C0042196	[Therapeutic or Preventive Procedure]		EFO:0004292		BMV_154			vaccination						UMLS:C0042196	Therapeutic or Preventive Procedure		
-BMV_94	mortality			C0026565 | C0026566	[Quantitative Concept] | [Quantitative Concept]		EFO:0004352		BMV_94			mortality						UMLS:C0026565 | UMLS:C0026566	Quantitative Concept||Quantitative Concept		Unveiled tiny issues in EFO term.
+BMV_94	mortality			C0026565 | C0026566	[Quantitative Concept] | [Quantitative Concept]		EFO:0004352		BMV_94			mortality						UMLS:C0026565 | UMLS:C0026566	Quantitative Concept||Quantitative Concept		Paola unveiled small issues with EFO term
 BMV_56	Genome			C0017428	[Gene or Genome]		EFO:0004420		BMV_56			genome						UMLS:C0017428	Gene or Genome		
 							EFO:0007056								treatment						
 BMV_144	Therapeutics			C0087111	[Therapeutic or Preventive Procedure]		EFO:0010063		BMV_144			therapeutic procedure				therapeutics		UMLS:C0087111	Therapeutic or Preventive Procedure		
 BMV_109	Pharmacotherapy			C0013216	[Therapeutic or Preventive Procedure]		EFO:0010064		BMV_109			pharmacotherapy		antiviral therapy				UMLS:C0013216	Therapeutic or Preventive Procedure		Paola added a synonym based on EMBL conference
 							EFO:0010125				EFO:0000001	viral load	virus load								Paola added term based on EMBL conference
 BMV_100	Oligonucleotide Primers	primer||primers		C0206415	[Nucleic Acid, Nucleoside, or Nucleotide]		EFO:0010192		BMV_100||BMV_111			oligonucleotide primer			primer			UMLS:C0206415	Nucleic Acid, Nucleoside, or Nucleotide		
-BMV_87	Massively-Parallel Sequencing			C2936622	[Molecular Biology Research Technique]		ERO:0001211		BMV_87		OBI:0000070	massively-parallel sequencing	massively parallel sequencing					UMLS:C2936622	Molecular Biology Research Technique		
+BMV_87	Massively-Parallel Sequencing			C2936622	[Molecular Biology Research Technique]		COVOC:0010048	INSERT EFO ID HERE	BMV_87		OBI:0000070	massively-parallel sequencing	massively parallel sequencing					UMLS:C2936622||ERO:0001211	Molecular Biology Research Technique		
 BMV_4	antibody response						GO:0002250		BMV_4			antibody response									
 BMV_65	Hypersensitivity			C0020517	[Pathologic Function]		GO:0002524		BMV_65			hypersensitivity						UMLS:C0020517	Pathologic Function		
 BMV_92	molecular mechanisms						GO:0003674		BMV_92			molecular mechanism									
@@ -85,7 +85,7 @@ BMV_110	Phosphorylation			C0031715	[Molecular Function]		GO:0016310		BMV_110			p
 BMV_159	Viral RNA			C0035736	[Nucleic Acid, Nucleoside, or Nucleotide]		GO:0019013		BMV_159			viral RNA		virus RNA				UMLS:C0035736	Nucleic Acid, Nucleoside, or Nucleotide		
 							GO:0019076				GO:0008150	viral release from host cell									Paola added term based on EMBL conference
 BMV_162	Virus Replication	virus replications | viral replication | viral replications		C0042774	[Cell Function]		GO:0019079		BMV_162			virus replication						UMLS:C0042774	Cell Function		
-BMV_120	replication						GO:0019079		BMV_120			viral genome replication			replication||viral replication||virus replication						The requested term ('replication') was broad, so I also added 2 more specific terms.
+BMV_120	replication						GO:0019079		BMV_120			viral genome replication			replication||viral replication||virus replication						The requested term ('replication') was broad, so Paola also added 2 more specific terms
 BMV_21	Cell Differentiation process			C0007589	[Cell Function]		GO:0030154		BMV_21			cell differentiation process						UMLS:C0007589	Cell Function		
 							GO:0036338				GO:0005575	viral membrane									Paola added term based on EMBL conference
 							GO:0039693					viral DNA genome replication	viral DNA replication||virus DNA replication								
@@ -95,28 +95,28 @@ BMV_158	viral entry						GO:0046718		BMV_158			viral entry
 BMV_161	Virus Internalization			C1537068	[Biologic Function]		GO:0046718		BMV_161			virus internalization						UMLS:C1537068	Biologic Function		
 BMV_90	Membrane Fusion			C0025246	[Molecular Function]		GO:0061025		BMV_90			membrane fusion						UMLS:C0025246	Molecular Function		
 BMV_55	Genetic Transcription			C0040649	[Genetic Function]		GO:0097659		BMV_55			genetic transcription						UMLS:C0040649	Genetic Function		
-BMV_147	transcription						GO:0097659		BMV_147			nucleic acid-templated transcription			transcription						I chose a broader GO term that accommodates DNA- as well as RNA-templated transcription
-BMV_149	transmissibility						IDO:0000463		BMV_149			infectious agent transmissibility			transmissibility	disease transmissibility					I added useful synonyms in COVOC
+BMV_147	transcription						GO:0097659		BMV_147			nucleic acid-templated transcription			transcription						Paola chose a broader GO term that accommodates DNA- as well as RNA-templated transcription
+BMV_149	transmissibility						IDO:0000463		BMV_149			infectious agent transmissibility			transmissibility	disease transmissibility					Paola added useful synonyms in COVOC
 BMV_78	infectivity						IDO:0000464		BMV_78			infectivity									
 BMV_58	global pandemic						IDO:0000503		BMV_58		EFO:0000001	global pandemic									
 BMV_75	incubation period	incubation periods					IDO:0000519		BMV_75		EFO:0000001	incubation period									
 BMV_136	serological test	serological tests					MAXO:0000609		BMV_136		OBI:0000070	serological test	serological testing			serology					Paola added a synonym based on EMBL conference
 BMV_72	immunofluorescence test						MAXO:0000614		BMV_72		OBI:0000070	immunofluorescence test									
 BMV_50	Gene therapy			C0017296	[Therapeutic or Preventive Procedure]		MAXO:0001001		BMV_50		EFO:0010063	gene therapy						UMLS:C0017296	Therapeutic or Preventive Procedure		
-BMV_165	zoonosis	zoonose||zoonotic disease					MONDO:0025481		BMV_165		EFO:0000408	zoonosis									Term existed in Mondo but had errors; we had them fixed.
-BMV_157	vector-borne						MONDO:0100120		BMV_157		MONDO:0005550	vector-borne disease				vector-borne					Term didn't exist in any other ontology and we requested it to Mondo. Its axiomatization unveiled issues in Mondo that were then addressed.
+BMV_165	zoonosis	zoonose||zoonotic disease					MONDO:0025481		BMV_165		EFO:0000408	zoonosis									Paola unveiled issues with existing Mondo term and had them fixed
+BMV_157	vector-borne						MONDO:0100120		BMV_157		MONDO:0005550	vector-borne disease				vector-borne					Term didn't exist in any other ontology and Paola requested it to Mondo. The axiomatization required for the new term unveiled issues in Mondo that were then addressed.
 BMV_9	astrovirus	astroviruses					NCBITaxon:39733		BMV_9			astrovirus									
 BMV_152	triaging patients						NCIT:C101230		BMV_152			triage status				triaging patients					Mapping is not perfect (NCIT term is about status rather than procedure).
-BMV_98	next-generation sequencing	ngs					NCIT:C101293		BMV_98		OBI:0000070	next-generation sequencing									See if there's an EFO term for this (or that could have this as a synonym); maybe EFO:0002697? 
-							NCIT:C13187					amino acid sequence			sequence						The requested term ('sequence') was meant broadly, so I added 3 specific terms instead.
+BMV_98	next-generation sequencing	ngs					NCIT:C101293		BMV_98		OBI:0000070	next-generation sequencing									
+							NCIT:C13187					amino acid sequence			sequence						The requested term ('sequence') was meant broadly, so Paola added 3 specific terms instead.
 BMV_47	epitope	epitopes					NCIT:C13189		BMV_47			epitope									
 BMV_18	bronchoalveolar lavage fluid	BALF					NCIT:C13195		BMV_18			bronchoalveolar lavage fluid				BALF					
 BMV_101	orf	open reading frame					NCIT:C13292		BMV_101			open reading frame				orf					
 BMV_42	DNA Sequence			C0162326	[Nucleotide Sequence]		NCIT:C13299		BMV_42			DNA sequence						UMLS:C0162326	Nucleotide Sequence		
-							NCIT:C13299					DNA sequence			sequence						The requested term ('sequence') was meant broadly, so I added 3 specific terms instead.
+							NCIT:C13299					DNA sequence			sequence						The requested term ('sequence') was meant broadly, so Paola added 3 specific terms instead.
 BMV_138	serum	sera					NCIT:C13325		BMV_138			serum									
 BMV_128	RNA Recognition Motif			C1522002	[Amino Acid, Peptide, or Protein,Biologically Active Substance]		NCIT:C13720		BMV_128			rNA recognition motif						UMLS:C1522002	Amino Acid, Peptide, or Protein,Biologically Active Substance		
-BMV_134	sequence	sequences					NCIT:C14134		BMV_134			macromolecular structure				sequence					The requested term ('sequence') was meant broadly to cover DNA, RNA etc, so I also added 3 specific terms.
+BMV_134	sequence	sequences					NCIT:C14134		BMV_134			macromolecular structure				sequence					The requested term ('sequence') was meant broadly to cover DNA, RNA etc, so Paola also added 3 specific terms.
 BMV_30	Clinical Study			C0008972	[Research Activity]		NCIT:C15206		BMV_30			clinical study						UMLS:C0008972	Research Activity		
 BMV_39	diagnosis	diagnoses | diagnose		C0011900	[Diagnostic Procedure]		NCIT:C15220		BMV_39			diagnosis						UMLS:C0011900	Diagnostic Procedure		
 BMV_70	Immunization			C0020971	[Therapeutic or Preventive Procedure]		NCIT:C15258		BMV_70			immunization						UMLS:C0020971	Therapeutic or Preventive Procedure		
@@ -131,9 +131,9 @@ BMV_91	microbiology						NCIT:C16851		BMV_91			microbiology
 BMV_93	morbidity			C0220880	[Intellectual Product]		NCIT:C16877		BMV_93			morbidity						UMLS:C0220880	Intellectual Product		
 BMV_107	patient	patients					NCIT:C16960		BMV_107			patient									
 BMV_116	Public Health			C0034019	[Biomedical Occupation or Discipline]		NCIT:C17039		BMV_116			public health						UMLS:C0034019	Biomedical Occupation or Discipline		
-BMV_140	survival			C0220921	[Functional Concept]		NCIT:C17177		BMV_140			survival						UMLS:C0220921	Functional Concept		This is a generic term, so I also added 3 more specific EFO survival terms (and made 'survival' a related synonym of all 3). I also unveiled some issues with EFO survival-related terms.
+BMV_140	survival			C0220921	[Functional Concept]		NCIT:C17177		BMV_140			survival						UMLS:C0220921	Functional Concept		This is a generic term, so Paola also added 3 more specific EFO survival terms (and made 'survival' a related synonym of all 3). Paola also unveiled some issues with EFO survival-related terms
 BMV_40	disease transmission			C0242781	[Pathologic Function]		NCIT:C17214		BMV_40			disease transmission		viral circulation				UMLS:C0242781	Pathologic Function		Paola added a synonym based on EMBL conference
-BMV_150	transmission			C0040722	[Idea or Concept]		NCIT:C17214		BMV_150			disease transmission			transmission			UMLS:C0040722	Idea or Concept		I added useful synonyms in COVOC
+BMV_150	transmission			C0040722	[Idea or Concept]		NCIT:C17214		BMV_150			disease transmission			transmission			UMLS:C0040722	Idea or Concept		Paola added useful synonyms in COVOC
 BMV_52	Genetic Diversity			C0042333	[Natural Phenomenon or Process]		NCIT:C17248		BMV_52			genetic diversity						UMLS:C0042333	Natural Phenomenon or Process		
 BMV_135	Sequence Analysis			C0162801	[Laboratory Procedure,Molecular Biology Research Technique]		NCIT:C17565		BMV_135			sequence analysis						UMLS:C0162801	Laboratory Procedure,Molecular Biology Research Technique		
 BMV_68	Immune Tolerance			C0020963	[Pathologic Function]		NCIT:C17712		BMV_68			immune tolerance						UMLS:C0020963	Pathologic Function		
@@ -159,7 +159,7 @@ BMV_88	Mechanical Ventilation			C0199470	[Therapeutic or Preventive Procedure]		
 							NCIT:C71104				NCIT:C15429										
 BMV_27	clinical importance						NCIT:C82562		BMV_27			clinical significance	clinical importance								
 BMV_129	RNA Sequence			C0162327	[Nucleotide Sequence]		NCIT:C89252		BMV_129			RNA sequence						UMLS:C0162327	Nucleotide Sequence		
-							NCIT:C89252					RNA sequence			sequence						The requested term ('sequence') was meant broadly, so I added 3 specific terms instead.
+							NCIT:C89252					RNA sequence			sequence						The requested term ('sequence') was meant broadly, so Paola added 3 specific terms instead
 BMV_155	vaccine	vaccines					NCIT:C923		BMV_155			vaccine									
 BMV_35	cross-neutralization						NCIT:C95533		BMV_35			cross-neutralization									
 BMV_15	Biological Assay			C0005507	[Laboratory Procedure]		OBI:0000070		BMV_15		EFO:0000001	biological assay						UMLS:C0005507	Laboratory Procedure		

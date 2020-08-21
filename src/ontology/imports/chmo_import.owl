@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/chmo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-19/imports/chmo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-20/imports/chmo_import.owl"/>
     </owl:Ontology>
     
 
@@ -178,7 +178,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Microscopy where the specimen, which is cooled in liquid ethane to 180 °C, is bombarded with a finely focused (&lt;10 nm diameter) electron beam with an acceleration voltage 50–150 kV under vacuum and the interaction of the electrons with the specimen produces transmitted, secondary, backscattered and diffracted electrons and characteristic X-rays which are detected.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FIX:0000052</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://doi.org/10.1021/jp013639d</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://doi.org/10.1021/jp013639d</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 

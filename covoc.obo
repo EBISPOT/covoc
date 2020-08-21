@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2020-08-19
+data-version: releases/2020-08-20
 subsetdef: 1_STAR ""
 subsetdef: 2_STAR ""
 subsetdef: 3_STAR ""
@@ -3344,6 +3344,16 @@ is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "probable case" xsd:string
 
 [Term]
+id: COVOC:0010048
+comment: Molecular Biology Research Technique
+synonym: "massively parallel sequencing" EXACT []
+xref: ERO:0001211
+xref: UMLS:C2936622
+is_a: OBI:0000070 ! assay
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_87" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "massively-parallel sequencing" xsd:string
+
+[Term]
 id: COVOC:0020001
 name: Calu-3 2B4
 comment: Successfully used to grow SARS-CoV-2.
@@ -5301,15 +5311,6 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "afeb
 property_value: http://purl.org/dc/elements/1.1/creator "paola" xsd:string
 
 [Term]
-id: ERO:0001211
-comment: Molecular Biology Research Technique
-synonym: "massively parallel sequencing" EXACT []
-xref: UMLS:C2936622
-is_a: OBI:0000070 ! assay
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_87" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "massively-parallel sequencing" xsd:string
-
-[Term]
 id: GO:0002250
 name: adaptive immune response
 namespace: biological_process
@@ -5930,7 +5931,6 @@ id: HP:0000001
 name: All
 namespace: human_phenotype
 xref: UMLS:C0444868
-is_a: COVOC:00000000 ! COVOC Term
 
 [Term]
 id: HP:0000002
@@ -6450,6 +6450,9 @@ creation_date: 2011-06-09T01:05:51Z
 
 [Term]
 id: Hong:Kong
+name: Hong Kong
+synonym: "China, Hong Kong SAR" EXACT []
+xref: GAZ:00003203
 xref: UMLS:C0019907
 is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_5" xsd:string
@@ -8640,8 +8643,8 @@ subset: NCIT:C159501
 subset: NCIT:C159503
 synonym: "Protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="GDC"}
 synonym: "Protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="BRIDG 5.3"}
-synonym: "Protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="CDR0000046092", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 synonym: "Protein (NOS)" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="31102", http://purl.obolibrary.org/obo/NCIT_P384="DCP"}
 synonym: "Proteins" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
@@ -9163,8 +9166,8 @@ property_value: NCIT:P366 "Sensitivity" xsd:string
 id: NCIT:C25277
 name: Therapeutic
 def: "Relating to or involved in therapy." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
-synonym: "Therapeutic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Therapeutic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Therapeutic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "therapeutic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="CDR0000043985", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 is_a: COVOC:00000000 ! COVOC Term
 property_value: NCIT:NHC0 "C25277" xsd:string
@@ -9578,8 +9581,8 @@ name: World Health Organization
 def: "A United Nations agency established to coordinate international health activities and to help governments improve health services." [] {http://purl.obolibrary.org/obo/NCIT_P381="WordNet", http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
 synonym: "WHO" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="CDR0000559085", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 synonym: "WHO" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="AB", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
-synonym: "World Health Organization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "World Health Organization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "World Health Organization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "World Health Organization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P385="CDR0000454794", http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_92" xsd:string
@@ -10389,6 +10392,8 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "CLEC
 
 [Term]
 id: Saudi:Arabia
+name: Saudi Arabia
+xref: GAZ:00005279
 xref: UMLS:C0036243
 is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_9" xsd:string
@@ -10396,6 +10401,9 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Saud
 
 [Term]
 id: South:Korea
+name: South Korea
+synonym: "Republic of Korea" EXACT []
+xref: GAZ:00002802
 xref: UMLS:C0022773
 is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_11" xsd:string
@@ -10593,11 +10601,15 @@ property_value: UBPROP:0000008 "respiration organ in all air-breathing animals, 
 
 [Term]
 id: United:States
+name: United States
+synonym: "United States of America" EXACT []
 synonym: "USA" EXACT []
+xref: GAZ:00002459
 xref: UMLS:C0041703
 is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_13" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "United States" xsd:string
+property_value: IAO:0000118 "U.S." xsd:string
 
 [Term]
 id: West:Africa
@@ -10623,6 +10635,8 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Asia
 
 [Term]
 id: http://dbpedia.org/resource/Canada
+name: Canada
+xref: GAZ:00002560
 xref: UMLS:C0006823
 is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_2" xsd:string
@@ -10630,7 +10644,9 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Cana
 
 [Term]
 id: http://dbpedia.org/resource/China
+name: China
 synonym: "Mainland china" EXACT []
+xref: GAZ:00002845
 xref: UMLS:C0008115
 is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_3" xsd:string
@@ -10654,7 +10670,9 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Hube
 
 [Term]
 id: http://dbpedia.org/resource/Jordan
+name: Jordan
 synonym: "Jordanian" EXACT []
+xref: GAZ:00002473
 xref: UMLS:C0022418
 is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_7" xsd:string
@@ -10662,6 +10680,8 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Jord
 
 [Term]
 id: http://dbpedia.org/resource/Singapore
+name: Singapore
+xref: GAZ:00003923
 xref: UMLS:C0037173
 is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_10" xsd:string
@@ -10669,6 +10689,8 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Sing
 
 [Term]
 id: http://dbpedia.org/resource/Taiwan
+name: Taiwan
+xref: GAZ:00005341
 xref: UMLS:C0039260
 is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_12" xsd:string

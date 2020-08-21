@@ -579,29 +579,6 @@
       "type" : "PROPERTY",
       "lbl" : "achieves_planned_objective"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/ERO_0001211",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C2936622"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "massively parallel sequencing",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "BMV_87"
-        }, {
-          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
-          "val" : "Molecular Biology Research Technique"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "massively-parallel sequencing"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_59343",
       "meta" : {
         "definition" : {
@@ -794,13 +771,13 @@
           "val" : "ORF4",
           "xrefs" : [ "GenPept:YP_009724392" ]
         }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "E",
-          "xrefs" : [ "GenPept:YP_009724392", "UniProtKB:P0DTC4" ]
-        }, {
           "pred" : "hasExactSynonym",
           "val" : "E (SARS2)",
           "xrefs" : [ "PRO:DAN" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "E",
+          "xrefs" : [ "GenPept:YP_009724392", "UniProtKB:P0DTC4" ]
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "sM protein",
@@ -1237,6 +1214,13 @@
       "meta" : {
         "xrefs" : [ {
           "val" : "UMLS:C0022773"
+        }, {
+          "val" : "GAZ:00002802"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Republic of Korea",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
@@ -1246,7 +1230,8 @@
           "val" : "LOC_11"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "South Korea"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C13292",
       "meta" : {
@@ -1481,6 +1466,31 @@
       },
       "type" : "CLASS",
       "lbl" : "anaphylaxis"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0010048",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "ERO:0001211"
+        }, {
+          "val" : "UMLS:C2936622"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "massively parallel sequencing",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "massively-parallel sequencing"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "BMV_87"
+        }, {
+          "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
+          "val" : "Molecular Biology Research Technique"
+        } ]
+      },
+      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0000552",
       "meta" : {
@@ -3704,6 +3714,8 @@
       "meta" : {
         "xrefs" : [ {
           "val" : "UMLS:C0022418"
+        }, {
+          "val" : "GAZ:00002473"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -3718,7 +3730,8 @@
           "val" : "LOC_7"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Jordan"
     }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0009405",
       "meta" : {
@@ -5508,13 +5521,22 @@
       "meta" : {
         "xrefs" : [ {
           "val" : "UMLS:C0041703"
+        }, {
+          "val" : "GAZ:00002459"
         } ],
         "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "United States of America",
+          "xrefs" : [ ]
+        }, {
           "pred" : "hasExactSynonym",
           "val" : "USA",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000118",
+          "val" : "U.S."
+        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "LOC_13"
         }, {
@@ -5522,7 +5544,8 @@
           "val" : "United States"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "United States"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HP_0001742",
       "meta" : {
@@ -5831,6 +5854,8 @@
       "meta" : {
         "xrefs" : [ {
           "val" : "UMLS:C0039260"
+        }, {
+          "val" : "GAZ:00005341"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
@@ -5840,7 +5865,8 @@
           "val" : "LOC_12"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Taiwan"
     }, {
       "id" : "http://purl.obolibrary.org/obo/MONDO_0021146",
       "meta" : {
@@ -6262,6 +6288,8 @@
       "meta" : {
         "xrefs" : [ {
           "val" : "UMLS:C0036243"
+        }, {
+          "val" : "GAZ:00005279"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
@@ -6271,7 +6299,8 @@
           "val" : "LOC_9"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Saudi Arabia"
     }, {
       "id" : "http://www.ebi.ac.uk/efo/EFO_0004420",
       "meta" : {
@@ -11418,6 +11447,24 @@
       "type" : "CLASS",
       "lbl" : "rosuvastatin"
     }, {
+      "id" : "http://dbpedia.org/resource/Singapore",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GAZ:00003923"
+        }, {
+          "val" : "UMLS:C0037173"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "LOC_10"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Singapore"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Singapore"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0030154",
       "meta" : {
         "definition" : {
@@ -11446,21 +11493,6 @@
       },
       "type" : "CLASS",
       "lbl" : "cell differentiation"
-    }, {
-      "id" : "http://dbpedia.org/resource/Singapore",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0037173"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "LOC_10"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Singapore"
-        } ]
-      },
-      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/UBERON_0001836",
       "meta" : {
@@ -18558,6 +18590,8 @@
       "id" : "http://dbpedia.org/resource/China",
       "meta" : {
         "xrefs" : [ {
+          "val" : "GAZ:00002845"
+        }, {
           "val" : "UMLS:C0008115"
         } ],
         "synonyms" : [ {
@@ -18573,7 +18607,8 @@
           "val" : "LOC_3"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "China"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0050030",
       "meta" : {
@@ -20689,6 +20724,8 @@
       "meta" : {
         "xrefs" : [ {
           "val" : "UMLS:C0006823"
+        }, {
+          "val" : "GAZ:00002560"
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
@@ -20698,7 +20735,8 @@
           "val" : "Canada"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Canada"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_31528",
       "meta" : {
@@ -20894,11 +20932,11 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
           "val" : "Respiratory viral infection"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
-          "val" : "C22H25BrN2O3S"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
           "val" : "InChI=1S/C22H25BrN2O3S/c1-5-28-22(27)20-18(13-29-14-9-7-6-8-10-14)25(4)17-11-16(23)21(26)15(19(17)20)12-24(2)3/h6-11,26H,5,12-13H2,1-4H3"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
+          "val" : "C22H25BrN2O3S"
         } ]
       },
       "type" : "CLASS",
@@ -21058,7 +21096,14 @@
       "id" : "http://dbpedia.org/resource/Hong_Kong",
       "meta" : {
         "xrefs" : [ {
+          "val" : "GAZ:00003203"
+        }, {
           "val" : "UMLS:C0019907"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "China, Hong Kong SAR",
+          "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
@@ -21068,7 +21113,8 @@
           "val" : "Honk Kong"
         } ]
       },
-      "type" : "CLASS"
+      "type" : "CLASS",
+      "lbl" : "Hong Kong"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHMO_0000002",
       "meta" : {
@@ -28253,6 +28299,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010048",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0046718",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
@@ -28421,13 +28471,13 @@
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MAXO_0000609",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0006508",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MAXO_0000609",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
     }, {
       "sub" : "http://dbpedia.org/resource/Singapore",
       "pred" : "is_a",
@@ -28529,13 +28579,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PR_Q9H2X3",
-      "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
-      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_50729",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/PR_Q9H2X3",
+      "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
+      "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0016246",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002211",
@@ -28909,10 +28959,6 @@
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0000001",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_1335626",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_694002"
@@ -29217,13 +29263,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C48938",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://dbpedia.org/resource/Canada",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C48938",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36080",
       "pred" : "is_a",
@@ -29793,13 +29839,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://www.ebi.ac.uk/efo/EFO_0000784",
-      "pred" : "subPropertyOf",
-      "obj" : "http://purl.obolibrary.org/obo/RO_0001025"
-    }, {
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0000785",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0001015"
+    }, {
+      "sub" : "http://www.ebi.ac.uk/efo/EFO_0000784",
+      "pred" : "subPropertyOf",
+      "obj" : "http://purl.obolibrary.org/obo/RO_0001025"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030024",
       "pred" : "is_a",
@@ -29808,10 +29854,6 @@
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0000714",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/ERO_0001211",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IDO_0000519",
       "pred" : "is_a",
@@ -29993,13 +30035,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040031",
-      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000134"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0006502",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0040031",
+      "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000134"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C15220",
       "pred" : "is_a",
@@ -30614,7 +30656,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-08-19/covoc.json"
+      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-08-20/covoc.json"
     },
     "equivalentNodesSets" : [ {
       "nodeIds" : [ "http://purl.obolibrary.org/obo/MONDO_0000001", "http://www.ebi.ac.uk/efo/EFO_0000408" ]

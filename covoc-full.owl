@@ -30,7 +30,7 @@
      xmlns:patterns="http://www.co-ode.org/patterns#"
      xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/covoc-full.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-19/covoc-full.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-20/covoc-full.owl"/>
         <dc:creator>Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
         <dc:creator>Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
         <dc:creator>Michel Pierre-André (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
@@ -4047,7 +4047,9 @@ in CLO, this is a short cut relation that represents:
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_2</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canada</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref>GAZ:00002560</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0006823</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Canada</rdfs:label>
     </owl:Class>
     
 
@@ -4058,8 +4060,10 @@ in CLO, this is a short cut relation that represents:
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_3</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">China</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref>GAZ:00002845</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0008115</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mainland china</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">China</rdfs:label>
     </owl:Class>
     
 
@@ -4084,7 +4088,10 @@ in CLO, this is a short cut relation that represents:
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_5</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honk Kong</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref>GAZ:00003203</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0019907</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">China, Hong Kong SAR</oboInOwl:hasExactSynonym>
+        <rdfs:label>Hong Kong</rdfs:label>
     </owl:Class>
     
 
@@ -4105,8 +4112,10 @@ in CLO, this is a short cut relation that represents:
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_7</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordan</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref>GAZ:00002473</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0022418</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordanian</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">Jordan</rdfs:label>
     </owl:Class>
     
 
@@ -4128,7 +4137,9 @@ in CLO, this is a short cut relation that represents:
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_9</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saudi Arabia</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref>GAZ:00005279</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0036243</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Saudi Arabia</rdfs:label>
     </owl:Class>
     
 
@@ -4139,7 +4150,9 @@ in CLO, this is a short cut relation that represents:
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_10</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singapore</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref>GAZ:00003923</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0037173</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Singapore</rdfs:label>
     </owl:Class>
     
 
@@ -4150,7 +4163,10 @@ in CLO, this is a short cut relation that represents:
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_11</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South Korea</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref>GAZ:00002802</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0022773</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Republic of Korea</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South Korea</rdfs:label>
     </owl:Class>
     
 
@@ -4161,7 +4177,9 @@ in CLO, this is a short cut relation that represents:
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_12</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taiwan</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref>GAZ:00005341</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0039260</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Taiwan</rdfs:label>
     </owl:Class>
     
 
@@ -4170,10 +4188,14 @@ in CLO, this is a short cut relation that represents:
 
     <owl:Class rdf:about="http://dbpedia.org/resource/United_States">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <obo:IAO_0000118 xml:lang="en">U.S.</obo:IAO_0000118>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_13</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">United States</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref>GAZ:00002459</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0041703</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>United States of America</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">United States</rdfs:label>
     </owl:Class>
     
 
@@ -14246,7 +14268,7 @@ in CLO, this is a short cut relation that represents:
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Microscopy where the specimen, which is cooled in liquid ethane to 180 °C, is bombarded with a finely focused (&lt;10 nm diameter) electron beam with an acceleration voltage 50–150 kV under vacuum and the interaction of the electrons with the specimen produces transmitted, secondary, backscattered and diffracted electrons and characteristic X-rays which are detected.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>FIX:0000052</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://doi.org/10.1021/jp013639d</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://doi.org/10.1021/jp013639d</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -14935,6 +14957,20 @@ in CLO, this is a short cut relation that represents:
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">probable case</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://www.ecdc.europa.eu/en/covid-19/surveillance/case-definition</oboInOwl:hasDbXref>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">probable case</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0010048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_87</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively-parallel sequencing</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERO:0001211</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C2936622</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively parallel sequencing</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Biology Research Technique</rdfs:comment>
     </owl:Class>
     
 
@@ -16922,19 +16958,6 @@ in CLO, this is a short cut relation that represents:
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ERO_0001211 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001211">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_87</covoc:internal_covoc_id>
-        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively-parallel sequencing</covoc:preferred_covoc_label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C2936622</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively parallel sequencing</oboInOwl:hasExactSynonym>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Biology Research Technique</rdfs:comment>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0002250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0002250">
@@ -17354,7 +17377,7 @@ in CLO, this is a short cut relation that represents:
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A programmed cell death process which begins when a cell receives an internal (e.g. DNA damage) or external signal (e.g. an extracellular death ligand), and proceeds through a series of biochemical events (signaling pathway phase) which trigger an execution phase. The execution phase is the last step of an apoptotic process, and is typically characterized by rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), plasma membrane blebbing and fragmentation of the cell into apoptotic bodies. When the execution phase is completed, the cell has died.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:cjm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GOC:dhl</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dhl</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ecd</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:go_curators</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mtg_apoptosis</oboInOwl:hasDbXref>
@@ -18079,7 +18102,6 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/HP_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <oboInOwl:hasDbXref>UMLS:C0444868</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0000001</oboInOwl:id>

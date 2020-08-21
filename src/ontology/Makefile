@@ -70,7 +70,7 @@ all_main: $(MAIN_FILES)
 ## By default this is the cross-product of IMPORT_MODULES x FORMATS
 
 
-IMPORTS =  efo ncbitaxon clo hp mondo chebi go bao chmo cl ido maxo ncit obi omit pr uberon pato
+IMPORTS =  efo ncbitaxon clo hp mondo chebi go bao chmo cl ido maxo ncit obi omit pr uberon pato hancestro dbpedia
 
 IMPORT_ROOTS = $(patsubst %, imports/%_import, $(IMPORTS))
 IMPORT_OWL_FILES = $(foreach n,$(IMPORT_ROOTS), $(n).owl)
@@ -444,6 +444,26 @@ mirror/pato.trigger: $(SRC)
 
 mirror/pato.owl: mirror/pato.trigger
 	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/pato.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: hancestro
+## Copy of hancestro is re-downloaded whenever source changes
+mirror/hancestro.trigger: $(SRC)
+
+mirror/hancestro.owl: mirror/hancestro.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/hancestro.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
+
+.PRECIOUS: mirror/%.owl
+
+
+## ONTOLOGY: dbpedia
+## Copy of dbpedia is re-downloaded whenever source changes
+mirror/dbpedia.trigger: $(SRC)
+
+mirror/dbpedia.owl: mirror/dbpedia.trigger
+	@if [ $(MIR) = true ] && [ $(IMP) = true ]; then $(ROBOT) convert -I $(URIBASE)/dbpedia.owl -o $@.tmp.owl && mv $@.tmp.owl $@; fi
 
 .PRECIOUS: mirror/%.owl
 

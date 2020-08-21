@@ -1,18 +1,18 @@
 id	name	synonyms	CUI UMLS	Semantic Type UMLS					Term import ID	COVoc ID	Temporary label (COVOC IDs only)	Child of	Preferred label	Synonym	Narrow synonym	Broad synonym	Related synonym	Definition	x-refs	Comment	Curation stats
 									ID	A cov:internal_covoc_id  SPLIT=||	LABEL	SC %	A cov:preferred_covoc_label	A oboInOwl:hasExactSynonym SPLIT=||	A oboInOwl:hasNarrowSynonym SPLIT=||	A oboInOwl:hasBroadSynonym SPLIT=||	A oboInOwl:hasRelatedSynonym SPLIT=||	A IAO:0000115	A oboInOwl:hasDbXref SPLIT=||	A rdfs:comment	
-LOC_1	Asia	Asian	C0003980	[Geographic Area]		http://dbpedia.org/page/Asia			dbpedia:Asia	LOC_1			Asia	Asian					UMLS:C0003980		
-LOC_2	Canada		C0006823	[Geographic Area]		http://dbpedia.org/page/Canada			dbpedia:Canada	LOC_2			Canada						UMLS:C0006823		
-LOC_3	China	Mainland china	C0008115	[Geographic Area]		http://dbpedia.org/page/China			dbpedia:China	LOC_3			China	Mainland china					UMLS:C0008115		
-LOC_4	Europe	European | UE | E.U	C0015176	[Geographic Area]		http://dbpedia.org/page/Europe			dbpedia:Europe	LOC_4			Europe	European||UE||E.U					UMLS:C0015176		
-LOC_5	Honk Kong		C0019907	[Geographic Area]		http://dbpedia.org/page/Hong_Kong			dbpedia:Hong_Kong	LOC_5			Honk Kong						UMLS:C0019907		
-LOC_6	Hubei					http://dbpedia.org/page/Hubei			dbpedia:Hubei	LOC_6			Hubei								
-LOC_7	Jordan	Jordanian	C0022418	[Geographic Area]		http://dbpedia.org/page/Jordan			dbpedia:Jordan	LOC_7			Jordan	Jordanian					UMLS:C0022418		
-LOC_8	Middle East		C0026068	[Geographic Area]		http://dbpedia.org/page/Middle_East			dbpedia:Middle_East	LOC_8			Middle East						UMLS:C0026068		
-LOC_9	Saudi Arabia		C0036243	[Geographic Area]		http://dbpedia.org/page/Saudi_Arabia			dbpedia:Saudi_Arabia	LOC_9			Saudi Arabia						UMLS:C0036243		
-LOC_10	Singapore		C0037173	[Geographic Area]		http://dbpedia.org/page/Singapore			dbpedia:Singapore	LOC_10			Singapore						UMLS:C0037173		
-LOC_11	South Korea		C0022773	[Geographic Area]		http://dbpedia.org/page/South_Korea			dbpedia:South_Korea	LOC_11			South Korea						UMLS:C0022773		
-LOC_12	Taiwan		C0039260	[Geographic Area]		http://dbpedia.org/page/Taiwan			dbpedia:Taiwan	LOC_12			Taiwan						UMLS:C0039260		
-LOC_13	United States	USA	C0041703	[Geographic Area]		http://dbpedia.org/page/United_States			dbpedia:United_States	LOC_13			United States	USA					UMLS:C0041703		
-LOC_14	Western Africa		C0001747	[Geographic Area]		http://dbpedia.org/page/West_Africa			dbpedia:West_Africa	LOC_14			Western Africa						UMLS:C0001747		
+LOC_1	Asia	Asian	C0003980	[Geographic Area]		http://dbpedia.org/page/Asia			DBPEDIA:Asia	LOC_1			Asia	Asian					UMLS:C0003980		
+LOC_2	Canada		C0006823	[Geographic Area]		http://dbpedia.org/page/Canada			DBPEDIA:Canada	LOC_2			Canada						UMLS:C0006823		
+LOC_3	China	Mainland china	C0008115	[Geographic Area]		http://dbpedia.org/page/China			DBPEDIA:China	LOC_3			China	Mainland china					UMLS:C0008115		
+LOC_4	Europe	European | UE | E.U	C0015176	[Geographic Area]		http://dbpedia.org/page/Europe			DBPEDIA:Europe	LOC_4			Europe	European||UE||E.U					UMLS:C0015176		
+LOC_5	Honk Kong		C0019907	[Geographic Area]		http://dbpedia.org/page/Hong_Kong			DBPEDIA:Hong_Kong	LOC_5			Honk Kong						UMLS:C0019907		
+LOC_6	Hubei					http://dbpedia.org/page/Hubei			DBPEDIA:Hubei	LOC_6			Hubei								
+LOC_7	Jordan	Jordanian	C0022418	[Geographic Area]		http://dbpedia.org/page/Jordan			DBPEDIA:Jordan	LOC_7			Jordan	Jordanian					UMLS:C0022418		
+LOC_8	Middle East		C0026068	[Geographic Area]		http://dbpedia.org/page/Middle_East			DBPEDIA:Middle_East	LOC_8			Middle East						UMLS:C0026068		
+LOC_9	Saudi Arabia		C0036243	[Geographic Area]		http://dbpedia.org/page/Saudi_Arabia			DBPEDIA:Saudi_Arabia	LOC_9			Saudi Arabia						UMLS:C0036243		
+LOC_10	Singapore		C0037173	[Geographic Area]		http://dbpedia.org/page/Singapore			DBPEDIA:Singapore	LOC_10			Singapore						UMLS:C0037173		
+LOC_11	South Korea		C0022773	[Geographic Area]		http://dbpedia.org/page/South_Korea			DBPEDIA:South_Korea	LOC_11			South Korea						UMLS:C0022773		
+LOC_12	Taiwan		C0039260	[Geographic Area]		http://dbpedia.org/page/Taiwan			DBPEDIA:Taiwan	LOC_12			Taiwan						UMLS:C0039260		
+LOC_13	United States	USA	C0041703	[Geographic Area]		http://dbpedia.org/page/United_States			DBPEDIA:United_States	LOC_13			United States	USA					UMLS:C0041703		
+LOC_14	Western Africa		C0001747	[Geographic Area]		http://dbpedia.org/page/West_Africa			DBPEDIA:West_Africa	LOC_14			Western Africa						UMLS:C0001747		
 LOC_15	Wu Bei	Wubei							COVOC:0070001	LOC_15	Wu Bei	obo:COVOC_00000000	Wu Bei	Wubei							
-LOC_16	Wu Han	Wuhan				http://dbpedia.org/page/Wu_Han			dbpedia:Wu_Han	LOC_16			Wu Han	Wuhan							
+LOC_16	Wu Han	Wuhan				http://dbpedia.org/page/Wu_Han			DBPEDIA:Wu_Han	LOC_16			Wu Han	Wuhan							
