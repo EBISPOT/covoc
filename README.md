@@ -13,9 +13,9 @@ More information can be found at http://obofoundry.org/ontology/covoc
 
 The latest version of the ontology can always be found at:
 
-http://purl.obolibrary.org/obo/covoc.owl
+https://github.com/EBISPOT/covoc/raw/master/covoc.owl
 
-(note this will not show up until the request has been approved by obofoundry.org)
+COVOC is still under development, but will be submitted as an application ontology to the [OBO foundry](http://obofoundry.org/) when the first version is completed.
 
 ### Editors' version
 
@@ -27,4 +27,4 @@ Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/c
 
 ## Acknowledgements
 
-This ontology repository was created using the [ontology starter kit](https://github.com/INCATools/ontology-starter-kit)
+This ontology repository was created using the [ontology development kit](https://github.com/INCATools/ontology-development-kit) (ODK).
