@@ -11,7 +11,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/hp_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-20/imports/hp_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-21/imports/hp_import.owl"/>
     </owl:Ontology>
     
 
@@ -303,49 +303,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000001">
-        <oboInOwl:hasDbXref>UMLS:C0444868</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HP:0000001</oboInOwl:id>
-        <rdfs:label>All</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/HP_0000002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
-        <obo:IAO_0000115>Deviation from the norm of height with respect to that which is expected according to age and gender norms.</obo:IAO_0000115>
-        <oboInOwl:created_by>peter</oboInOwl:created_by>
-        <oboInOwl:creation_date>2008-02-27T02:20:00Z</oboInOwl:creation_date>
-        <oboInOwl:hasDbXref>UMLS:C4025901</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Abnormality of body height</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>HP:0000002</oboInOwl:id>
-        <rdfs:label>Abnormality of body height</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0000002"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Deviation from the norm of height with respect to that which is expected according to age and gender norms.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:probinson</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0000002"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Abnormality of body height</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/HP_0000822 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000822">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>The presence of chronic increased pressure in the systemic arterial system.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>HP:0004949</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>HP:0005126</oboInOwl:hasAlternativeId>
@@ -379,7 +339,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0000969 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000969">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>An abnormal accumulation of fluid beneath the skin, or in one or more cavities of the body.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>HP:0000990</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>MSH:D004487</oboInOwl:hasDbXref>
@@ -427,7 +386,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0000988 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000988">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>A red eruption of the skin.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>Rash</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasDbXref>MEDDRA:10037844</oboInOwl:hasDbXref>
@@ -443,18 +401,6 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0000988"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-        <owl:annotatedTarget>Rash</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0000988"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>MEDDRA:10037844</owl:annotatedTarget>
-        <rdfs:label>Rash</rdfs:label>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0000988"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Skin rash</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
@@ -465,13 +411,24 @@
         <owl:annotatedTarget>A red eruption of the skin.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:probinson</oboInOwl:hasDbXref>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0000988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+        <owl:annotatedTarget>Rash</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0000988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>MEDDRA:10037844</owl:annotatedTarget>
+        <rdfs:label>Rash</rdfs:label>
+    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/HP_0000989 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000989">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Pruritus is an itch or a sensation that makes a person want to scratch. This term refers to an abnormally increased disposition to experience pruritus.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MSH:D011537</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:279333002</oboInOwl:hasDbXref>
@@ -519,7 +476,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0001025 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001025">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Raised, well-circumscribed areas of erythema and edema involving the dermis and epidermis. Urticaria is intensely pruritic, and blanches completely with pressure.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MEDDRA:10046735</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MSH:D014581</oboInOwl:hasDbXref>
@@ -557,7 +513,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0001649 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001649">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>A rapid heartrate that exceeds the range of the normal resting heartrate for age.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>HP:0001673</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>HP:0001720</oboInOwl:hasAlternativeId>
@@ -624,7 +579,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0001742 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001742">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Reduced ability to pass air through the nasal cavity often leading to mouth breathing.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MSH:D015508</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:232209000</oboInOwl:hasDbXref>
@@ -703,7 +657,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0001945 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001945">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Elevated body temperature due to failed thermoregulation.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MSH:D005334</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:386661006</oboInOwl:hasDbXref>
@@ -780,7 +733,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0002014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Abnormally increased frequency of loose or watery bowel movements.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MSH:D003967</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:267060006</oboInOwl:hasDbXref>
@@ -823,7 +775,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0002017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Nausea is a commonly encountered symptom that has been defined as an unpleasant painless subjective feeling that one will imminently vomit. Vomiting has been defined as the forceful expulsion of the contents of the stomach, duodenum, or jejunum through the oral cavity. While nausea and vomiting are often thought to exist on a temporal continuum, this is not always the case. There are situations when severe nausea may be present without emesis and less frequently, when emesis may be present without preceding nausea.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>SNOMEDCT_US:16932000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0027498</oboInOwl:hasDbXref>
@@ -885,7 +836,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0002027 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002027">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012531"/>
         <obo:IAO_0000115>An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) and perceived to originate in the abdomen.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>Gastro pain</oboInOwl:hasBroadSynonym>
@@ -966,7 +916,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0002094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002094">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Difficult or labored breathing.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MSH:D004417</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:230145002</oboInOwl:hasDbXref>
@@ -1005,7 +954,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0002789 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002789">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Very rapid breathing.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>HP:0002874</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>HP:0004346</oboInOwl:hasAlternativeId>
@@ -1036,7 +984,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0003077 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>An elevated lipid concentration in the blood.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>HP:0008159</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>HP:0008356</oboInOwl:hasAlternativeId>
@@ -1113,7 +1060,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0011950 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011950">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Inflammation of the bronchioles.</obo:IAO_0000115>
         <oboInOwl:created_by>peter</oboInOwl:created_by>
         <oboInOwl:creation_date>2012-06-21T08:36:11Z</oboInOwl:creation_date>
@@ -1136,7 +1082,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0012378 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012378">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>A subjective feeling of tiredness characterized by a lack of energy and motivation.</obo:IAO_0000115>
         <oboInOwl:created_by>peter</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-10-15T08:52:04Z</oboInOwl:creation_date>
@@ -1182,7 +1127,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0012531 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012531">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>An unpleasant sensory and emotional experience associated with actual or potential tissue damage, or described in terms of such damage.</obo:IAO_0000115>
         <oboInOwl:created_by>peter</oboInOwl:created_by>
         <oboInOwl:creation_date>2013-12-15T09:38:08Z</oboInOwl:creation_date>
@@ -1212,7 +1156,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0012735 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012735">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>A sudden, audible expulsion of air from the lungs through a partially closed glottis, preceded by inhalation.</obo:IAO_0000115>
         <oboInOwl:created_by>peter</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-03-23T03:19:50Z</oboInOwl:creation_date>
@@ -1252,7 +1195,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0025143 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025143">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>A sudden sensation of feeling cold.</obo:IAO_0000115>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-29T11:10:01Z</dc:date>
         <oboInOwl:created_by>HPO:probinson</oboInOwl:created_by>
@@ -1271,7 +1213,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0025406 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025406">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>A state characterized by a feeling of weakness and loss of strength leading to a generalized weakness of the body.</obo:IAO_0000115>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-22T14:48:03Z</dc:date>
         <oboInOwl:created_by>HPO:probinson</oboInOwl:created_by>
@@ -1283,7 +1224,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0030830 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030830">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Crackles are discontinuous, explosive, and nonmusical adventitious lung sounds normally heard in inspiration and sometimes during expiration. Crackles are usually classified as fine and coarse crackles based on their duration, loudness, pitch, timing in the respiratory cycle, and relationship to coughing and changing body position.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MSH:D012135</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:48409008</oboInOwl:hasDbXref>
@@ -1325,7 +1265,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0031417 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031417">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Increased discharge of mucus from the nose.</obo:IAO_0000115>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-09-12T02:06:56Z</dc:date>
         <oboInOwl:created_by>peter</oboInOwl:created_by>
@@ -1351,7 +1290,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0032016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Abnormal appearance of material expectorated (coughed up) from the respiratory system and that is composed of mucus but may contain other substances such as pus, blood, microorganisms, and fibrin.</obo:IAO_0000115>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-25T12:36:36Z</dc:date>
         <oboInOwl:created_by>peter</oboInOwl:created_by>
@@ -1364,7 +1302,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0033006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Diffuse alveolar damage (DAD) describes a comon histologic injury pattern of the lung. The early stages are characterized by epithelial cell necrosis and sloughing, fibrous exsudate, edema, and hyaline membranes made of surfactant and proteins, filling the alveoli. This results in impaired gas exchange. In later stages, type II cells and myofibroblasts proliferate within the interstitium and airspaces. The corresponding clinical entity is acute respiratory distress syndrome (ARDS). DAD may result from pulmonary drug toxicity, occurs in immunosuppressed, severe viral infections, acute interstial pneumonitis and crack cocaine inhalation.</obo:IAO_0000115>
         <oboInOwl:created_by>peter</oboInOwl:created_by>
         <rdfs:label>Diffuse alveolar damage</rdfs:label>
@@ -1383,7 +1320,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0100749 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100749">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012531"/>
         <obo:IAO_0000115>An unpleasant sensation characterized by physical discomfort (such as pricking, throbbing, or aching) localized to the chest.</obo:IAO_0000115>
         <oboInOwl:created_by>doelkens</oboInOwl:created_by>
@@ -1409,7 +1345,6 @@
     <!-- http://purl.obolibrary.org/obo/HP_0100806 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100806">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000001"/>
         <obo:IAO_0000115>Systemic inflammatory response to infection.</obo:IAO_0000115>
         <oboInOwl:created_by>doelkens</oboInOwl:created_by>
         <oboInOwl:creation_date>2011-06-09T01:05:51Z</oboInOwl:creation_date>
