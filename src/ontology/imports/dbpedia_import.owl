@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/covoc/imports/dbpedia_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/covoc/imports/dbpedia_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/dbpedia_import.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-20/imports/dbpedia_import.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Canada -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Canada">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref>GAZ:00002560</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Canada</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/China -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/China">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref>GAZ:00002845</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">China</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Hong_Kong -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Hong_Kong">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref>GAZ:00003203</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">China, Hong Kong SAR</oboInOwl:hasExactSynonym>
+        <rdfs:label>Hong Kong</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Jordan -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Jordan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref>GAZ:00002473</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Jordan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Saudi_Arabia -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Saudi_Arabia">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref>GAZ:00005279</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Saudi Arabia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Singapore -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Singapore">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref>GAZ:00003923</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Singapore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/South_Korea -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/South_Korea">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref>GAZ:00002802</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">Republic of Korea</oboInOwl:hasExactSynonym>
+        <rdfs:label>South Korea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/Taiwan -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/Taiwan">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <oboInOwl:hasDbXref>GAZ:00005341</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">Taiwan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://dbpedia.org/resource/United_States -->
+
+    <owl:Class rdf:about="http://dbpedia.org/resource/United_States">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <obo:IAO_0000118 xml:lang="en">U.S.</obo:IAO_0000118>
+        <oboInOwl:hasDbXref>GAZ:00002459</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>United States of America</oboInOwl:hasExactSynonym>
+        <rdfs:label>United States</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
