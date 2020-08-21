@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/EBISPOT/covoc.svg?branch=master)](https://travis-ci.org/EBISPOT/covoc)
+[![Build Status](https://travis-ci.org/github/EBISPOT/covoc.svg?branch=master)](https://travis-ci.org/github/EBISPOT/covoc)
 <!--[![DOI](https://zenodo.org/badge/13996/EBISPOT/covoc.svg)](https://zenodo.org/badge/latestdoi/13996/EBISPOT/covoc)-->
 
 # Coronavirus Vocabulary
