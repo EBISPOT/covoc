@@ -5,17 +5,15 @@
 
 The COVID-19 Vocabulary (COVoc) is an ontology containing terms related to the research of the COVID-19 pandemic. This includes host organisms, pathogenicity, gene and gene products, barrier gestures, treatments and more. COVoc concepts and synonyms are used to annotate MEDLINE, PMC and the CORD-19 preprint collection in order to provide navigation from the literature to ELIXIR core databases.
 
-More information can be found at http://obofoundry.org/ontology/covoc
-
 ## Versions
 
-### Stable release versions
+COVOC is still under development, but will be submitted as an application ontology to the [OBO foundry](http://obofoundry.org/) when the first version is completed.
+
+### Development snapshots
 
 The latest version of the ontology can always be found at:
 
 https://github.com/EBISPOT/covoc/raw/master/covoc.owl
-
-COVOC is still under development, but will be submitted as an application ontology to the [OBO foundry](http://obofoundry.org/) when the first version is completed.
 
 ### Editors' version
 
