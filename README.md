@@ -3,7 +3,7 @@
 
 # Coronavirus Vocabulary
 
-This ontology... YOUR DESCRIPTION HERE
+The COVID-19 Vocabulary (COVoc) is an ontology containing terms related to the research of the COVID-19 pandemic. This includes host organisms, pathogenicity, gene and gene products, barrier gestures, treatments and more. COVoc concepts and synonyms are used to annotate MEDLINE, PMC and the CORD-19 preprint collection in order to provide navigation from the literature to ELIXIR core databases.
 
 More information can be found at http://obofoundry.org/ontology/covoc
 

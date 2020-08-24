@@ -60,8 +60,8 @@
   <uri name="http://purl.obolibrary.org/obo/covoc/imports/hancestro_import.owl" uri="imports/hancestro_import.owl"/>
   <uri name="http://purl.obolibrary.org/obo/covoc/imports/hancestro_import.obo" uri="imports/hancestro_import.obo"/>
 
-  <uri name="http://purl.obolibrary.org/obo/covoc/imports/hancestro_import.owl" uri="imports/dbpedia_import.owl"/>
-  <uri name="http://purl.obolibrary.org/obo/covoc/imports/hancestro_import.obo" uri="imports/dbpedia_import.obo"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/dbpedia_import.owl" uri="imports/dbpedia_import.owl"/>
+  <uri name="http://purl.obolibrary.org/obo/covoc/imports/dbpedia_import.obo" uri="imports/dbpedia_import.obo"/>
   
   <uri name="http://purl.obolibrary.org/obo/covoc/components/all_templates.owl" uri="components/all_templates.owl"/>
   
