@@ -53,26 +53,6 @@
       "type" : "CLASS",
       "lbl" : "Therapeutic"
     }, {
-      "id" : "http://dbpedia.org/resource/Asia",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0003980"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Asian",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Asia"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "LOC_1"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PR_P0DTC9",
       "meta" : {
         "definition" : {
@@ -93,10 +73,6 @@
           "val" : "nucleocapsid protein ",
           "xrefs" : [ ]
         }, {
-          "pred" : "hasExactSynonym",
-          "val" : "PRO_0000449656",
-          "xrefs" : [ "UniProtKB:P0DTC9" ]
-        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "N",
           "xrefs" : [ "GenPept:YP_009724397", "UniProtKB:P0DTC9" ]
@@ -105,29 +81,33 @@
           "val" : "GU280_gp10",
           "xrefs" : [ "GenPept:YP_009724397" ]
         }, {
+          "pred" : "hasExactSynonym",
+          "val" : "NC (SARS-CoV-2)",
+          "xrefs" : [ "UniProtKB:P0DTC9" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nucleocapsid protein (SARS-CoV-2)",
+          "xrefs" : [ "UniProtKB:P0DTC9" ]
+        }, {
           "pred" : "hasBroadSynonym",
           "val" : "N protein",
           "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "PRO_0000449656",
+          "xrefs" : [ "PRO:DAN" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "ORF9",
           "xrefs" : [ "GenPept:YP_009724397" ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "NC (SARS2)",
+          "val" : "protein N (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTC9" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "N (SARS2)",
           "xrefs" : [ "PRO:DAN" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "protein N (SARS2)",
-          "xrefs" : [ "UniProtKB:P0DTC9" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "nucleocapsid protein (SARS2)",
-          "xrefs" : [ "UniProtKB:P0DTC9" ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
@@ -319,20 +299,24 @@
           "val" : "UniProtKB:P0DTC7"
         } ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "protein U122 (SARS2)",
-          "xrefs" : [ "UniProtKB:P0DTC7" ]
-        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "ORF7a",
           "xrefs" : [ "GenPept:YP_009724395" ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "accessory protein 7a (SARS2)",
+          "val" : "accessory protein 7a (SARS-CoV-2)",
+          "xrefs" : [ "UniProtKB:P0DTC7" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "7a",
           "xrefs" : [ "UniProtKB:P0DTC7" ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "protein X4 (SARS2)",
+          "val" : "protein U122 (SARS-CoV-2)",
+          "xrefs" : [ "UniProtKB:P0DTC7" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "protein X4 (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTC7" ]
         }, {
           "pred" : "hasExactSynonym",
@@ -363,7 +347,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "protein 7a (SARS-CoV-2)"
+      "lbl" : "ORF7a protein (SARS-CoV-2)"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C25391",
       "meta" : {
@@ -735,16 +719,8 @@
           "val" : "GenPept:YP_009724392"
         } ],
         "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "PRO_0000449651",
-          "xrefs" : [ "UniProtKB:P0DTC4" ]
-        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "GU280_gp04",
-          "xrefs" : [ "GenPept:YP_009724392" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "envelope protein (SARS2)",
           "xrefs" : [ "GenPept:YP_009724392" ]
         }, {
           "pred" : "hasBroadSynonym",
@@ -760,16 +736,24 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "sM protein (SARS2)",
+          "val" : "sM protein (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTC4" ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "E protein (SARS2)",
+          "val" : "envelope protein (SARS-CoV-2)",
+          "xrefs" : [ "GenPept:YP_009724392" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "E protein (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTC4" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "ORF4",
           "xrefs" : [ "GenPept:YP_009724392" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "PRO_0000449651",
+          "xrefs" : [ "PRO:DAN" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "E (SARS2)",
@@ -778,6 +762,10 @@
           "pred" : "hasRelatedSynonym",
           "val" : "E",
           "xrefs" : [ "GenPept:YP_009724392", "UniProtKB:P0DTC4" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "4",
+          "xrefs" : [ "UniProtKB:P0DTC4" ]
         }, {
           "pred" : "hasBroadSynonym",
           "val" : "sM protein",
@@ -817,10 +805,6 @@
           "val" : "M",
           "xrefs" : [ "GenPept:YP_009724393", "UniProtKB:P0DTC5" ]
         }, {
-          "pred" : "hasExactSynonym",
-          "val" : "membrane glycoprotein (SARS2)",
-          "xrefs" : [ "GenPept:YP_009724393", "UniProtKB:P0DTC5" ]
-        }, {
           "pred" : "hasRelatedSynonym",
           "val" : "GU280_gp05",
           "xrefs" : [ "GenPept:YP_009724393" ]
@@ -829,29 +813,33 @@
           "val" : "M protein",
           "xrefs" : [ ]
         }, {
+          "pred" : "hasExactSynonym",
+          "val" : "membrane glycoprotein (SARS-CoV-2)",
+          "xrefs" : [ "GenPept:YP_009724393", "UniProtKB:P0DTC5" ]
+        }, {
           "pred" : "hasBroadSynonym",
           "val" : "matrix glycoprotein",
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "M protein (SARS2)",
+          "val" : "M protein (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTC5" ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "E1 glycoprotein (SARS2)",
-          "xrefs" : [ "UniProtKB:P0DTC5" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "matrix glycoprotein (SARS2)",
+          "val" : "E1 glycoprotein (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTC5" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "PRO_0000449652",
-          "xrefs" : [ "UniProtKB:P0DTC5" ]
+          "xrefs" : [ "PRO:DAN" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "ORF5",
           "xrefs" : [ "GenPept:YP_009724393" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "matrix glycoprotein (SARS-CoV-2)",
+          "xrefs" : [ "UniProtKB:P0DTC5" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "surface protein of CoV",
@@ -943,12 +931,16 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "S (SARS2)",
-          "xrefs" : [ "PRO:DAN" ]
+          "val" : "surface glycoprotein (SARS-CoV-2)",
+          "xrefs" : [ "GenPept:YP_009724390" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "2",
+          "xrefs" : [ "UniProtKB:P0DTC2" ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "peplomer protein (SARS2)",
-          "xrefs" : [ "UniProtKB:P0DTC2" ]
+          "val" : "S (SARS2)",
+          "xrefs" : [ "PRO:DAN" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "E2",
@@ -971,12 +963,8 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "S glycoprotein (SARS2)",
+          "val" : "E2 (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTC2" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "surface glycoprotein (SARS2)",
-          "xrefs" : [ "GenPept:YP_009724390" ]
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "spike protein",
@@ -987,7 +975,7 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "E2 (SARS2)",
+          "val" : "peplomer protein (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTC2" ]
         }, {
           "pred" : "hasRelatedSynonym",
@@ -1009,6 +997,10 @@
           "pred" : "hasRelatedSynonym",
           "val" : "homotrimer",
           "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "S glycoprotein (SARS-CoV-2)",
+          "xrefs" : [ "UniProtKB:P0DTC2" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "coronavirus spike trimer",
@@ -1145,16 +1137,20 @@
           "xrefs" : [ "GenPept:YP_009724391" ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "protein X1 (SARS2)",
-          "xrefs" : [ "UniProtKB:P0DTC3" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "accessory protein 3a (SARS2)",
+          "val" : "protein U274 (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTC3" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "GU280_gp03",
           "xrefs" : [ "GenPept:YP_009724391" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "PRO_0000449650",
+          "xrefs" : [ "PRO:DAN" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "protein X1 (SARS-CoV-2)",
+          "xrefs" : [ "UniProtKB:P0DTC3" ]
         }, {
           "pred" : "hasRelatedSynonym",
           "val" : "Protein U274",
@@ -1169,11 +1165,15 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "protein U274 (SARS2)",
+          "val" : "accessory protein 3a (SARS-CoV-2)",
+          "xrefs" : [ "UniProtKB:P0DTC3" ]
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "3a",
           "xrefs" : [ "UniProtKB:P0DTC3" ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PRO_0000449650",
+          "val" : "protein 3a (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTC3" ]
         } ],
         "basicPropertyValues" : [ {
@@ -1188,7 +1188,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "protein 3a (SARS-CoV-2)"
+      "lbl" : "ORF3a protein (SARS-CoV-2)"
     }, {
       "id" : "http://purl.obolibrary.org/obo/PATO_0000001",
       "meta" : {
@@ -1476,12 +1476,16 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "massively-parallel sequencing",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "massively parallel sequencing",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "massively-parallel sequencing"
+          "val" : "massively parallel signature sequencing"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_87"
@@ -3678,18 +3682,6 @@
       "type" : "CLASS",
       "lbl" : "_obsolete_role"
     }, {
-      "id" : "http://dbpedia.org/resource/Hubei",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "LOC_6"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Hubei"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/IDO_0000002",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -3780,6 +3772,19 @@
       "type" : "CLASS",
       "lbl" : "pathogenesis"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0070006",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GEO:000000374"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "continent"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "continent"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/CLO_0000179",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -3836,6 +3841,40 @@
       },
       "type" : "CLASS",
       "lbl" : "organism"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0070005",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Wuhan",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "LOC_16"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Wu Han"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Wu Han"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0070004",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "UMLS:C0001747"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "LOC_14"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Western Africa"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "West Africa"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_66919",
       "meta" : {
@@ -3965,6 +4004,35 @@
       },
       "type" : "CLASS",
       "lbl" : "ruxolitinib"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0070003",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "UMLS:C0026068"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "LOC_8"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Middle East"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Middle East"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0070002",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "LOC_6"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Hubei"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Hubei"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HP_0001649",
       "meta" : {
@@ -4525,98 +4593,6 @@
       },
       "type" : "CLASS",
       "lbl" : "influenza"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/MONDO_0000002",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
-          "val" : "MONDO:0009299"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "obsolete 46,XX sex reversal"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/MONDO_0000001",
-      "meta" : {
-        "definition" : {
-          "val" : "A disease is a disposition to undergo pathological processes that exists in an organism because of one or more disorders in that organism.",
-          "xrefs" : [ "OGMS:0000031" ]
-        },
-        "xrefs" : [ {
-          "val" : "SCTID:64572001"
-        }, {
-          "val" : "OGMS:0000031"
-        }, {
-          "val" : "EFO:0000408"
-        }, {
-          "val" : "Orphanet:377788"
-        }, {
-          "val" : "ICD9:799.9"
-        }, {
-          "val" : "ICD10:N18"
-        }, {
-          "val" : "NCIT:C2991"
-        }, {
-          "val" : "DOID:4"
-        }, {
-          "val" : "UMLS:C0012634"
-        }, {
-          "val" : "MESH:D004194"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "diseases and disorders",
-          "xrefs" : [ "NCIT:C2991" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "disease or disorder, non-neoplastic",
-          "xrefs" : [ "NCIT:C2991" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "disorders",
-          "xrefs" : [ "NCIT:C2991" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "disease or disorder",
-          "xrefs" : [ "NCIT:C2991" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "other disease",
-          "xrefs" : [ "NCIT:C2991" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "diseases",
-          "xrefs" : [ "NCIT:C2991" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "medical condition",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "condition",
-          "xrefs" : [ "NCIT:C2991" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "disorder",
-          "xrefs" : [ "NCIT:C2991" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "disease",
-          "xrefs" : [ "NCIT:C2991" ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://identifiers.org/mesh/D004194"
-        }, {
-          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
-          "val" : "http://identifiers.org/snomedct/64572001"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "disease or disorder"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HP_0012531",
       "meta" : {
@@ -5630,6 +5606,10 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
+          "val" : "angiotensin-converting enzyme-related carboxypeptidase (human)",
+          "xrefs" : [ "UniProtKB:Q9BYF1" ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "ACEH (human)",
           "xrefs" : [ "UniProtKB:Q9BYF1" ]
         }, {
@@ -6194,34 +6174,6 @@
       "type" : "CLASS",
       "lbl" : "tropism"
     }, {
-      "id" : "http://dbpedia.org/resource/Europe",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0015176"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "European",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "E.U",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "UE",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Europe"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "LOC_4"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_R100",
       "meta" : {
         "definition" : {
@@ -6410,6 +6362,8 @@
         },
         "xrefs" : [ {
           "val" : "GenPept:YP_009725299"
+        }, {
+          "val" : "GenPept:YP_009742610"
         } ],
         "synonyms" : [ {
           "pred" : "hasRelatedSynonym",
@@ -6424,16 +6378,28 @@
           "val" : "Nsp3 multidomain",
           "xrefs" : [ ]
         }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "PL2-PRO (SARS-CoV-2)",
+          "xrefs" : [ "UniProtKB:P0DTC1", "UniProtKB:P0DTD1" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "nsp3 (SARS-CoV-2)",
+          "xrefs" : [ "UniProtKB:P0DTC1", "UniProtKB:P0DTD1" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "PRO_0000449621",
+          "xrefs" : [ "PRO:DAN" ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "PRO_0000449637",
+          "xrefs" : [ "PRO:DAN" ]
+        }, {
           "pred" : "hasExactSynonym",
           "val" : "rep/Clv:nsp3 (SARS2)",
           "xrefs" : [ "PRO:DAN" ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "papain-like proteinase (SARS2)",
-          "xrefs" : [ "UniProtKB:P0DTC1", "UniProtKB:P0DTD1" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "nsp3 (SARS2)",
+          "val" : "papain-like proteinase (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTC1", "UniProtKB:P0DTD1" ]
         }, {
           "pred" : "hasExactSynonym",
@@ -6441,28 +6407,16 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PLpro (SARS2)",
+          "val" : "PLpro (SARS-CoV-2)",
           "xrefs" : [ "PMID:15564471", "PRO:DAN" ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PRO_0000449621",
-          "xrefs" : [ "UniProtKB:P0DTD1" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "PRO_0000449637",
-          "xrefs" : [ "UniProtKB:P0DTC1" ]
+          "val" : "main proteinase (SARS-CoV-2)",
+          "xrefs" : [ "PRO:DAN", "UniProtKB:P0DTC1", "UniProtKB:P0DTD1" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "UniProtKB:P0DTC1, 819-2763",
           "xrefs" : [ "PRO:DAN" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "main proteinase (SARS2)",
-          "xrefs" : [ "PRO:DAN", "UniProtKB:P0DTC1", "UniProtKB:P0DTD1" ]
-        }, {
-          "pred" : "hasRelatedSynonym",
-          "val" : "PL2-PRO (SARS2)",
-          "xrefs" : [ "UniProtKB:P0DTC1", "UniProtKB:P0DTD1" ]
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "SARS-unique domain",
@@ -9598,12 +9552,12 @@
           "xrefs" : [ "PRO:DAN" ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "pp1ab (SARS2)",
+          "val" : "ORF1ab polyprotein (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTD1" ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "ORF1ab polyprotein (SARS2)",
-          "xrefs" : [ "UniProtKB:P0DTD1" ]
+          "val" : "PRO_0000449618",
+          "xrefs" : [ "PRO:DAN" ]
         }, {
           "pred" : "hasNarrowSynonym",
           "val" : "3cl pro",
@@ -9614,7 +9568,7 @@
           "xrefs" : [ ]
         }, {
           "pred" : "hasExactSynonym",
-          "val" : "PRO_0000449618",
+          "val" : "pp1ab (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTD1" ]
         } ],
         "basicPropertyValues" : [ {
@@ -10260,6 +10214,35 @@
       },
       "type" : "CLASS",
       "lbl" : "leukocyte"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0002",
+      "meta" : {
+        "definition" : {
+          "val" : "Any geographic area greater than an individual country but smaller than a continent, used as a convenience reference. Please note that most  geographic areas may not be formally defined and exact boundaries can be debatable.",
+          "xrefs" : [ ]
+        },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "geographical area",
+          "xrefs" : [ ]
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "region"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0003",
+      "meta" : {
+        "definition" : {
+          "val" : "A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states.",
+          "xrefs" : [ ]
+        },
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/IAO_0000119",
+          "val" : "NCIT:C25464"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "country"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CLO_0009524",
       "meta" : {
@@ -11947,16 +11930,16 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
-          "val" : "ORF1a polyprotein (SARS2)",
-          "xrefs" : [ "UniProtKB:P0DTC1" ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "pp1a (SARS2)",
+          "val" : "pp1a (SARS-CoV-2)",
           "xrefs" : [ "UniProtKB:P0DTC1" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "PRO_0000449634",
           "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "ORF1a polyprotein (SARS-CoV-2)",
+          "xrefs" : [ "UniProtKB:P0DTC1" ]
         }, {
           "pred" : "hasExactSynonym",
           "val" : "rep/iso:ORF1a (SARS2)",
@@ -12645,6 +12628,29 @@
       "type" : "CLASS",
       "lbl" : "NCT04280588 clinical trial"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0030",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GAZ:00000465"
+        }, {
+          "val" : "UMLS:C0003980"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Asian",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "LOC_1"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Asia"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Asia"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0040027",
       "meta" : {
         "definition" : {
@@ -12903,6 +12909,37 @@
       },
       "type" : "CLASS",
       "lbl" : "NCT04323631 clinical trial"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0031",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "UMLS:C0015176"
+        }, {
+          "val" : "GAZ:00000464"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "E.U",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "European",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "UE",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Europe"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "LOC_4"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Europe"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0040026",
       "meta" : {
@@ -17291,9 +17328,9 @@
         }, {
           "val" : "ATC:R05CB02"
         }, {
-          "val" : "KEGG:D01778"
-        }, {
           "val" : "DB:09019"
+        }, {
+          "val" : "KEGG:D01778"
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
@@ -18484,7 +18521,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "healthcare workers"
+      "lbl" : "healthcare worker"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0030004",
       "meta" : {
@@ -18626,7 +18663,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "Health Personnel"
+      "lbl" : "health personnel"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0030002",
       "meta" : {
@@ -19476,23 +19513,6 @@
       },
       "type" : "CLASS",
       "lbl" : "pharmaceutical"
-    }, {
-      "id" : "http://dbpedia.org/resource/Wu_Han",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Wuhan",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Wu Han"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "LOC_16"
-        } ]
-      },
-      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0040007",
       "meta" : {
@@ -20932,11 +20952,11 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/drug_associated_with_disease",
           "val" : "Respiratory viral infection"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
-          "val" : "InChI=1S/C22H25BrN2O3S/c1-5-28-22(27)20-18(13-29-14-9-7-6-8-10-14)25(4)17-11-16(23)21(26)15(19(17)20)12-24(2)3/h6-11,26H,5,12-13H2,1-4H3"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/chebi/formula",
           "val" : "C22H25BrN2O3S"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/chebi/inchi",
+          "val" : "InChI=1S/C22H25BrN2O3S/c1-5-28-22(27)20-18(13-29-14-9-7-6-8-10-14)25(4)17-11-16(23)21(26)15(19(17)20)12-24(2)3/h6-11,26H,5,12-13H2,1-4H3"
         } ]
       },
       "type" : "CLASS",
@@ -22772,47 +22792,6 @@
       },
       "type" : "CLASS",
       "lbl" : "Microbiology"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HP_0000002",
-      "meta" : {
-        "definition" : {
-          "val" : "Deviation from the norm of height with respect to that which is expected according to age and gender norms.",
-          "xrefs" : [ "HPO:probinson" ]
-        },
-        "xrefs" : [ {
-          "val" : "UMLS:C4025901"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Abnormality of body height",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
-          "val" : "2008-02-27T02:20:00Z"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_phenotype"
-        }, {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
-          "val" : "peter"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "Abnormality of body height"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/HP_0000001",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0444868"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
-          "val" : "human_phenotype"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "All"
     }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C16612",
       "meta" : {
@@ -26348,21 +26327,6 @@
       "type" : "CLASS",
       "lbl" : "Clinical Study"
     }, {
-      "id" : "http://dbpedia.org/resource/West_Africa",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0001747"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "LOC_14"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Western Africa"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C135091",
       "meta" : {
         "definition" : {
@@ -27297,21 +27261,6 @@
       "type" : "CLASS",
       "lbl" : "phenotype"
     }, {
-      "id" : "http://dbpedia.org/resource/Middle_East",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0026068"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "LOC_8"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Middle East"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/NCBITaxon_2559587",
       "meta" : {
         "xrefs" : [ {
@@ -27607,6 +27556,15 @@
           "val" : "An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof.",
           "xrefs" : [ "PRO:DAN", "PRO:WCB" ]
         },
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "natural protein",
+          "xrefs" : [ "PRO:DAN" ]
+        }, {
+          "pred" : "hasNarrowSynonym",
+          "val" : "native protein",
+          "xrefs" : [ "IEDB:BP" ]
+        } ],
         "basicPropertyValues" : [ {
           "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
           "val" : "protein"
@@ -27915,6 +27873,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000000",
+      "pred" : "is_a",
+      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000001"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_11308",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2559587"
@@ -27930,14 +27892,6 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0090001",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C16612"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_0000000",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0003077",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_694009",
       "pred" : "is_a",
@@ -27959,17 +27913,9 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_367163"
     }, {
-      "sub" : "http://www.ebi.ac.uk/efo/EFO_0010716",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0019079",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0001025",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHMO_0002413",
       "pred" : "is_a",
@@ -27978,10 +27924,6 @@
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C25391",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://dbpedia.org/resource/Europe",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0019012",
       "pred" : "is_a",
@@ -28035,10 +27977,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0002094",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C71902",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -28066,10 +28004,6 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_63580",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0012531",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
     }, {
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0000651",
       "pred" : "is_a",
@@ -28103,10 +28037,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0001742",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C25179",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -28123,13 +28053,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_31303",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0001422",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000001"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_31303",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_000001341",
       "pred" : "is_a",
@@ -28150,14 +28080,6 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010003",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0012735",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0005550",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0000822",
       "pred" : "is_a",
@@ -28186,10 +28108,6 @@
       "sub" : "http://purl.obolibrary.org/obo/PR_000018931",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0000989",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040008",
       "pred" : "is_a",
@@ -28227,13 +28145,13 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2697049"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0031417",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C16006",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C26028"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
     }, {
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0010716",
       "pred" : "is_a",
@@ -28262,10 +28180,6 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_290028",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_694002"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0012378",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_2509511",
       "pred" : "is_a",
@@ -28327,13 +28241,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_82941",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0002050",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CLO_0002172",
       "pred" : "is_a",
@@ -28383,10 +28297,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0000988",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0019013",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0005575"
@@ -28402,10 +28312,6 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040013",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_5801"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0021146",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030008",
       "pred" : "is_a",
@@ -28427,6 +28333,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005002",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
@@ -28434,10 +28344,6 @@
       "sub" : "http://purl.obolibrary.org/obo/CLO_0037208",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0001000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CL_0000010",
-      "pred" : "is_a",
-      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_Q9H2X3",
       "pred" : "is_a",
@@ -28450,10 +28356,6 @@
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C16851",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0032016",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005015",
       "pred" : "is_a",
@@ -28471,13 +28373,13 @@
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/GO_0006508",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/MAXO_0000609",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/GO_0006508",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
     }, {
       "sub" : "http://dbpedia.org/resource/Singapore",
       "pred" : "is_a",
@@ -28503,17 +28405,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_59163",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_9972",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_40674"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0001945",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0043657",
       "pred" : "is_a",
@@ -28779,6 +28673,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PR_000000001"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_22587",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0009727",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0003765"
@@ -28815,10 +28713,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_21241",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_63115",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
@@ -28836,10 +28730,6 @@
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C18473",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C3833",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
@@ -28947,10 +28837,6 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0004029",
       "obj" : "http://purl.obolibrary.org/obo/HP_0012735"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0000001",
-      "pred" : "is_a",
-      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0020016",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
@@ -28995,10 +28881,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0100806",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_000050252",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PR_000000001"
@@ -29007,10 +28889,6 @@
       "pred" : "http://purl.obolibrary.org/obo/RO_0002215",
       "obj" : "http://purl.obolibrary.org/obo/GO_0030154"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0001649",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005550",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
@@ -29018,10 +28896,6 @@
       "sub" : "http://purl.obolibrary.org/obo/CL_0000787",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000738"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0100053",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C17214",
       "pred" : "is_a",
@@ -29035,17 +28909,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MONDO_0005108"
     }, {
-      "sub" : "http://www.ebi.ac.uk/efo/EFO_0000684",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030003",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_22587",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010005",
       "pred" : "is_a",
@@ -29054,10 +28920,6 @@
       "sub" : "http://purl.obolibrary.org/obo/PR_P0DTC7",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/PR_000000001"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0011950",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030016",
       "pred" : "is_a",
@@ -29127,17 +28989,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000738"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0002789",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030017",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070001",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0030154",
       "pred" : "is_a",
@@ -29150,10 +29004,6 @@
       "sub" : "http://purl.obolibrary.org/obo/MAXO_0001001",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0010063"
-    }, {
-      "sub" : "http://www.ebi.ac.uk/efo/EFO_0000408",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000384",
       "pred" : "is_a",
@@ -29211,11 +29061,11 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PR_P0DTC7",
+      "sub" : "http://purl.obolibrary.org/obo/PR_000001471",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PR_000001471",
+      "sub" : "http://purl.obolibrary.org/obo/PR_P0DTC7",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
     }, {
@@ -29235,14 +29085,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_0010024"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0004995",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
-    }, {
-      "sub" : "http://dbpedia.org/resource/Hubei",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040020",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C71104"
@@ -29250,6 +29092,10 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0020005",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
+    }, {
+      "sub" : "http://www.ebi.ac.uk/efo/EFO_0000408",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/IDO_0000503",
       "pred" : "is_a",
@@ -29263,13 +29109,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
-      "sub" : "http://dbpedia.org/resource/Canada",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C48938",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://dbpedia.org/resource/Canada",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_36080",
       "pred" : "is_a",
@@ -29323,13 +29169,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0090006",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_0000625",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000738"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0090006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0100053",
       "pred" : "is_a",
@@ -29355,10 +29201,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C17021"
     }, {
-      "sub" : "http://dbpedia.org/resource/Wu_Han",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040011",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_134722"
@@ -29366,10 +29208,6 @@
       "sub" : "http://purl.obolibrary.org/obo/CL_0000134",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0000969",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040024",
       "pred" : "is_a",
@@ -29386,10 +29224,6 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030027",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0002014",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_O15393",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
@@ -29443,14 +29277,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0033006",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0005618",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_Q9BYF1",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_9606"
@@ -29458,10 +29284,6 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010046",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0025143",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0005730",
       "pred" : "is_a",
@@ -29483,17 +29305,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/HP_0002017"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0000822",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0025406",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C17248",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050039",
+      "pred" : "is_a",
+      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000532"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005618",
       "pred" : "is_a",
@@ -29667,21 +29485,17 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_9139"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020012",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17334",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_48923",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0030830",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010034",
       "pred" : "is_a",
@@ -29698,10 +29512,6 @@
       "sub" : "http://purl.obolibrary.org/obo/PATO_0000001",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0006502",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C95533",
       "pred" : "is_a",
@@ -29807,9 +29617,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_21241",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0000727",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C3833",
+      "pred" : "is_a",
+      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0050019",
       "pred" : "is_a",
@@ -30031,9 +29849,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C71104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0004979",
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050028",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0006502",
       "pred" : "is_a",
@@ -30127,9 +29945,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050039",
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050002",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010033",
       "pred" : "is_a",
@@ -30150,10 +29968,6 @@
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000181",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://dbpedia.org/resource/Middle_East",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040028",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
@@ -30235,6 +30049,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0002"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040024",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C135091"
@@ -30242,6 +30060,10 @@
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0100139",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MONDO_0100096"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0031",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0070006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C75419",
       "pred" : "is_a",
@@ -30255,13 +30077,17 @@
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010045",
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_59163",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_52217",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0010045",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C20464",
       "pred" : "is_a",
@@ -30311,10 +30137,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/UBERON_0001062"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0000002",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0100116",
       "pred" : "http://purl.obolibrary.org/obo/RO_0004028",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_1335626"
@@ -30338,10 +30160,6 @@
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0000532",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://dbpedia.org/resource/West_Africa",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
     }, {
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0010125",
       "pred" : "is_a",
@@ -30375,6 +30193,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0070006"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CLO_0000015",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0001000"
@@ -30390,10 +30212,6 @@
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005091",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MONDO_0005108"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050028",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_694002",
       "pred" : "is_a",
@@ -30423,10 +30241,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050002",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C13299",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C14134"
@@ -30434,14 +30248,6 @@
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17089",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0005015",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0005002",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030020",
       "pred" : "is_a",
@@ -30491,14 +30297,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C71104"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0007186",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/HP_0002017",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HP_0000001"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040003",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C71104"
@@ -30531,6 +30329,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MONDO_0005550"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010014",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -30542,10 +30344,6 @@
       "sub" : "http://purl.obolibrary.org/obo/HP_0033006",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0002258",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/OMIT_0013538",
       "pred" : "is_a",
@@ -30579,10 +30377,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
     }, {
-      "sub" : "http://dbpedia.org/resource/Asia",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C20401",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -30602,10 +30396,6 @@
       "sub" : "http://purl.obolibrary.org/obo/PR_P0DTC5",
       "pred" : "http://purl.obolibrary.org/obo/RO_0002160",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2697049"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0002280",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/MONDO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005108",
       "pred" : "http://purl.obolibrary.org/obo/RO_0004028",
@@ -30656,11 +30446,9 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-08-20/covoc.json"
+      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-08-26/covoc.json"
     },
-    "equivalentNodesSets" : [ {
-      "nodeIds" : [ "http://purl.obolibrary.org/obo/MONDO_0000001", "http://www.ebi.ac.uk/efo/EFO_0000408" ]
-    } ],
+    "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {
       "definedClassId" : "http://purl.obolibrary.org/obo/MONDO_0100116",
       "genusIds" : [ "http://purl.obolibrary.org/obo/MONDO_0005550" ],

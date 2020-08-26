@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:cellline="http://www.ebi.ac.uk/cellline/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/clo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-20/imports/clo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-26/imports/clo_import.owl"/>
     </owl:Ontology>
     
 

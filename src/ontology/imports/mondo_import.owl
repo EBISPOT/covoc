@@ -12,7 +12,7 @@
      xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/mondo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-21/imports/mondo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-26/imports/mondo_import.owl"/>
     </owl:Ontology>
     
 
@@ -1521,7 +1521,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005002"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>obstructive lung disease, chronic</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MONDO:patterns/chronic</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/chronic</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005002"/>

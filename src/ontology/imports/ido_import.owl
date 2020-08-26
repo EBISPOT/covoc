@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/ido_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-21/imports/ido_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-26/imports/ido_import.owl"/>
     </owl:Ontology>
     
 
@@ -129,33 +129,6 @@
     <!-- http://purl.obolibrary.org/obo/GO_0006955 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006955"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDO_0000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000000">
-        <rdfs:label xml:lang="en">_obsolete_process</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDO_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000001">
-        <rdfs:label xml:lang="en">_obsolete_role</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDO_0000002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000002">
-        <rdfs:label xml:lang="en">_obsolete_quality</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
     
 
 

@@ -21,126 +21,6 @@
     
 
 
-    <!-- http://dbpedia.org/resource/Asia -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Asia">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/Canada -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Canada">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/China -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/China">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/Europe -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Europe">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/Hong_Kong -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Hong_Kong">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/Hubei -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Hubei">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/Jordan -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Jordan">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/Middle_East -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Middle_East">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/Saudi_Arabia -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Saudi_Arabia">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/Singapore -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Singapore">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/South_Korea -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/South_Korea">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/Taiwan -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Taiwan">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/United_States -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/United_States">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/West_Africa -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/West_Africa">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/Wu_Han -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Wu_Han">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHEBI_21241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_21241">
@@ -192,6 +72,22 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_00000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0070002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0070002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
     
 
 

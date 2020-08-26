@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/chmo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-21/imports/chmo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-26/imports/chmo_import.owl"/>
     </owl:Ontology>
     
 
@@ -28,18 +28,6 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
     
 
 
@@ -107,35 +95,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000000">
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHMO_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <obo:IAO_0000115>The determination of the spectral absorbance of a solution. This method is often used to determine the concentration of a chemical in a solution.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>colorimetric method</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>colourimetry</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>CHMO:0000001</oboInOwl:id>
-        <rdfs:label>colorimetry</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHMO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The determination of the spectral absorbance of a solution. This method is often used to determine the concentration of a chemical in a solution.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-0640-0422</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CHMO_0000002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0000002">
@@ -180,12 +139,6 @@
         <oboInOwl:hasDbXref>FIX:0000052</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://doi.org/10.1021/jp013639d</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000070 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000070"/>
 </rdf:RDF>
 
 

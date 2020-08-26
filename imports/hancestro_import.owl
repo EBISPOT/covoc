@@ -6,9 +6,10 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/hancestro_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-20/imports/hancestro_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-26/imports/hancestro_import.owl"/>
     </owl:Ontology>
     
 
@@ -36,6 +37,18 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -47,12 +60,40 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0002">
+        <obo:IAO_0000115>Any geographic area greater than an individual country but smaller than a continent, used as a convenience reference. Please note that most  geographic areas may not be formally defined and exact boundaries can be debatable.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>geographical area</oboInOwl:hasExactSynonym>
+        <rdfs:label>region</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0003">
         <obo:IAO_0000115>A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states.</obo:IAO_0000115>
         <obo:IAO_0000119>NCIT:C25464</obo:IAO_0000119>
         <rdfs:label>country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0030">
+        <oboInOwl:hasDbXref>GAZ:00000465</oboInOwl:hasDbXref>
+        <rdfs:label>Asia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0031">
+        <oboInOwl:hasDbXref>GAZ:00000464</oboInOwl:hasDbXref>
+        <rdfs:label>Europe</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 

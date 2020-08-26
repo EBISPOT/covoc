@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: covoc/releases/2020-08-20/covoc-base.owl
+data-version: covoc/releases/2020-08-26/covoc-base.owl
 ontology: covoc/covoc-base
 property_value: http://purl.org/dc/elements/1.1/creator "Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
@@ -91,6 +91,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "peni
 
 [Term]
 id: CHEBI:21241
+is_a: CHEBI:24431
 is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_81" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Vitamin C" xsd:string
@@ -119,6 +120,7 @@ synonym: "antiviral activity" EXACT []
 synonym: "antiviral agents" EXACT []
 synonym: "antivirals" BROAD []
 xref: UMLS:C0003451
+is_a: CHEBI:24431
 is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_5" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_6" xsd:string
@@ -434,6 +436,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "ibup
 [Term]
 id: CHEBI:59163
 synonym: "biomarkers" EXACT []
+is_a: CHEBI:24431
 is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_17" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "biomarker" xsd:string
@@ -682,6 +685,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "cryo
 [Term]
 id: CL:0000000
 is_a: COVOC:00000000 ! COVOC Term
+is_a: EFO:0000001
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "cell" xsd:string
 
 [Term]
@@ -970,11 +974,12 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "prob
 id: COVOC:0010048
 comment: Molecular Biology Research Technique
 synonym: "massively parallel sequencing" EXACT []
+synonym: "massively-parallel sequencing" EXACT []
 xref: ERO:0001211
 xref: UMLS:C2936622
 is_a: OBI:0000070
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_87" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "massively-parallel sequencing" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "massively parallel signature sequencing" xsd:string
 
 [Term]
 id: COVOC:0020001
@@ -1754,7 +1759,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT0
 [Term]
 id: COVOC:0050002
 name: alcohol sanitizer
-is_a: COVOC:00000000 ! COVOC Term
+is_a: CHEBI:24431
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_3" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "alcohol sanitizer" xsd:string
 
@@ -1907,7 +1912,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "guid
 id: COVOC:0050028
 name: hand sanitizer
 xref: OMIT:0028469
-is_a: COVOC:00000000 ! COVOC Term
+is_a: CHEBI:24431
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_32" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "hand sanitizer" xsd:string
 
@@ -1920,7 +1925,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "heal
 
 [Term]
 id: COVOC:0050030
-name: Health Personnel
+name: health personnel
 xref: OMIT:0007454
 xref: UMLS:C0018724
 is_a: COVOC:00000000 ! COVOC Term
@@ -1929,7 +1934,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "heal
 
 [Term]
 id: COVOC:0050031
-name: healthcare workers
+name: healthcare worker
 synonym: "healthcare workers" EXACT []
 is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_35" xsd:string
@@ -1975,7 +1980,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "infe
 [Term]
 id: COVOC:0050039
 name: intermediate host
-is_a: COVOC:00000000 ! COVOC Term
+is_a: EFO:0000532
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_44" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "intermediate host" xsd:string
 
@@ -2157,9 +2162,46 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "huma
 id: COVOC:0070001
 name: Wu Bei
 synonym: "Wubei" EXACT []
-is_a: COVOC:00000000 ! COVOC Term
+is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_15" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Wu Bei" xsd:string
+
+[Term]
+id: COVOC:0070002
+name: Hubei
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_6" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Hubei" xsd:string
+
+[Term]
+id: COVOC:0070003
+name: Middle East
+xref: UMLS:C0026068
+is_a: HANCESTRO:0002
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_8" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Middle East" xsd:string
+
+[Term]
+id: COVOC:0070004
+name: West Africa
+xref: UMLS:C0001747
+is_a: HANCESTRO:0003
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_14" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Western Africa" xsd:string
+
+[Term]
+id: COVOC:0070005
+name: Wu Han
+synonym: "Wuhan" EXACT []
+is_a: HANCESTRO:0003
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_16" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Wu Han" xsd:string
+
+[Term]
+id: COVOC:0070006
+name: continent
+xref: GEO:000000374
+is_a: COVOC:00000000 ! COVOC Term
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "continent" xsd:string
 
 [Term]
 id: COVOC:0090001
@@ -2737,6 +2779,24 @@ id: HANCESTRO:0003
 is_a: COVOC:00000000 ! COVOC Term
 
 [Term]
+id: HANCESTRO:0030
+synonym: "Asian" EXACT []
+xref: UMLS:C0003980
+is_a: COVOC:0070006 ! continent
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Asia" xsd:string
+
+[Term]
+id: HANCESTRO:0031
+synonym: "E.U" EXACT []
+synonym: "European" EXACT []
+synonym: "UE" EXACT []
+xref: UMLS:C0015176
+is_a: COVOC:0070006 ! continent
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_4" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Europe" xsd:string
+
+[Term]
 id: HP:0000822
 is_a: EFO:0000651
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_36" xsd:string
@@ -2928,7 +2988,6 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "seps
 [Term]
 id: Hong:Kong
 xref: UMLS:C0019907
-is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_5" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Honk Kong" xsd:string
 
@@ -3206,13 +3265,6 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "seve
 id: MONDO:0100143
 is_a: MONDO:0100096
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "critical COVID-19 infection" xsd:string
-
-[Term]
-id: Middle:East
-xref: UMLS:C0026068
-is_a: HANCESTRO:0003
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_8" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Middle East" xsd:string
 
 [Term]
 id: NCBITaxon:10239
@@ -3910,6 +3962,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "thor
 id: NCIT:C3833
 synonym: "asymptomatical" EXACT []
 is_a: COVOC:00000000 ! COVOC Term
+is_a: EFO:0000651
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_10" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "asymptomatic" xsd:string
 
@@ -4356,14 +4409,12 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "CLEC
 [Term]
 id: Saudi:Arabia
 xref: UMLS:C0036243
-is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_9" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Saudi Arabia" xsd:string
 
 [Term]
 id: South:Korea
 xref: UMLS:C0022773
-is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_11" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "South Korea" xsd:string
 
@@ -4396,36 +4447,12 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "lung
 id: United:States
 synonym: "USA" EXACT []
 xref: UMLS:C0041703
-is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_13" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "United States" xsd:string
 
 [Term]
-id: West:Africa
-xref: UMLS:C0001747
-is_a: HANCESTRO:0003
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_14" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Western Africa" xsd:string
-
-[Term]
-id: Wu:Han
-synonym: "Wuhan" EXACT []
-is_a: HANCESTRO:0003
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_16" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Wu Han" xsd:string
-
-[Term]
-id: http://dbpedia.org/resource/Asia
-synonym: "Asian" EXACT []
-xref: UMLS:C0003980
-is_a: HANCESTRO:0003
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_1" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Asia" xsd:string
-
-[Term]
 id: http://dbpedia.org/resource/Canada
 xref: UMLS:C0006823
-is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_2" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Canada" xsd:string
 
@@ -4433,45 +4460,25 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Cana
 id: http://dbpedia.org/resource/China
 synonym: "Mainland china" EXACT []
 xref: UMLS:C0008115
-is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_3" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "China" xsd:string
-
-[Term]
-id: http://dbpedia.org/resource/Europe
-synonym: "E.U" EXACT []
-synonym: "European" EXACT []
-synonym: "UE" EXACT []
-xref: UMLS:C0015176
-is_a: HANCESTRO:0003
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_4" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Europe" xsd:string
-
-[Term]
-id: http://dbpedia.org/resource/Hubei
-is_a: HANCESTRO:0003
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_6" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Hubei" xsd:string
 
 [Term]
 id: http://dbpedia.org/resource/Jordan
 synonym: "Jordanian" EXACT []
 xref: UMLS:C0022418
-is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_7" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Jordan" xsd:string
 
 [Term]
 id: http://dbpedia.org/resource/Singapore
 xref: UMLS:C0037173
-is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_10" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Singapore" xsd:string
 
 [Term]
 id: http://dbpedia.org/resource/Taiwan
 xref: UMLS:C0039260
-is_a: HANCESTRO:0003
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_12" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Taiwan" xsd:string
 

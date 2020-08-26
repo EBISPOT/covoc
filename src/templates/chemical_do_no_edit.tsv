@@ -80,7 +80,7 @@ DG_77				Tranilast										CHEBI:77572		DG_77			Tranilast
 DG_78			Antiviral	Triazavirin		Encephalitis virus								COVOC:0030030		DG_78	Triazavirin	CHEBI:24431	Triazavirin						Encephalitis virus		Antiviral	
 DG_79				UC-MSCs										CL:0002569		DG_79		CL:0000000	umbilical cord mesenchymal stem cell	umbilical cord-derived mesenchymal stem cell||mesenchymal stem cell of umbilical cord			UC-MSCs||UC-MSC					
 DG_80	DB13609	J05AX13	Antiviral	Umifenovir	Arbidol | Arbidole	Influenza | Respiratory viral infection	NCT04286503	Clinical Trials sheet	Investigational					CHEBI:134730		DG_80			Umifenovir	Arbidol||Arbidole					Influenza||Respiratory viral infection	DB:13609||ATC:J05AX13	Antiviral	
-DG_81				Vitamin C										CHEBI:21241		DG_81			Vitamin C									
+DG_81				Vitamin C										CHEBI:21241		DG_81		CHEBI:24431	Vitamin C									
 														CHEBI:31347				CHEBI:24431	camostat methanesulfonate	camostat mesylate||camostat mesilate								Paola added term based on EMBL conference
 To complete with table available here:																												
 https://www.cebm.net/covid-19/registered-trials-and-analysis/																												

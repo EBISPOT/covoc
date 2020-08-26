@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: releases/2020-08-20
+data-version: releases/2020-08-26
 subsetdef: 1_STAR ""
 subsetdef: 2_STAR ""
 subsetdef: 3_STAR ""
@@ -550,7 +550,7 @@ synonym: "vitamina C" RELATED [ChEBI]
 synonym: "vitamine C" RELATED [ChEBI]
 synonym: "vitaminum C" RELATED [ChEBI]
 xref: PMID:21885436 {source="Europe PMC"}
-is_a: COVOC:00000000 ! COVOC Term
+is_a: CHEBI:24431 ! chemical entity
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_81" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Vitamin C" xsd:string
 
@@ -591,7 +591,7 @@ synonym: "antiviral agents" RELATED [ChEBI]
 synonym: "antivirals" BROAD []
 synonym: "antivirals" RELATED [ChEBI]
 xref: UMLS:C0003451
-is_a: COVOC:00000000 ! COVOC Term
+is_a: CHEBI:24431 ! chemical entity
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_5" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_6" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_7" xsd:string
@@ -1917,7 +1917,7 @@ def: "A substance used as an indicator  of a biological state." []
 subset: 3_STAR
 synonym: "biological marker" RELATED [ChEBI]
 synonym: "biomarkers" EXACT []
-is_a: COVOC:00000000 ! COVOC Term
+is_a: CHEBI:24431 ! chemical entity
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_17" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "biomarker" xsd:string
 
@@ -2964,7 +2964,7 @@ xref: KUPO:0000002
 xref: VHOG:0001533
 xref: WBbt:0004017
 xref: XAO:0003012
-is_a: COVOC:00000000 ! COVOC Term
+is_a: EFO:0000001 ! experimental factor
 relationship: RO:0002207 CL:0000000 ! cell
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "cell" xsd:string
 property_value: IAO:0000412 http://purl.obolibrary.org/obo/cl.owl
@@ -2976,7 +2976,6 @@ namespace: cell
 def: "A cell in vitro that is or has been maintained or propagated as part of a cell culture." [ReO:mhb]
 synonym: "cell line" NARROW []
 is_a: CL:0000000 ! cell
-is_a: EFO:0000001 ! experimental factor
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "cultured cell" xsd:string
 
 [Term]
@@ -3347,11 +3346,12 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "prob
 id: COVOC:0010048
 comment: Molecular Biology Research Technique
 synonym: "massively parallel sequencing" EXACT []
+synonym: "massively-parallel sequencing" EXACT []
 xref: ERO:0001211
 xref: UMLS:C2936622
 is_a: OBI:0000070 ! assay
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_87" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "massively-parallel sequencing" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "massively parallel signature sequencing" xsd:string
 
 [Term]
 id: COVOC:0020001
@@ -4131,7 +4131,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "NCT0
 [Term]
 id: COVOC:0050002
 name: alcohol sanitizer
-is_a: COVOC:00000000 ! COVOC Term
+is_a: CHEBI:24431 ! chemical entity
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_3" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "alcohol sanitizer" xsd:string
 
@@ -4284,7 +4284,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "guid
 id: COVOC:0050028
 name: hand sanitizer
 xref: OMIT:0028469
-is_a: COVOC:00000000 ! COVOC Term
+is_a: CHEBI:24431 ! chemical entity
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_32" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "hand sanitizer" xsd:string
 
@@ -4297,7 +4297,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "heal
 
 [Term]
 id: COVOC:0050030
-name: Health Personnel
+name: health personnel
 xref: OMIT:0007454
 xref: UMLS:C0018724
 is_a: COVOC:00000000 ! COVOC Term
@@ -4306,7 +4306,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "heal
 
 [Term]
 id: COVOC:0050031
-name: healthcare workers
+name: healthcare worker
 synonym: "healthcare workers" EXACT []
 is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_35" xsd:string
@@ -4352,7 +4352,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "infe
 [Term]
 id: COVOC:0050039
 name: intermediate host
-is_a: COVOC:00000000 ! COVOC Term
+is_a: EFO:0000532 ! host
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_44" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "intermediate host" xsd:string
 
@@ -4534,9 +4534,46 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "huma
 id: COVOC:0070001
 name: Wu Bei
 synonym: "Wubei" EXACT []
-is_a: COVOC:00000000 ! COVOC Term
+is_a: HANCESTRO:0003 ! country
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_15" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Wu Bei" xsd:string
+
+[Term]
+id: COVOC:0070002
+name: Hubei
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_6" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Hubei" xsd:string
+
+[Term]
+id: COVOC:0070003
+name: Middle East
+xref: UMLS:C0026068
+is_a: HANCESTRO:0002 ! region
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_8" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Middle East" xsd:string
+
+[Term]
+id: COVOC:0070004
+name: West Africa
+xref: UMLS:C0001747
+is_a: HANCESTRO:0003 ! country
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_14" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Western Africa" xsd:string
+
+[Term]
+id: COVOC:0070005
+name: Wu Han
+synonym: "Wuhan" EXACT []
+is_a: HANCESTRO:0003 ! country
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_16" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Wu Han" xsd:string
+
+[Term]
+id: COVOC:0070006
+name: continent
+xref: GEO:000000374
+is_a: COVOC:00000000 ! COVOC Term
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "continent" xsd:string
 
 [Term]
 id: COVOC:0090001
@@ -4671,7 +4708,7 @@ xref: Orphanet:377788 {source="MONDO:equivalentTo"}
 xref: SCTID:64572001 {source="MONDO:equivalentTo", source="MONDO:kboom-pr-0.81/0.56/0.38", source="DOID:4", source="EFO:0000408"}
 xref: SNOMEDCT:64572001
 xref: UMLS:C0012634 {source="MONDO:equivalentTo", source="NCIT:C2991", source="DOID:4"}
-is_a: MONDO:0000001 ! disease or disorder
+is_a: COVOC:00000000 ! COVOC Term
 disjoint_from: EFO:0001461 ! control
 property_value: exactMatch DOID:4
 property_value: exactMatch http://identifiers.org/mesh/D004194
@@ -4863,7 +4900,6 @@ xref: NCIt:C26871
 xref: SCTID:50043002 {source="EFO:0000684", source="MONDO:equivalentTo", source="MONDO:kboom-pr-1.00/0.81/10.68"}
 xref: SNOMEDCT:50043002
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 property_value: closeMatch http://identifiers.org/snomedct/155603009
 property_value: closeMatch http://identifiers.org/snomedct/196057004
 property_value: closeMatch http://identifiers.org/snomedct/196184000
@@ -5291,7 +5327,6 @@ xref: OMIT:0027719
 xref: UMLS:C0275524
 xref: Wikipedia:Coinfection
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_15" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "coinfection" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "paola" xsd:string
@@ -5923,25 +5958,39 @@ created_by: pr
 creation_date: 2014-10-01T13:49:27Z
 
 [Term]
+id: HANCESTRO:0002
+name: region
+def: "Any geographic area greater than an individual country but smaller than a continent, used as a convenience reference. Please note that most  geographic areas may not be formally defined and exact boundaries can be debatable." []
+synonym: "geographical area" EXACT []
+
+[Term]
 id: HANCESTRO:0003
+name: country
+def: "A collective generic term that refers here to a wide variety of dependencies, areas of special sovereignty, uninhabited islands, and other entities in addition to the traditional countries or independent states." []
 is_a: COVOC:00000000 ! COVOC Term
+property_value: IAO:0000119 NCIT:C25464 xsd:string
 
 [Term]
-id: HP:0000001
-name: All
-namespace: human_phenotype
-xref: UMLS:C0444868
+id: HANCESTRO:0030
+name: Asia
+synonym: "Asian" EXACT []
+xref: GAZ:00000465
+xref: UMLS:C0003980
+is_a: COVOC:0070006 ! continent
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_1" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Asia" xsd:string
 
 [Term]
-id: HP:0000002
-name: Abnormality of body height
-namespace: human_phenotype
-def: "Deviation from the norm of height with respect to that which is expected according to age and gender norms." [HPO:probinson]
-synonym: "Abnormality of body height" EXACT layperson []
-xref: UMLS:C4025901
-is_a: HP:0000001 ! All
-created_by: peter
-creation_date: 2008-02-27T02:20:00Z
+id: HANCESTRO:0031
+name: Europe
+synonym: "E.U" EXACT []
+synonym: "European" EXACT []
+synonym: "UE" EXACT []
+xref: GAZ:00000464
+xref: UMLS:C0015176
+is_a: COVOC:0070006 ! continent
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_4" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Europe" xsd:string
 
 [Term]
 id: HP:0000822
@@ -5958,7 +6007,6 @@ xref: SNOMEDCT_US:38341003
 xref: UMLS:C0020538
 xref: UMLS:C0497247
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_36" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "hypertension" xsd:string
 
@@ -5980,7 +6028,6 @@ xref: SNOMEDCT_US:423666004
 xref: SNOMEDCT_US:79654002
 xref: UMLS:C0013604
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_26" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "edema" xsd:string
 
@@ -5998,7 +6045,6 @@ xref: SNOMEDCT_US:112625008
 xref: SNOMEDCT_US:271807003
 xref: UMLS:C0015230
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_51" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rash" xsd:string
 
@@ -6021,7 +6067,6 @@ xref: SNOMEDCT_US:418363000
 xref: SNOMEDCT_US:424492005
 xref: UMLS:C0033774
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_49" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "pruritis" xsd:string
 
@@ -6039,7 +6084,6 @@ xref: SNOMEDCT_US:247472004
 xref: SNOMEDCT_US:64305001
 xref: UMLS:C0042109
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_64" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "urticaria" xsd:string
 
@@ -6062,7 +6106,6 @@ xref: SNOMEDCT_US:86651002
 xref: UMLS:C0039231
 xref: UMLS:C4020868
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_62" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "tachycardia" xsd:string
 
@@ -6086,7 +6129,6 @@ xref: SNOMEDCT_US:68235000
 xref: UMLS:C0027424
 xref: UMLS:C0027429
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_17" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "nasal obstruction" xsd:string
 
@@ -6105,7 +6147,6 @@ xref: SNOMEDCT_US:386661006
 xref: SNOMEDCT_US:50177009
 xref: UMLS:C0015967
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_30" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_31" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "fever" xsd:string
@@ -6142,7 +6183,6 @@ xref: SNOMEDCT_US:267060006
 xref: SNOMEDCT_US:62315008
 xref: UMLS:C0011991
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_22" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "diarrhea" xsd:string
 
@@ -6154,7 +6194,6 @@ synonym: "Nausea and vomiting" EXACT layperson []
 xref: SNOMEDCT_US:16932000
 xref: UMLS:C0027498
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_45" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "nausea and vomiting" xsd:string
 
@@ -6208,7 +6247,6 @@ xref: SNOMEDCT_US:230145002
 xref: SNOMEDCT_US:267036007
 xref: UMLS:C0013404
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_25" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "dyspnea" xsd:string
 
@@ -6225,7 +6263,6 @@ xref: MSH:D059246
 xref: SNOMEDCT_US:271823003
 xref: UMLS:C0231835
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_63" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "tachypnea" xsd:string
 
@@ -6241,7 +6278,6 @@ xref: MSH:D006949
 xref: SNOMEDCT_US:55822004
 xref: UMLS:C0020473
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_35" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "hyperlipidemia" xsd:string
 
@@ -6270,7 +6306,6 @@ xref: MSH:D001988
 xref: SNOMEDCT_US:4120002
 xref: UMLS:C0006271
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "bronchiolitis" xsd:string
 created_by: peter
 creation_date: 2012-06-21T08:36:11Z
@@ -6289,7 +6324,6 @@ xref: SNOMEDCT_US:248274002
 xref: SNOMEDCT_US:84229001
 xref: UMLS:C0015672
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_29" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "fatigue" xsd:string
 created_by: peter
@@ -6305,7 +6339,6 @@ xref: MSH:D010146
 xref: SNOMEDCT_US:22253000
 xref: UMLS:C0030193
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_47" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "pain" xsd:string
 created_by: peter
@@ -6325,7 +6358,6 @@ xref: SNOMEDCT_US:272039006
 xref: SNOMEDCT_US:49727002
 xref: UMLS:C0010200
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_19" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "cough" xsd:string
 created_by: peter
@@ -6337,7 +6369,6 @@ name: Chills
 def: "A sudden sensation of feeling cold." []
 synonym: "Chills" EXACT layperson []
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_12" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "chills" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2016-11-29T11:10:01Z xsd:dateTime
@@ -6349,7 +6380,6 @@ name: Asthenia
 def: "A state characterized by a feeling of weakness and loss of strength leading to a generalized weakness of the body." []
 synonym: "weakness" EXACT []
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_70" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "weakness" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2017-04-22T14:48:03Z xsd:dateTime
@@ -6366,7 +6396,6 @@ xref: MSH:D012135
 xref: SNOMEDCT_US:48409008
 xref: UMLS:C0034642
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_50" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rales" xsd:string
 
@@ -6389,7 +6418,6 @@ def: "Increased discharge of mucus from the nose." []
 synonym: "Nasal Discharge" EXACT abbreviation []
 synonym: "Runny Nose" EXACT layperson []
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_56" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "rhinorrhea" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2017-09-12T02:06:56Z xsd:dateTime
@@ -6401,7 +6429,6 @@ name: Abnormal sputum
 def: "Abnormal appearance of material expectorated (coughed up) from the respiratory system and that is composed of mucus but may contain other substances such as pus, blood, microorganisms, and fibrin." []
 synonym: "Abnormal sputum morphology" EXACT []
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_60" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "sputum" xsd:string
 property_value: http://purl.org/dc/elements/1.1/date 2018-08-25T12:36:36Z xsd:dateTime
@@ -6412,7 +6439,6 @@ id: HP:0033006
 name: Diffuse alveolar damage
 def: "Diffuse alveolar damage (DAD) describes a comon histologic injury pattern of the lung. The early stages are characterized by epithelial cell necrosis and sloughing, fibrous exsudate, edema, and hyaline membranes made of surfactant and proteins, filling the alveoli. This results in impaired gas exchange. In later stages, type II cells and myofibroblasts proliferate within the interstitium and airspaces. The corresponding clinical entity is acute respiratory distress syndrome (ARDS). DAD may result from pulmonary drug toxicity, occurs in immunosuppressed, severe viral infections, acute interstial pneumonitis and crack cocaine inhalation." [LMU:mgriese, PMID:28570160, PMID:32364264]
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_23" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "diffuse alveolar damage" xsd:string
 created_by: peter
@@ -6442,7 +6468,6 @@ synonym: "Infection in blood stream" EXACT layperson [ORCID:0000-0002-6548-5200]
 xref: MSH:D018805
 xref: UMLS:C0036690
 is_a: EFO:0000651 ! phenotype
-is_a: HP:0000001 ! All
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_57" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "sepsis" xsd:string
 created_by: doelkens
@@ -6454,7 +6479,7 @@ name: Hong Kong
 synonym: "China, Hong Kong SAR" EXACT []
 xref: GAZ:00003203
 xref: UMLS:C0019907
-is_a: HANCESTRO:0003
+is_a: HANCESTRO:0003 ! country
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_5" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Honk Kong" xsd:string
 
@@ -6565,41 +6590,6 @@ property_value: http://purl.org/dc/elements/1.1/date 2019-05-07T16:28:50Z xsd:da
 created_by: http://orcid.org/0000-0001-7941-2961
 
 [Term]
-id: MONDO:0000001
-name: disease or disorder
-def: "A disease is a disposition to undergo pathological processes that exists in an organism because of one or more disorders in that organism." [OGMS:0000031]
-synonym: "condition" EXACT [NCIT:C2991]
-synonym: "disease" EXACT [NCIT:C2991]
-synonym: "disease or disorder" EXACT [NCIT:C2991]
-synonym: "disease or disorder, non-neoplastic" EXACT [NCIT:C2991]
-synonym: "diseases" EXACT [NCIT:C2991]
-synonym: "diseases and disorders" EXACT [NCIT:C2991]
-synonym: "disorder" EXACT [NCIT:C2991]
-synonym: "disorders" EXACT [NCIT:C2991]
-synonym: "medical condition" EXACT []
-synonym: "other disease" EXACT [NCIT:C2991]
-xref: DOID:4 {source="MONDO:equivalentTo", source="EFO:0000408"}
-xref: EFO:0000408 {source="MONDO:equivalentTo"}
-xref: ICD10:N18 {source="MONDO:equivalentTo"}
-xref: ICD9:799.9 {source="MONDO:relatedTo", source="i2s"}
-xref: MESH:D004194 {source="MONDO:equivalentTo", source="MONDO:ontobio", source="DOID:4", source="EFO:0000408"}
-xref: NCIT:C2991 {source="MONDO:equivalentTo", source="DOID:4"}
-xref: OGMS:0000031 {source="MONDO:equivalentTo"}
-xref: Orphanet:377788 {source="MONDO:equivalentTo"}
-xref: SCTID:64572001 {source="MONDO:equivalentTo", source="MONDO:kboom-pr-0.81/0.56/0.38", source="DOID:4", source="EFO:0000408"}
-xref: UMLS:C0012634 {source="MONDO:equivalentTo", source="NCIT:C2991", source="DOID:4"}
-is_a: EFO:0000408 ! disease
-equivalent_to: EFO:0000408 ! disease
-property_value: exactMatch http://identifiers.org/mesh/D004194
-property_value: exactMatch http://identifiers.org/snomedct/64572001
-
-[Term]
-id: MONDO:0000002
-name: obsolete 46,XX sex reversal
-is_obsolete: true
-replaced_by: MONDO:0009299
-
-[Term]
 id: MONDO:0002050
 name: depressive disorder
 def: "A melancholy feeling of sadness and despair." [NCIT:C2982]
@@ -6620,7 +6610,6 @@ xref: NCIT:C2982 {source="DOID:1596", source="MONDO:equivalentTo"}
 xref: SCTID:35489007 {source="MONDO:equivalentTo"}
 xref: UMLS:CN236658 {source="MEDGEN:kboom-pr97-c99", source="MONDO:equivalentTo"}
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 property_value: closeMatch http://identifiers.org/mesh/D003863
 property_value: closeMatch http://identifiers.org/snomedct/154963001
 property_value: closeMatch http://identifiers.org/snomedct/192372006
@@ -6662,7 +6651,6 @@ xref: NCIT:C26851 {source="DOID:2275", source="MONDO:equivalentTo", source="MOND
 xref: SCTID:405737000 {source="DOID:2275", source="MONDO:kboom-pr-0.83/0.56/0.63", source="MONDO:equivalentTo"}
 xref: UMLS:C0031350 {source="DOID:2275", source="MONDO:equivalentTo", source="NCIT:C26851"}
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 property_value: closeMatch http://identifiers.org/mesh/D010608
 property_value: closeMatch http://identifiers.org/snomedct/141458004
 property_value: closeMatch http://identifiers.org/snomedct/155502006
@@ -6702,7 +6690,6 @@ xref: MESH:D000740 {source="DOID:2355", source="MONDO:equivalentTo", source="MON
 xref: NCIT:C2869 {source="DOID:2355", source="MONDO:equivalentTo"}
 xref: SCTID:271737000 {source="DOID:2355", source="MONDO:equivalentTo", source="MONDO:kboom-pr-1.00/0.85/14.80"}
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 property_value: closeMatch http://identifiers.org/snomedct/154786001
 property_value: closeMatch http://identifiers.org/snomedct/154812000
 property_value: closeMatch http://identifiers.org/snomedct/191277004
@@ -6741,7 +6728,6 @@ xref: NCIT:C28397 {source="MONDO:equivalentTo", source="DOID:2841", source="EFO:
 xref: SCTID:31387002 {source="MONDO:kboom-pr-0.90/0.77/0.32", source="MONDO:equivalentTo"}
 xref: UMLS:C0004096 {source="NCIT:C28397", source="MONDO:equivalentTo", source="DOID:2841"}
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 property_value: closeMatch http://identifiers.org/snomedct/155574008
 property_value: closeMatch http://identifiers.org/snomedct/155579003
 property_value: closeMatch http://identifiers.org/snomedct/187687003
@@ -6797,7 +6783,6 @@ xref: NCIT:C2931 {source="DOID:1287", source="MONDO:equivalentTo", source="MONDO
 xref: SCTID:49601007 {source="DOID:1287", source="MONDO:equivalentTo", source="MONDO:kboom-pr-1.00/0.75/7.10", source="EFO:0000319"}
 xref: UMLS:C0007222 {source="DOID:1287", source="MONDO:equivalentTo", source="NCIT:C2931"}
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 property_value: closeMatch http://identifiers.org/snomedct/105980002
 property_value: closeMatch http://identifiers.org/snomedct/155263000
 property_value: closeMatch http://identifiers.org/snomedct/194707003
@@ -6840,7 +6825,6 @@ xref: NCIT:C3199 {source="EFO:0000341", source="MONDO:equivalentTo", source="MON
 xref: SCTID:13645005 {source="EFO:0000341", source="MONDO:equivalentTo", source="DOID:3083", source="MONDO:kboom-pr-0.88/0.75/0.21"}
 xref: UMLS:C0024117
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 relationship: RO:0004026 UBERON:0002048 ! lung
 property_value: closeMatch http://identifiers.org/snomedct/155565006
 property_value: closeMatch http://identifiers.org/snomedct/155569000
@@ -6880,7 +6864,6 @@ xref: SCTID:73211009 {source="EFO:0000400", source="MONDO:equivalentTo", source=
 xref: UMLS:C0011847 {source="MONDO:equivalentTo", source="MEDGEN:kboom-pr87-c94"}
 xref: UMLS:C0011849 {source="MONDO:equivalentTo", source="DOID:9351", source="MEDGEN:kboom-pr94-c94", source="NCIT:C2985"}
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 property_value: closeMatch http://identifiers.org/snomedct/154671004
 property_value: closeMatch http://identifiers.org/snomedct/191044006
 property_value: closeMatch http://identifiers.org/snomedct/267467004
@@ -7039,7 +7022,6 @@ xref: NCIT:C26726 {source="MONDO:equivalentTo"}
 xref: SCTID:40733004 {source="MONDO:kboom-pr-0.92/0.81/0.38", source="EFO:0005741", source="MONDO:equivalentTo"}
 xref: UMLS:C0872315
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 property_value: closeMatch http://linkedlifedata.com/resource/umls/id/C0001485
 property_value: closeMatch http://linkedlifedata.com/resource/umls/id/C0009450
 property_value: exactMatch http://identifiers.org/mesh/D003141
@@ -7066,7 +7048,6 @@ xref: MESH:D001008 {source="MONDO:equivalentTo", source="MONDO:ontobio", source=
 xref: NCIT:C2878 {source="EFO:0006788", source="MONDO:equivalentTo", source="DOID:2030"}
 xref: SCTID:197480006 {source="EFO:0006788", source="MONDO:equivalentTo", source="MONDO:kboom-pr-1.00/0.86/15.45", source="DOID:2030"}
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 property_value: closeMatch http://identifiers.org/snomedct/191703000
 property_value: closeMatch http://identifiers.org/snomedct/192405006
 property_value: closeMatch http://identifiers.org/snomedct/65673007
@@ -7145,7 +7126,6 @@ xref: MedDRA:10001052 {source="EFO:1000637"}
 xref: NCIT:C3353 {source="MONDO:equivalentTo", source="DOID:11394", source="MONDO:kboom-pr-0.95/0.86/0.77", source="EFO:1000637"}
 xref: UMLS:C0035222
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 relationship: RO:0004026 UBERON:0002048 ! lung
 property_value: closeMatch http://identifiers.org/meddra/10001052
 property_value: closeMatch http://identifiers.org/snomedct/155627006
@@ -7184,7 +7164,6 @@ xref: OMIM:109350 {source="DOID:8534", source="MONDO:equivalentTo", source="EFO:
 xref: SCTID:235595009 {source="DOID:8534", source="MONDO:equivalentTo", source="EFO:0003948", source="MONDO:kboom-pr-1.00/0.91/29.66"}
 xref: UMLS:C0017168 {source="DOID:8534", source="NCIT:C26781", source="NCBI:mim2gene_medline", source="MONDO:equivalentTo", source="OMIM:109350"}
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 relationship: RO:0004029 HP:0012735 {source="Wikidata"} ! Cough
 property_value: closeMatch http://identifiers.org/snomedct/102620007
 property_value: closeMatch http://identifiers.org/snomedct/155673008
@@ -7228,7 +7207,6 @@ xref: COHD:375527 {source="MONDO:equivalentTo"}
 xref: MESH:D020773 {source="MONDO:equivalentTo"}
 xref: SCTID:230461009 {source="MONDO:equivalentTo", source="MONDO:kboom-pr-1.00/0.92/29.66"}
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 property_value: exactMatch http://identifiers.org/mesh/D020773
 property_value: exactMatch http://identifiers.org/snomedct/230461009
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_33" xsd:string
@@ -7317,7 +7295,6 @@ synonym: "anaphylactic shock" EXACT []
 synonym: "systemic anaphylaxis" EXACT [PMID:18596587]
 xref: NCIT:C107101 {source="MONDO:equivalentTo"}
 is_a: EFO:0000408 ! disease
-is_a: MONDO:0000001 ! disease or disorder
 relationship: RO:0004021 GO:0002524 ! hypersensitivity
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_6" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "anaphylaxis" xsd:string
@@ -7430,13 +7407,6 @@ def: "A COVID-19 infection that involves respiratory failure, septic shock, and/
 is_a: MONDO:0100096 ! COVID-19
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "critical COVID-19 infection" xsd:string
 created_by: http://orcid.org/0000-0001-5208-3432
-
-[Term]
-id: Middle:East
-xref: UMLS:C0026068
-is_a: HANCESTRO:0003
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_8" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Middle East" xsd:string
 
 [Term]
 id: NCBITaxon:10239
@@ -8643,8 +8613,8 @@ subset: NCIT:C159501
 subset: NCIT:C159503
 synonym: "Protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="GDC"}
 synonym: "Protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="BRIDG 5.3"}
-synonym: "Protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "protein" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="CDR0000046092", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 synonym: "Protein (NOS)" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="31102", http://purl.obolibrary.org/obo/NCIT_P384="DCP"}
 synonym: "Proteins" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
@@ -9166,8 +9136,8 @@ property_value: NCIT:P366 "Sensitivity" xsd:string
 id: NCIT:C25277
 name: Therapeutic
 def: "Relating to or involved in therapy." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
-synonym: "Therapeutic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Therapeutic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Therapeutic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "therapeutic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="CDR0000043985", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 is_a: COVOC:00000000 ! COVOC Term
 property_value: NCIT:NHC0 "C25277" xsd:string
@@ -9193,8 +9163,8 @@ synonym: "ID" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://pu
 synonym: "ID" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="AB", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Identifier" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Identifier" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
-synonym: "identifier" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="BRIDG 5.3"}
 synonym: "identifier" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="BRIDG 3.0.3"}
+synonym: "identifier" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="BRIDG 5.3"}
 xref: UMLS:C0683368
 is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_141" xsd:string
@@ -9295,7 +9265,7 @@ synonym: "Asymptomatic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT",
 synonym: "asymptomatic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS", http://purl.obolibrary.org/obo/NCIT_P385="CDR0000046520"}
 synonym: "asymptomatical" EXACT []
 synonym: "NO SYMPTOMS" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
-is_a: COVOC:00000000 ! COVOC Term
+is_a: EFO:0000651 ! phenotype
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_10" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "asymptomatic" xsd:string
 property_value: NCIT:NHC0 "C3833" xsd:string
@@ -9491,8 +9461,8 @@ name: Purification
 def: "The process of removing impurities." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
 comment: Functional Concept
 subset: NCIT:C112906
-synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P386="eManu", http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="FDA"}
 synonym: "Purified" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="AD", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Purify" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
@@ -9542,8 +9512,8 @@ subset: NCIT:C61410
 subset: NCIT:C67497
 synonym: "Clinical Trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Clinical Trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
-synonym: "Clinical Trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Clinical Trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Clinical Trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "clinical trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC-GLOSS"}
 synonym: "clinical trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="CDR0000045961", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 synonym: "Clinical Trials" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
@@ -9581,8 +9551,8 @@ name: World Health Organization
 def: "A United Nations agency established to coordinate international health activities and to help governments improve health services." [] {http://purl.obolibrary.org/obo/NCIT_P381="WordNet", http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
 synonym: "WHO" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="CDR0000559085", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 synonym: "WHO" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="AB", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
-synonym: "World Health Organization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "World Health Organization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "World Health Organization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "World Health Organization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P385="CDR0000454794", http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_92" xsd:string
@@ -9687,8 +9657,8 @@ property_value: NCIT:P98 "Vaccines range from inactivated or attenuated microorg
 id: NCIT:C95533
 name: Neutralization
 def: "The act of rendering something ineffective or inactive." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
-synonym: "Neutralization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Neutralization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Neutralization" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_35" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "cross-neutralization" xsd:string
@@ -9956,6 +9926,8 @@ id: PR:000000001
 name: protein
 namespace: protein
 def: "An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA, and any derivatives thereof." [PRO:DAN, PRO:WCB]
+synonym: "native protein" NARROW [IEDB:BP]
+synonym: "natural protein" EXACT [PRO:DAN]
 is_a: COVOC:00000000 ! COVOC Term
 relationship: RO:0002353 GO:0006412 ! translation
 
@@ -10055,23 +10027,24 @@ id: PR:000050272
 name: non-structural protein 3 (SARS-CoV-2)
 namespace: protein
 def: "A rep gene proteolytic cleavage product (SARS-CoV-2) that is the portion produced by the autocatalytic action of PL-PRO proteinase (nsp3) when it cleaves the precursor between residues 818-819 and 2763-2764." [GenPept:YP_009725299, PRO:DAN, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
-synonym: "main proteinase (SARS2)" EXACT [PRO:DAN, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "main proteinase (SARS-CoV-2)" EXACT [PRO:DAN, UniProtKB:P0DTC1, UniProtKB:P0DTD1]
 synonym: "non-structural protein 3" BROAD []
 synonym: "non-structural protein 3 (SARS-CoV-2)" EXACT []
 synonym: "NSP3" RELATED []
-synonym: "nsp3 (SARS2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "nsp3 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
 synonym: "Nsp3 multidomain" RELATED []
-synonym: "papain-like proteinase (SARS2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
-synonym: "PL2-PRO (SARS2)" RELATED [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
-synonym: "PLpro (SARS2)" EXACT [PMID:15564471, PRO:DAN]
-synonym: "PRO_0000449621" EXACT PRO-proteoform-ftid [UniProtKB:P0DTD1]
-synonym: "PRO_0000449637" EXACT PRO-proteoform-ftid [UniProtKB:P0DTC1]
+synonym: "papain-like proteinase (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "PL2-PRO (SARS-CoV-2)" RELATED [UniProtKB:P0DTC1, UniProtKB:P0DTD1]
+synonym: "PLpro (SARS-CoV-2)" EXACT [PMID:15564471, PRO:DAN]
+synonym: "PRO_0000449621" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "PRO_0000449637" EXACT PRO-proteoform-ftid [PRO:DAN]
 synonym: "rep/Clv:nsp3 (SARS2)" EXACT PRO-short-label [PRO:DAN]
 synonym: "SARS-CoV Nsp3" EXACT []
 synonym: "SARS-unique domain" NARROW []
 synonym: "UniProtKB:P0DTC1, 819-2763" EXACT PRO-proteoform-std [PRO:DAN]
 synonym: "UniProtKB:P0DTD1, 819-2763" EXACT PRO-proteoform-std [PRO:DAN]
 xref: GenPept:YP_009725299
+xref: GenPept:YP_009742610
 is_a: CHEBI:36080 ! protein
 is_a: PR:000000001 ! protein
 relationship: RO:0002160 NCBITaxon:2697049 ! Severe acute respiratory syndrome coronavirus 2
@@ -10102,8 +10075,8 @@ alt_id: PR:P0DTC1
 def: "A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTC1-1." [GenPept:YP_009725295, PRO:DAN, UniProtKB:P0DTC1]
 synonym: "3cl pro" NARROW []
 synonym: "3CLpro" NARROW []
-synonym: "ORF1a polyprotein (SARS2)" EXACT [UniProtKB:P0DTC1]
-synonym: "pp1a (SARS2)" EXACT [UniProtKB:P0DTC1]
+synonym: "ORF1a polyprotein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1]
+synonym: "pp1a (SARS-CoV-2)" EXACT [UniProtKB:P0DTC1]
 synonym: "PRO_0000449634" EXACT PRO-proteoform-ftid []
 synonym: "rep/iso:ORF1a (SARS2)" EXACT PRO-short-label [PRO:DAN]
 xref: GenPept:YP_009725295
@@ -10119,25 +10092,26 @@ id: PR:P0DTC2
 name: spike glycoprotein (SARS-CoV-2)
 namespace: protein
 def: "A protein that is a translation product of the S gene in SARS-CoV-2." [GenPept:YP_009724390, PRO:DAN, UniProtKB:P0DTC2]
+synonym: "2" RELATED Gene-based [UniProtKB:P0DTC2]
 synonym: "binding receptor host cells" RELATED []
 synonym: "coronavirus spike trimer" RELATED []
 synonym: "E2" RELATED []
-synonym: "E2 (SARS2)" EXACT [UniProtKB:P0DTC2]
+synonym: "E2 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC2]
 synonym: "GU280_gp02" RELATED Gene-based [GenPept:YP_009724390]
 synonym: "homotrimer" RELATED []
 synonym: "Peplomer protein" BROAD []
-synonym: "peplomer protein (SARS2)" EXACT [UniProtKB:P0DTC2]
+synonym: "peplomer protein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC2]
 synonym: "receptor-binding domain" BROAD []
 synonym: "S" RELATED Gene-based [GenPept:YP_009724390, UniProtKB:P0DTC2]
 synonym: "S (SARS2)" EXACT PRO-short-label [PRO:DAN]
-synonym: "S glycoprotein (SARS2)" EXACT [UniProtKB:P0DTC2]
+synonym: "S glycoprotein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC2]
 synonym: "S protein" BROAD []
 synonym: "SARS-S" RELATED []
 synonym: "Spike glycoprotein" BROAD []
 synonym: "spike glycoprotein (SARS-CoV-2)" EXACT []
 synonym: "spike protein" NARROW []
 synonym: "spike proteins" NARROW []
-synonym: "surface glycoprotein (SARS2)" EXACT [GenPept:YP_009724390]
+synonym: "surface glycoprotein (SARS-CoV-2)" EXACT [GenPept:YP_009724390]
 synonym: "surface protein of CoV" RELATED []
 synonym: "trimer" RELATED []
 synonym: "trimeric spike" RELATED []
@@ -10157,18 +10131,20 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "spik
 
 [Term]
 id: PR:P0DTC3
-name: protein 3a (SARS-CoV-2)
+name: ORF3a protein (SARS-CoV-2)
 namespace: protein
 def: "A protein that is a translation product of the ORF3a gene in SARS-CoV-2." [GenPept:YP_009724391, PRO:DAN, UniProtKB:P0DTC3]
-synonym: "accessory protein 3a (SARS2)" EXACT [UniProtKB:P0DTC3]
+synonym: "3a" RELATED Gene-based [UniProtKB:P0DTC3]
+synonym: "accessory protein 3a (SARS-CoV-2)" EXACT [UniProtKB:P0DTC3]
 synonym: "GU280_gp03" RELATED Gene-based [GenPept:YP_009724391]
 synonym: "ORF3a" RELATED Gene-based [GenPept:YP_009724391]
 synonym: "ORF3a (SARS2)" EXACT PRO-short-label [PRO:DAN]
-synonym: "PRO_0000449650" EXACT PRO-proteoform-ftid [UniProtKB:P0DTC3]
+synonym: "PRO_0000449650" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "protein 3a (SARS-CoV-2)" EXACT [UniProtKB:P0DTC3]
 synonym: "Protein U274" RELATED []
-synonym: "protein U274 (SARS2)" EXACT [UniProtKB:P0DTC3]
+synonym: "protein U274 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC3]
 synonym: "Protein X1" RELATED []
-synonym: "protein X1 (SARS2)" EXACT [UniProtKB:P0DTC3]
+synonym: "protein X1 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC3]
 xref: GenPept:YP_009724391
 xref: UniProtKB:P0DTC3
 is_a: CHEBI:36080 ! protein
@@ -10182,16 +10158,17 @@ id: PR:P0DTC4
 name: envelope small membrane protein (SARS-CoV-2)
 namespace: protein
 def: "A protein that is a translation product of the E gene in SARS-CoV-2." [GenPept:YP_009724392, PRO:DAN, UniProtKB:P0DTC4]
+synonym: "4" RELATED Gene-based [UniProtKB:P0DTC4]
 synonym: "E" RELATED Gene-based [GenPept:YP_009724392, UniProtKB:P0DTC4]
 synonym: "E (SARS2)" EXACT PRO-short-label [PRO:DAN]
 synonym: "E protein" BROAD []
-synonym: "E protein (SARS2)" EXACT [UniProtKB:P0DTC4]
-synonym: "envelope protein (SARS2)" EXACT [GenPept:YP_009724392]
+synonym: "E protein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC4]
+synonym: "envelope protein (SARS-CoV-2)" EXACT [GenPept:YP_009724392]
 synonym: "GU280_gp04" RELATED Gene-based [GenPept:YP_009724392]
 synonym: "ORF4" RELATED Gene-based [GenPept:YP_009724392]
-synonym: "PRO_0000449651" EXACT PRO-proteoform-ftid [UniProtKB:P0DTC4]
+synonym: "PRO_0000449651" EXACT PRO-proteoform-ftid [PRO:DAN]
 synonym: "sM protein" BROAD []
-synonym: "sM protein (SARS2)" EXACT [UniProtKB:P0DTC4]
+synonym: "sM protein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC4]
 synonym: "small envelope protein" BROAD []
 synonym: "surface protein of CoV" RELATED []
 xref: GenPept:YP_009724392
@@ -10207,17 +10184,17 @@ id: PR:P0DTC5
 name: membrane protein (SARS-CoV-2)
 namespace: protein
 def: "A protein that is a translation product of the M gene in SARS-CoV-2." [GenPept:YP_009724393, PRO:DAN, UniProtKB:P0DTC5]
-synonym: "E1 glycoprotein (SARS2)" EXACT [UniProtKB:P0DTC5]
+synonym: "E1 glycoprotein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC5]
 synonym: "GU280_gp05" RELATED Gene-based [GenPept:YP_009724393]
 synonym: "M" RELATED Gene-based [GenPept:YP_009724393, UniProtKB:P0DTC5]
 synonym: "M (SARS2)" EXACT PRO-short-label [PRO:DAN]
 synonym: "M protein" BROAD []
-synonym: "M protein (SARS2)" EXACT [UniProtKB:P0DTC5]
+synonym: "M protein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC5]
 synonym: "matrix glycoprotein" BROAD []
-synonym: "matrix glycoprotein (SARS2)" EXACT [UniProtKB:P0DTC5]
-synonym: "membrane glycoprotein (SARS2)" EXACT [GenPept:YP_009724393, UniProtKB:P0DTC5]
+synonym: "matrix glycoprotein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC5]
+synonym: "membrane glycoprotein (SARS-CoV-2)" EXACT [GenPept:YP_009724393, UniProtKB:P0DTC5]
 synonym: "ORF5" RELATED Gene-based [GenPept:YP_009724393]
-synonym: "PRO_0000449652" EXACT PRO-proteoform-ftid [UniProtKB:P0DTC5]
+synonym: "PRO_0000449652" EXACT PRO-proteoform-ftid [PRO:DAN]
 synonym: "surface protein of CoV" RELATED []
 xref: GenPept:YP_009724393
 xref: UniProtKB:P0DTC5
@@ -10229,17 +10206,18 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "memb
 
 [Term]
 id: PR:P0DTC7
-name: protein 7a (SARS-CoV-2)
+name: ORF7a protein (SARS-CoV-2)
 namespace: protein
 def: "A protein that is a translation product of the ORF7a gene in SARS-CoV-2." [GenPept:YP_009724395, PRO:DAN, UniProtKB:P0DTC7]
+synonym: "7a" RELATED Gene-based [UniProtKB:P0DTC7]
 synonym: "Accessory protein 7a" RELATED []
-synonym: "accessory protein 7a (SARS2)" EXACT [UniProtKB:P0DTC7]
+synonym: "accessory protein 7a (SARS-CoV-2)" EXACT [UniProtKB:P0DTC7]
 synonym: "GU280_gp07" RELATED Gene-based [GenPept:YP_009724395]
 synonym: "ORF7a" RELATED Gene-based [GenPept:YP_009724395]
 synonym: "ORF7a (SARS2)" EXACT PRO-short-label [PRO:DAN]
-synonym: "protein U122 (SARS2)" EXACT [UniProtKB:P0DTC7]
+synonym: "protein U122 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC7]
 synonym: "Protein U122|Protein X4" RELATED []
-synonym: "protein X4 (SARS2)" EXACT [UniProtKB:P0DTC7]
+synonym: "protein X4 (SARS-CoV-2)" EXACT [UniProtKB:P0DTC7]
 xref: GenPept:YP_009724395
 xref: UniProtKB:P0DTC7
 is_a: CHEBI:36080 ! protein
@@ -10257,12 +10235,12 @@ synonym: "GU280_gp10" RELATED Gene-based [GenPept:YP_009724397]
 synonym: "N" RELATED Gene-based [GenPept:YP_009724397, UniProtKB:P0DTC9]
 synonym: "N (SARS2)" EXACT PRO-short-label [PRO:DAN]
 synonym: "N protein" BROAD []
-synonym: "NC (SARS2)" EXACT [UniProtKB:P0DTC9]
+synonym: "NC (SARS-CoV-2)" EXACT [UniProtKB:P0DTC9]
 synonym: "nucleocapsid protein " BROAD []
-synonym: "nucleocapsid protein (SARS2)" EXACT [UniProtKB:P0DTC9]
+synonym: "nucleocapsid protein (SARS-CoV-2)" EXACT [UniProtKB:P0DTC9]
 synonym: "ORF9" RELATED Gene-based [GenPept:YP_009724397]
-synonym: "PRO_0000449656" EXACT PRO-proteoform-ftid [UniProtKB:P0DTC9]
-synonym: "protein N (SARS2)" EXACT [UniProtKB:P0DTC9]
+synonym: "PRO_0000449656" EXACT PRO-proteoform-ftid [PRO:DAN]
+synonym: "protein N (SARS-CoV-2)" EXACT [UniProtKB:P0DTC9]
 synonym: "surface protein of CoV" RELATED []
 xref: GenPept:YP_009724397
 xref: UniProtKB:P0DTC9
@@ -10280,9 +10258,9 @@ alt_id: PR:P0DTD1
 def: "A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTD1-1. Requires ribosomal frameshifting." [GenPept:YP_009724389, PRO:DAN, UniProtKB:P0DTD1]
 synonym: "3cl pro" NARROW []
 synonym: "3CLpro" NARROW []
-synonym: "ORF1ab polyprotein (SARS2)" EXACT [UniProtKB:P0DTD1]
-synonym: "pp1ab (SARS2)" EXACT [UniProtKB:P0DTD1]
-synonym: "PRO_0000449618" EXACT PRO-proteoform-ftid [UniProtKB:P0DTD1]
+synonym: "ORF1ab polyprotein (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "pp1ab (SARS-CoV-2)" EXACT [UniProtKB:P0DTD1]
+synonym: "PRO_0000449618" EXACT PRO-proteoform-ftid [PRO:DAN]
 synonym: "rep/iso:ORF1ab (SARS2)" EXACT PRO-short-label [PRO:DAN]
 xref: GenPept:YP_009724389
 xref: UniProtKB:P0DTD1
@@ -10348,6 +10326,7 @@ synonym: "ACEH" RELATED []
 synonym: "ACEH (human)" EXACT [UniProtKB:Q9BYF1]
 synonym: "alternative receptor-gateway" RELATED []
 synonym: "angiotensin-converting enzyme homolog (human)" EXACT [UniProtKB:Q9BYF1]
+synonym: "angiotensin-converting enzyme-related carboxypeptidase (human)" EXACT [UniProtKB:Q9BYF1]
 synonym: "hACE2" EXACT PRO-short-label [PRO:DNx]
 synonym: "hACE2" RELATED []
 synonym: "human ACE2" EXACT []
@@ -10395,7 +10374,7 @@ id: Saudi:Arabia
 name: Saudi Arabia
 xref: GAZ:00005279
 xref: UMLS:C0036243
-is_a: HANCESTRO:0003
+is_a: HANCESTRO:0003 ! country
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_9" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Saudi Arabia" xsd:string
 
@@ -10405,7 +10384,7 @@ name: South Korea
 synonym: "Republic of Korea" EXACT []
 xref: GAZ:00002802
 xref: UMLS:C0022773
-is_a: HANCESTRO:0003
+is_a: HANCESTRO:0003 ! country
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_11" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "South Korea" xsd:string
 
@@ -10606,39 +10585,17 @@ synonym: "United States of America" EXACT []
 synonym: "USA" EXACT []
 xref: GAZ:00002459
 xref: UMLS:C0041703
-is_a: HANCESTRO:0003
+is_a: HANCESTRO:0003 ! country
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_13" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "United States" xsd:string
 property_value: IAO:0000118 "U.S." xsd:string
-
-[Term]
-id: West:Africa
-xref: UMLS:C0001747
-is_a: HANCESTRO:0003
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_14" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Western Africa" xsd:string
-
-[Term]
-id: Wu:Han
-synonym: "Wuhan" EXACT []
-is_a: HANCESTRO:0003
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_16" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Wu Han" xsd:string
-
-[Term]
-id: http://dbpedia.org/resource/Asia
-synonym: "Asian" EXACT []
-xref: UMLS:C0003980
-is_a: HANCESTRO:0003
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_1" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Asia" xsd:string
 
 [Term]
 id: http://dbpedia.org/resource/Canada
 name: Canada
 xref: GAZ:00002560
 xref: UMLS:C0006823
-is_a: HANCESTRO:0003
+is_a: HANCESTRO:0003 ! country
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_2" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Canada" xsd:string
 
@@ -10648,25 +10605,9 @@ name: China
 synonym: "Mainland china" EXACT []
 xref: GAZ:00002845
 xref: UMLS:C0008115
-is_a: HANCESTRO:0003
+is_a: HANCESTRO:0003 ! country
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_3" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "China" xsd:string
-
-[Term]
-id: http://dbpedia.org/resource/Europe
-synonym: "E.U" EXACT []
-synonym: "European" EXACT []
-synonym: "UE" EXACT []
-xref: UMLS:C0015176
-is_a: HANCESTRO:0003
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_4" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Europe" xsd:string
-
-[Term]
-id: http://dbpedia.org/resource/Hubei
-is_a: HANCESTRO:0003
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_6" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Hubei" xsd:string
 
 [Term]
 id: http://dbpedia.org/resource/Jordan
@@ -10674,7 +10615,7 @@ name: Jordan
 synonym: "Jordanian" EXACT []
 xref: GAZ:00002473
 xref: UMLS:C0022418
-is_a: HANCESTRO:0003
+is_a: HANCESTRO:0003 ! country
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_7" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Jordan" xsd:string
 
@@ -10683,7 +10624,7 @@ id: http://dbpedia.org/resource/Singapore
 name: Singapore
 xref: GAZ:00003923
 xref: UMLS:C0037173
-is_a: HANCESTRO:0003
+is_a: HANCESTRO:0003 ! country
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_10" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Singapore" xsd:string
 
@@ -10692,7 +10633,7 @@ id: http://dbpedia.org/resource/Taiwan
 name: Taiwan
 xref: GAZ:00005341
 xref: UMLS:C0039260
-is_a: HANCESTRO:0003
+is_a: HANCESTRO:0003 ! country
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_12" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Taiwan" xsd:string
 

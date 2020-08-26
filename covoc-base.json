@@ -11,26 +11,6 @@
       "type" : "PROPERTY",
       "lbl" : "preferred covoc label"
     }, {
-      "id" : "http://dbpedia.org/resource/Asia",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0003980"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Asian",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Asia"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "LOC_1"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/PR_P0DTC9",
       "meta" : {
         "synonyms" : [ {
@@ -609,15 +589,19 @@
         } ],
         "synonyms" : [ {
           "pred" : "hasExactSynonym",
+          "val" : "massively-parallel sequencing",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
           "val" : "massively parallel sequencing",
           "xrefs" : [ ]
         } ],
         "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "massively-parallel sequencing"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "BMV_87"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "massively parallel signature sequencing"
         }, {
           "pred" : "http://www.w3.org/2000/01/rdf-schema#comment",
           "val" : "Molecular Biology Research Technique"
@@ -1299,18 +1283,6 @@
       },
       "type" : "CLASS"
     }, {
-      "id" : "http://dbpedia.org/resource/Hubei",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "LOC_6"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Hubei"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0009405",
       "meta" : {
         "xrefs" : [ {
@@ -1365,6 +1337,37 @@
       },
       "type" : "CLASS"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0070006",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "GEO:000000374"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "continent"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "continent"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0070005",
+      "meta" : {
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Wuhan",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Wu Han"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "LOC_16"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Wu Han"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/OBI_0100026",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -1373,6 +1376,22 @@
         } ]
       },
       "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0070004",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "UMLS:C0001747"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Western Africa"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "LOC_14"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "West Africa"
     }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_66919",
       "meta" : {
@@ -1412,6 +1431,35 @@
         } ]
       },
       "type" : "CLASS"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0070003",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "UMLS:C0026068"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Middle East"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "LOC_8"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Middle East"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/COVOC_0070002",
+      "meta" : {
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "LOC_6"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Hubei"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Hubei"
     }, {
       "id" : "http://purl.obolibrary.org/obo/HP_0001649",
       "meta" : {
@@ -2170,34 +2218,6 @@
         "basicPropertyValues" : [ {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "tropism"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://dbpedia.org/resource/Europe",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0015176"
-        } ],
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "European",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "UE",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "E.U",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "LOC_4"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Europe"
         } ]
       },
       "type" : "CLASS"
@@ -4632,6 +4652,26 @@
       "type" : "CLASS",
       "lbl" : "NCT04273581 clinical trial"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0030",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "UMLS:C0003980"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Asian",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "LOC_1"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Asia"
+        } ]
+      },
+      "type" : "CLASS"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/GO_0005730",
       "meta" : {
         "xrefs" : [ {
@@ -4752,6 +4792,34 @@
       },
       "type" : "CLASS",
       "lbl" : "NCT04323631 clinical trial"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/HANCESTRO_0031",
+      "meta" : {
+        "xrefs" : [ {
+          "val" : "UMLS:C0015176"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "E.U",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "UE",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "European",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "Europe"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "LOC_4"
+        } ]
+      },
+      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0040026",
       "meta" : {
@@ -7048,7 +7116,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "healthcare workers"
+      "lbl" : "healthcare worker"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0030004",
       "meta" : {
@@ -7095,7 +7163,7 @@
         } ]
       },
       "type" : "CLASS",
-      "lbl" : "Health Personnel"
+      "lbl" : "health personnel"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0030003",
       "meta" : {
@@ -7531,23 +7599,6 @@
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "pharmaceutical preparation"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
-      "id" : "http://dbpedia.org/resource/Wu_Han",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "Wuhan",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Wu Han"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "LOC_16"
         } ]
       },
       "type" : "CLASS"
@@ -10225,21 +10276,6 @@
       },
       "type" : "CLASS"
     }, {
-      "id" : "http://dbpedia.org/resource/West_Africa",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0001747"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "LOC_14"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Western Africa"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C135091",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -10449,21 +10485,6 @@
       },
       "type" : "CLASS"
     }, {
-      "id" : "http://dbpedia.org/resource/Middle_East",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0026068"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "LOC_8"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "Middle East"
-        } ]
-      },
-      "type" : "CLASS"
-    }, {
       "id" : "http://www.ebi.ac.uk/efo/EFO_0000651",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -10664,10 +10685,6 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_0030011"
     }, {
-      "sub" : "http://dbpedia.org/resource/Hong_Kong",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0012735",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
@@ -10748,10 +10765,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://dbpedia.org/resource/South_Korea",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030014",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
@@ -10759,10 +10772,6 @@
       "sub" : "http://purl.obolibrary.org/obo/NCBITaxon_76804",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCBITaxon_2559587"
-    }, {
-      "sub" : "http://dbpedia.org/resource/Wu_Han",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0002050",
       "pred" : "is_a",
@@ -10791,6 +10800,10 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030027",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CL_0000000",
+      "pred" : "is_a",
+      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000001"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0020013",
       "pred" : "is_a",
@@ -10856,10 +10869,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://dbpedia.org/resource/Europe",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0019012",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0005575"
@@ -10915,6 +10924,10 @@
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C17248",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050039",
+      "pred" : "is_a",
+      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000532"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005618",
       "pred" : "is_a",
@@ -11048,10 +11061,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://dbpedia.org/resource/Jordan",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040008",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_0030029"
@@ -11115,14 +11124,6 @@
       "sub" : "http://purl.obolibrary.org/obo/HP_0000822",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
-    }, {
-      "sub" : "http://dbpedia.org/resource/Taiwan",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
-      "sub" : "http://dbpedia.org/resource/China",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C16990",
       "pred" : "is_a",
@@ -11216,6 +11217,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C71104"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070004",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C17565",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -11284,6 +11289,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_21241",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C17089",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -11291,6 +11300,10 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010048",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C3833",
+      "pred" : "is_a",
+      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0050019",
       "pred" : "is_a",
@@ -11335,6 +11348,10 @@
       "sub" : "http://purl.obolibrary.org/obo/CLO_0009524",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CLO_0002172",
       "pred" : "is_a",
@@ -11424,6 +11441,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005002",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
@@ -11484,17 +11505,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MAXO_0000609",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/GO_0006508",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/GO_0008150"
     }, {
-      "sub" : "http://dbpedia.org/resource/Singapore",
+      "sub" : "http://purl.obolibrary.org/obo/MAXO_0000609",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
+      "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040011",
       "pred" : "is_a",
@@ -11564,10 +11581,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C16612"
     }, {
-      "sub" : "http://dbpedia.org/resource/United_States",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0050036",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -11631,6 +11644,10 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0020017",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050028",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040031",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
@@ -11768,13 +11785,17 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_22587",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005108",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050039",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010033",
       "pred" : "is_a",
@@ -11787,10 +11808,6 @@
       "sub" : "http://purl.obolibrary.org/obo/OBI_0000181",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://dbpedia.org/resource/Middle_East",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040028",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
@@ -11968,6 +11985,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070003",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0002"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040024",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C135091"
@@ -11975,6 +11996,10 @@
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0100139",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MONDO_0100096"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0031",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0070006"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C75419",
       "pred" : "is_a",
@@ -11987,6 +12012,10 @@
       "sub" : "http://purl.obolibrary.org/obo/HP_0002789",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_59163",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_52217",
       "pred" : "is_a",
@@ -12068,10 +12097,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
     }, {
-      "sub" : "http://dbpedia.org/resource/West_Africa",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0010125",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000001"
@@ -12132,6 +12157,10 @@
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0030",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_0070006"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C26170",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -12139,10 +12168,6 @@
       "sub" : "http://purl.obolibrary.org/obo/HP_0000969",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050028",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C15783",
       "pred" : "is_a",
@@ -12160,25 +12185,17 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CL_0002569"
     }, {
-      "sub" : "http://dbpedia.org/resource/Saudi_Arabia",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0025406",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020011",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0100120",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MONDO_0005550"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050002",
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020011",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030020",
       "pred" : "is_a",
@@ -12191,10 +12208,6 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030017",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070001",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://www.ebi.ac.uk/efo/EFO_0002571",
       "pred" : "is_a",
@@ -12284,6 +12297,10 @@
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C155831",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_0010024"
@@ -12292,29 +12309,25 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0030021",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0003326",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0030021",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0033006",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
     }, {
-      "sub" : "http://dbpedia.org/resource/Hubei",
+      "sub" : "http://purl.obolibrary.org/obo/OMIT_0013538",
       "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040020",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C71104"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/OMIT_0013538",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010027",
       "pred" : "is_a",
@@ -12360,17 +12373,9 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
     }, {
-      "sub" : "http://dbpedia.org/resource/Canada",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C48938",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://dbpedia.org/resource/Asia",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005812",
       "pred" : "is_a",
@@ -12448,7 +12453,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-08-20/covoc-base.json"
+      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-08-26/covoc-base.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ ],

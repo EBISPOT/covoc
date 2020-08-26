@@ -12,7 +12,7 @@
      xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/mondo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-20/imports/mondo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-26/imports/mondo_import.owl"/>
     </owl:Ontology>
     
 
@@ -31,12 +31,6 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
     
 
 
@@ -430,185 +424,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/MONDO_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001">
-        <owl:equivalentClass rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
-        <obo:IAO_0000115>A disease is a disposition to undergo pathological processes that exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>DOID:4</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>EFO:0000408</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD10:N18</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD9:799.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MESH:D004194</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>OGMS:0000031</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>Orphanet:377788</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>SCTID:64572001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UMLS:C0012634</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>condition</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disease or disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disease or disorder, non-neoplastic</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>diseases</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>diseases and disorders</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>disorders</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>medical condition</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>other disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:id>MONDO:0000001</oboInOwl:id>
-        <rdfs:label>disease or disorder</rdfs:label>
-        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D004194"/>
-        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/64572001"/>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A disease is a disposition to undergo pathological processes that exists in an organism because of one or more disorders in that organism.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>OGMS:0000031</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>SCTID:64572001</owl:annotatedTarget>
-        <oboInOwl:source>DOID:4</oboInOwl:source>
-        <oboInOwl:source>EFO:0000408</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source>MONDO:kboom-pr-0.81/0.56/0.38</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>UMLS:C0012634</owl:annotatedTarget>
-        <oboInOwl:source>DOID:4</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source>NCIT:C2991</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>condition</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>disease</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>disease or disorder</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>disease or disorder, non-neoplastic</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>diseases</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>diseases and disorders</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>disorder</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>disorders</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>DOID:4</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000408</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>other disease</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>EFO:0000408</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>ICD10:N18</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>ICD9:799.9</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:relatedTo</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i2s</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>MESH:D004194</owl:annotatedTarget>
-        <oboInOwl:source>DOID:4</oboInOwl:source>
-        <oboInOwl:source>EFO:0000408</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:ontobio</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>NCIT:C2991</owl:annotatedTarget>
-        <oboInOwl:source>DOID:4</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>OGMS:0000031</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>Orphanet:377788</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MONDO_0000002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000002">
-        <obo:IAO_0100001>MONDO:0009299</obo:IAO_0100001>
-        <oboInOwl:id>MONDO:0000002</oboInOwl:id>
-        <rdfs:label>obsolete 46,XX sex reversal</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/MONDO_0002050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <obo:IAO_0000115>A melancholy feeling of sadness and despair.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>DOID:1596</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10:F32</oboInOwl:hasDbXref>
@@ -642,6 +460,49 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A melancholy feeling of sadness and despair.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>NCIT:C2982</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:CN236658</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDGEN:kboom-pr97-c99</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>depression</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NCIT:C2982</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>mental depression</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>DOID:1596</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>melancholia</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>MESH:D003866</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>melancholias</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>MESH:D003866</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>syndrome, depressive</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>MESH:D003866</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>syndromes, depressive</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>MESH:D003866</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
@@ -693,56 +554,12 @@
         <owl:annotatedTarget>SCTID:35489007</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>UMLS:CN236658</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEDGEN:kboom-pr97-c99</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>depression</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT:C2982</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>mental depression</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>DOID:1596</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>melancholia</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MESH:D003866</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>melancholias</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MESH:D003866</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>syndrome, depressive</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MESH:D003866</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0002050"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>syndromes, depressive</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MESH:D003866</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/MONDO_0002258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002258">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <obo:IAO_0000115>Inflammation of the throat most often caused by viral and bacterial infections. Other causes include allergens, chemical substances, and trauma.</obo:IAO_0000115>
         <oboInOwl:hasBroadSynonym>pharyngeal disease</oboInOwl:hasBroadSynonym>
         <oboInOwl:hasBroadSynonym>pharyngeal disorder</oboInOwl:hasBroadSynonym>
@@ -957,7 +774,6 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0002280 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002280">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <obo:IAO_0000115>A reduction in the number of red blood cells, the amount of hemoglobin, and/or the volume of packed red blood cells. Clinically, anemia represents a reduction in the oxygen-transporting capacity of a designated volume of blood, resulting from an imbalance between blood loss (through hemorrhage or hemolysis) and blood production. Signs and symptoms of anemia may include pallor of the skin and mucous membranes, shortness of breath, palpitations of the heart, soft systolic murmurs, lethargy, and fatigability.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>DOID:2355</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>EFO:0004272</oboInOwl:hasDbXref>
@@ -1070,7 +886,6 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0004979 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004979">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <obo:IAO_0000115>A bronchial disease that is characterized by chronic inflammation and narrowing of the airways, which is caused by a combination of environmental and genetic factors resulting in recurring periods of wheezing (a whistling sound while breathing), chest tightness, shortness of breath, mucus production and coughing. The symptoms appear due to a variety of triggers such as allergens, irritants, respiratory infections, weather changes, exercise, stress, reflux disease, medications, foods and emotional anxiety.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>COHD:317009</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOID:2841</oboInOwl:hasDbXref>
@@ -1266,7 +1081,6 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0004995 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004995">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <obo:IAO_0000115>A disease involving the cardiovascular system.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>DOID:1287</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>EFO:0000319</oboInOwl:hasDbXref>
@@ -1311,6 +1125,75 @@
         <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D002318"/>
         <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/49601007"/>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>cardiovascular disorder</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NCIT:C2931</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>cardiovascular system disease</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/location</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>cardiovascular system disease or disorder</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:design_pattern</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/location</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>disease of cardiovascular system</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/location_top</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>disease of subdivision of hemolymphoid system</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>DOID:1287</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>disorder of cardiovascular system</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2931</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>circulatory system disease</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:cjm</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>disorder of cardiovascular system</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/location_top</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A disease involving the cardiovascular system.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:DesignPattern</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>DOID:1287</owl:annotatedTarget>
+        <oboInOwl:source>EFO:0000319</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>EFO:0000319</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
+    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
@@ -1449,82 +1332,12 @@
         <owl:annotatedTarget>cardiovascular disease (CVD)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>NCIT:C2931</oboInOwl:hasDbXref>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>cardiovascular disorder</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT:C2931</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>cardiovascular system disease</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/location</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>cardiovascular system disease or disorder</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:design_pattern</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/location</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>disease of cardiovascular system</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/location_top</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>disease of subdivision of hemolymphoid system</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>DOID:1287</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>disorder of cardiovascular system</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/location_top</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C2931</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>circulatory system disease</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:cjm</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>disorder of cardiovascular system</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/location_top</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A disease involving the cardiovascular system.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:DesignPattern</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>DOID:1287</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000319</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004995"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>EFO:0000319</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/MONDO_0005002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
@@ -1728,7 +1541,6 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0005015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <obo:IAO_0000115>A metabolic disorder characterized by abnormally high blood sugar levels due to diminished production of insulin or insulin resistance/desensitization.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>COHD:201820</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOID:9351</oboInOwl:hasDbXref>
@@ -1879,7 +1691,6 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0005091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005108"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2250,7 +2061,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005108"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Viruses infection</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MONDO:patterns/infectious_disease_by_agent</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/infectious_disease_by_agent</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005108"/>
@@ -2289,7 +2100,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005108"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>infections, Viruses</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MONDO:patterns/infectious_disease_by_agent</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/infectious_disease_by_agent</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2297,7 +2108,6 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0005249 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005249">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0024355"/>
         <rdfs:subClassOf>
             <owl:Restriction>
@@ -2467,7 +2277,6 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0005550 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005550">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <obo:IAO_0000115>A disorder resulting from the presence and activity of a microbial, viral, or parasitic agent. It can be transmitted by direct or indirect contact.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>DOID:0050117</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>EFO:0005741</oboInOwl:hasDbXref>
@@ -2638,7 +2447,6 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0005618 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005618">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <obo:IAO_0000115>A category of psychiatric disorders which are characterized by anxious feelings or fear often accompanied by physical symptoms associated with anxiety.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>COHD:442077</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOID:2030</oboInOwl:hasDbXref>
@@ -2930,7 +2738,6 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0006502 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0006502">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
@@ -3068,7 +2875,6 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0007186 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0007186">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004029"/>
@@ -3286,7 +3092,6 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0021146 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021146">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <obo:IAO_0000115>Various conditions with the symptom of headache. Headache disorders are classified into major groups, such as primary headache disorders (based on characteristics of their headache symptoms) and secondary headache disorders (based on their etiologies). (International Classification of Headache Disorders, 2nd ed. Cephalalgia 2004: suppl 1)</obo:IAO_0000115>
         <oboInOwl:hasDbXref>COHD:375527</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D020773</oboInOwl:hasDbXref>
@@ -3525,7 +3330,6 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0024355 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0024355">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005550"/>
         <obo:IAO_0000115>Invasion of the host RESPIRATORY SYSTEM by microorganisms, usually leading to pathological processes or diseases.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>ICD9:519.8</oboInOwl:hasDbXref>
@@ -3814,7 +3618,6 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0100053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0100053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004021"/>
@@ -3914,7 +3717,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/MONDO_0100096"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A disease caused by infection with severe acute respiratory syndrome coronavirus 2.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>MONDO:patterns/infectious_disease_by_agent</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/infectious_disease_by_agent</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://www.cdc.gov/coronavirus/2019-ncov/downloads/2019-ncov-factsheet.pdf</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>

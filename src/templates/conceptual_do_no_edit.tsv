@@ -2,7 +2,7 @@ id	Preferred term	Synonymes	CUI UMLS	Semantic Type UMLS	Source		Term import ID	F
 							ID		A cov:internal_covoc_id  SPLIT=||	LABEL	SC %	A cov:preferred_covoc_label	A oboInOwl:hasExactSynonym SPLIT=||	A oboInOwl:hasNarrowSynonym SPLIT=||	A oboInOwl:hasBroadSynonym SPLIT=||	A oboInOwl:hasRelatedSynonym SPLIT=||	A IAO:0000115	A oboInOwl:hasDbXref SPLIT=||	A rdfs:comment		
 CE_1	“crown-like” appearance						NCBITaxon:11118		CE_1			Coronaviridae				crown-like appearance					
 CE_2	age of onset		C0206132	[Quantitative Concept]			EFO:0004847		CE_2			age of onset	age of onset					UMLS:C0206132			
-CE_3	alcohol sanitizer	alcohol sanitizers					COVOC:0050002		CE_3	alcohol sanitizer	obo:COVOC_00000000	alcohol sanitizer									
+CE_3	alcohol sanitizer	alcohol sanitizers					COVOC:0050002		CE_3	alcohol sanitizer	CHEBI:24431	alcohol sanitizer									
 CE_4	analysis		C1524024	[Functional Concept]			NCIT:C25391		CE_4			analysis						UMLS:C1524024			
 CE_5	assay		C0243073	[Qualitative Concept]			OBI:0000070		CE_5			assay						UMLS:C0243073			
 CE_6	climate conditions	climate condition					COVOC:0050004		CE_6	climate conditions	obo:COVOC_00000000	climate condition	climate conditions							Explore ENVO to use as x-ref	
@@ -30,10 +30,10 @@ CE_27	Geographic Locations		C0017446	[Geographic Area]			COVOC:0050023		CE_27	Ge
 CE_28	growth		C0220844	[Physiologic Function]			GO:0040007		CE_28			growth						UMLS:C0220844			
 CE_29	Guideline		C0282423	[Intellectual Product]			NCIT:C17564		CE_29||CE_30			guideline	guidelines					UMLS:C0282423||UMLS:C0162791			
 CE_31	guiding characteristics		C0220845	[Intellectual Product]			COVOC:0050027		CE_31	guiding characteristics	obo:COVOC_00000000	guiding characteristic	guiding characteristics					UMLS:C0220845			
-CE_32	hand sanitizer	hand sanitizers					COVOC:0050028		CE_32	hand sanitizer	obo:COVOC_00000000	hand sanitizer						OMIT:0028469			
+CE_32	hand sanitizer	hand sanitizers					COVOC:0050028		CE_32	hand sanitizer	CHEBI:24431	hand sanitizer						OMIT:0028469			
 CE_33	health emergency	health emergencies					COVOC:0050029		CE_33	health emergency	obo:COVOC_00000000	health emergency									
-CE_34	Health Personnel		C0018724	[Professional or Occupational Group]			COVOC:0050030		CE_34	Health Personnel	obo:COVOC_00000000	health personnel						UMLS:C0018724||OMIT:0007454			
-CE_35	healthcare workers	health care workers					COVOC:0050031		CE_35	healthcare workers	obo:COVOC_00000000	healthcare worker	healthcare workers								
+CE_34	Health Personnel		C0018724	[Professional or Occupational Group]			COVOC:0050030		CE_34	health personnel	obo:COVOC_00000000	health personnel						UMLS:C0018724||OMIT:0007454			
+CE_35	healthcare workers	health care workers					COVOC:0050031		CE_35	healthcare worker	obo:COVOC_00000000	healthcare worker	healthcare workers								
 CE_37	host						EFO:0000532		CE_37			host									
 CE_38	Huanan market	Huanan markets					COVOC:0050033		CE_38	Huanan market	obo:COVOC_00000000	Huanan market									
 CE_39	human health						COVOC:0050034		CE_39	human health	obo:COVOC_00000000	human health									
@@ -41,7 +41,7 @@ CE_40	human-to-human transmission						COVOC:0050035		CE_40||CE_57	human-to-huma
 CE_41	imported case	imported cases					COVOC:0050036		CE_41	imported case	obo:COVOC_00000000	imported case									
 CE_42	incidence		C0220856	[Functional Concept]			PATO:0000057		CE_42			incidence						UMLS:C0220856||NCIT:C16726			
 CE_43	infected animal	infected animals					COVOC:0050038		CE_43	infected animal	obo:COVOC_00000000	infected animal									
-CE_44	intermediate host	intermediate hosts					COVOC:0050039		CE_44	intermediate host	obo:COVOC_00000000	intermediate host								create as child of EFO host?	
+CE_44	intermediate host	intermediate hosts					COVOC:0050039		CE_44	intermediate host	EFO:0000532	intermediate host								create as child of EFO host?	
 CE_45	international concern						COVOC:0050040		CE_45	international concern	obo:COVOC_00000000	international concern									
 CE_46	large number	large numbers					COVOC:0050041		CE_46	large number	obo:COVOC_00000000	large number									
 CE_47	lethality						COVOC:0050042		CE_47	lethality	obo:COVOC_00000000	lethality									

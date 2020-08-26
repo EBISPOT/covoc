@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/covoc-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-20/covoc-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-26/covoc-base.owl"/>
         <dc:creator>Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
         <dc:creator>Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
         <dc:creator>Michel Pierre-André (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
@@ -164,22 +164,9 @@
     
 
 
-    <!-- http://dbpedia.org/resource/Asia -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Asia">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_1</covoc:internal_covoc_id>
-        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asia</covoc:preferred_covoc_label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0003980</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asian</oboInOwl:hasExactSynonym>
-    </owl:Class>
-    
-
-
     <!-- http://dbpedia.org/resource/Canada -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/Canada">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_2</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Canada</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0006823</oboInOwl:hasDbXref>
@@ -190,7 +177,6 @@
     <!-- http://dbpedia.org/resource/China -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/China">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_3</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">China</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0008115</oboInOwl:hasDbXref>
@@ -199,24 +185,9 @@
     
 
 
-    <!-- http://dbpedia.org/resource/Europe -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Europe">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_4</covoc:internal_covoc_id>
-        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe</covoc:preferred_covoc_label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0015176</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E.U</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UE</oboInOwl:hasExactSynonym>
-    </owl:Class>
-    
-
-
     <!-- http://dbpedia.org/resource/Hong_Kong -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/Hong_Kong">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_5</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Honk Kong</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0019907</oboInOwl:hasDbXref>
@@ -224,20 +195,9 @@
     
 
 
-    <!-- http://dbpedia.org/resource/Hubei -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Hubei">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_6</covoc:internal_covoc_id>
-        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hubei</covoc:preferred_covoc_label>
-    </owl:Class>
-    
-
-
     <!-- http://dbpedia.org/resource/Jordan -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/Jordan">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_7</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordan</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0022418</oboInOwl:hasDbXref>
@@ -246,21 +206,9 @@
     
 
 
-    <!-- http://dbpedia.org/resource/Middle_East -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Middle_East">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_8</covoc:internal_covoc_id>
-        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle East</covoc:preferred_covoc_label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0026068</oboInOwl:hasDbXref>
-    </owl:Class>
-    
-
-
     <!-- http://dbpedia.org/resource/Saudi_Arabia -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/Saudi_Arabia">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_9</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Saudi Arabia</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0036243</oboInOwl:hasDbXref>
@@ -271,7 +219,6 @@
     <!-- http://dbpedia.org/resource/Singapore -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/Singapore">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_10</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Singapore</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0037173</oboInOwl:hasDbXref>
@@ -282,7 +229,6 @@
     <!-- http://dbpedia.org/resource/South_Korea -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/South_Korea">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_11</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">South Korea</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0022773</oboInOwl:hasDbXref>
@@ -293,7 +239,6 @@
     <!-- http://dbpedia.org/resource/Taiwan -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/Taiwan">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_12</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Taiwan</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0039260</oboInOwl:hasDbXref>
@@ -304,33 +249,10 @@
     <!-- http://dbpedia.org/resource/United_States -->
 
     <owl:Class rdf:about="http://dbpedia.org/resource/United_States">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_13</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">United States</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0041703</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USA</oboInOwl:hasExactSynonym>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/West_Africa -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/West_Africa">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_14</covoc:internal_covoc_id>
-        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Western Africa</covoc:preferred_covoc_label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0001747</oboInOwl:hasDbXref>
-    </owl:Class>
-    
-
-
-    <!-- http://dbpedia.org/resource/Wu_Han -->
-
-    <owl:Class rdf:about="http://dbpedia.org/resource/Wu_Han">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_16</covoc:internal_covoc_id>
-        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu Han</covoc:preferred_covoc_label>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wuhan</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -444,6 +366,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_21241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_21241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DG_81</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vitamin C</covoc:preferred_covoc_label>
@@ -473,6 +396,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_22587 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_5</covoc:internal_covoc_id>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_6</covoc:internal_covoc_id>
@@ -922,6 +846,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_59163 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_17</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomarker</covoc:preferred_covoc_label>
@@ -1332,6 +1257,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000001"/>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</covoc:preferred_covoc_label>
     </owl:Class>
     
@@ -1683,10 +1609,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_87</covoc:internal_covoc_id>
-        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively-parallel sequencing</covoc:preferred_covoc_label>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively parallel signature sequencing</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERO:0001211</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C2936622</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively parallel sequencing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively-parallel sequencing</oboInOwl:hasExactSynonym>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Biology Research Technique</rdfs:comment>
     </owl:Class>
     
@@ -2963,7 +2890,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0050002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0050002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CE_3</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alcohol sanitizer</covoc:preferred_covoc_label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alcohol sanitizer</rdfs:label>
@@ -3191,7 +3118,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0050028 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0050028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CE_32</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hand sanitizer</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIT:0028469</oboInOwl:hasDbXref>
@@ -3219,7 +3146,7 @@
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health personnel</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIT:0007454</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0018724</oboInOwl:hasDbXref>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Personnel</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health personnel</rdfs:label>
     </owl:Class>
     
 
@@ -3231,7 +3158,7 @@
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CE_35</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare worker</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare workers</oboInOwl:hasExactSynonym>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare workers</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">healthcare worker</rdfs:label>
     </owl:Class>
     
 
@@ -3296,7 +3223,7 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0050039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0050039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000532"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CE_44</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intermediate host</covoc:preferred_covoc_label>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">intermediate host</rdfs:label>
@@ -3573,11 +3500,68 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0070001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0070001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_15</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu Bei</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wubei</oboInOwl:hasExactSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu Bei</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0070002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0070002">
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_6</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hubei</covoc:preferred_covoc_label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hubei</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0070003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0070003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_8</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle East</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0026068</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Middle East</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0070004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0070004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_14</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Western Africa</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0001747</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">West Africa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0070005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0070005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_16</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu Han</covoc:preferred_covoc_label>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wuhan</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wu Han</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0070006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0070006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continent</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GEO:000000374</oboInOwl:hasDbXref>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">continent</rdfs:label>
     </owl:Class>
     
 
@@ -4055,10 +4039,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0002"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HANCESTRO_0003 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_0070006"/>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_1</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asia</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0003980</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Asian</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_0070006"/>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LOC_4</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0015176</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E.U</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">European</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UE</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -5835,6 +5851,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C3833">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000651"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_10</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asymptomatic</covoc:preferred_covoc_label>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asymptomatical</oboInOwl:hasExactSynonym>

@@ -1,13 +1,13 @@
 id	Preferred term	Synonyms	Source	CUI UMLS	Semantic Type UMLS		Term import ID	Future ID	COVoc ID	Temporary label (COVOC IDs only)	Child of	Preferred label	Synonym	Narrow synonym	Broad synonym	Related synonym	Definition	x-refs	Comments	Paola's comments	Curation stats
 							ID		A cov:internal_covoc_id  SPLIT=||	LABEL	SC %	A cov:preferred_covoc_label	A oboInOwl:hasExactSynonym SPLIT=||	A oboInOwl:hasNarrowSynonym SPLIT=||	A oboInOwl:hasBroadSynonym SPLIT=||	A oboInOwl:hasRelatedSynonym SPLIT=||	A IAO:0000115	A oboInOwl:hasDbXref SPLIT=||	A rdfs:comment		
 BMV_60	glycoprotein	glycoproteins					CHEBI:17089		BMV_60			glycoprotein									
-BMV_7	Antiviral Agents			C0003451	[Pharmacologic Substance]		CHEBI:22587		BMV_5||BMV_6||BMV_7			antiviral agent	antiviral agents||antiviral activity||antiviral activities		antiviral||antivirals			UMLS:C0003451	Pharmacologic Substance		
+BMV_7	Antiviral Agents			C0003451	[Pharmacologic Substance]		CHEBI:22587		BMV_5||BMV_6||BMV_7		CHEBI:24431	antiviral agent	antiviral agents||antiviral activity||antiviral activities		antiviral||antivirals			UMLS:C0003451	Pharmacologic Substance		
 							CHEBI:24431				EFO:0000001	chemical entity									
 							CHEBI:33694					biomacromolecule									
 BMV_108	Pharmaceutical Preparations			C0013227	[Pharmacologic Substance]		CHEBI:52217		BMV_108			pharmaceutical preparation						UMLS:C0013227	Pharmacologic Substance		
-BMV_17	biomarkers	biomarker					CHEBI:59163		BMV_17			biomarker	biomarkers								
+BMV_17	biomarkers	biomarker					CHEBI:59163		BMV_17		CHEBI:24431	biomarker	biomarkers								
 BMV_37	Cryo-EM structure						CHMO:0002413		BMV_37		OBI:0000070	cryo-EM structure				Cryo-EM structure					
-							CL:0000000					cell									
+							CL:0000000				EFO:0000001	cell									
 BMV_85	Macrophage | macrophages			C0024432	[Cell]		CL:0000235		BMV_85		CL:0000000	macrophage	macrophages					UMLS:C0024432	Cell		
 							CL:0000624				CL:0000000	CD4-positive, alpha-beta T cell		CD4 T cell							Paola added term based on EMBL conference
 							CL:0000625				CL:0000000	CD8-positive, alpha-beta T cell		CD8 T cell							Paola added term based on EMBL conference
@@ -55,7 +55,7 @@ BMV_144	Therapeutics			C0087111	[Therapeutic or Preventive Procedure]		EFO:00100
 BMV_109	Pharmacotherapy			C0013216	[Therapeutic or Preventive Procedure]		EFO:0010064		BMV_109			pharmacotherapy		antiviral therapy				UMLS:C0013216	Therapeutic or Preventive Procedure		Paola added a synonym based on EMBL conference
 							EFO:0010125				EFO:0000001	viral load	virus load								Paola added term based on EMBL conference
 BMV_100	Oligonucleotide Primers	primer||primers		C0206415	[Nucleic Acid, Nucleoside, or Nucleotide]		EFO:0010192		BMV_100||BMV_111			oligonucleotide primer			primer			UMLS:C0206415	Nucleic Acid, Nucleoside, or Nucleotide		
-BMV_87	Massively-Parallel Sequencing			C2936622	[Molecular Biology Research Technique]		COVOC:0010048	INSERT EFO ID HERE	BMV_87		OBI:0000070	massively-parallel sequencing	massively parallel sequencing					UMLS:C2936622||ERO:0001211	Molecular Biology Research Technique		
+BMV_87	Massively-Parallel Sequencing			C2936622	[Molecular Biology Research Technique]		COVOC:0010048	EFO:0010805	BMV_87		OBI:0000070	massively parallel signature sequencing	massively-parallel sequencing||massively parallel sequencing					UMLS:C2936622||ERO:0001211	Molecular Biology Research Technique		Paola created new EFO term
 BMV_4	antibody response						GO:0002250		BMV_4			antibody response									
 BMV_65	Hypersensitivity			C0020517	[Pathologic Function]		GO:0002524		BMV_65			hypersensitivity						UMLS:C0020517	Pathologic Function		
 BMV_92	molecular mechanisms						GO:0003674		BMV_92			molecular mechanism									
@@ -148,7 +148,7 @@ BMV_26	clinical experimental vaccine research						NCIT:C26028		BMV_26			clinica
 BMV_113	Protective Agents			C0033613	[Pharmacologic Substance]		NCIT:C26170		BMV_113			protective agent						UMLS:C0033613	Pharmacologic Substance		
 BMV_23	chest radiography						NCIT:C38103		BMV_23			chest radiography									
 BMV_146	Thoracic Radiography			C3665494	[Diagnostic Procedure]		NCIT:C38103		BMV_146			thoracic radiography						UMLS:C3665494	Diagnostic Procedure		
-BMV_10	asymptomatic	asymptomatical					NCIT:C3833		BMV_10			asymptomatic	asymptomatical								
+BMV_10	asymptomatic	asymptomatical					NCIT:C3833		BMV_10		EFO:0000651	asymptomatic	asymptomatical								
 BMV_89	medications	medication					NCIT:C459		BMV_89			medication									
 BMV_19	Cell Count			C0007584	[Laboratory Procedure]		NCIT:C48938		BMV_19			cell count						UMLS:C0007584	Laboratory Procedure		
 BMV_1	Adenovirus Vaccine		C1552907	[Amino Acid, Peptide, or Protein,Immunologic Factor,Pharmacologic Substance]			NCIT:C49146		BMV_1			adenovirus vaccine						UMLS:C1552907			

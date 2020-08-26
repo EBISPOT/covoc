@@ -14,6 +14,6 @@ LOC_11	South Korea		C0022773	[Geographic Area]		http://dbpedia.org/page/South_Ko
 LOC_12	Taiwan		C0039260	[Geographic Area]		http://dbpedia.org/page/Taiwan			DBPEDIA:Taiwan	LOC_12			Taiwan						UMLS:C0039260		
 LOC_13	United States	USA	C0041703	[Geographic Area]		http://dbpedia.org/page/United_States			DBPEDIA:United_States	LOC_13			United States	USA					UMLS:C0041703		
 LOC_14	Western Africa		C0001747	[Geographic Area]		http://dbpedia.org/page/West_Africa			COVOC:0070004	LOC_14	West Africa	HANCESTRO:0003	Western Africa						UMLS:C0001747		
-LOC_15	Wu Bei	Wubei							COVOC:0070001	LOC_15	Wu Bei	HANCESTRO:0003	Wu Bei	Wubei							
-LOC_16	Wu Han	Wuhan				http://dbpedia.org/page/Wu_Han			COVOC:0070005	LOC_16	Wu Han	HANCESTRO:0003	Wu Han	Wuhan							
+LOC_15	Wu Bei	Wubei							COVOC:0070001	LOC_15	Wu Bei	HANCESTRO:0002	Wu Bei	Wubei							
+LOC_16	Wu Han	Wuhan				http://dbpedia.org/page/Wu_Han			COVOC:0070005	LOC_16	Wu Han	HANCESTRO:0002	Wu Han	Wuhan							
 									COVOC:0070006		continent	obo:COVOC_00000000	continent						GEO:000000374		
