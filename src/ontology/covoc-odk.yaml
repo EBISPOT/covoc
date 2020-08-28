@@ -30,7 +30,8 @@ import_group:
     - id: pr
     - id: uberon
     - id: pato
-    - id: ero
+    - id: hancestro
+    - id: dbpedia
 components:
   products:
     - filename: all_templates.owl

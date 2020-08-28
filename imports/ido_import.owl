@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/ido_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-05-29/imports/ido_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-28/imports/ido_import.owl"/>
     </owl:Ontology>
     
 
@@ -132,33 +132,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IDO_0000000 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000000">
-        <rdfs:label xml:lang="en">_obsolete_process</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDO_0000001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000001">
-        <rdfs:label xml:lang="en">_obsolete_role</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IDO_0000002 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000002">
-        <rdfs:label xml:lang="en">_obsolete_quality</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IDO_0000463 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000463">
@@ -204,6 +177,12 @@
         <obo:IAO_0000117>Lindsay Cowell</obo:IAO_0000117>
         <rdfs:label xml:lang="en">incubation period</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
 </rdf:RDF>
 
 

@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/ncit_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-06-01/imports/ncit_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-28/imports/ncit_import.owl"/>
     </owl:Ontology>
     
 
@@ -29,12 +29,6 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_A10 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A10"/>
     
 
 
@@ -61,6 +55,14 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C101856 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C101856">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C101858 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C101858">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -306,14 +308,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C133855 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C133855">
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C138188 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C138188">
@@ -410,6 +404,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C157711 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C157711">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C157712 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C157712">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C158034 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C158034">
@@ -429,6 +439,166 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C158520 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C158520">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159008 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159008">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159010 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159010">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159021 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159021">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159022 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159022">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159023 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159023">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159029 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159029">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159044 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159044">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159074 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159074">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159079 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159079">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159090 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159090">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159093 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159093">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159102 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159102">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159106">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159109 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159109">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159110 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159110">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159111">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159115">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159117">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159120 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159120">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C159122 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C159122">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -482,6 +652,110 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C165258 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C165258">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C165451 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C165451">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C166371 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C166371">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C166372 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C166372">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C166373 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C166373">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C167409 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C167409">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168655 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C168655">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168656 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C168656">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168657 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C168657">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168658 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C168658">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168661 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C168661">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168662 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C168662">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C168696 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C168696">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C19752 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C19752">
@@ -525,6 +799,14 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C54584 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C54584">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C54585 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C54585">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -602,6 +884,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C73600 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C73600">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C74456 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C74456">
@@ -653,6 +943,14 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C78734 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C78734">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C78735 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C78735">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -717,6 +1015,14 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C96388 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C96388">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C99077 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_C99077">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -947,6 +1253,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
     
 
 
@@ -1678,7 +1990,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C101293 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C101293">
-        <obo:IAO_0000115>Technologies that facilitate the rapid determination of the DNA sequence of large numbers of strands or segments of DNA.</obo:IAO_0000115>
+        <obo:IAO_0000115>Technologies that facilitate the rapid determination of the nucleotide sequence of large numbers of strands or segments of DNA or RNA.</obo:IAO_0000115>
         <obo:NCIT_NHC0>C101293</obo:NCIT_NHC0>
         <obo:NCIT_P106>Molecular Biology Research Technique</obo:NCIT_P106>
         <obo:NCIT_P107>Next Generation Sequencing</obo:NCIT_P107>
@@ -1692,6 +2004,7 @@
         <oboInOwl:hasExactSynonym>NEXT GENERATION SEQUENCING</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>NGS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Next Generation Sequencing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Next Generational Sequencing</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Next-Generation Sequencing</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118169"/>
@@ -1703,7 +2016,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C101293"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Technologies that facilitate the rapid determination of the DNA sequence of large numbers of strands or segments of DNA.</owl:annotatedTarget>
+        <owl:annotatedTarget>Technologies that facilitate the rapid determination of the nucleotide sequence of large numbers of strands or segments of DNA or RNA.</owl:annotatedTarget>
         <obo:NCIT_P378>NCI</obo:NCIT_P378>
     </owl:Axiom>
     <owl:Axiom>
@@ -1764,6 +2077,14 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C101293"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Next Generational Sequencing</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C101293"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Next-Generation Sequencing</owl:annotatedTarget>
         <obo:NCIT_P383>SY</obo:NCIT_P383>
         <obo:NCIT_P384>NCI</obo:NCIT_P384>
@@ -1779,12 +2100,18 @@
         <obo:NCIT_NHC0>C102527</obo:NCIT_NHC0>
         <obo:NCIT_P100>300335</obo:NCIT_P100>
         <obo:NCIT_P106>Gene or Genome</obo:NCIT_P106>
+        <obo:NCIT_P107>ACE2 Gene</obo:NCIT_P107>
         <obo:NCIT_P108>ACE2 Gene</obo:NCIT_P108>
         <obo:NCIT_P207>C1422064</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
         <obo:NCIT_P369>HGNC:13557</obo:NCIT_P369>
         <oboInOwl:hasExactSynonym>ACE2</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ACE2 Gene</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>Angiotensin I Converting Enzyme (Peptidyl-Dipeptidase A) 2 Gene</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Angiotensin I Converting Enzyme 2 Gene</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142799"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142800"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142801"/>
         <rdfs:label>ACE2 Gene</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1812,14 +2139,57 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C102527"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>ACE2 Gene</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C102527"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ACE2 Gene</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C102527"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Angiotensin I Converting Enzyme (Peptidyl-Dipeptidase A) 2 Gene</owl:annotatedTarget>
+        <owl:annotatedTarget>Angiotensin I Converting Enzyme 2 Gene</owl:annotatedTarget>
         <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C123937 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C123937">
+        <obo:IAO_0000115>The placement, arrangement of instance of entities within a space.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C123937</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Functional Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Distribution</obo:NCIT_P108>
+        <obo:NCIT_P208>CL502477</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>DISTR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Distribution</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82590"/>
+        <rdfs:label>Distribution</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C123937"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The placement, arrangement of instance of entities within a space.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C123937"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>DISTR</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C123937"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Distribution</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
     
@@ -2123,6 +2493,7 @@
         <obo:NCIT_P108>Serum</obo:NCIT_P108>
         <obo:NCIT_P207>C0229671</obo:NCIT_P207>
         <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
         <obo:NCIT_P325>The clear liquid part of the blood that remains after blood cells and clotting proteins have been removed.</obo:NCIT_P325>
         <obo:NCIT_P325>The clear portion of the blood that remains after the removal of the blood cells and the clotting proteins. (NCI)</obo:NCIT_P325>
         <obo:NCIT_P366>Serum</obo:NCIT_P366>
@@ -2131,6 +2502,9 @@
         <oboInOwl:hasExactSynonym>Sera</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Serum</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>serum</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159010"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159022"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C77526"/>
@@ -2138,51 +2512,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C78734"/>
         <rdfs:label>Serum</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>SERUM</owl:annotatedTarget>
-        <obo:NCIT_P383>PT</obo:NCIT_P383>
-        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Sera</owl:annotatedTarget>
-        <obo:NCIT_P383>SY</obo:NCIT_P383>
-        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Sera</owl:annotatedTarget>
-        <obo:NCIT_P383>SY</obo:NCIT_P383>
-        <obo:NCIT_P384>NCI</obo:NCIT_P384>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Serum</owl:annotatedTarget>
-        <obo:NCIT_P383>PT</obo:NCIT_P383>
-        <obo:NCIT_P384>NCI</obo:NCIT_P384>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Serum</owl:annotatedTarget>
-        <obo:NCIT_P383>SY</obo:NCIT_P383>
-        <obo:NCIT_P384>NCI</obo:NCIT_P384>
-        <obo:NCIT_P385>TCGA</obo:NCIT_P385>
-        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>serum</owl:annotatedTarget>
-        <obo:NCIT_P383>PT</obo:NCIT_P383>
-        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
-        <obo:NCIT_P385>CDR0000044088</obo:NCIT_P385>
-    </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -2218,6 +2547,58 @@
         <obo:NCIT_P394>PT</obo:NCIT_P394>
         <obo:NCIT_P395>COMP</obo:NCIT_P395>
         <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>SERUM</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Sera</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Sera</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Serum</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Serum</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Serum</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P385>TCGA</obo:NCIT_P385>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C13325"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>serum</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000044088</obo:NCIT_P385>
     </owl:Axiom>
     
 
@@ -2594,7 +2975,6 @@
         <obo:NCIT_P325>The process of identifying a disease, such as cancer, from its signs and symptoms.</obo:NCIT_P325>
         <obo:NCIT_P366>Diagnosis</obo:NCIT_P366>
         <obo:NCIT_P371>Diagnosis</obo:NCIT_P371>
-        <obo:NCIT_P375>Diagnosis</obo:NCIT_P375>
         <oboInOwl:hasExactSynonym>DIAGNOSIS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Diagnosed</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Diagnosis</oboInOwl:hasExactSynonym>
@@ -2629,15 +3009,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
         <owl:annotatedTarget>The process of identifying a disease, such as cancer, from its signs and symptoms.</owl:annotatedTarget>
         <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15220"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
-        <owl:annotatedTarget>Diagnosis</owl:annotatedTarget>
-        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
-        <obo:NCIT_P394>PT</obo:NCIT_P394>
-        <obo:NCIT_P395>ID</obo:NCIT_P395>
-        <obo:NCIT_P396>GDC</obo:NCIT_P396>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15220"/>
@@ -2728,6 +3099,7 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C15258 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
         <obo:IAO_0000115>Inoculating an individual with either killed or live agents to prevent contraction of a disease.</obo:IAO_0000115>
         <obo:NCIT_NHC0>C15258</obo:NCIT_NHC0>
         <obo:NCIT_P106>Therapeutic or Preventive Procedure</obo:NCIT_P106>
@@ -2789,6 +3161,7 @@
         <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
         <obo:NCIT_P108>Study Design</obo:NCIT_P108>
         <obo:NCIT_P207>C0035171</obo:NCIT_P207>
+        <obo:NCIT_P322>BRIDG</obo:NCIT_P322>
         <obo:NCIT_P322>CDISC</obo:NCIT_P322>
         <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
         <obo:NCIT_P325>A plan detailing how a study will be performed in order to represent the phenomenon under examination, to answer the research questions that have been asked, and informing the statistical approach.</obo:NCIT_P325>
@@ -2798,9 +3171,12 @@
         <oboInOwl:hasExactSynonym>Experimental Design</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Research Design</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Study Design</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>designType</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>study design</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C132298"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C132310"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159501"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159502"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67497"/>
         <rdfs:label>Study Design</rdfs:label>
@@ -2861,7 +3237,84 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15320"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>designType</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>BRIDG 5.3</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15320"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>study design</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC-GLOSS</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15426">
+        <obo:IAO_0000115>An information set with a regular structure.  Although it can be applied to any set of information the term was invented to refer to computerized data, and is used almost exclusively in computing.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C15426</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P108>Database</obo:NCIT_P108>
+        <obo:NCIT_P207>C0242356</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P325>A collection of data or information, typically organized for ease and speed of search and retrieval.</obo:NCIT_P325>
+        <obo:NCIT_P366>Database</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>DB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Data Bank</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Database</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Database, Electronic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>database</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67497"/>
+        <rdfs:label>Database</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15426"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An information set with a regular structure.  Although it can be applied to any set of information the term was invented to refer to computerized data, and is used almost exclusively in computing.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15426"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A collection of data or information, typically organized for ease and speed of search and retrieval.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15426"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>DB</owl:annotatedTarget>
+        <obo:NCIT_P383>AB</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15426"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Data Bank</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15426"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Database</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15426"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Database, Electronic</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15426"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>database</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>CDISC-GLOSS</obo:NCIT_P384>
     </owl:Axiom>
@@ -2967,6 +3420,68 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15719">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15429"/>
+        <obo:IAO_0000115>The systematic collection, analysis, and interpretation of health data on an ongoing basis.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C15719</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Health Care Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Surveillance</obo:NCIT_P108>
+        <obo:NCIT_P208>CL426379</obo:NCIT_P208>
+        <obo:NCIT_P325>In medicine, the ongoing collection of information about a disease, such as cancer, in a certain group of people. The information collected may include where the disease occurs in a population and whether it affects people of a certain gender, age, or ethnic group.</obo:NCIT_P325>
+        <obo:NCIT_P366>Surveillance</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Epidemiology / Surveillance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Surveillance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>surveillance</oboInOwl:hasExactSynonym>
+        <rdfs:label>Surveillance</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15719"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The systematic collection, analysis, and interpretation of health data on an ongoing basis.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15719"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>In medicine, the ongoing collection of information about a disease, such as cancer, in a certain group of people. The information collected may include where the disease occurs in a population and whether it affects people of a certain gender, age, or ethnic group.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15719"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Epidemiology / Surveillance</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15719"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Surveillance</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15719"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Surveillance</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P385>TCGA</obo:NCIT_P385>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15719"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>surveillance</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000496506</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C15783 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15783">
@@ -2975,11 +3490,16 @@
         <obo:NCIT_P106>Idea or Concept</obo:NCIT_P106>
         <obo:NCIT_P108>Clinical Data</obo:NCIT_P108>
         <obo:NCIT_P207>C1516606</obo:NCIT_P207>
+        <obo:NCIT_P322>ACC</obo:NCIT_P322>
         <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
         <obo:NCIT_P325>Data pertaining to the medical well-being or status of a patient. Category also includes clinical reports and individual patient data (IPD) as defined in the EMA Policy 0070 Implementation Guide. [http://www.ema.eoropa.eu/docs/en_GB/document_library/REPORT/2014/10/WC500174378.PDF]</obo:NCIT_P325>
         <obo:NCIT_P366>Clinical_Data</obo:NCIT_P366>
+        <obo:NCIT_P375>Clinical</obo:NCIT_P375>
         <oboInOwl:hasExactSynonym>Clinical Data</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>clinical data</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159023"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67497"/>
         <rdfs:label>Clinical Data</rdfs:label>
@@ -2998,6 +3518,15 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15783"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Clinical</owl:annotatedTarget>
+        <obo:NCIT_P393>Related To</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>DATAC</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15783"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Clinical Data</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
@@ -3009,6 +3538,159 @@
         <owl:annotatedTarget>clinical data</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>CDISC-GLOSS</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15843 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15843">
+        <obo:IAO_0000115>Therapeutic, nutritional, environmental, social and/or behavioral interventions at the societal, community, organizational or individual levels to reduce, modify or stop the course of a disease.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C15843</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Therapeutic or Preventive Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Preventive Intervention</obo:NCIT_P107>
+        <obo:NCIT_P108>Preventive Intervention</obo:NCIT_P108>
+        <obo:NCIT_P208>CL000755</obo:NCIT_P208>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
+        <obo:NCIT_P325>Any action or response to modify or stop the development of a disease.</obo:NCIT_P325>
+        <obo:NCIT_P325>In medicine, action taken to decrease the chance of getting a disease or condition. For example, cancer prevention includes avoiding risk factors (such as smoking, obesity, lack of exercise, and radiation exposure) and increasing protective factors (such as getting regular physical activity, staying at a healthy weight, and having a healthy diet).</obo:NCIT_P325>
+        <obo:NCIT_P366>Preventive_Intervention</obo:NCIT_P366>
+        <obo:NCIT_P375>Prevention</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>PREVENTATIVE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PRYLX</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prevention</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prevention Measures</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preventive Intervention</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prophylaxis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>prevention</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>prophylaxis</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C124307"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C147067"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159122"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <rdfs:label>Preventive Intervention</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Therapeutic, nutritional, environmental, social and/or behavioral interventions at the societal, community, organizational or individual levels to reduce, modify or stop the course of a disease.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Any action or response to modify or stop the development of a disease.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>In medicine, action taken to decrease the chance of getting a disease or condition. For example, cancer prevention includes avoiding risk factors (such as smoking, obesity, lack of exercise, and radiation exposure) and increasing protective factors (such as getting regular physical activity, staying at a healthy weight, and having a healthy diet).</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
+        <owl:annotatedTarget>Prevention</owl:annotatedTarget>
+        <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
+        <obo:NCIT_P394>PT</obo:NCIT_P394>
+        <obo:NCIT_P395>TIT</obo:NCIT_P395>
+        <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>PREVENTATIVE</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>SDTM-TRTINTNT</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>PRYLX</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>HL7</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prevention</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+        <obo:NCIT_P385>PROT-SPURPRS</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prevention</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prevention</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prevention Measures</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Preventive Intervention</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Preventive Intervention</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prophylaxis</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prophylaxis</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>prevention</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000439419</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>prophylaxis</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000046538</obo:NCIT_P385>
     </owl:Axiom>
     
 
@@ -3110,7 +3792,9 @@
         <obo:NCIT_P106>Gene or Genome</obo:NCIT_P106>
         <obo:NCIT_P108>Gene</obo:NCIT_P108>
         <obo:NCIT_P207>C0017337</obo:NCIT_P207>
+        <obo:NCIT_P322>BRIDG</obo:NCIT_P322>
         <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A functional unit of heredity that occupies a specific position (locus) on a particular chromosome, is capable of reproducing itself exactly at each cell division, and directs the formation of a protein or other product.  Comment Requested:  In interest of re-using existing standards, should the above definition of Gene be replaced by the following from the NLM -  The basic physical and functional unit of heredity. It is made up of DNA and act as instructions to make molecules called proteins.  [Source: http://ghr.nlm.nih.gov/handbook/basics/gene]   EXAMPLE(S): BRCA1 gene  OTHER NAME(S):  NOTE(S):</obo:NCIT_P325>
         <obo:NCIT_P325>A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function. (NCI)</obo:NCIT_P325>
         <obo:NCIT_P325>The functional and physical unit of heredity passed from parent to offspring. Genes are pieces of DNA, and most genes contain the information for making a specific protein.</obo:NCIT_P325>
         <obo:NCIT_P366>Gene</obo:NCIT_P366>
@@ -3120,6 +3804,8 @@
         <oboInOwl:hasExactSynonym>Genes</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>gene</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C132317"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159501"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159503"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
         <rdfs:label>Gene</rdfs:label>
@@ -3129,6 +3815,12 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A functional unit of heredity which occupies a specific position on a particular chromosome and serves as the template for a product that contributes to a phenotype or a biological function.</owl:annotatedTarget>
         <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16612"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A functional unit of heredity that occupies a specific position (locus) on a particular chromosome, is capable of reproducing itself exactly at each cell division, and directs the formation of a protein or other product.  Comment Requested:  In interest of re-using existing standards, should the above definition of Gene be replaced by the following from the NLM -  The basic physical and functional unit of heredity. It is made up of DNA and act as instructions to make molecules called proteins.  [Source: http://ghr.nlm.nih.gov/handbook/basics/gene]   EXAMPLE(S): BRCA1 gene  OTHER NAME(S):  NOTE(S):</owl:annotatedTarget>
+        <obo:NCIT_P378>BRIDG 5.3</obo:NCIT_P378>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16612"/>
@@ -3148,6 +3840,13 @@
         <owl:annotatedTarget>GENE</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16612"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gene</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>BRIDG 5.3</obo:NCIT_P384>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16612"/>
@@ -3211,6 +3910,43 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16870 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16870">
+        <obo:IAO_0000115>Theoretical representations that simulate the behavior or activity of systems, processes, or phenomena.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C16870</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P108>Mathematical Model</obo:NCIT_P108>
+        <obo:NCIT_P207>C0026350</obo:NCIT_P207>
+        <obo:NCIT_P366>Mathematical_Model</obo:NCIT_P366>
+        <obo:NCIT_P98>Mathematical models can aid exploration of the behavior of the system under various conditions from which to determine the dominant factors generating observed patterns and phenomena.  They also aid data collection and interpretation and parameter estimation, and provide tools for identifying possible approaches to control and for assessing the potential impact of different intervention measures.</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>Math Models</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Mathematical Model</oboInOwl:hasExactSynonym>
+        <rdfs:label>Mathematical Model</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16870"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Theoretical representations that simulate the behavior or activity of systems, processes, or phenomena.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16870"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Math Models</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16870"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Mathematical Model</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16877 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16877">
@@ -3219,11 +3955,16 @@
         <obo:NCIT_P106>Quantitative Concept</obo:NCIT_P106>
         <obo:NCIT_P108>Morbidity</obo:NCIT_P108>
         <obo:NCIT_P207>C0026538</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
         <obo:NCIT_P325>A disease or the incidence of disease within a population. Morbidity also refers to adverse effects caused by a treatment.</obo:NCIT_P325>
+        <obo:NCIT_P325>A measure of the frequency of occurrence of a specific illness in a defined population during a specified interval. [After Principles of Epidemiology in Public Health Practice, Third Edition. An Introduction to Applied Epidemiology and Biostatistics]</obo:NCIT_P325>
         <obo:NCIT_P366>Morbidity</obo:NCIT_P366>
         <obo:NCIT_P375>Unknown and unspecified causes of morbidity</obo:NCIT_P375>
         <oboInOwl:hasExactSynonym>Morbidity</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>morbidity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>morbidity rate</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67497"/>
         <rdfs:label>Morbidity</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3237,6 +3978,12 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
         <owl:annotatedTarget>A disease or the incidence of disease within a population. Morbidity also refers to adverse effects caused by a treatment.</owl:annotatedTarget>
         <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16877"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A measure of the frequency of occurrence of a specific illness in a defined population during a specified interval. [After Principles of Epidemiology in Public Health Practice, Third Edition. An Introduction to Applied Epidemiology and Biostatistics]</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC-GLOSS</obo:NCIT_P378>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16877"/>
@@ -3262,6 +4009,13 @@
         <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
         <obo:NCIT_P385>CDR0000044514</obo:NCIT_P385>
     </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16877"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>morbidity rate</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC-GLOSS</obo:NCIT_P384>
+    </owl:Axiom>
     
 
 
@@ -3276,7 +4030,7 @@
         <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
         <obo:NCIT_P322>FDA</obo:NCIT_P322>
         <obo:NCIT_P325>A patient is the subject of observations.</obo:NCIT_P325>
-        <obo:NCIT_P325>Person under a physician&apos;s care for a particular disease or condition. NOTE: A subject in a clinical trial is not necessarily a patient, but a patient in a clinical trial is a subject. See also subject, trial subject, healthy volunteer. Although often used interchangeably as a synonym for subject, a healthy volunteer is not a patient.</obo:NCIT_P325>
+        <obo:NCIT_P325>Person under a physician&apos;s care for a particular disease or condition. NOTE: A subject in a clinical trial is not necessarily a patient, but a patient in a clinical trial is a subject. Although often used interchangeably as a synonym for subject, a healthy volunteer is not a patient. See also human subject, clinical research subject, healthy volunteer, participant.</obo:NCIT_P325>
         <obo:NCIT_P366>Patient</obo:NCIT_P366>
         <oboInOwl:hasExactSynonym>LAY USER/PATIENT</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>PATIENT</oboInOwl:hasExactSynonym>
@@ -3306,7 +4060,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16960"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
-        <owl:annotatedTarget>Person under a physician&apos;s care for a particular disease or condition. NOTE: A subject in a clinical trial is not necessarily a patient, but a patient in a clinical trial is a subject. See also subject, trial subject, healthy volunteer. Although often used interchangeably as a synonym for subject, a healthy volunteer is not a patient.</owl:annotatedTarget>
+        <owl:annotatedTarget>Person under a physician&apos;s care for a particular disease or condition. NOTE: A subject in a clinical trial is not necessarily a patient, but a patient in a clinical trial is a subject. Although often used interchangeably as a synonym for subject, a healthy volunteer is not a patient. See also human subject, clinical research subject, healthy volunteer, participant.</owl:annotatedTarget>
         <obo:NCIT_P378>CDISC-GLOSS</obo:NCIT_P378>
     </owl:Axiom>
     <owl:Axiom>
@@ -3388,6 +4142,62 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16990">
+        <obo:IAO_0000115>The study of the mechanical, physical, and biochemical functions of living organisms.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C16990</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_P108>Physiology</obo:NCIT_P108>
+        <obo:NCIT_P207>C0031842</obo:NCIT_P207>
+        <obo:NCIT_P366>Physiology</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Physiology</oboInOwl:hasExactSynonym>
+        <rdfs:label>Physiology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16990"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The study of the mechanical, physical, and biochemical functions of living organisms.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16990"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Physiology</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17010">
+        <obo:IAO_0000115>The ratio (for a given time period) of the number of occurrences of a disease or event to the number of units at risk in the population.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C17010</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Quantitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Prevalence</obo:NCIT_P108>
+        <obo:NCIT_P207>C0033105</obo:NCIT_P207>
+        <obo:NCIT_P366>Prevalence</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Prevalence</oboInOwl:hasExactSynonym>
+        <rdfs:label>Prevalence</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17010"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The ratio (for a given time period) of the number of occurrences of a disease or event to the number of units at risk in the population.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17010"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Prevalence</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17021">
@@ -3396,7 +4206,10 @@
         <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
         <obo:NCIT_P108>Protein</obo:NCIT_P108>
         <obo:NCIT_P207>C0033684</obo:NCIT_P207>
+        <obo:NCIT_P322>BRIDG</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
         <obo:NCIT_P325>A molecule made up of amino acids that are needed for the body to function properly. Proteins are the basis of body structures such as skin and hair and of substances such as enzymes, cytokines, and antibodies.</obo:NCIT_P325>
+        <obo:NCIT_P325>A representation of an organic macromolecule in public resources (e.g., UniProt or NCBI RefSeq) composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons.  Comment Requested:  In interest of re-using existing standards, should the above definition of Protein be replaced by the following from the NLM -- :  A molecule made up of amino acids that are needed for the body to function properly. Proteins are the basis of body structures such as skin and hair and of substances such as enzymes, cytokines, and antibodies. [Source: http://ghr.nlm.nih.gov/glossary=protein]  EXAMPLE(S): A protein record from UniProt Knowledgebase: http://www.uniprot.org/uniprot/P38398   OTHER NAME(S):  NOTE(S):</obo:NCIT_P325>
         <obo:NCIT_P366>Protein</obo:NCIT_P366>
         <obo:NCIT_P368>CHEBI:36080</obo:NCIT_P368>
         <obo:NCIT_P375>Protein</obo:NCIT_P375>
@@ -3404,6 +4217,10 @@
         <oboInOwl:hasExactSynonym>Protein (NOS)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Proteins</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159115"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159501"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159503"/>
         <rdfs:label>Protein</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3420,12 +4237,32 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17021"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A representation of an organic macromolecule in public resources (e.g., UniProt or NCBI RefSeq) composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons.  Comment Requested:  In interest of re-using existing standards, should the above definition of Protein be replaced by the following from the NLM -- :  A molecule made up of amino acids that are needed for the body to function properly. Proteins are the basis of body structures such as skin and hair and of substances such as enzymes, cytokines, and antibodies. [Source: http://ghr.nlm.nih.gov/glossary=protein]  EXAMPLE(S): A protein record from UniProt Knowledgebase: http://www.uniprot.org/uniprot/P38398   OTHER NAME(S):  NOTE(S):</owl:annotatedTarget>
+        <obo:NCIT_P378>BRIDG 5.3</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17021"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P375"/>
         <owl:annotatedTarget>Protein</owl:annotatedTarget>
         <obo:NCIT_P393>Has Synonym</obo:NCIT_P393>
         <obo:NCIT_P394>PT</obo:NCIT_P394>
         <obo:NCIT_P395>TAT</obo:NCIT_P395>
         <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17021"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Protein</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>BRIDG 5.3</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17021"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Protein</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17021"/>
@@ -3494,6 +4331,60 @@
         <owl:annotatedTarget>Public Health</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17089">
+        <obo:IAO_0000115>People engaged in research.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C17089</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Professional or Occupational Group</obo:NCIT_P106>
+        <obo:NCIT_P108>Research Personnel</obo:NCIT_P108>
+        <obo:NCIT_P207>C0035173</obo:NCIT_P207>
+        <obo:NCIT_P322>BRIDG</obo:NCIT_P322>
+        <obo:NCIT_P325>Individual who is employed and/or involved in any aspect of conduct of protocol driven research. EXAMPLE(S): administrators, clinical and data managers, clinical research pharmacists, clinical research associates, clinical trials compliance coordinators, clinical trials specialists, laboratory technologists, nurses, research services consultants, study coordinators and others</obo:NCIT_P325>
+        <obo:NCIT_P366>Research_Personnel</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Personnel</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Research Personnel</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ResearchStaff</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159501"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159503"/>
+        <rdfs:label>Research Personnel</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17089"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>People engaged in research.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17089"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Individual who is employed and/or involved in any aspect of conduct of protocol driven research. EXAMPLE(S): administrators, clinical and data managers, clinical research pharmacists, clinical research associates, clinical trials compliance coordinators, clinical trials specialists, laboratory technologists, nurses, research services consultants, study coordinators and others</owl:annotatedTarget>
+        <obo:NCIT_P378>BRIDG 3.0.3</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17089"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Personnel</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17089"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Research Personnel</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17089"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ResearchStaff</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>BRIDG 3.0.3</obo:NCIT_P384>
     </owl:Axiom>
     
 
@@ -3677,14 +4568,19 @@
         <obo:NCIT_P107>Genetic Variation</obo:NCIT_P107>
         <obo:NCIT_P108>Genetic Variation</obo:NCIT_P108>
         <obo:NCIT_P207>C0042333</obo:NCIT_P207>
+        <obo:NCIT_P322>BRIDG</obo:NCIT_P322>
         <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>The difference(s) in the nucleotide sequence of a biologic entity relative to a reference sequence.   EXAMPLE(S): A single nucleotide change from adenosine to cytosine, of the CAG trinucleotides repeats in the Huntington gene.  The BRCA1 gene can contain an insertion at position 5382, BRCA1 gene.c.5382insC, or a single nucleotide polymorphism, at position 61 converting a to a G, 61C-&gt;G.  OTHER NAME(S):  NOTE(S):</obo:NCIT_P325>
         <obo:NCIT_P366>Genetic_Variation</obo:NCIT_P366>
         <oboInOwl:hasExactSynonym>Genetic Diversity</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Genetic Variation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>GeneticVariation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Sequence Variant</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Sequence Variation</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142799"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159501"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159503"/>
         <rdfs:label>Genetic Variation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3692,6 +4588,12 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Genetic Variation consists of deviation(s) in the nucleotide sequence of the genetic material of an individual from that typical of the group to which the individual belongs, or deviation(s) in the nucleotide sequence of the genetic material of offspring from that of its parents.</owl:annotatedTarget>
         <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17248"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>The difference(s) in the nucleotide sequence of a biologic entity relative to a reference sequence.   EXAMPLE(S): A single nucleotide change from adenosine to cytosine, of the CAG trinucleotides repeats in the Huntington gene.  The BRCA1 gene can contain an insertion at position 5382, BRCA1 gene.c.5382insC, or a single nucleotide polymorphism, at position 61 converting a to a G, 61C-&gt;G.  OTHER NAME(S):  NOTE(S):</owl:annotatedTarget>
+        <obo:NCIT_P378>BRIDG 5.3</obo:NCIT_P378>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17248"/>
@@ -3717,6 +4619,13 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17248"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>GeneticVariation</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>BRIDG 5.3</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17248"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Sequence Variant</owl:annotatedTarget>
         <obo:NCIT_P383>SY</obo:NCIT_P383>
         <obo:NCIT_P384>NCI</obo:NCIT_P384>
@@ -3731,6 +4640,42 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17564">
+        <obo:IAO_0000115>A systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C17564</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P108>Guideline</obo:NCIT_P108>
+        <obo:NCIT_P207>C0162791</obo:NCIT_P207>
+        <obo:NCIT_P366>Guidelines</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Guideline</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Guidelines</oboInOwl:hasExactSynonym>
+        <rdfs:label>Guideline</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17564"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A systematic statement of policy rules or principles. Guidelines may be developed by government agencies at any level, institutions, professional societies, governing boards, or by convening expert panels.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17564"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Guideline</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17564"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Guidelines</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17565 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17565">
@@ -3739,10 +4684,14 @@
         <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
         <obo:NCIT_P108>Sequence Analysis</obo:NCIT_P108>
         <obo:NCIT_P207>C0162801</obo:NCIT_P207>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
         <obo:NCIT_P366>Sequence_Analysis</obo:NCIT_P366>
         <obo:NCIT_P375>Sequencing, NOS</obo:NCIT_P375>
         <oboInOwl:hasExactSynonym>Sequence Analysis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Sequencing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sequencing, NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159079"/>
         <rdfs:label>Sequence Analysis</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -3782,6 +4731,13 @@
         <owl:annotatedTarget>Sequencing</owl:annotatedTarget>
         <obo:NCIT_P383>SY</obo:NCIT_P383>
         <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17565"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Sequencing, NOS</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
     </owl:Axiom>
     
 
@@ -4068,6 +5024,34 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18469">
+        <obo:IAO_0000115>Temporary, non-covalent binding between protein molecules. Protein-protein interactions occur as a result of intermolecular physical forces and spatial complementation between domains or motifs. This interaction can be either homotypic or heterotypic and effect protein structure, conformation, and function.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C18469</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Molecular Function</obo:NCIT_P106>
+        <obo:NCIT_P108>Protein-Protein Interaction</obo:NCIT_P108>
+        <obo:NCIT_P207>C0872079</obo:NCIT_P207>
+        <obo:NCIT_P366>Protein-Protein_Interaction</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Protein-Protein Interaction</oboInOwl:hasExactSynonym>
+        <rdfs:label>Protein-Protein Interaction</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18469"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Temporary, non-covalent binding between protein molecules. Protein-protein interactions occur as a result of intermolecular physical forces and spatial complementation between domains or motifs. This interaction can be either homotypic or heterotypic and effect protein structure, conformation, and function.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18469"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Protein-Protein Interaction</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C18473 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18473">
@@ -4102,6 +5086,86 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>RNA Analysis</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19254">
+        <obo:IAO_0000115>Occupations within the field of medicine.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C19254</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_P108>Medical Occupation</obo:NCIT_P108>
+        <obo:NCIT_P207>C1513058</obo:NCIT_P207>
+        <obo:NCIT_P366>Medical_Occupation</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Health Care Occupation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medical Occupation</oboInOwl:hasExactSynonym>
+        <rdfs:label>Medical Occupation</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19254"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Occupations within the field of medicine.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19254"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Health Care Occupation</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19254"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Medical Occupation</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19311">
+        <obo:IAO_0000115>Allowing establishment of infection or acceptance of graft material.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C19311</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Organ or Tissue Function</obo:NCIT_P106>
+        <obo:NCIT_P108>Permissiveness</obo:NCIT_P108>
+        <obo:NCIT_P207>C1521846</obo:NCIT_P207>
+        <obo:NCIT_P366>Biologic_Permissiveness</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Biologic Permissiveness</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Permissiveness</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Permissiveness, Biological Function</oboInOwl:hasExactSynonym>
+        <rdfs:label>Permissiveness</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19311"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Allowing establishment of infection or acceptance of graft material.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19311"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Biologic Permissiveness</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19311"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Permissiveness</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19311"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Permissiveness, Biological Function</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
         <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
     
@@ -4416,6 +5480,7 @@
         <obo:NCIT_P108>TMPRSS2 Gene</obo:NCIT_P108>
         <obo:NCIT_P207>C1336641</obo:NCIT_P207>
         <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>GDC</obo:NCIT_P322>
         <obo:NCIT_P366>TMPRSS2_Gene</obo:NCIT_P366>
         <obo:NCIT_P369>HGNC:11876</obo:NCIT_P369>
         <obo:NCIT_P375>TMPRSS2</obo:NCIT_P375>
@@ -4426,6 +5491,9 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142799"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142800"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C142801"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159044"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C159110"/>
         <rdfs:label>TMPRSS2 Gene</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -4451,6 +5519,13 @@
         <obo:NCIT_P394>PT</obo:NCIT_P394>
         <obo:NCIT_P395>GENE2</obo:NCIT_P395>
         <obo:NCIT_P396>GDC</obo:NCIT_P396>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C24871"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>TMPRSS2</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>GDC</obo:NCIT_P384>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C24871"/>
@@ -4503,6 +5578,7 @@
         <obo:NCIT_P366>Hospitalization</obo:NCIT_P366>
         <oboInOwl:hasExactSynonym>HOSPITALIZATION</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Hospitalization</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hospitalized</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54447"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54583"/>
         <rdfs:label>Hospitalization</rdfs:label>
@@ -4525,6 +5601,50 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25179"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Hospitalization</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25179"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Hospitalized</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25201">
+        <obo:IAO_0000115>The ability to respond to physical stimuli or to register small physical amounts or differences.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C25201</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Quantitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Sensitivity</obo:NCIT_P108>
+        <obo:NCIT_P208>CL545933</obo:NCIT_P208>
+        <obo:NCIT_P366>Sensitivity</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Sensitive</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sensitivity</oboInOwl:hasExactSynonym>
+        <rdfs:label>Sensitivity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25201"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The ability to respond to physical stimuli or to register small physical amounts or differences.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25201"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Sensitive</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25201"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Sensitivity</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
@@ -4669,6 +5789,102 @@
         <owl:annotatedTarget>identifier</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>BRIDG 3.0.3</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25364"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>identifier</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>BRIDG 5.3</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25391">
+        <obo:IAO_0000115>Examination and interpretation; the process of identifying an issue to be understood and addressed, modelling the issue, investigating the model results, interpreting the results, and possibly making a recommendation. The concept also refers to the examination and study of a whole in terms of the parts composing it.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C25391</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Analysis</obo:NCIT_P108>
+        <obo:NCIT_P207>C0936012</obo:NCIT_P207>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P325>A process in which anything complex is separated into simple or less complex parts.</obo:NCIT_P325>
+        <obo:NCIT_P366>Analysis</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>ANALYSIS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Analysis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Analytical</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Analyzed</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>analysis</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54452"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C73600"/>
+        <rdfs:label>Analysis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25391"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Examination and interpretation; the process of identifying an issue to be understood and addressed, modelling the issue, investigating the model results, interpreting the results, and possibly making a recommendation. The concept also refers to the examination and study of a whole in terms of the parts composing it.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25391"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A process in which anything complex is separated into simple or less complex parts.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25391"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ANALYSIS</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>FDA</obo:NCIT_P384>
+        <obo:NCIT_P386>SPL</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25391"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Analysis</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>FDA</obo:NCIT_P384>
+        <obo:NCIT_P386>ICSR-CVM</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25391"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Analysis</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25391"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Analysis</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P385>TCGA</obo:NCIT_P385>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25391"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Analytical</owl:annotatedTarget>
+        <obo:NCIT_P383>AD</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25391"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Analyzed</owl:annotatedTarget>
+        <obo:NCIT_P383>AD</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25391"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>analysis</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000390238</obo:NCIT_P385>
     </owl:Axiom>
     
 
@@ -4854,6 +6070,67 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C41395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C41395">
+        <obo:IAO_0000115>The probability that a test will produce a true negative result when used on non-effected subjects as compared to a reference or &quot;gold standard&quot;. The specificity of a test can be determined by calculating: number of true negative results divided by the sum of true negative results plus number of false positive results.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C41395</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Functional Concept</obo:NCIT_P106>
+        <obo:NCIT_P106>Quantitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Diagnostic Specificity</obo:NCIT_P108>
+        <obo:NCIT_P207>C1511884</obo:NCIT_P207>
+        <obo:NCIT_P325>The frequency with which a test yields a true negative result among individuals who do not have the disease or the gene mutation in question. A test with high specificity has a low false-positive rate and thus does a good job of correctly classifying unaffected individuals.</obo:NCIT_P325>
+        <obo:NCIT_P366>Diagnostic_Specificity</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Diagnostic Specificity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Specificity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Specificity of Diagnostic Test</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>specificity</oboInOwl:hasExactSynonym>
+        <rdfs:label>Diagnostic Specificity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C41395"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The probability that a test will produce a true negative result when used on non-effected subjects as compared to a reference or &quot;gold standard&quot;. The specificity of a test can be determined by calculating: number of true negative results divided by the sum of true negative results plus number of false positive results.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C41395"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>The frequency with which a test yields a true negative result among individuals who do not have the disease or the gene mutation in question. A test with high specificity has a low false-positive rate and thus does a good job of correctly classifying unaffected individuals.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C41395"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Diagnostic Specificity</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C41395"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Specificity</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C41395"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Specificity of Diagnostic Test</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C41395"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>specificity</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000322884</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C459 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C459">
@@ -4862,8 +6139,11 @@
         <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
         <obo:NCIT_P108>Medication</obo:NCIT_P108>
         <obo:NCIT_P207>C0013227</obo:NCIT_P207>
+        <obo:NCIT_P322>ACC/AHA</obo:NCIT_P322>
         <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
         <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>ICDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A drug product that contains one or more active and/or inactive ingredients; it is intended to treat, prevent or alleviate the symptoms of disease. This term does not refer to the individual ingredients that make up the product.</obo:NCIT_P325>
         <obo:NCIT_P325>A finished dosage form, for example, tablet, capsule, solution, etc., that contains an active drug ingredient generally, but not necessarily, in association with inactive ingredients. The term also includes a finished dosage form that does not contain an active ingredient but is intended to be used as a placebo. [21CFR210.3]</obo:NCIT_P325>
         <obo:NCIT_P325>A legal drug that is used to prevent, treat, or relieve symptoms of a disease or abnormal condition.</obo:NCIT_P325>
         <obo:NCIT_P366>Medication</obo:NCIT_P366>
@@ -4879,6 +6159,10 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156952"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156953"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C156954"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C165451"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C166371"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C166373"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C167409"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67497"/>
         <rdfs:label>Medication</rdfs:label>
@@ -4888,6 +6172,12 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A drug product that contains one or more active and/or inactive ingredients; it is intended to treat, prevent or alleviate the symptoms of disease. This term does not refer to the individual ingredients that make up the product.</owl:annotatedTarget>
         <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C459"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A drug product that contains one or more active and/or inactive ingredients; it is intended to treat, prevent or alleviate the symptoms of disease. This term does not refer to the individual ingredients that make up the product.</owl:annotatedTarget>
+        <obo:NCIT_P378>ACC/AHA</obo:NCIT_P378>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C459"/>
@@ -4934,6 +6224,14 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Medications</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>ACC/AHA</obo:NCIT_P384>
+        <obo:NCIT_P386>PCC</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C459"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Medications</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>CPTAC</obo:NCIT_P384>
     </owl:Axiom>
     <owl:Axiom>
@@ -4949,6 +6247,14 @@
         <owl:annotatedTarget>drug product</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>CDISC-GLOSS</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C459"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>medication</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>ICDC</obo:NCIT_P384>
+        <obo:NCIT_P386>ICDC</obo:NCIT_P386>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C459"/>
@@ -5052,6 +6358,150 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Adenovirus Vaccine</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C53287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C53287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19254"/>
+        <obo:IAO_0000115>A person qualified to be engaged in activity directed at preservation of mental and physical health by diseases prevention and treatment as a source of livelihood.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C53287</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_P107>Health Care Professional</obo:NCIT_P107>
+        <obo:NCIT_P108>Health Care Professional</obo:NCIT_P108>
+        <obo:NCIT_P207>C1704312</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P325>A person qualified to be engaged in activity directed at preservation of mental and physical health by diseases prevention and treatment as a source of livelihood. (NCI)</obo:NCIT_P325>
+        <obo:NCIT_P366>Health_Care_Professional</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>HEALTH CARE PROFESSIONAL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Health Care Professional</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Health Professional</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54447"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54584"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54585"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C54587"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C78735"/>
+        <rdfs:label>Health Care Professional</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53287"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A person qualified to be engaged in activity directed at preservation of mental and physical health by diseases prevention and treatment as a source of livelihood.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53287"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A person qualified to be engaged in activity directed at preservation of mental and physical health by diseases prevention and treatment as a source of livelihood. (NCI)</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53287"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>HEALTH CARE PROFESSIONAL</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53287"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>HEALTH CARE PROFESSIONAL</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>FDA</obo:NCIT_P384>
+        <obo:NCIT_P386>ICSR</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53287"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Health Care Professional</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53287"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Health Care Professional</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53287"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Health Professional</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C53462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C53462">
+        <obo:IAO_0000115>The act of going from one place to another.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C53462</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Travel</obo:NCIT_P108>
+        <obo:NCIT_P207>C0040802</obo:NCIT_P207>
+        <obo:NCIT_P366>Travel</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Travel</oboInOwl:hasExactSynonym>
+        <rdfs:label>Travel</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53462"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The act of going from one place to another.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53462"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Travel</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C61404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C61404">
+        <obo:IAO_0000115>The act of extending over a wider scope or expanse of space or time.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C61404</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Spread</obo:NCIT_P108>
+        <obo:NCIT_P207>C0332261</obo:NCIT_P207>
+        <obo:NCIT_P366>Spread</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Spread</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Spreading</oboInOwl:hasExactSynonym>
+        <rdfs:label>Spread</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61404"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The act of extending over a wider scope or expanse of space or time.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61404"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Spread</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61404"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Spreading</owl:annotatedTarget>
+        <obo:NCIT_P383>AD</obo:NCIT_P383>
         <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
     
@@ -5254,8 +6704,14 @@
         <obo:NCIT_P106>Therapeutic or Preventive Procedure</obo:NCIT_P106>
         <obo:NCIT_P108>Mechanical Ventilation</obo:NCIT_P108>
         <obo:NCIT_P207>C0199470</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A procedure that mechanically assists or replaces spontaneous breathing in patients by use of a powered device that forces oxygenated air into the lungs.</obo:NCIT_P325>
         <obo:NCIT_P366>Mechanical_Ventilation</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>MECHANICAL VENTILATION</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Mechanical Ventilation</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C101858"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
         <rdfs:label>Mechanical Ventilation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5266,8 +6722,270 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70909"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A procedure that mechanically assists or replaces spontaneous breathing in patients by use of a powered device that forces oxygenated air into the lungs.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70909"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>MECHANICAL VENTILATION</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70909"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Mechanical Ventilation</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C71104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C71104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15206"/>
+        <obo:IAO_0000115>A research study that prospectively assigns human participants or groups of humans to one or more health-related interventions to evaluate the effects on health outcomes.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C71104</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Research Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Clinical Trial</obo:NCIT_P108>
+        <obo:NCIT_P207>C0008976</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P325>1) A research investigation involving human subjects that is designed to answer specific questions about the safety and efficacy of a biomedical intervention (drug, treatment, device) or new ways of using a known drug, treatment, or device). 2) A research study in which one or more human subjects are prospectively assigned to one or more interventions (which may include placebo or other control) to evaluate the effects of those interventions on health-related biomedical or behavioral outcomes.(1. modified from ICH E6 Glossary, Directive 2001/20/EC. 2. NIH revised definition 2015) (CDISC Glossary)</obo:NCIT_P325>
+        <obo:NCIT_P325>A research investigation involving human subjects that is designed to answer specific questions about the safety and efficacy of a biomedical intervention (drug, treatment, device) or new ways of using a known drug, treatment, or device). NOTE: NIH Office of Science Policy further specifies that a clinical trial is a type of research study that prospectively assigns subjects to interventions, and the EU clinical trial regulations set forth 3 specific conditions, any one of which qualifies a study as a clinical trial. These conditions include applying diagnostic or monitoring procedures not used in normal clinical practice to subjects. [after ICH E6 [R2], EU CTR 2014] See also clinical study, clinical investigation.</obo:NCIT_P325>
+        <obo:NCIT_P325>A type of research study that tests how well new medical approaches work in people. These studies test new methods of screening, prevention, diagnosis, or treatment of a disease.</obo:NCIT_P325>
+        <obo:NCIT_P366>Clinical_Trial_Generic</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Clinical Trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Clinical Trials</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Clinical Trials, Unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>clinical trial</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C132298"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C132310"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67497"/>
+        <rdfs:label>Clinical Trial</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71104"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A research study that prospectively assigns human participants or groups of humans to one or more health-related interventions to evaluate the effects on health outcomes.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71104"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>1) A research investigation involving human subjects that is designed to answer specific questions about the safety and efficacy of a biomedical intervention (drug, treatment, device) or new ways of using a known drug, treatment, or device). 2) A research study in which one or more human subjects are prospectively assigned to one or more interventions (which may include placebo or other control) to evaluate the effects of those interventions on health-related biomedical or behavioral outcomes.(1. modified from ICH E6 Glossary, Directive 2001/20/EC. 2. NIH revised definition 2015) (CDISC Glossary)</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71104"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A research investigation involving human subjects that is designed to answer specific questions about the safety and efficacy of a biomedical intervention (drug, treatment, device) or new ways of using a known drug, treatment, or device). NOTE: NIH Office of Science Policy further specifies that a clinical trial is a type of research study that prospectively assigns subjects to interventions, and the EU clinical trial regulations set forth 3 specific conditions, any one of which qualifies a study as a clinical trial. These conditions include applying diagnostic or monitoring procedures not used in normal clinical practice to subjects. [after ICH E6 [R2], EU CTR 2014] See also clinical study, clinical investigation.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71104"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A type of research study that tests how well new medical approaches work in people. These studies test new methods of screening, prevention, diagnosis, or treatment of a disease.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71104"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Clinical Trial</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71104"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Clinical Trial</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71104"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Clinical Trial</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71104"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Clinical Trial</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P385>TCGA</obo:NCIT_P385>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71104"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Clinical Trials</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71104"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Clinical Trials, Unspecified</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71104"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Trial</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71104"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>clinical trial</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC-GLOSS</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71104"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>clinical trial</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000045961</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C71902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C71902">
+        <obo:IAO_0000115>Place into enforced isolation.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C71902</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Quarantine</obo:NCIT_P108>
+        <obo:NCIT_P207>C0034386</obo:NCIT_P207>
+        <obo:NCIT_P366>Quarantine</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Quarantine</oboInOwl:hasExactSynonym>
+        <rdfs:label>Quarantine</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71902"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Place into enforced isolation.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71902"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Quarantine</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C75419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C75419">
+        <obo:IAO_0000115>A United Nations agency established to coordinate international health activities and to help governments improve health services.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C75419</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Health Care Related Organization</obo:NCIT_P106>
+        <obo:NCIT_P108>World Health Organization</obo:NCIT_P108>
+        <obo:NCIT_P207>C0043237</obo:NCIT_P207>
+        <obo:NCIT_P325>A part of the United Nations that deals with major health issues around the world. The WHO sets standards for disease control, health care, and medicines; conducts education and research programs; and publishes scientific papers and reports. A major goal is to improve access to health care for people in developing countries and in groups who do not get good health care. The headquarters are located in Geneva, Switzerland.</obo:NCIT_P325>
+        <obo:NCIT_P366>World_Health_Organization</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>WHO</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>World Health Organization</oboInOwl:hasExactSynonym>
+        <rdfs:label>World Health Organization</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C75419"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A United Nations agency established to coordinate international health activities and to help governments improve health services.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+        <obo:NCIT_P381>WordNet</obo:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C75419"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A part of the United Nations that deals with major health issues around the world. The WHO sets standards for disease control, health care, and medicines; conducts education and research programs; and publishes scientific papers and reports. A major goal is to improve access to health care for people in developing countries and in groups who do not get good health care. The headquarters are located in Geneva, Switzerland.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C75419"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>WHO</owl:annotatedTarget>
+        <obo:NCIT_P383>AB</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C75419"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>WHO</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000559085</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C75419"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>World Health Organization</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C75419"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>World Health Organization</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000454794</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C75419"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>World Health Organization</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P385>TCGA</obo:NCIT_P385>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C82470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C82470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53287"/>
+        <obo:NCIT_NHC0>C82470</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Professional or Occupational Group</obo:NCIT_P106>
+        <obo:NCIT_P108>Veterinarian</obo:NCIT_P108>
+        <obo:NCIT_P207>C0242856</obo:NCIT_P207>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P366>Veterinarian</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Veterinarian</oboInOwl:hasExactSynonym>
+        <rdfs:label>Veterinarian</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82470"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Veterinarian</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>FDA</obo:NCIT_P384>
+        <obo:NCIT_P386>ICSR-CVM</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82470"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Veterinarian</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
@@ -5286,12 +7004,10 @@
         <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
         <obo:NCIT_P325>Change in a subject&apos;s clinical condition regarded as important whether or not due to the test intervention. NOTE: some statistically significant changes (in blood tests, for example) have no clinical significance. The criterion or criteria for clinical significance should be stated in the protocol. The term &quot;clinical significance&quot; is not advisable unless operationally defined.</obo:NCIT_P325>
         <obo:NCIT_P366>Clinical_Significance</obo:NCIT_P366>
-        <oboInOwl:hasExactSynonym>CLSIG</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Clinical Significance</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>clinical significance</oboInOwl:hasExactSynonym>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67497"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82590"/>
         <rdfs:label>Clinical Significance</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -5305,13 +7021,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
         <owl:annotatedTarget>Change in a subject&apos;s clinical condition regarded as important whether or not due to the test intervention. NOTE: some statistically significant changes (in blood tests, for example) have no clinical significance. The criterion or criteria for clinical significance should be stated in the protocol. The term &quot;clinical significance&quot; is not advisable unless operationally defined.</owl:annotatedTarget>
         <obo:NCIT_P378>CDISC-GLOSS</obo:NCIT_P378>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82562"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>CLSIG</owl:annotatedTarget>
-        <obo:NCIT_P383>PT</obo:NCIT_P383>
-        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C82562"/>

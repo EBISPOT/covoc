@@ -29,7 +29,7 @@ $(TEMPLATESDIR)/%.owl: $(TEMPLATESDIR)/%.tsv $(SRC)
 ## For COVOC we override imports altogether by removing post-facto all classes not in the seed.
 ## 
 imports/%_import.owl: mirror/%.owl imports/%_terms_combined.txt
-	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< -T imports/$*_terms_combined.txt --force true --method BOT \
+	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< --prefix "DBPEDIA: http://dbpedia.org/resource/" -T imports/$*_terms_combined.txt --force true --method BOT \
 		remove --base-iri $(URIBASE)"/$(shell echo $* | tr a-z A-Z)_" --axioms external --preserve-structure false --trim false \
 		query --update ../sparql/inject-subset-declaration.ru \
 		remove -T imports/$*_terms_combined.txt --select complement --select "classes individuals" \
@@ -57,6 +57,19 @@ imports/ncbitaxon_import.owl: mirror/ncbitaxon.owl imports/ncbitaxon_terms_combi
 		remove -T imports/ncbitaxon_terms_combined.txt --select complement --select "classes individuals" \
 		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
 .PRECIOUS: imports/ncbitaxon_import.owl
+	
+imports/dbpedia_import.owl: mirror/dbpedia.owl imports/dbpedia_terms_combined.txt
+	@if [ $(IMP) = true ]; then $(ROBOT) extract -i $< --prefix "DBPEDIA: http://dbpedia.org/resource/" -T imports/dbpedia_terms_combined.txt --force true --method BOT \
+		remove --base-iri "http://dbpedia.org/resource/" --axioms external --preserve-structure false --trim false \
+		query --update ../sparql/inject-subset-declaration.ru \
+		remove -T imports/dbpedia_terms_combined.txt --select complement --select "classes individuals" \
+		remove --term rdfs:seeAlso --term rdfs:comment --select "annotation-properties" \
+		query --update ../sparql/remove_chinese.ru  \
+		annotate --ontology-iri $(ONTBASE)/$@ --version-iri $(ONTBASE)/releases/$(TODAY)/$@ --output $@.tmp.owl && mv $@.tmp.owl $@; fi
+.PRECIOUS: imports/dbpedia_import.owl
+
+mirror/dbpedia.owl: mirror/hancestro.owl
+	cp $< $@
 
 meta: reports/covoc_metadata.csv
 	cp $< ../..

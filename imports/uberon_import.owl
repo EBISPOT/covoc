@@ -13,7 +13,7 @@
      xmlns:core1="http://purl.obolibrary.org/obo/core#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/uberon_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-05-28/imports/uberon_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-28/imports/uberon_import.owl"/>
     </owl:Ontology>
     
 
@@ -74,6 +74,12 @@
     <!-- http://purl.obolibrary.org/obo/UBPROP_0000003 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000003"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000005 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000005"/>
     
 
 
@@ -194,6 +200,14 @@
     <!-- http://purl.obolibrary.org/obo/uberon/core#grouping_class -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon/core#grouping_class">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon/core#homology_grouping -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/uberon/core#homology_grouping">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -367,6 +381,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasScope -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasScope"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
@@ -412,6 +432,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#ontology -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#ontology"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#order -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#order"/>
     
 
 
@@ -558,9 +584,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BSPO_0001108 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BSPO_0001108"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0001015 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001019 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001019"/>
     
 
 
@@ -591,6 +629,12 @@
     <!-- http://purl.obolibrary.org/obo/RO_0002150 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002150"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002170 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002170"/>
     
 
 
@@ -852,6 +896,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/uberon/core#protects -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon/core#protects"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/uberon/core#proximally_connected_to -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon/core#proximally_connected_to"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/uberon/core#subdivision_of -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/uberon/core#subdivision_of"/>
@@ -913,11 +969,273 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <obo:IAO_0000115>Excretion that is the output of a kidney</obo:IAO_0000115>
+        <obo:UBPROP_0000008>kidney excreta from some taxa (e.g. in aves) may not be liquid</obo:UBPROP_0000008>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Urine"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0042036"/>
+        <oboInOwl:hasDbXref>BTO:0001419</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-1092</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0001939</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:36554</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ENVO:00002047</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:12274</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1189</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002545</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MAT:0000058</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D014556</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000058</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C13283</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rvVjGppwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0042036</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Urine</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>UBERON:0001088</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>urine</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001088"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Excretion that is the output of a kidney</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Urine"/>
+        <oboInOwl:hasDbXref rdf:resource="https://github.com/geneontology/go-ontology/issues/11025"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001088"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0042036</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Urine</oboInOwl:source>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001836">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <obo:IAO_0000115>A fluid produced in the oral cavity by salivary glands, typically used in predigestion, but also in other functions.</obo:IAO_0000115>
+        <obo:UBPROP_0000007>salivary</obo:UBPROP_0000007>
+        <obo:UBPROP_0000008>We classify a wide variety of not necessarily homologous fluids here. In humans, the saliva is a turbid and slightly viscous fluid, generally of an alkaline reaction, and is secreted by the parotid, submaxillary, and sublingual glands. In the mouth the saliva is mixed with the secretion from the buccal glands. In man and many animals, saliva is an important digestive fluid on account of the presence of the peculiar enzyme, ptyalin</obo:UBPROP_0000008>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Saliva"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0036087"/>
+        <oboInOwl:hasDbXref>BTO:0001202</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0891</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EMAPA:36536</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ENVO:02000036</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:59862</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1167</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002507</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MAT:0000444</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D012463</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C13275</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rvVjJ95wpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0036087</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Saliva</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>salivary gland secretion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>sailva normalis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>saliva atomaris</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>saliva molecularis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0001836</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>saliva</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001836"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>saliva atomaris</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Saliva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#LATIN"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001836"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>saliva molecularis</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Saliva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#LATIN"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001836"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A fluid produced in the oral cavity by salivary glands, typically used in predigestion, but also in other functions.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Saliva"/>
+        <oboInOwl:hasDbXref>GO:0046541</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001836"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000008"/>
+        <owl:annotatedTarget>We classify a wide variety of not necessarily homologous fluids here. In humans, the saliva is a turbid and slightly viscous fluid, generally of an alkaline reaction, and is secreted by the parotid, submaxillary, and sublingual glands. In the mouth the saliva is mixed with the secretion from the buccal glands. In man and many animals, saliva is an important digestive fluid on account of the presence of the peculiar enzyme, ptyalin</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001836"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0036087</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Saliva</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001836"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>salivary gland secretion</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>FMA:59862</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001836"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>sailva normalis</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Saliva"/>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#LATIN"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001988">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <obo:IAO_0000115>Portion of semisolid bodily waste discharged through the anus[MW,modified]</obo:IAO_0000115>
+        <obo:UBPROP_0000001>Excretion in semisolid state processed by the intestine.[FMA]</obo:UBPROP_0000001>
+        <obo:UBPROP_0000007>fecal</obo:UBPROP_0000007>
+        <oboInOwl:hasBroadSynonym>excreta</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Feces"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0015733"/>
+        <oboInOwl:hasDbXref>BTO:0000440</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-2345</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ENVO:00002003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:64183</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GAID:1199</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MA:0002509</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MAT:0000053</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D005243</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MIAA:0000053</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C13234</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OpenCyc:Mx4rvVjJMZwpEbGdrcN5Y29ycA</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0015733</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>galen:Feces</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>faeces</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fecal material</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>fecal matter</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>matières fécales@fr</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>merde@fr</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>partie de la merde@fr</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>piece of shit</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>porción de mierda@es</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>portion of excrement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>portion of faeces</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>portion of fecal material</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>portion of fecal matter</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>portion of feces</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>portionem cacas</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stool</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>teil der fäkalien@de</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>cow dung</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>cow pat</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>dung</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>fewmet</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>frass</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>guano</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>portion of dung</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>portion of guano</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>portion of scat</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>scat</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>spraint</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>droppings</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>excrement</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ordure</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>spoor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>UBERON:0001988</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/uberon/core#uberon_slim"/>
+        <rdfs:label>feces</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Portion of semisolid bodily waste discharged through the anus[MW,modified]</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Feces"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.merriam-webster.com/dictionary/feces"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
+        <owl:annotatedTarget>Excretion in semisolid state processed by the intestine.[FMA]</owl:annotatedTarget>
+        <oboInOwl:source>FMA:64183</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0015733</owl:annotatedTarget>
+        <oboInOwl:source>ncithesaurus:Feces</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>piece of shit</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/23285307"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>portionem cacas</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/uberon/core#LATIN"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>cow dung</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Cow_dung"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>cow pat</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Cow_dung"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>fewmet</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Fewmet"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>frass</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Frass"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>guano</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Guano"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+        <owl:annotatedTarget>spraint</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Spraint"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>excrement</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>BTO:0000440</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
-        <obo:IAO_0000115>Respiration organ that develops as an oupocketing of the esophagus.</obo:IAO_0000115>
+        <obo:IAO_0000115>Respiration organ that develops as an outpocketing of the esophagus.</obo:IAO_0000115>
         <obo:UBPROP_0000001>Either of two organs which allow gas exchange absorbing oxygen from inhaled air and releasing carbon dioxide with exhaled air.[AAO]</obo:UBPROP_0000001>
         <obo:UBPROP_0000003>Lungs had already developed as paired ventral pockets from the intestine in the ancestor of Osteognathostomata. (...) In actinopterygian fishes, apart from Cladistia, the ventral intestinal pocket migrates dorsally and becomes the swim-bladder, a mainly hydrostatical organ (reference 1); Comparative transcriptome analyses indicate molecular homology of zebrafish swimbladder and Mammalian lung (reference 2).[well established][VHOG]</obo:UBPROP_0000003>
         <obo:UBPROP_0000007>pulmonary</obo:UBPROP_0000007>
@@ -960,7 +1278,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002048"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Respiration organ that develops as an oupocketing of the esophagus.</owl:annotatedTarget>
+        <owl:annotatedTarget>Respiration organ that develops as an outpocketing of the esophagus.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:resource="http://orcid.org/0000-0002-6601-2165"/>
     </owl:Axiom>
     <owl:Axiom>
