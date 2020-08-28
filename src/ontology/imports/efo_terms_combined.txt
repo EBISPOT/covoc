@@ -1,19 +1,13 @@
 http://creativecommons.org/licenses/by/4.0/
-http://dbpedia.org/resource/Asia
 http://dbpedia.org/resource/Canada
 http://dbpedia.org/resource/China
-http://dbpedia.org/resource/Europe
 http://dbpedia.org/resource/Hong_Kong
-http://dbpedia.org/resource/Hubei
 http://dbpedia.org/resource/Jordan
-http://dbpedia.org/resource/Middle_East
 http://dbpedia.org/resource/Saudi_Arabia
 http://dbpedia.org/resource/Singapore
 http://dbpedia.org/resource/South_Korea
 http://dbpedia.org/resource/Taiwan
 http://dbpedia.org/resource/United_States
-http://dbpedia.org/resource/West_Africa
-http://dbpedia.org/resource/Wu_Han
 http://purl.obolibrary.org/obo/CHEBI_134722
 http://purl.obolibrary.org/obo/CHEBI_134730
 http://purl.obolibrary.org/obo/CHEBI_135921
@@ -211,8 +205,6 @@ http://purl.obolibrary.org/obo/COVOC_0050023
 http://purl.obolibrary.org/obo/COVOC_0050027
 http://purl.obolibrary.org/obo/COVOC_0050028
 http://purl.obolibrary.org/obo/COVOC_0050029
-http://purl.obolibrary.org/obo/COVOC_0050030
-http://purl.obolibrary.org/obo/COVOC_0050031
 http://purl.obolibrary.org/obo/COVOC_0050033
 http://purl.obolibrary.org/obo/COVOC_0050034
 http://purl.obolibrary.org/obo/COVOC_0050035
@@ -223,7 +215,6 @@ http://purl.obolibrary.org/obo/COVOC_0050040
 http://purl.obolibrary.org/obo/COVOC_0050041
 http://purl.obolibrary.org/obo/COVOC_0050042
 http://purl.obolibrary.org/obo/COVOC_0050043
-http://purl.obolibrary.org/obo/COVOC_0050045
 http://purl.obolibrary.org/obo/COVOC_0050046
 http://purl.obolibrary.org/obo/COVOC_0050048
 http://purl.obolibrary.org/obo/COVOC_0050052
@@ -434,6 +425,7 @@ http://purl.obolibrary.org/obo/NCIT_C18190
 http://purl.obolibrary.org/obo/NCIT_C18279
 http://purl.obolibrary.org/obo/NCIT_C18469
 http://purl.obolibrary.org/obo/NCIT_C18473
+http://purl.obolibrary.org/obo/NCIT_C19254
 http://purl.obolibrary.org/obo/NCIT_C19311
 http://purl.obolibrary.org/obo/NCIT_C20401
 http://purl.obolibrary.org/obo/NCIT_C20464
@@ -453,6 +445,7 @@ http://purl.obolibrary.org/obo/NCIT_C41395
 http://purl.obolibrary.org/obo/NCIT_C459
 http://purl.obolibrary.org/obo/NCIT_C48938
 http://purl.obolibrary.org/obo/NCIT_C49146
+http://purl.obolibrary.org/obo/NCIT_C53287
 http://purl.obolibrary.org/obo/NCIT_C53462
 http://purl.obolibrary.org/obo/NCIT_C61404
 http://purl.obolibrary.org/obo/NCIT_C62648

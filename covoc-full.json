@@ -407,11 +407,11 @@
           "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
           "val" : "analysis"
         }, {
-          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
-          "val" : "Analysis"
-        }, {
           "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
           "val" : "C25391"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Analysis"
         }, {
           "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
           "val" : "CE_4"
@@ -3671,36 +3671,6 @@
       },
       "type" : "CLASS",
       "lbl" : "leflunomide"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IDO_0000001",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "_obsolete_role"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IDO_0000002",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "_obsolete_quality"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/IDO_0000000",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "_obsolete_process"
     }, {
       "id" : "http://dbpedia.org/resource/Jordan",
       "meta" : {
@@ -10879,6 +10849,99 @@
       "type" : "CLASS",
       "lbl" : "Cytokine"
     }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C53287",
+      "meta" : {
+        "definition" : {
+          "val" : "A person qualified to be engaged in activity directed at preservation of mental and physical health by diseases prevention and treatment as a source of livelihood.",
+          "xrefs" : [ ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/NCIT_C118169", "http://purl.obolibrary.org/obo/NCIT_C116977", "http://purl.obolibrary.org/obo/NCIT_C66830", "http://purl.obolibrary.org/obo/NCIT_C54584", "http://purl.obolibrary.org/obo/NCIT_C54585", "http://purl.obolibrary.org/obo/NCIT_C61410", "http://purl.obolibrary.org/obo/NCIT_C54587", "http://purl.obolibrary.org/obo/NCIT_C54447", "http://purl.obolibrary.org/obo/NCIT_C78735" ],
+        "xrefs" : [ {
+          "val" : "UMLS:C0018724"
+        }, {
+          "val" : "OMIT:0007454"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "health care worker",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Health Care Professional",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Health Professional",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "healthcare worker",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "HEALTH CARE PROFESSIONAL",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "HEALTH CARE PROFESSIONAL",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "health care professional",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Health Care Professional",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "healthcare professional",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Health Care Professional"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C53287"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P107",
+          "val" : "Health Care Professional"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CE_34"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CE_35"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "CDISC"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "FDA"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "health personnel"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P325",
+          "val" : "A person qualified to be engaged in activity directed at preservation of mental and physical health by diseases prevention and treatment as a source of livelihood. (NCI)"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Biomedical Occupation or Discipline"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P322",
+          "val" : "CTRP"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C1704312"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Health_Care_Professional"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Health Care Professional"
+    }, {
       "id" : "http://purl.obolibrary.org/obo/NCIT_C102527",
       "meta" : {
         "definition" : {
@@ -11429,6 +11492,56 @@
       },
       "type" : "CLASS",
       "lbl" : "rosuvastatin"
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/NCIT_C19254",
+      "meta" : {
+        "definition" : {
+          "val" : "Occupations within the field of medicine.",
+          "xrefs" : [ ]
+        },
+        "xrefs" : [ {
+          "val" : "OMIT:0009569"
+        }, {
+          "val" : "UMLS:C0025106"
+        } ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Medical Occupation",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Health Care Occupation",
+          "xrefs" : [ ]
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "medical occupation",
+          "xrefs" : [ ]
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P106",
+          "val" : "Biomedical Occupation or Discipline"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P207",
+          "val" : "C1513058"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P108",
+          "val" : "Medical Occupation"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_NHC0",
+          "val" : "C19254"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/NCIT_P366",
+          "val" : "Medical_Occupation"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+          "val" : "CE_50"
+        }, {
+          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+          "val" : "medical staff"
+        } ]
+      },
+      "type" : "CLASS",
+      "lbl" : "Medical Occupation"
     }, {
       "id" : "http://dbpedia.org/resource/Singapore",
       "meta" : {
@@ -18505,24 +18618,6 @@
       "type" : "CLASS",
       "lbl" : "penicillin"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/COVOC_0050031",
-      "meta" : {
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "healthcare workers",
-          "xrefs" : [ ]
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CE_35"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "healthcare worker"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "healthcare worker"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0030004",
       "meta" : {
         "xrefs" : [ {
@@ -18646,24 +18741,6 @@
       },
       "type" : "CLASS",
       "lbl" : "China"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/COVOC_0050030",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "OMIT:0007454"
-        }, {
-          "val" : "UMLS:C0018724"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CE_34"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "health personnel"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "health personnel"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0030002",
       "meta" : {
@@ -20370,24 +20447,6 @@
       "type" : "CLASS",
       "lbl" : "viral release from host cell"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/COVOC_0050045",
-      "meta" : {
-        "xrefs" : [ {
-          "val" : "UMLS:C0025106"
-        }, {
-          "val" : "OMIT:0009569"
-        } ],
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-          "val" : "medical staff"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-          "val" : "CE_50"
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "Medical Staff"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/CHEBI_33709",
       "meta" : {
         "definition" : {
@@ -21180,25 +21239,6 @@
       "type" : "CLASS",
       "lbl" : "preparedness"
     }, {
-      "id" : "http://purl.obolibrary.org/obo/CHMO_0000001",
-      "meta" : {
-        "definition" : {
-          "val" : "The determination of the spectral absorbance of a solution. This method is often used to determine the concentration of a chemical in a solution.",
-          "xrefs" : [ "https://orcid.org/0000-0002-0640-0422" ]
-        },
-        "synonyms" : [ {
-          "pred" : "hasExactSynonym",
-          "val" : "colourimetry",
-          "xrefs" : [ ]
-        }, {
-          "pred" : "hasExactSynonym",
-          "val" : "colorimetric method",
-          "xrefs" : [ ]
-        } ]
-      },
-      "type" : "CLASS",
-      "lbl" : "colorimetry"
-    }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0050052",
       "meta" : {
         "basicPropertyValues" : [ {
@@ -21211,21 +21251,6 @@
       },
       "type" : "CLASS",
       "lbl" : "positive rate"
-    }, {
-      "id" : "http://purl.obolibrary.org/obo/CHMO_0000000",
-      "meta" : {
-        "basicPropertyValues" : [ {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0100001",
-          "val" : "http://purl.obolibrary.org/obo/OBI_0000070"
-        }, {
-          "pred" : "http://www.w3.org/2002/07/owl#deprecated",
-          "val" : "true"
-        }, {
-          "pred" : "http://purl.obolibrary.org/obo/IAO_0000231",
-          "val" : "http://purl.obolibrary.org/obo/IAO_0000227"
-        } ]
-      },
-      "type" : "CLASS"
     }, {
       "id" : "http://purl.obolibrary.org/obo/COVOC_0050057",
       "meta" : {
@@ -27957,6 +27982,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C53287",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C19254"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C17039",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -28081,6 +28110,10 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C82470",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/NCIT_C53287"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0000822",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
@@ -28116,10 +28149,6 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030007",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHMO_0000001",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_P0DTC4",
       "pred" : "is_a",
@@ -28333,17 +28362,21 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070005",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0005002",
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070005",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0002"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CLO_0037208",
       "pred" : "subPropertyOf",
       "obj" : "http://purl.obolibrary.org/obo/RO_0001000"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/HANCESTRO_0002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/PR_Q9H2X3",
       "pred" : "is_a",
@@ -28550,10 +28583,6 @@
       "obj" : "http://purl.obolibrary.org/obo/HP_0012735"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHMO_0000002",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050030",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
@@ -28869,15 +28898,15 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_45409"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070002",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030029",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C61404",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050045",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
@@ -29021,10 +29050,6 @@
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0050031",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_48432",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
@@ -29061,11 +29086,11 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PR_000001471",
+      "sub" : "http://purl.obolibrary.org/obo/PR_P0DTC7",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/PR_P0DTC7",
+      "sub" : "http://purl.obolibrary.org/obo/PR_000001471",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
     }, {
@@ -29088,6 +29113,10 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040020",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C71104"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/NCIT_C19254",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0020005",
       "pred" : "is_a",
@@ -29169,13 +29198,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0090006",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CL_0000625",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000738"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0090006",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CHEBI_36080"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/MONDO_0100053",
       "pred" : "is_a",
@@ -29485,13 +29514,13 @@
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_9139"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020012",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_17334",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020012",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_48923",
       "pred" : "is_a",
@@ -29617,13 +29646,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://www.ebi.ac.uk/efo/EFO_0000727",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_21241",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://www.ebi.ac.uk/efo/EFO_0000727",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C3833",
       "pred" : "is_a",
@@ -29633,13 +29662,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020015",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_46195",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0020015",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030011",
       "pred" : "is_a",
@@ -29853,13 +29882,13 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/MONDO_0006502",
-      "pred" : "is_a",
-      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040031",
       "pred" : "http://purl.obolibrary.org/obo/OBI_0000293",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000134"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/MONDO_0006502",
+      "pred" : "is_a",
+      "obj" : "http://www.ebi.ac.uk/efo/EFO_0000408"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C15220",
       "pred" : "is_a",
@@ -30077,6 +30106,10 @@
       "pred" : "is_a",
       "obj" : "http://www.ebi.ac.uk/efo/EFO_0000651"
     }, {
+      "sub" : "http://purl.obolibrary.org/obo/CHEBI_52217",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
+    }, {
       "sub" : "http://purl.obolibrary.org/obo/CHEBI_59163",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
@@ -30084,10 +30117,6 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010045",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/OBI_0000070"
-    }, {
-      "sub" : "http://purl.obolibrary.org/obo/CHEBI_52217",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/NCIT_C20464",
       "pred" : "is_a",
@@ -30289,10 +30318,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CL_0000010"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/NCIT_C82470",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0040029",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/NCIT_C71104"
@@ -30329,10 +30354,6 @@
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/MONDO_0005550"
     }, {
-      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070001",
-      "pred" : "is_a",
-      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0003"
-    }, {
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0010014",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/COVOC_00000000"
@@ -30340,6 +30361,10 @@
       "sub" : "http://purl.obolibrary.org/obo/COVOC_0030021",
       "pred" : "is_a",
       "obj" : "http://purl.obolibrary.org/obo/CHEBI_24431"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/COVOC_0070001",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/HANCESTRO_0002"
     }, {
       "sub" : "http://purl.obolibrary.org/obo/HP_0033006",
       "pred" : "is_a",
@@ -30429,6 +30454,9 @@
         "val" : "Naderi Nona (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)"
       }, {
         "pred" : "http://purl.org/dc/elements/1.1/creator",
+        "val" : "Nicolas Matentzoglu (EMBL-EBI)"
+      }, {
+        "pred" : "http://purl.org/dc/elements/1.1/creator",
         "val" : "Paola Roncaglia (EMBL-EBI)"
       }, {
         "pred" : "http://purl.org/dc/elements/1.1/creator",
@@ -30438,7 +30466,7 @@
         "val" : "Zoe Pendlington  (EMBL-EBI)"
       }, {
         "pred" : "http://purl.org/dc/elements/1.1/description",
-        "val" : "None"
+        "val" : "The COVID-19 Vocabulary (COVoc) is an ontology containing terms related to the research of the COVID-19 pandemic. This includes host organisms, pathogenicity, gene and gene products, barrier gestures, treatments and more."
       }, {
         "pred" : "http://purl.org/dc/elements/1.1/title",
         "val" : "CoVoc Coronavirus Vocabulary"
@@ -30446,7 +30474,7 @@
         "pred" : "http://purl.org/dc/terms/license",
         "val" : "http://creativecommons.org/licenses/by/4.0/"
       } ],
-      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-08-26/covoc-full.json"
+      "version" : "http://purl.obolibrary.org/obo/covoc/releases/2020-08-28/covoc-full.json"
     },
     "equivalentNodesSets" : [ ],
     "logicalDefinitionAxioms" : [ {

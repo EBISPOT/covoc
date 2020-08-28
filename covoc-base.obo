@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: covoc/releases/2020-08-26/covoc-base.owl
+data-version: covoc/releases/2020-08-28/covoc-base.owl
 ontology: covoc/covoc-base
 property_value: http://purl.org/dc/elements/1.1/creator "Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
@@ -7,10 +7,11 @@ property_value: http://purl.org/dc/elements/1.1/creator "Michel Pierre-André (S
 property_value: http://purl.org/dc/elements/1.1/creator "Mottaz Anaïs (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Mottin Luc (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Naderi Nona (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "Nicolas Matentzoglu (EMBL-EBI)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Paola Roncaglia (EMBL-EBI)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Ruch Patrick (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Zoe Pendlington  (EMBL-EBI)" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The COVID-19 Vocabulary (COVoc) is an ontology containing terms related to the research of the COVID-19 pandemic. This includes host organisms, pathogenicity, gene and gene products, barrier gestures, treatments and more." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "CoVoc Coronavirus Vocabulary" xsd:string
 property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
@@ -1924,23 +1925,6 @@ property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_33" x
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "health emergency" xsd:string
 
 [Term]
-id: COVOC:0050030
-name: health personnel
-xref: OMIT:0007454
-xref: UMLS:C0018724
-is_a: COVOC:00000000 ! COVOC Term
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_34" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "health personnel" xsd:string
-
-[Term]
-id: COVOC:0050031
-name: healthcare worker
-synonym: "healthcare workers" EXACT []
-is_a: COVOC:00000000 ! COVOC Term
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_35" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "healthcare worker" xsd:string
-
-[Term]
 id: COVOC:0050033
 name: Huanan market
 is_a: COVOC:00000000 ! COVOC Term
@@ -2012,15 +1996,6 @@ synonym: "masks" EXACT []
 is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_48" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "mask" xsd:string
-
-[Term]
-id: COVOC:0050045
-name: Medical Staff
-xref: OMIT:0009569
-xref: UMLS:C0025106
-is_a: COVOC:00000000 ! COVOC Term
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_50" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "medical staff" xsd:string
 
 [Term]
 id: COVOC:0050046
@@ -2162,13 +2137,14 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "huma
 id: COVOC:0070001
 name: Wu Bei
 synonym: "Wubei" EXACT []
-is_a: HANCESTRO:0003
+is_a: HANCESTRO:0002
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_15" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Wu Bei" xsd:string
 
 [Term]
 id: COVOC:0070002
 name: Hubei
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_6" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Hubei" xsd:string
 
@@ -2192,7 +2168,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "West
 id: COVOC:0070005
 name: Wu Han
 synonym: "Wuhan" EXACT []
-is_a: HANCESTRO:0003
+is_a: HANCESTRO:0002
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_16" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Wu Han" xsd:string
 
@@ -2773,6 +2749,10 @@ property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_147"
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_55" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "genetic transcription" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "nucleic acid-templated transcription" xsd:string
+
+[Term]
+id: HANCESTRO:0002
+is_a: COVOC:00000000 ! COVOC Term
 
 [Term]
 id: HANCESTRO:0003
@@ -3856,6 +3836,15 @@ property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_126"
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "RNA analysis" xsd:string
 
 [Term]
+id: NCIT:C19254
+synonym: "medical occupation" EXACT []
+xref: OMIT:0009569
+xref: UMLS:C0025106
+is_a: COVOC:00000000 ! COVOC Term
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_50" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "medical staff" xsd:string
+
+[Term]
 id: NCIT:C19311
 xref: UMLS:C0031166
 is_a: COVOC:00000000 ! COVOC Term
@@ -3994,6 +3983,19 @@ property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_1" x
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "adenovirus vaccine" xsd:string
 
 [Term]
+id: NCIT:C53287
+synonym: "health care professional" EXACT []
+synonym: "health care worker" EXACT []
+synonym: "healthcare professional" EXACT []
+synonym: "healthcare worker" EXACT []
+xref: OMIT:0007454
+xref: UMLS:C0018724
+is_a: NCIT:C19254
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_34" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_35" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "health personnel" xsd:string
+
+[Term]
 id: NCIT:C53462
 xref: UMLS:C0040802
 is_a: COVOC:00000000 ! COVOC Term
@@ -4057,6 +4059,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Worl
 id: NCIT:C82470
 xref: UMLS:C0242856
 is_a: COVOC:00000000 ! COVOC Term
+is_a: NCIT:C53287
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_88" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "veterinarian" xsd:string
 

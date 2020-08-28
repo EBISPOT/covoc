@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: covoc/releases/2020-08-26/covoc-full.owl
+data-version: covoc/releases/2020-08-28/covoc-full.owl
 subsetdef: 1_STAR ""
 subsetdef: 2_STAR ""
 subsetdef: 3_STAR ""
@@ -187,10 +187,11 @@ property_value: http://purl.org/dc/elements/1.1/creator "Michel Pierre-André (S
 property_value: http://purl.org/dc/elements/1.1/creator "Mottaz Anaïs (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Mottin Luc (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Naderi Nona (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "Nicolas Matentzoglu (EMBL-EBI)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Paola Roncaglia (EMBL-EBI)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Ruch Patrick (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Zoe Pendlington  (EMBL-EBI)" xsd:string
-property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/description "The COVID-19 Vocabulary (COVoc) is an ontology containing terms related to the research of the COVID-19 pandemic. This includes host organisms, pathogenicity, gene and gene products, barrier gestures, treatments and more." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "CoVoc Coronavirus Vocabulary" xsd:string
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
 
@@ -2915,14 +2916,6 @@ property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DG_73" x
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Thalidomide" xsd:string
 
 [Term]
-id: CHMO:0000001
-name: colorimetry
-def: "The determination of the spectral absorbance of a solution. This method is often used to determine the concentration of a chemical in a solution." [https://orcid.org/0000-0002-0640-0422]
-synonym: "colorimetric method" EXACT []
-synonym: "colourimetry" EXACT []
-is_a: OBI:0000070 ! assay
-
-[Term]
 id: CHMO:0000002
 name: gravimetric sorption analysis
 def: "The determination of the mass of a gas or vapour adsorbed to a surface." [https://orcid.org/0000-0002-0640-0422]
@@ -4296,23 +4289,6 @@ property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_33" x
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "health emergency" xsd:string
 
 [Term]
-id: COVOC:0050030
-name: health personnel
-xref: OMIT:0007454
-xref: UMLS:C0018724
-is_a: COVOC:00000000 ! COVOC Term
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_34" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "health personnel" xsd:string
-
-[Term]
-id: COVOC:0050031
-name: healthcare worker
-synonym: "healthcare workers" EXACT []
-is_a: COVOC:00000000 ! COVOC Term
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_35" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "healthcare worker" xsd:string
-
-[Term]
 id: COVOC:0050033
 name: Huanan market
 is_a: COVOC:00000000 ! COVOC Term
@@ -4384,15 +4360,6 @@ synonym: "masks" EXACT []
 is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_48" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "mask" xsd:string
-
-[Term]
-id: COVOC:0050045
-name: Medical Staff
-xref: OMIT:0009569
-xref: UMLS:C0025106
-is_a: COVOC:00000000 ! COVOC Term
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_50" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "medical staff" xsd:string
 
 [Term]
 id: COVOC:0050046
@@ -4534,13 +4501,14 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "huma
 id: COVOC:0070001
 name: Wu Bei
 synonym: "Wubei" EXACT []
-is_a: HANCESTRO:0003 ! country
+is_a: HANCESTRO:0002 ! region
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_15" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Wu Bei" xsd:string
 
 [Term]
 id: COVOC:0070002
 name: Hubei
+is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_6" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Hubei" xsd:string
 
@@ -4564,7 +4532,7 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "West
 id: COVOC:0070005
 name: Wu Han
 synonym: "Wuhan" EXACT []
-is_a: HANCESTRO:0003 ! country
+is_a: HANCESTRO:0002 ! region
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_16" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Wu Han" xsd:string
 
@@ -5962,6 +5930,7 @@ id: HANCESTRO:0002
 name: region
 def: "Any geographic area greater than an individual country but smaller than a continent, used as a convenience reference. Please note that most  geographic areas may not be formally defined and exact boundaries can be debatable." []
 synonym: "geographical area" EXACT []
+is_a: COVOC:00000000 ! COVOC Term
 
 [Term]
 id: HANCESTRO:0003
@@ -6482,21 +6451,6 @@ xref: UMLS:C0019907
 is_a: HANCESTRO:0003 ! country
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "LOC_5" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "Honk Kong" xsd:string
-
-[Term]
-id: IDO:0000000
-name: _obsolete_process
-is_obsolete: true
-
-[Term]
-id: IDO:0000001
-name: _obsolete_role
-is_obsolete: true
-
-[Term]
-id: IDO:0000002
-name: _obsolete_quality
-is_obsolete: true
 
 [Term]
 id: IDO:0000463
@@ -8943,6 +8897,24 @@ property_value: NCIT:P322 "CTRP" xsd:string
 property_value: NCIT:P366 "RNA_Analysis" xsd:string
 
 [Term]
+id: NCIT:C19254
+name: Medical Occupation
+def: "Occupations within the field of medicine." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
+synonym: "Health Care Occupation" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Medical Occupation" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "medical occupation" EXACT []
+xref: OMIT:0009569
+xref: UMLS:C0025106
+is_a: COVOC:00000000 ! COVOC Term
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_50" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "medical staff" xsd:string
+property_value: NCIT:NHC0 "C19254" xsd:string
+property_value: NCIT:P106 "Biomedical Occupation or Discipline" xsd:string
+property_value: NCIT:P108 "Medical Occupation" xsd:string
+property_value: NCIT:P207 "C1513058" xsd:string
+property_value: NCIT:P366 "Medical_Occupation" xsd:string
+
+[Term]
 id: NCIT:C19311
 name: Permissiveness
 def: "Allowing establishment of infection or acceptance of graft material." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
@@ -9136,8 +9108,8 @@ property_value: NCIT:P366 "Sensitivity" xsd:string
 id: NCIT:C25277
 name: Therapeutic
 def: "Relating to or involved in therapy." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
-synonym: "Therapeutic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Therapeutic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Therapeutic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "therapeutic" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P385="CDR0000043985", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 is_a: COVOC:00000000 ! COVOC Term
 property_value: NCIT:NHC0 "C25277" xsd:string
@@ -9163,8 +9135,8 @@ synonym: "ID" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://pu
 synonym: "ID" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="AB", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Identifier" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Identifier" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
-synonym: "identifier" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="BRIDG 3.0.3"}
 synonym: "identifier" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="BRIDG 5.3"}
+synonym: "identifier" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="BRIDG 3.0.3"}
 xref: UMLS:C0683368
 is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_141" xsd:string
@@ -9380,6 +9352,45 @@ property_value: NCIT:P207 "C1552907" xsd:string
 property_value: NCIT:P366 "Adenovirus_Vaccine" xsd:string
 
 [Term]
+id: NCIT:C53287
+name: Health Care Professional
+def: "A person qualified to be engaged in activity directed at preservation of mental and physical health by diseases prevention and treatment as a source of livelihood." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
+subset: NCIT:C116977
+subset: NCIT:C118169
+subset: NCIT:C54447
+subset: NCIT:C54584
+subset: NCIT:C54585
+subset: NCIT:C54587
+subset: NCIT:C61410
+subset: NCIT:C66830
+subset: NCIT:C78735
+synonym: "HEALTH CARE PROFESSIONAL" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P386="ICSR", http://purl.obolibrary.org/obo/NCIT_P384="FDA"}
+synonym: "HEALTH CARE PROFESSIONAL" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
+synonym: "Health Care Professional" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P384="CTRP", http://purl.obolibrary.org/obo/NCIT_P383="DN"}
+synonym: "Health Care Professional" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "health care professional" EXACT []
+synonym: "health care worker" EXACT []
+synonym: "Health Professional" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "healthcare professional" EXACT []
+synonym: "healthcare worker" EXACT []
+xref: OMIT:0007454
+xref: UMLS:C0018724
+is_a: NCIT:C19254 ! Medical Occupation
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_34" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_35" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "health personnel" xsd:string
+property_value: NCIT:NHC0 "C53287" xsd:string
+property_value: NCIT:P106 "Biomedical Occupation or Discipline" xsd:string
+property_value: NCIT:P107 "Health Care Professional" xsd:string
+property_value: NCIT:P108 "Health Care Professional" xsd:string
+property_value: NCIT:P207 "C1704312" xsd:string
+property_value: NCIT:P322 "CDISC" xsd:string
+property_value: NCIT:P322 "CTRP" xsd:string
+property_value: NCIT:P322 "FDA" xsd:string
+property_value: NCIT:P325 "A person qualified to be engaged in activity directed at preservation of mental and physical health by diseases prevention and treatment as a source of livelihood. (NCI)" xsd:string {http://purl.obolibrary.org/obo/NCIT_P378="CDISC"}
+property_value: NCIT:P366 "Health_Care_Professional" xsd:string
+
+[Term]
 id: NCIT:C53462
 name: Travel
 def: "The act of going from one place to another." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
@@ -9461,8 +9472,8 @@ name: Purification
 def: "The process of removing impurities." [] {http://purl.obolibrary.org/obo/NCIT_P378="NCI"}
 comment: Functional Concept
 subset: NCIT:C112906
-synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Purification" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P386="eManu", http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="FDA"}
 synonym: "Purified" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="AD", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Purify" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
@@ -9512,8 +9523,8 @@ subset: NCIT:C61410
 subset: NCIT:C67497
 synonym: "Clinical Trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Clinical Trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC"}
-synonym: "Clinical Trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Clinical Trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
+synonym: "Clinical Trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="TCGA", http://purl.obolibrary.org/obo/NCIT_P386="caDSR", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "clinical trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="CDISC-GLOSS"}
 synonym: "clinical trial" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P385="CDR0000045961", http://purl.obolibrary.org/obo/NCIT_P384="NCI-GLOSS"}
 synonym: "Clinical Trials" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="SY", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
@@ -9570,7 +9581,7 @@ name: Veterinarian
 synonym: "Veterinarian" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Veterinarian" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P386="ICSR-CVM", http://purl.obolibrary.org/obo/NCIT_P384="FDA"}
 xref: UMLS:C0242856
-is_a: COVOC:00000000 ! COVOC Term
+is_a: NCIT:C53287 ! Health Care Professional
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_88" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "veterinarian" xsd:string
 property_value: NCIT:NHC0 "C82470" xsd:string
@@ -9687,7 +9698,6 @@ property_value: IAO:0000412 http://purl.obolibrary.org/obo/obi.owl
 [Term]
 id: OBI:0000070
 name: assay
-alt_id: CHMO:0000000
 def: "A planned process with the objective to produce information about the material entity that is the evaluant, by physically examining it or its proxies." []
 comment: Laboratory Procedure
 xref: UMLS:C0005507
