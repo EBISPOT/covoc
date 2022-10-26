@@ -46,7 +46,7 @@ CE_46	large number	large numbers					COVOC:0050041		CE_46	large number	obo:COVOC
 CE_47	lethality						COVOC:0050042		CE_47	lethality	obo:COVOC_00000000	lethality									
 CE_48	masks	mask					COVOC:0050043		CE_48	masks	obo:COVOC_00000000	mask	masks								
 CE_49	Mathematical Model	mathematical models	C0876936	[Intellectual Product]			NCIT:C16870		CE_49			mathematical model						UMLS:C0876936			
-CE_50	Medical Staff		C0025106	[Professional or Occupational Group]			NCIT:C19254		CE_50		obo:COVOC_00000000	medical staff	medical occupation					UMLS:C0025106||OMIT:0009569			
+CE_50	Medical Staff		C0025106	[Professional or Occupational Group]			NCIT:C19254		CE_50			medical staff	medical occupation					UMLS:C0025106||OMIT:0009569			
 CE_51	Men		C0025266	[Population Group]			PATO:0000384		CE_51			male		man||men				UMLS:C0025266			
 CE_52	non-social distancing						COVOC:0050046		CE_52	non-social distancing	obo:COVOC_00000000	non-social distancing									
 CE_53	oxygen				PUBLIC - Clinical observations extracted from ED notes of SARS-CoV-2 tested patients 3/31/2020 - https://docs.google.com/spreadsheets/d/1iZZvbv94fpZdC6XaiPosiniMOh18etSPliAXVlLLr1w/edit#gid=0		CHEBI:15379		CE_53			oxygen									
