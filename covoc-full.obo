@@ -2997,6 +2997,7 @@ creation_date: 2009-09-17T04:03:38Z
 id: CIDO:0000371
 name: SARS-CoV-2 Alpha variant
 is_a: CIDO:0000407 ! SARS-CoV-2 based on WHO classification
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_22" xsd:string
 property_value: IAO:0000117 "Anthony Huffman, Yongqun \"Oliver\" He" xsd:string
 property_value: IAO:0000118 "Nextstrain clade 20I" xsd:string
 property_value: IAO:0000119 https://nextstrain.org/ncov/gisaid/global9 xsd:string
@@ -3007,6 +3008,7 @@ id: CIDO:0000375
 name: SARS-CoV-2 Beta variant
 def: "Nextstrain clade 20H" []
 is_a: CIDO:0000407 ! SARS-CoV-2 based on WHO classification
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_23" xsd:string
 property_value: IAO:0000117 "Anthony Huffman, Yongqun \"Oliver\" He" xsd:string
 property_value: IAO:0000119 https://nextstrain.org/ncov/gisaid/global xsd:string
 
@@ -3015,6 +3017,7 @@ id: CIDO:0000376
 name: SARS-CoV-2 Delta variant
 def: "Nextstrain clade 21A" []
 is_a: CIDO:0000407 ! SARS-CoV-2 based on WHO classification
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_25" xsd:string
 property_value: IAO:0000117 "Anthony Huffman, Yongqun \"Oliver\" He" xsd:string
 property_value: IAO:0000119 https://nextstrain.org/ncov/gisaid/global xsd:string
 
@@ -3023,6 +3026,7 @@ id: CIDO:0000377
 name: SARS-CoV-2 Gamma variant
 def: "Nextstrain clade 20J" []
 is_a: CIDO:0000407 ! SARS-CoV-2 based on WHO classification
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_24" xsd:string
 property_value: IAO:0000117 "Anthony Huffman, Yongqun \"Oliver\" He" xsd:string
 property_value: IAO:0000119 https://nextstrain.org/ncov/gisaid/global xsd:string
 
@@ -3030,18 +3034,21 @@ property_value: IAO:0000119 https://nextstrain.org/ncov/gisaid/global xsd:string
 id: CIDO:0000378
 name: SARS-CoV-2 Epsilon variant
 is_a: CIDO:0000407 ! SARS-CoV-2 based on WHO classification
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_26" xsd:string
 property_value: IAO:0000117 "Anthony Huffman, Yongqun \"Oliver\" He" xsd:string
 
 [Term]
 id: CIDO:0000379
 name: SARS-CoV-2 Zeta variant
 is_a: CIDO:0000407 ! SARS-CoV-2 based on WHO classification
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_32" xsd:string
 property_value: IAO:0000117 "Anthony Huffman, Yongqun \"Oliver\" He" xsd:string
 
 [Term]
 id: CIDO:0000380
 name: SARS-CoV-2 Eta variant
 is_a: CIDO:0000407 ! SARS-CoV-2 based on WHO classification
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_27" xsd:string
 property_value: IAO:0000117 "Anthony Huffman, Yongqun \"Oliver\" He" xsd:string
 
 [Term]
@@ -3054,12 +3061,14 @@ property_value: IAO:0000117 "Anthony Huffman, Yongqun \"Oliver\" He" xsd:string
 id: CIDO:0000382
 name: SARS-CoV-2 Iota variant
 is_a: CIDO:0000407 ! SARS-CoV-2 based on WHO classification
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_28" xsd:string
 property_value: IAO:0000117 "Anthony Huffman, Yongqun \"Oliver\" He" xsd:string
 
 [Term]
 id: CIDO:0000383
 name: SARS-CoV-2 Kappa variant
 is_a: CIDO:0000407 ! SARS-CoV-2 based on WHO classification
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_29" xsd:string
 property_value: IAO:0000117 "Anthony Huffman, Yongqun \"Oliver\" He" xsd:string
 
 [Term]
@@ -3078,6 +3087,7 @@ id: CIDO:0000590
 name: SARS-CoV-2 Omicron variant
 synonym: "Nextstrain clade 21K; Nextstrain clde 21L; Nextstrain clade 21M" BROAD []
 is_a: CIDO:0000407 ! SARS-CoV-2 based on WHO classification
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_33" xsd:string
 property_value: IAO:0000117 "Anthony Huffman, Yongqun \"Oliver\" He" xsd:string
 property_value: IAO:0000119 https://nextstrain.org/ncov/gisaid/global9 xsd:string
 creation_date: 1/30/2022
@@ -3489,14 +3499,9 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "prob
 
 [Term]
 id: COVOC:0010048
-comment: Molecular Biology Research Technique
-synonym: "massively parallel sequencing" EXACT []
-synonym: "massively-parallel sequencing" EXACT []
-xref: ERO:0001211
-xref: UMLS:C2936622
-is_a: OBI:0000070 ! assay
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_87" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "massively parallel signature sequencing" xsd:string
+name: obsolete_massively parallel signature sequencing
+is_obsolete: true
+replaced_by: EFO:0010805
 
 [Term]
 id: COVOC:0020001
@@ -4696,6 +4701,20 @@ is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "continent" xsd:string
 
 [Term]
+id: COVOC:0080001
+name: SARS-CoV-2 1.617.3 variant
+is_a: CIDO:0000407 ! SARS-CoV-2 based on WHO classification
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_30" xsd:string
+
+[Term]
+id: COVOC:0080002
+name: SARS-CoV-2 Mu variant
+synonym: "SARS-CoV-2 B.1.621 variant" EXACT []
+synonym: "SARS-CoV-2 B.1.621.1 variant" EXACT []
+is_a: CIDO:0000407 ! SARS-CoV-2 based on WHO classification
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_31" xsd:string
+
+[Term]
 id: COVOC:0090001
 name: CLEC4M gene
 comment: Gene or Genome
@@ -4753,12 +4772,6 @@ synonym: "haemagglutinin-esterase" NARROW []
 synonym: "HEF" RELATED []
 is_a: CHEBI:36080 ! protein
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "haemagglutinin-esterase fusion glycoprotein" xsd:string
-
-[Term]
-id: COVOC:9999999
-name: obsolete example
-is_obsolete: true
-replaced_by: NCIT:C48938
 
 [Term]
 id: EFO:0000001
@@ -5461,6 +5474,17 @@ is_a: EFO:0000651 ! phenotype
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_4" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "afebrile" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "paola" xsd:string
+
+[Term]
+id: EFO:0010805
+comment: Molecular Biology Research Technique
+synonym: "massively parallel sequencing" EXACT []
+synonym: "massively-parallel sequencing" EXACT []
+xref: ERO:0001211
+xref: UMLS:C2936622
+is_a: OBI:0000070 ! assay
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_87" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "massively parallel signature sequencing" xsd:string
 
 [Term]
 id: GO:0002250
@@ -9100,7 +9124,6 @@ synonym: "Medical Occupation" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383
 synonym: "medical occupation" EXACT []
 xref: OMIT:0009569
 xref: UMLS:C0025106
-is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_50" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "medical staff" xsd:string
 property_value: NCIT:NHC0 "C19254" xsd:string
@@ -9810,6 +9833,7 @@ name: Veterinarian
 synonym: "Veterinarian" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P384="NCI"}
 synonym: "Veterinarian" EXACT [] {http://purl.obolibrary.org/obo/NCIT_P383="PT", http://purl.obolibrary.org/obo/NCIT_P386="ICSR-CVM", http://purl.obolibrary.org/obo/NCIT_P384="FDA"}
 xref: UMLS:C0242856
+is_a: COVOC:00000000 ! COVOC Term
 is_a: NCIT:C53287 ! Health Care Professional
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_88" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "veterinarian" xsd:string

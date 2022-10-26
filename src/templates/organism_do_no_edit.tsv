@@ -21,18 +21,18 @@ SP_21	virus		SARS-CoV	Severe acute respiratory distress syndrome coronavirus | 
 			Orthomyxoviridae						NCBITaxon:11308	SP_13			Orthomyxoviridae		influenza virus||influenzvirus||Alphainfluenzavirus||Influenzavirus A||Influenza A virus||Betainfluenzavirus||Influenzavirus B||Influenza B virus||Deltainfluenzavirus||Influenzavirus D||Influenza D virus||Gammainfluenzavirus||Influenzavirus C||Influenza C virus				UMLS:C4316910		
 			Riboviria	RNA virus||rnvirus||rnviruses					NCBITaxon:2559587	BMV_130||BMV_131||BMV_132||BMV_133			Riboviria	RNA virus||rnvirus||rnviruses					UMLS:C0035691		
 			Human orthopneumovirus			[Virus]			NCBITaxon:11250	SP_19			Human orthopneumovirus			respiratory virus||respiratory viruses			UMLS:C0597404	Virus	
-SP_22	virus		Alpha	B.1.1.7		[Virus]	https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html		OBI:0100026			EFO:0000001	organism								
-SP_23	virus		Beta	B.1.351		[Virus]	https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html		NCBITaxon:76804			NCBITaxon:2559587	Nidovirales	Nodovirus||Nidoviruses							Paola added term based on EMBL conference
-SP_24	virus		Gamma	P.1		[Virus]	https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html		NCBITaxon:693996			NCBITaxon:11118	Alphacoronavirus								Paola added term based on EMBL conference
-SP_25	virus		Delta	B.1.617.2		[Virus]	https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html		NCBITaxon:277944			NCBITaxon:693996	Human coronavirus NL63				NL63				Paola added term based on EMBL conference
-SP_26	virus		Epsilon	B.1.427		[Virus]	https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html		NCBITaxon:2509511			NCBITaxon:694002	Sarbecovirus								Paola added term based on EMBL conference
-SP_27	virus		Eta	B.1.525		[Virus]	https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html		CIDO:0000371	SP_22											
-SP_28	virus		Iota	B.1.526		[Virus]	https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html		CIDO:0000375	SP_23											
-SP_29	virus		Kappa	B.1.617.1		[Virus]	https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html		CIDO:0000377	SP_24											
-SP_30	virus		1.617.3			[Virus]	https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html		CIDO:0000376	SP_25											
-SP_31	virus		Mu	B.1.621;B.1.621.1		[Virus]	https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html		CIDO:0000378	SP_26											
-SP_32	virus		Zeta	P.2		[Virus]	https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html		CIDO:0000380	SP_27											
-SP_33	virus		Omicron	B.1.1.529;BA.1;BA.1.1;BA.2;BA.3;BA.4;BA.5		[Virus]	https://www.cdc.gov/coronavirus/2019-ncov/variants/variant-classifications.html		CIDO:0000382	SP_28											
+SP_22	virus		Alpha	B.1.1.7		[Virus]			OBI:0100026			EFO:0000001	organism								
+SP_23	virus		Beta	B.1.351		[Virus]			NCBITaxon:76804			NCBITaxon:2559587	Nidovirales	Nodovirus||Nidoviruses							Paola added term based on EMBL conference
+SP_24	virus		Gamma	P.1		[Virus]			NCBITaxon:693996			NCBITaxon:11118	Alphacoronavirus								Paola added term based on EMBL conference
+SP_25	virus		Delta	B.1.617.2		[Virus]			NCBITaxon:277944			NCBITaxon:693996	Human coronavirus NL63				NL63				Paola added term based on EMBL conference
+SP_26	virus		Epsilon	B.1.427		[Virus]			NCBITaxon:2509511			NCBITaxon:694002	Sarbecovirus								Paola added term based on EMBL conference
+SP_27	virus		Eta	B.1.525		[Virus]			CIDO:0000371	SP_22											
+SP_28	virus		Iota	B.1.526		[Virus]			CIDO:0000375	SP_23											
+SP_29	virus		Kappa	B.1.617.1		[Virus]			CIDO:0000377	SP_24											
+SP_30	virus		1.617.3			[Virus]			CIDO:0000376	SP_25											
+SP_31	virus		Mu	B.1.621;B.1.621.1		[Virus]			CIDO:0000378	SP_26											
+SP_32	virus		Zeta	P.2		[Virus]			CIDO:0000380	SP_27											
+SP_33	virus		Omicron	B.1.1.529;BA.1;BA.1.1;BA.2;BA.3;BA.4;BA.5		[Virus]			CIDO:0000382	SP_28											
 									CIDO:0000383	SP_29											
 									COVOC:0080001	SP_30	SARS-CoV-2 1.617.3 variant	CIDO:0000407									
 									COVOC:0080002	SP_31	SARS-CoV-2 Mu variant	CIDO:0000407		SARS-CoV-2 B.1.621 variant||SARS-CoV-2 B.1.621.1 variant							

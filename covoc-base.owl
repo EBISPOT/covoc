@@ -1186,6 +1186,134 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000371">
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_22</covoc:internal_covoc_id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000375">
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_23</covoc:internal_covoc_id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000376">
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_25</covoc:internal_covoc_id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000377">
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_24</covoc:internal_covoc_id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000378">
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_26</covoc:internal_covoc_id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000379">
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_32</covoc:internal_covoc_id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000380">
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_27</covoc:internal_covoc_id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000381"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000382">
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_28</covoc:internal_covoc_id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000383">
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_29</covoc:internal_covoc_id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000384"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000590">
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_33</covoc:internal_covoc_id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001139"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001140"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001141"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001142"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001143"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLO_0002172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002172">
@@ -1609,14 +1737,9 @@
     <!-- http://purl.obolibrary.org/obo/COVOC_0010048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0010048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_87</covoc:internal_covoc_id>
-        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively parallel signature sequencing</covoc:preferred_covoc_label>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERO:0001211</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C2936622</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively parallel sequencing</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively-parallel sequencing</oboInOwl:hasExactSynonym>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Biology Research Technique</rdfs:comment>
+        <obo:IAO_0100001 rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010805"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_massively parallel signature sequencing</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -3531,6 +3654,28 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/COVOC_0080001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0080001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_30</covoc:internal_covoc_id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV-2 1.617.3 variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/COVOC_0080002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0080002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SP_31</covoc:internal_covoc_id>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV-2 B.1.621 variant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV-2 B.1.621.1 variant</oboInOwl:hasExactSynonym>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SARS-CoV-2 Mu variant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/COVOC_0090001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_0090001">
@@ -3610,16 +3755,6 @@
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemagglutinin-esterase</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEF</oboInOwl:hasRelatedSynonym>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">haemagglutinin-esterase fusion glycoprotein</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/COVOC_9999999 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/COVOC_9999999">
-        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48938"/>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete example</rdfs:label>
-        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     
 
@@ -5658,7 +5793,6 @@
     <!-- http://purl.obolibrary.org/obo/NCIT_C19254 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19254">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/COVOC_00000000"/>
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CE_50</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">medical staff</covoc:preferred_covoc_label>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIT:0009569</oboInOwl:hasDbXref>
@@ -6976,6 +7110,21 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010717">
         <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIS_4</covoc:internal_covoc_id>
         <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">afebrile</covoc:preferred_covoc_label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0010805 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010805">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <covoc:internal_covoc_id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BMV_87</covoc:internal_covoc_id>
+        <covoc:preferred_covoc_label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively parallel signature sequencing</covoc:preferred_covoc_label>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERO:0001211</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C2936622</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively parallel sequencing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">massively-parallel sequencing</oboInOwl:hasExactSynonym>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molecular Biology Research Technique</rdfs:comment>
     </owl:Class>
 </rdf:RDF>
 

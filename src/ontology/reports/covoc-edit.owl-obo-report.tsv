@@ -3,7 +3,6 @@ ERROR	duplicate_definition	NCT04321421 clinical trial	IAO:0000115	Hyperimmune Pl
 ERROR	duplicate_definition	NCT04321421 clinical trial	IAO:0000115	Hyperimmune Plasma for Critical Patients With COVID-19 (COV19-PLASMA)
 ERROR	duplicate_label	NCT04321421 clinical trial	rdfs:label	NCT04321421 clinical trial
 ERROR	duplicate_label	NCT04321421 clinical trial	rdfs:label	NCT04321421 clinical trial
-ERROR	missing_label	obo:COVOC_0010048	rdfs:label	
 WARN	duplicate_label_synonym	Western-Blot	oboInOwl:hasExactSynonym	Western-Blot
 WARN	duplicate_label_synonym	Interferon alfacon-1	oboInOwl:hasExactSynonym	Interferon alfacon-1
 WARN	duplicate_label_synonym	climate conditions	oboInOwl:hasExactSynonym	climate conditions
@@ -13,7 +12,6 @@ WARN	duplicate_label_synonym	masks	oboInOwl:hasExactSynonym	masks
 WARN	duplicate_label_synonym	school closures	oboInOwl:hasExactSynonym	school closures
 WARN	duplicate_label_synonym	spreaders	oboInOwl:hasExactSynonym	spreaders
 WARN	duplicate_label_synonym	weather changes	oboInOwl:hasExactSynonym	weather changes
-WARN	missing_definition	obo:COVOC_0010048	IAO:0000115	
 WARN	missing_definition	Calu-3 2B4	IAO:0000115	
 WARN	missing_definition	VeroE6	IAO:0000115	
 WARN	missing_definition	VeroE6/TMPRSS2	IAO:0000115	
@@ -114,6 +112,8 @@ WARN	missing_definition	Middle East	IAO:0000115
 WARN	missing_definition	West Africa	IAO:0000115	
 WARN	missing_definition	Wu Han	IAO:0000115	
 WARN	missing_definition	continent	IAO:0000115	
+WARN	missing_definition	SARS-CoV-2 1.617.3 variant	IAO:0000115	
+WARN	missing_definition	SARS-CoV-2 Mu variant	IAO:0000115	
 WARN	missing_definition	CLEC4M gene	IAO:0000115	
 WARN	missing_definition	DPP4 gene	IAO:0000115	
 WARN	missing_definition	replicase polyprotein 1a (BtCoV)	IAO:0000115	

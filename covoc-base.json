@@ -413,6 +413,16 @@
           "sub": "http://purl.obolibrary.org/obo/COVOC_0040027"
         },
         {
+          "obj": "http://purl.obolibrary.org/obo/CIDO_0000407",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/COVOC_0080001"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/CIDO_0000407",
+          "pred": "is_a",
+          "sub": "http://purl.obolibrary.org/obo/COVOC_0080002"
+        },
+        {
           "obj": "http://purl.obolibrary.org/obo/CL_0000000",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/CL_0000134"
@@ -1056,11 +1066,6 @@
           "obj": "http://purl.obolibrary.org/obo/COVOC_00000000",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/NCIT_C18473"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/COVOC_00000000",
-          "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/NCIT_C19254"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/COVOC_00000000",
@@ -1730,11 +1735,6 @@
         {
           "obj": "http://purl.obolibrary.org/obo/OBI_0000070",
           "pred": "is_a",
-          "sub": "http://purl.obolibrary.org/obo/COVOC_0010048"
-        },
-        {
-          "obj": "http://purl.obolibrary.org/obo/OBI_0000070",
-          "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/MAXO_0000609"
         },
         {
@@ -1746,6 +1746,11 @@
           "obj": "http://purl.obolibrary.org/obo/OBI_0000070",
           "pred": "is_a",
           "sub": "http://purl.obolibrary.org/obo/NCIT_C101293"
+        },
+        {
+          "obj": "http://purl.obolibrary.org/obo/OBI_0000070",
+          "pred": "is_a",
+          "sub": "http://www.ebi.ac.uk/efo/EFO_0010805"
         },
         {
           "obj": "http://purl.obolibrary.org/obo/OBI_0100026",
@@ -2772,6 +2777,20 @@
                 "val": "https://www.ecdc.europa.eu/en/covid-19/surveillance/case-definition"
               }
             ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/COVOC_0010048",
+          "lbl": "obsolete_massively parallel signature sequencing",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/IAO_0100001",
+                "val": "http://www.ebi.ac.uk/efo/EFO_0010805"
+              }
+            ],
+            "deprecated": true
           },
           "type": "CLASS"
         },
@@ -5983,6 +6002,42 @@
           "type": "CLASS"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/COVOC_0080001",
+          "lbl": "SARS-CoV-2 1.617.3 variant",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+                "val": "SP_30"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/COVOC_0080002",
+          "lbl": "SARS-CoV-2 Mu variant",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+                "val": "SP_31"
+              }
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "SARS-CoV-2 B.1.621 variant"
+              },
+              {
+                "pred": "hasExactSynonym",
+                "val": "SARS-CoV-2 B.1.621.1 variant"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/COVOC_0090001",
           "lbl": "CLEC4M gene",
           "meta": {
@@ -6161,20 +6216,6 @@
                 "val": "HEF"
               }
             ]
-          },
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/COVOC_9999999",
-          "lbl": "obsolete example",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://purl.obolibrary.org/obo/IAO_0100001",
-                "val": "http://purl.obolibrary.org/obo/NCIT_C48938"
-              }
-            ],
-            "deprecated": true
           },
           "type": "CLASS"
         },
@@ -8805,6 +8846,126 @@
           "type": "CLASS"
         },
         {
+          "id": "http://purl.obolibrary.org/obo/CIDO_0000371",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+                "val": "SP_22"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CIDO_0000375",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+                "val": "SP_23"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CIDO_0000376",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+                "val": "SP_25"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CIDO_0000377",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+                "val": "SP_24"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CIDO_0000378",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+                "val": "SP_26"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CIDO_0000379",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+                "val": "SP_32"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CIDO_0000380",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+                "val": "SP_27"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CIDO_0000382",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+                "val": "SP_28"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CIDO_0000383",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+                "val": "SP_29"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://purl.obolibrary.org/obo/CIDO_0000590",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+                "val": "SP_33"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
           "id": "http://purl.obolibrary.org/obo/CLO_0002172",
           "meta": {
             "basicPropertyValues": [
@@ -9107,43 +9268,6 @@
               {
                 "pred": "hasRelatedSynonym",
                 "val": "UC-MSCs"
-              }
-            ]
-          },
-          "type": "CLASS"
-        },
-        {
-          "id": "http://purl.obolibrary.org/obo/COVOC_0010048",
-          "meta": {
-            "basicPropertyValues": [
-              {
-                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
-                "val": "BMV_87"
-              },
-              {
-                "pred": "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
-                "val": "massively parallel signature sequencing"
-              }
-            ],
-            "comments": [
-              "Molecular Biology Research Technique"
-            ],
-            "synonyms": [
-              {
-                "pred": "hasExactSynonym",
-                "val": "massively parallel sequencing"
-              },
-              {
-                "pred": "hasExactSynonym",
-                "val": "massively-parallel sequencing"
-              }
-            ],
-            "xrefs": [
-              {
-                "val": "ERO:0001211"
-              },
-              {
-                "val": "UMLS:C2936622"
               }
             ]
           },
@@ -15995,6 +16119,43 @@
               {
                 "pred": "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
                 "val": "afebrile"
+              }
+            ]
+          },
+          "type": "CLASS"
+        },
+        {
+          "id": "http://www.ebi.ac.uk/efo/EFO_0010805",
+          "meta": {
+            "basicPropertyValues": [
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/internal_covoc_id",
+                "val": "BMV_87"
+              },
+              {
+                "pred": "http://purl.obolibrary.org/obo/covoc/preferred_covoc_label",
+                "val": "massively parallel signature sequencing"
+              }
+            ],
+            "comments": [
+              "Molecular Biology Research Technique"
+            ],
+            "synonyms": [
+              {
+                "pred": "hasExactSynonym",
+                "val": "massively parallel sequencing"
+              },
+              {
+                "pred": "hasExactSynonym",
+                "val": "massively-parallel sequencing"
+              }
+            ],
+            "xrefs": [
+              {
+                "val": "ERO:0001211"
+              },
+              {
+                "val": "UMLS:C2936622"
               }
             ]
           },
