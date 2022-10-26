@@ -55,7 +55,7 @@ BMV_144	Therapeutics			C0087111	[Therapeutic or Preventive Procedure]		EFO:00100
 BMV_109	Pharmacotherapy			C0013216	[Therapeutic or Preventive Procedure]		EFO:0010064		BMV_109			pharmacotherapy		antiviral therapy				UMLS:C0013216	Therapeutic or Preventive Procedure		Paola added a synonym based on EMBL conference
 							EFO:0010125				EFO:0000001	viral load	virus load								Paola added term based on EMBL conference
 BMV_100	Oligonucleotide Primers	primer||primers		C0206415	[Nucleic Acid, Nucleoside, or Nucleotide]		EFO:0010192		BMV_100||BMV_111			oligonucleotide primer			primer			UMLS:C0206415	Nucleic Acid, Nucleoside, or Nucleotide		
-BMV_87	Massively-Parallel Sequencing			C2936622	[Molecular Biology Research Technique]		COVOC:0010048	EFO:0010805	BMV_87		OBI:0000070	massively parallel signature sequencing	massively-parallel sequencing||massively parallel sequencing					UMLS:C2936622||ERO:0001211	Molecular Biology Research Technique		Paola created new EFO term
+BMV_87	Massively-Parallel Sequencing			C2936622	[Molecular Biology Research Technique]		EFO:0010805		BMV_87		OBI:0000070	massively parallel signature sequencing	massively-parallel sequencing||massively parallel sequencing					UMLS:C2936622||ERO:0001211	Molecular Biology Research Technique		Paola created new EFO term
 BMV_4	antibody response						GO:0002250		BMV_4			antibody response									
 BMV_65	Hypersensitivity			C0020517	[Pathologic Function]		GO:0002524		BMV_65			hypersensitivity						UMLS:C0020517	Pathologic Function		
 BMV_92	molecular mechanisms						GO:0003674		BMV_92			molecular mechanism									

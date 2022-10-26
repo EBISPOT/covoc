@@ -32,6 +32,7 @@ import_group:
     - id: pato
     - id: hancestro
     - id: dbpedia
+    - id: cido
 components:
   products:
     - filename: all_templates.owl

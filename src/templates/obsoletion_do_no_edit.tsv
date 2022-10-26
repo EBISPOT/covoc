@@ -1,3 +1,3 @@
 Ontology ID	Label	Obsolete	Replacement Term
 ID	A rdfs:label	AT owl:deprecated^^xsd:boolean	AI IAO:0100001
-COVOC:9999999	obsolete example	true	NCIT:C48938
+COVOC:0010048	obsolete_massively parallel signature sequencing	true	EFO:0010805

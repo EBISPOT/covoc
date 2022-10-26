@@ -1,0 +1,1080 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/covoc/imports/cido_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/covoc/imports/cido_import.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/cido_import.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2022-10-26/imports/cido_import.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000456 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000456"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000055 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000055"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000066 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000066"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000030 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000030">
+        <obo:IAO_0000115>An object property that represents a relation between a material entity (such as a drug or chemical or vaccine) and an adverse event (AE) where the administration of the material entity is susceptible to the presence of the adverse event.</obo:IAO_0000115>
+        <obo:IAO_0000116>Note: This term needs to be moved to the OAE ontology.</obo:IAO_0000116>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">susceptible to adverse event</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000040 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000040">
+        <obo:IAO_0000112>We can use the following axiom to represent the relation between a camel and MERS-CoV: 
+MERS-COV: ‘has susceptible host’ some Camelus</obo:IAO_0000112>
+        <obo:IAO_0000115>An object property that represents a relation between a microbe and an organism that serves as the host role and can host the survival of the microbe.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yang Wang</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has susceptible host</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000053">
+        <obo:IAO_0000115>An object property that represents the relation between a disease process and a pathogen where the disease process is caused by the infection with the pathogen.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">caused by infection with</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000118 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000118">
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein. Note that the chemical entity is usually an active compound of a corresponding drug.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000118>chemical has protein target as modulator</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Enzyme_modulator</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">chemical has protein target</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000119 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000119">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000118"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as an enzyme inhibitor. Note that the chemical entity is usually an active compound of a corresponding drug.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000118>chemical has protein target as inhibitor</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Enzyme_inhibitor</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">chemical inhibits protein</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000120 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000120">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000118"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as an receptor antagonist. Note that the chemical entity is usually an active compound of a corresponding drug.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Receptor_antagonist</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">chemical has protein target as antagonist</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000121 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000121">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000118"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as an receptor agonist. Note that the chemical entity is usually an active compound of a corresponding drug. An agonist is a chemical that binds to a receptor and activates the receptor to produce a biological response.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Agonist</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">chemical has protein target as agonist</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000122 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000122">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000118"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as an binder that chemically binds to the targeted protein. Note that the chemical entity is usually an active compound of a corresponding drug.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000118>chemical has protein target as binder</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">chemical binds protein</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000126 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000126">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000118"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a protein where the chemical entity can target the protein as an enzyme activator. Note that the chemical entity is usually an active compound of a corresponding drug. An enzyme inducer is a type of drug or chemcial that increases the metabolic activity of an enzyme either by binding to the enzyme and activating it, or by increasing the expression of the gene coding for the enzyme.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <obo:IAO_0000118>chemical has protein target as activator</obo:IAO_0000118>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Enzyme_activator</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">chemical activates protein</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000139 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000139">
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against viral infection</obo:IAO_0000115>
+        <obo:IAO_0000117>Yingtong Liu, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical effective against virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000140 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000140">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000142"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000150"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against viral replication in vivo</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical inhibits in vivo replication of virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000141 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000141">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000139"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against viral infection in vitro</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical effective in vitro against virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000142 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000142">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000139"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against viral infection in vivo</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical effective in vivo against virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000144 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000144">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000141"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000150"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against viral replication in vitro</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical inhibits in vitro replication of virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000145 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000145">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000141"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000149"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against viral invasion in vitro</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical inhibits in vitro invasion of virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000149 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000149">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000139"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against virual invasion</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical inhibits invasion of virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000150 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000150">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000139"/>
+        <obo:IAO_0000115>An object property that represents a relation between a chemical entity and a virus where the chemical has an effective role against virual replication</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">chemical inhibits replication of virus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000173 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000173">
+        <obo:IAO_0000115>An object property that represents a relation between a disease process and its susceptibility of inducing a phenotype outcome</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yang Wang</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">disease process susceptibly has phenotype</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000176 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000176">
+        <obo:IAO_0000112>A COVID-19 disease process susceptibly occurs in the kidney.</obo:IAO_0000112>
+        <obo:IAO_0000115>An object property that represents a relation between a process and a material entity (particularly an organism, anatomical entity, or cell) in which the process has a susceptible disposition to occur.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">susceptibly occurs in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000184 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000184">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <obo:IAO_0000112>drug camostat --&gt; molecule TMPRSS2</obo:IAO_0000112>
+        <obo:IAO_0000115>An object property between material entity a and b where a is capable of inhibiting the activity of b.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">capable of inhibiting activity of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000189 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000189">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <obo:IAO_0000112>TMPRSS2 is responsible for priming of the viral spike protein that entails cleavage of the spike protein at two potential sites, Arg685/Ser686 and Arg815/Ser816. doi: https://doi.org/10.1101/2020.04.21.052639.</obo:IAO_0000112>
+        <obo:IAO_0000115>An object property between material entity a and b where a is capable of priming the activity of b</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">capable of priming activity of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000220 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000220">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">causal relation related to phenotype</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000221 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000221">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000220"/>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">phenotype has causal agent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000222 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000222">
+        <obo:IAO_0000112>COVID-19 disease (process) --&gt; hypertension</obo:IAO_0000112>
+        <obo:IAO_0000117>Oliver He, Yang Wang</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">disease susceptibly severe with comorbidity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000223 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000223">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002595"/>
+        <rdfs:label xml:lang="en">causal process for agent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000224 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000224">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000223"/>
+        <rdfs:label xml:lang="en">process up-regulates agent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000244 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000244">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        <obo:IAO_0000115>An object property that represents a relation between a molecular variant and a gene or protein where the variant derives from the gene or protein</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">variant of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000248 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000248">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000220"/>
+        <obo:IAO_0000115>a causal relation between a process and a phenotype where the process is capable of inducing the phenotype.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">process capable of inducing phenotype</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000249 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000249">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000220"/>
+        <obo:IAO_0000115>a causal relation between a material entity and a phenotype where the material agent is capable of inducing the phenotype.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">agent capable of inducing phenotype</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000269 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000269">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <obo:IAO_0000115>A subproperty of &apos;has participant&apos; that represents a relation between a process and a participant where the participant has the ligand role.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu, Peiling Tan</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has ligand</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000270 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000270">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+        <obo:IAO_0000115>A subproperty of &apos;has participant&apos; that represents a relation between a process and a participant where the participant has the receptor role.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Yingtong Liu, Peiling Tan</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has receptor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000281 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000281">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000603"/>
+        <obo:IAO_0000115>An object property that defines a relation between a microbe variant and an AA variant where the microbe (like SARS_CoV-2) variant has the AA variant such that the microbe variant changes its AA from a previous one to a new one.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has characteristic AA variant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000360 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000360">
+        <obo:IAO_0000115>An object property that represents a relation between a molecule and a receptor of the molecule where the molecule binds physically to the receptor.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">binding to receptor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000385 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000385">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002609"/>
+        <rdfs:label xml:lang="en">interactive relatoin between material entities</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000386 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000386">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000385"/>
+        <rdfs:label xml:lang="en">capable of binding to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000410 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000410">
+        <obo:IAO_0000115>A relation between two chemical entities X and Y such that if a portion of X is an epitope that binds to some antigen, there is also a portion of Y that is also an epitope which will bind to the same antigen.</obo:IAO_0000115>
+        <dc:creator>Anthony Huffman</dc:creator>
+        <rdfs:label xml:lang="en">has epitope cross-reactivity</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000433 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000433">
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
+        <obo:IAO_0000118>An object property that represents a relation between an entity and a motivation in which the entity has the motivation.</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">has motivation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000600 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000600">
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">is AA variant of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000603 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000603">
+        <rdfs:label xml:lang="en">has AA variant</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000608 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000608">
+        <rdfs:label xml:lang="en">has AA mutation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000609 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000609">
+        <obo:IAO_0000117>An object property that defines a relation between a microbe variant and an AA mutation where the microbe (like SARS_CoV-2) variant has the AA mutation such that the microbe variant has an AA change. This is used over AA variant for deletions or nonsense mutations.</obo:IAO_0000117>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">is AA mutation of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000704 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000704">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000608"/>
+        <obo:IAO_0000115>An object property that defines a relation between a microbe variant and an AA mutation where the microbe (like SARS_CoV-2) variant has the AA mutation such that the microbe variant has an AA change that is used to identify a mircrobe variant. This is used over AA variant for deletions or nonsense mutations.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">has characteristic AA mutation</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000705 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000705">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000600"/>
+        <obo:IAO_0000117>Anthony Huffman, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">is characteristic AA variant of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000706 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000706">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000609"/>
+        <obo:IAO_0000115>An object property that defines a relation between a microbe variant and an AA mutation where the microbe (like SARS_CoV-2) variant has the AA mutation such that the microbe variant has an AA change that is used to identify a microbe variant. This is used over AA variant for deletions or nonsense mutations.</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">is characteristic AA mutation of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000707 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000707">
+        <rdfs:label xml:lang="en">has mutated from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002410 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002410"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002595 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002595"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002609 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002609"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000610 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000610">
+        <obo:IAO_0000115>A data property that represents a relation between an infectious agent (such as a viral strain) and a value that is the averge number of transmissions, i.e., the basic reproduction number (or called R0 value).</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Bill Duncan, Oliver He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">has average R0</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000613 -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000613">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="en">has amino acid position</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <obo:IAO_0000118>Nextstrain clade 20I</obo:IAO_0000118>
+        <obo:IAO_0000119>https://nextstrain.org/ncov/gisaid/global9</obo:IAO_0000119>
+        <oboInOwl:creation_date>7/1/2021</oboInOwl:creation_date>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Alpha variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000375">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <obo:IAO_0000115>Nextstrain clade 20H</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://nextstrain.org/ncov/gisaid/global</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Beta variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000610"/>
+                <owl:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">5.02</owl:hasValue>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Nextstrain clade 21A</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://nextstrain.org/ncov/gisaid/global</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Delta variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <obo:IAO_0000115>Nextstrain clade 20J</obo:IAO_0000115>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://nextstrain.org/ncov/gisaid/global</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Gamma variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Epsilon variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Zeta variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000380">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Eta variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Theta variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Iota variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000383">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Kappa variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Lambda variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000407">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:label xml:lang="en">SARS-CoV-2 based on WHO classification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000407"/>
+        <obo:IAO_0000117>Anthony Huffman, Yongqun &quot;Oliver&quot; He</obo:IAO_0000117>
+        <obo:IAO_0000119>https://nextstrain.org/ncov/gisaid/global9</obo:IAO_0000119>
+        <oboInOwl:creation_date>1/30/2022</oboInOwl:creation_date>
+        <oboInOwl:hasBroadSynonym>Nextstrain clade 21K; Nextstrain clde 21L; Nextstrain clade 21M</oboInOwl:hasBroadSynonym>
+        <rdfs:label xml:lang="en">SARS-CoV-2 Omicron variant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:label xml:lang="en">SARS-CoV-2 BA.2 virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:label xml:lang="en">SARS-CoV-2 BA.4 virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:label xml:lang="en">SARS-CoV-2 BA.5 virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:label xml:lang="en">SARS-CoV-2 BA.1 virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0001143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0001143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000590"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CIDO_0001139"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">SARS-CoV-2 BA.2.12.1 virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000822 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000822"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001742"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001945 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001945"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002013"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002014"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002018"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002027"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002094"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003326"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012378"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012735"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025143"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031417"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_11118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_11118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1335626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1335626"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_277944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_277944"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_290028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_290028"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_31631 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_31631"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_694009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_694009"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_O15393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_O15393"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC2"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC3"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC4"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC5"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_P0DTC7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_P0DTC7"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_Q9BYF1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_Q9BYF1"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002048"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
