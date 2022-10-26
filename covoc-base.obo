@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: covoc/releases/2020-08-28/covoc-base.owl
+data-version: covoc/releases/2022-10-26/covoc-base.owl
 ontology: covoc/covoc-base
 property_value: http://purl.org/dc/elements/1.1/creator "Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
@@ -13,8 +13,9 @@ property_value: http://purl.org/dc/elements/1.1/creator "Ruch Patrick (SIB Swiss
 property_value: http://purl.org/dc/elements/1.1/creator "Zoe Pendlington  (EMBL-EBI)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "The COVID-19 Vocabulary (COVoc) is an ontology containing terms related to the research of the COVID-19 pandemic. This includes host organisms, pathogenicity, gene and gene products, barrier gestures, treatments and more." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "CoVoc Coronavirus Vocabulary" xsd:string
-property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 xsd:string
+property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
+property_value: owl:versionInfo "2022-10-26" xsd:string
 
 [Term]
 id: CHEBI:134722

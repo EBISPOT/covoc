@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/hancestro_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-28/imports/hancestro_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2022-10-26/imports/hancestro_import.owl"/>
     </owl:Ontology>
     
 
@@ -46,6 +46,25 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HANCESTRO_0301 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/HANCESTRO_0301">
+        <rdfs:label xml:lang="en">hasAncestryStatus</rdfs:label>
+    </owl:ObjectProperty>
     
 
 

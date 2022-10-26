@@ -9,11 +9,12 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:patterns="http://www.co-ode.org/patterns#">
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/efo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-28/imports/efo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2022-10-26/imports/efo_import.owl"/>
     </owl:Ontology>
     
 
@@ -47,6 +48,18 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBPROP_0000001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000001"/>
@@ -56,6 +69,14 @@
     <!-- http://purl.obolibrary.org/obo/mondo#closeMatch -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#closeMatch"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#disease_grouping -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#disease_grouping">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -71,11 +92,17 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/mondo#obsoletion_candidate -->
+    <!-- http://purl.obolibrary.org/obo/mondo#harrisons_view -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#obsoletion_candidate">
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#harrisons_view">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#narrowMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#narrowMatch"/>
     
 
 
@@ -101,9 +128,9 @@
     
 
 
-    <!-- http://www.co-ode.org/patterns#createdBy -->
+    <!-- http://purl.org/dc/terms/conformsTo -->
 
-    <owl:AnnotationProperty rdf:about="http://www.co-ode.org/patterns#createdBy"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/conformsTo"/>
     
 
 
@@ -209,6 +236,18 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -238,6 +277,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000054 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000054"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
@@ -250,21 +295,39 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/OBI_0000300 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000300"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052"/>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000056"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000057"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000"/>
     
 
 
@@ -292,21 +355,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002573 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002573"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0004027 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004027"/>
-    
-
-
-    <!-- http://purl.org/obo/owl/OBO_REL#bearer_of -->
-
-    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#bearer_of"/>
     
 
 
@@ -333,24 +384,6 @@
     <owl:ObjectProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_0006351">
         <rdfs:label>has_about_it</rdfs:label>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://www.obofoundry.org/ro/ro.owl#derives_from -->
-
-    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
-    
-
-
-    <!-- http://www.obofoundry.org/ro/ro.owl#has_participant -->
-
-    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-    
-
-
-    <!-- http://www.obofoundry.org/ro/ro.owl#participates_in -->
-
-    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
     
 
 
@@ -478,7 +511,7 @@
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
         <oboInOwl:hasDbXref>MO:833</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MSH:D000906</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D000906</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIt:C16295</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NIFSTD:birnlex_2110</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT:68498002</oboInOwl:hasDbXref>
@@ -501,13 +534,13 @@
         <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
         <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2991"/>
         <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/Orphanet_377788"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <oboInOwl:hasDbXref>DOID:4</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD10:N18</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10:R69</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9:799.9</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D004194</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MONDO:0000001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MSH:D004194</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D004194</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>OGMS:0000031</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Orphanet:377788</oboInOwl:hasDbXref>
@@ -534,14 +567,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A disease is a disposition to undergo pathological processes that exists in an organism because of one or more disorders in that organism.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>OGMS:0000031</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>UMLS:C0012634</owl:annotatedTarget>
-        <oboInOwl:source>DOID:4</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source>NCIT:C2991</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
@@ -599,13 +624,6 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>DOID:4</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000408</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>other disease</owl:annotatedTarget>
         <oboInOwl:hasDbXref>NCIT:C2991</oboInOwl:hasDbXref>
@@ -613,15 +631,16 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>ICD10:N18</owl:annotatedTarget>
+        <owl:annotatedTarget>DOID:4</owl:annotatedTarget>
+        <oboInOwl:source>EFO:0000408</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:799.9</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:i2s</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:relatedTo</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i2s</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
@@ -630,7 +649,6 @@
         <oboInOwl:source>DOID:4</oboInOwl:source>
         <oboInOwl:source>EFO:0000408</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:ontobio</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
@@ -658,7 +676,14 @@
         <oboInOwl:source>DOID:4</oboInOwl:source>
         <oboInOwl:source>EFO:0000408</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source>MONDO:kboom-pr-0.81/0.56/0.38</oboInOwl:source>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>UMLS:C0012634</owl:annotatedTarget>
+        <oboInOwl:source>DOID:4</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source>NCIT:C2991</oboInOwl:source>
     </owl:Axiom>
     
 
@@ -697,7 +722,8 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000544">
         <obo:IAO_0000115>The state of being infected such as from the introduction of a foreign agent such as serum, vaccine, antigenic substance or organism.</obo:IAO_0000115>
         <obo:IAO_0000117>James Malone</obo:IAO_0000117>
-        <oboInOwl:hasDbXref>MSH:D007239</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D007239</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10021789</oboInOwl:hasDbXref>
         <rdfs:label>infection</rdfs:label>
     </owl:Class>
     
@@ -715,7 +741,7 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>A measurement of the survival rate for a group of individuals suffering from a disease.</obo:IAO_0000115>
         <obo:IAO_0000117>James Malone</obo:IAO_0000117>
-        <efo:gwas_trait>true</efo:gwas_trait>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <rdfs:label>overall survival</rdfs:label>
     </owl:Class>
     
@@ -740,7 +766,7 @@
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
         <oboInOwl:hasDbXref>MO:192</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MSH:D010641</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D010641</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIt:C16977</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NIFSTD:birnlex_2087</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT:8116006</oboInOwl:hasDbXref>
@@ -752,29 +778,24 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0000684 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000684">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
         <obo:IAO_0000115>A body system disease that occurs in different organs functioning in respiration and consisting especially of the nose, nasal passages, nasopharynx, larynx, trachea, bronchi, and lungs.</obo:IAO_0000115>
         <obo:IAO_0000115>A non-neoplastic or neoplastic disorder that affects the respiratory system. Representative examples include pneumonia, chronic obstructive pulmonary disease, pulmonary failure, lung adenoma, lung carcinoma, and tracheal carcinoma.</obo:IAO_0000115>
         <obo:IAO_0000117>James Malone</obo:IAO_0000117>
-        <mondo:closeMatch rdf:resource="http://identifiers.org/snomedct/155603009"/>
-        <mondo:closeMatch rdf:resource="http://identifiers.org/snomedct/196057004"/>
-        <mondo:closeMatch rdf:resource="http://identifiers.org/snomedct/196184000"/>
-        <mondo:closeMatch rdf:resource="http://identifiers.org/snomedct/196255004"/>
-        <mondo:closeMatch rdf:resource="http://identifiers.org/snomedct/266373008"/>
-        <mondo:closeMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0029582"/>
-        <mondo:closeMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0035204"/>
         <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D012140"/>
         <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/50043002"/>
+        <mondo:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/J00-J99"/>
         <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1579"/>
         <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26871"/>
-        <efo:gwas_trait>true</efo:gwas_trait>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <oboInOwl:hasDbXref>DOID:1579</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10:J06</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10:J34</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10:J39</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10:J63</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD10:J96-J99</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10:J98</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10:J99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:J00-J99</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9:460-519.99</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9:500-508.99</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9:503</oboInOwl:hasDbXref>
@@ -861,8 +882,7 @@
         <oboInOwl:hasExactSynonym>respiratory system disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>respiratory system disease or disorder</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>respiratory system disorder</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym>disorder of respiratory system</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id>EFO:0000684</oboInOwl:id>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:id>
         <rdfs:label>respiratory system disease</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -875,148 +895,145 @@
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>DOID:1579</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>ICD10:J96-J99</owl:annotatedTarget>
-        <oboInOwl:source>DOID:1579</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>ICD10:J98</owl:annotatedTarget>
-        <oboInOwl:source>DOID:1579</oboInOwl:source>
+        <owl:annotatedTarget>ICD10CM:J00-J99</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://github.com/monarch-initiative/mondo/issues/4536</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0001-5208-3432</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://orcid.org/0000-0002-4142-7153</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:460-519.99</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:500-508.99</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:503</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:508</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:508.1</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:508.8</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:508.9</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:510-519.99</owl:annotatedTarget>
         <oboInOwl:source>DOID:1579</oboInOwl:source>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:516</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:516.8</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:516.9</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:517</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:517.8</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:519</owl:annotatedTarget>
         <oboInOwl:source>DOID:1579</oboInOwl:source>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:519.1</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:519.3</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:519.8</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:i2s</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:relatedTo</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i2s</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:519.9</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i2s</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:i2s</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:V12.60</owl:annotatedTarget>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i2s</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:i2s</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:V47.2</owl:annotatedTarget>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:i2s</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:relatedTo</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i2s</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
@@ -1028,16 +1045,15 @@
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>NCIT:C26871</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>SCTID:50043002</owl:annotatedTarget>
-        <oboInOwl:source>EFO:0000684</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000684</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source>MONDO:kboom-pr-1.00/0.81/10.68</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
@@ -1073,12 +1089,6 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>respiratory system disease</owl:annotatedTarget>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preferred label from MONDO</rdfs:comment>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>respiratory system disease or disorder</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:design_pattern</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/location</oboInOwl:hasDbXref>
@@ -1091,9 +1101,9 @@
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget>disorder of respiratory system</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:patterns/location_top</oboInOwl:hasDbXref>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>respiratory system disorder</owl:annotatedTarget>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">preferred label from MONDO</rdfs:comment>
     </owl:Axiom>
     
 
@@ -1103,8 +1113,8 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000714">
         <obo:IAO_0000115>Time of survival is an information entity which is about the length of time a material entity has survived after some adverse event, such as infection from a disease.</obo:IAO_0000115>
         <obo:IAO_0000117>James Malone</obo:IAO_0000117>
-        <efo:gwas_trait>true</efo:gwas_trait>
-        <oboInOwl:hasDbXref>MSH:D013534</oboInOwl:hasDbXref>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D013534</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIt:C17177</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PERSON: James Malone</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT:445320007</oboInOwl:hasDbXref>
@@ -1133,7 +1143,7 @@
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
         <oboInOwl:hasDbXref>MO:849</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MSH:D014162</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D014162</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIt:C17209</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>transfect</oboInOwl:hasExactSynonym>
         <rdfs:label>transfection</rdfs:label>
@@ -1147,6 +1157,7 @@
         <obo:IAO_0000115>A planned process intended to modify or alter a condition or characteristic of an organism or individual.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <efo:organizational_class>true</efo:organizational_class>
         <oboInOwl:hasDbXref>MO:23</oboInOwl:hasDbXref>
         <rdfs:label>treatment</rdfs:label>
@@ -1203,6 +1214,7 @@
         <obo:IAO_0000115>An activity that produces an effect, or that is intended to alter the course of a disease in a patient or population. This is a general term that encompasses the medical, social, behavioral, and environmental acts that can have preventive, therapeutic, or palliative effects.</obo:IAO_0000115>
         <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
         <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <oboInOwl:hasDbXref>ICD10:Z41</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIt:C25218</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIt:C79751</oboInOwl:hasDbXref>
@@ -1228,8 +1240,9 @@
         <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
         <efo:definition_citation>OGMS_0000020</efo:definition_citation>
         <efo:definition_citation>OGMS_0000024</efo:definition_citation>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <oboInOwl:hasDbXref>ICD10:R68</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MSH:D012816</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D012816</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIt:C100104</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIt:C3367</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Clinical Finding</oboInOwl:hasExactSynonym>
@@ -1250,7 +1263,8 @@
         <obo:IAO_0000115>An aspect of personal behavior or lifestyle, environmental exposure, or inborn or inherited characteristic, which, on the basis of epidemiologic evidence, is known to be associated with a health-related condition considered important to prevent.</obo:IAO_0000115>
         <obo:IAO_0000115>Any aspect of an individual&apos;s life, behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of a disease, condition or injury.</obo:IAO_0000115>
         <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
-        <oboInOwl:hasDbXref>MSH:D012307</oboInOwl:hasDbXref>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D012307</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIt:C17103</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT:80943009</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Factor, Risk</oboInOwl:hasExactSynonym>
@@ -1280,12 +1294,11 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004292">
         <obo:IAO_0000115>A process that involves adding vaccine into a host (e.g., human, mouse) in vivo with the intent to invoke a protective immune response.</obo:IAO_0000115>
         <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
-        <efo:gwas_trait>true</efo:gwas_trait>
         <oboInOwl:hasDbXref>ICD10:Z24</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10:Z25</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10:Z26</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD10:Z27</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MSH:D014611</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D014611</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIt:C15346</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT:33879002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>obo:VO_0000002</oboInOwl:hasDbXref>
@@ -1306,9 +1319,9 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>Quantification of the number of deaths in a population.</obo:IAO_0000115>
         <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
-        <efo:gwas_trait>true</efo:gwas_trait>
-        <oboInOwl:hasDbXref>MSH:D009026</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MSH:Q000401</oboInOwl:hasDbXref>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D009026</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:Q000401</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIt:C16880</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT:409651001</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>mortality measurement</oboInOwl:hasExactSynonym>
@@ -1323,7 +1336,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004420">
         <obo:IAO_0000115>A genome is the full genetic content of an organism, contained in either DNA or RNA (such as for viruses).</obo:IAO_0000115>
         <obo:IAO_0000117>James Malone</obo:IAO_0000117>
-        <oboInOwl:hasDbXref>MSH:D016678</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D016678</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIt:C16629</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT:18470003</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>whole genome</oboInOwl:hasExactSynonym>
@@ -1337,7 +1350,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004847">
         <obo:IAO_0000115>The age at which some process, or disease started in a human individual.</obo:IAO_0000115>
         <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
-        <efo:gwas_trait>true</efo:gwas_trait>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <rdfs:label>age at onset</rdfs:label>
     </owl:Class>
     
@@ -1368,6 +1381,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007056">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000727"/>
         <obo:IAO_0000115>Where a drug or surgery has been used to treat an individual with a particular condition.</obo:IAO_0000115>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <rdfs:label>clinical treatment</rdfs:label>
     </owl:Class>
     
@@ -1376,25 +1390,21 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0007227 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007227">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000684"/>
         <obo:IAO_0000115>A respiratory system infectious disease that involves inflammation, edema, and subsequent obstruction of the larynx, trachea, and bronchi. The disease is caused by viruses, bacteria, allergies and inhaled irritants. It is marked by episodes of difficult breathing and hoarse metallic cough in infants and young children. Croup is caused by parainfluenza virus (types 1 and 2), Influenza A and B viruses, Measles virus, adenovirus, respiratory syncytial virus, Staphylococcus and Streptococcus.</obo:IAO_0000115>
         <obo:IAO_0000115>Acute upper respiratory airways infection that results in the swelling of the larynx. It is usually caused by parainfluenza viruses. Signs include a characteristic barking cough and stridor.</obo:IAO_0000115>
         <obo:IAO_0000117>Sirarat Sarntivijai</obo:IAO_0000117>
-        <mondo:closeMatch rdf:resource="http://identifiers.org/snomedct/155510007"/>
-        <mondo:closeMatch rdf:resource="http://identifiers.org/snomedct/195702002"/>
         <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D003440"/>
         <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/71186008"/>
         <mondo:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0010380"/>
         <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_9395"/>
         <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26735"/>
-        <oboInOwl:hasDbXref>COHD:260134</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>DOID:9395</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>ICD10:J05.0</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>ICD9:464.4</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MESH:D003440</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>MONDO:0005722</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MSH:D003440</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D003440</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10011415</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIT:C26735</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SCTID:71186008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0010380</oboInOwl:hasDbXref>
@@ -1408,39 +1418,14 @@
         <oboInOwl:hasExactSynonym>croup</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>croup syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym>acute laryngotracheitis</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:hasRelatedSynonym>acute laryngotracheobronchitis</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>EFO:0007227</oboInOwl:id>
         <rdfs:label>croup</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A respiratory system infectious disease that involves inflammation, edema, and subsequent obstruction of the larynx, trachea, and bronchi. The disease is caused by viruses, bacteria, allergies and inhaled irritants. It is marked by episodes of difficult breathing and hoarse metallic cough in infants and young children. Croup is caused by parainfluenza virus (types 1 and 2), Influenza A and B viruses, Measles virus, adenovirus, respiratory syncytial virus, Staphylococcus and Streptococcus.</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Acute upper respiratory airways infection that results in the swelling of the larynx. It is usually caused by parainfluenza viruses. Signs include a characteristic barking cough and stridor.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>NCIT:C26735</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000117"/>
-        <owl:annotatedTarget>Sirarat Sarntivijai</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>COHD:260134</owl:annotatedTarget>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>DOID:9395</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
@@ -1452,16 +1437,10 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>ICD10:J05.0</owl:annotatedTarget>
-        <oboInOwl:source>DOID:9395</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>ICD9:464.4</owl:annotatedTarget>
         <oboInOwl:source>DOID:9395</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i2s</oboInOwl:source>
+        <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:i2s</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
@@ -1474,16 +1453,9 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>MSH:D003440</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
         <owl:annotatedTarget>NCIT:C26735</owl:annotatedTarget>
         <oboInOwl:source>DOID:9395</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source>MONDO:kboom-pr-0.92/0.82/0.20</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
@@ -1491,7 +1463,6 @@
         <owl:annotatedTarget>SCTID:71186008</owl:annotatedTarget>
         <oboInOwl:source>DOID:9395</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
-        <oboInOwl:source>MONDO:kboom-pr-0.85/0.68/0.17</oboInOwl:source>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
@@ -1500,42 +1471,6 @@
         <oboInOwl:source>DOID:9395</oboInOwl:source>
         <oboInOwl:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:equivalentTo</oboInOwl:source>
         <oboInOwl:source>NCIT:C26735</oboInOwl:source>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Croup</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Croup (disorder)</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Croup syndrome</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Laryngotracheobronchitis</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>acute Obstructive Laryngitis</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>acute laryngotracheobronchitis</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0007227"/>
@@ -1562,7 +1497,6 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>croup syndrome</owl:annotatedTarget>
         <oboInOwl:hasDbXref>DOID:9395</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>MTHICD9_2006:464.4</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1572,8 +1506,10 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009641">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003765"/>
         <obo:IAO_0000115>A feeling of general discomfort or uneasiness, an out-of-sorts feeling. [def-source: NCI][attr: CDC Glossary]</obo:IAO_0000115>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
         <oboInOwl:hasDbXref>ICD10:R53</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT:C3832</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10025482</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C3832</oboInOwl:hasDbXref>
         <rdfs:label>malaise</rdfs:label>
     </owl:Class>
     
@@ -1584,7 +1520,9 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009715">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003765"/>
         <obo:IAO_0000115>A symptom and a finding during physical examination, characterized by a high-pitched, whistling sound during breathing. It results from the narrowing or obstruction of the respiratory airways. The most common causes of wheezing are asthma, chronic obstructive pulmonary disease, tracheobronchitis, and pulmonary edema. [ NCI ]</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>NCIT:C78718</oboInOwl:hasDbXref>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MedDRA:10047924</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C78718</oboInOwl:hasDbXref>
         <rdfs:label>wheezing</rdfs:label>
     </owl:Class>
     
@@ -1595,7 +1533,9 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009727">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003765"/>
         <obo:IAO_0000115>A difficulty in breathing.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref>NCIT:C99773</oboInOwl:hasDbXref>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MedDRA:10040604</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C99773</oboInOwl:hasDbXref>
         <rdfs:label>shortness of breath</rdfs:label>
     </owl:Class>
     
@@ -1606,8 +1546,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010063">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0002571"/>
         <obo:IAO_0000115>An action or administration of therapeutic agents to produce an effect that is intended to alter or stop a pathologic process.</obo:IAO_0000115>
-        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
-        <oboInOwl:hasDbXref>NCIT:C49236</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C49236</oboInOwl:hasDbXref>
         <rdfs:label>Therapeutic Procedure</rdfs:label>
     </owl:Class>
     
@@ -1618,8 +1557,7 @@
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010064">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010063"/>
         <obo:IAO_0000115>Treatment of disease through the use of drugs.</obo:IAO_0000115>
-        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
-        <oboInOwl:hasDbXref>NCIT:C15986</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C15986</oboInOwl:hasDbXref>
         <rdfs:label>Pharmacotherapy</rdfs:label>
     </owl:Class>
     
@@ -1636,7 +1574,8 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>A measurement of the quantity of virus in a given volume of body fluid.</obo:IAO_0000115>
         <obo:IAO_0000117>Elliot Sollis</obo:IAO_0000117>
-        <efo:gwas_trait>true</efo:gwas_trait>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MedDRA:10062178</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:31260374</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Viral_load</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>viral burden</oboInOwl:hasExactSynonym>
@@ -1644,65 +1583,6 @@
         <oboInOwl:hasExactSynonym>viral titre</oboInOwl:hasExactSynonym>
         <rdfs:label>viral load</rdfs:label>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010125"/>
-        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
-        <owl:annotatedTarget>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000544"/>
-            </owl:Restriction>
-        </owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010125"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A measurement of the quantity of virus in a given volume of body fluid.</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010125"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000117"/>
-        <owl:annotatedTarget>Elliot Sollis</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010125"/>
-        <owl:annotatedProperty rdf:resource="http://www.ebi.ac.uk/efo/gwas_trait"/>
-        <owl:annotatedTarget>true</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010125"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>PMID:31260374</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010125"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>https://en.wikipedia.org/wiki/Viral_load</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010125"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>viral burden</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010125"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>viral titer</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://www.ebi.ac.uk/efo/EFO_0010125"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>viral titre</owl:annotatedTarget>
-        <patterns:createdBy rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://www.ebi.ac.uk/ontology/webulous#OPPL_pattern</patterns:createdBy>
-    </owl:Axiom>
     
 
 
@@ -1720,9 +1600,9 @@
     <!-- http://www.ebi.ac.uk/efo/EFO_0010716 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0010716">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000408"/>
         <obo:IAO_0000115>The simultaneous infection of a host by multiple pathogen species.</obo:IAO_0000115>
         <dc:creator>paola</dc:creator>
+        <oboInOwl:hasDbXref>MedDRA:10083750</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>OMIT:0027719</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0275524</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>Wikipedia:Coinfection</oboInOwl:hasDbXref>

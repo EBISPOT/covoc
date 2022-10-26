@@ -10,7 +10,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/go_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-28/imports/go_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2022-10-26/imports/go_import.owl"/>
     </owl:Ontology>
     
 
@@ -32,9 +32,21 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0100001"/>
     
 
 
@@ -63,14 +75,6 @@
     <!-- http://purl.obolibrary.org/obo/go#goslim_agr -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go#goslim_agr">
-        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
-    </owl:AnnotationProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/go#goslim_aspergillus -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go#goslim_aspergillus">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
     
@@ -164,9 +168,23 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/go#prokaryote_subset -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/go#prokaryote_subset">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#consider -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#consider"/>
     
 
 
@@ -259,24 +277,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/RO_0002211 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002211"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002212 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002212"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0002213 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002213"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -359,10 +359,8 @@
         <oboInOwl:hasExactSynonym>molecular function</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0003674</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
@@ -373,7 +371,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A molecular process that can be carried out by the action of a single macromolecular machine, usually via direct physical interactions with other molecular entities. Function in this sense denotes an action, or activity, that a gene product (or a complex) performs. These actions are described from two distinct but related perspectives: (1) biochemical activity, and (2) role as a component in a larger system/process.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pdt</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pdt</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -389,10 +387,8 @@
         <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>subcellular entity</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0005575</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
@@ -403,7 +399,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A location, relative to cellular compartments and structures, occupied by a macromolecular machine when it carries out a molecular function. There are two ways in which the gene ontology describes locations of gene products: (1) relative to cellular structures (e.g., cytoplasmic side of plasma membrane) or compartments (e.g., mitochondrion), and (2) the stable macromolecular complexes of which they are parts (e.g., the ribosome).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pdt</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pdt</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NIF_Subcellular:sao1337158144</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -424,7 +420,6 @@
         <oboInOwl:hasDbXref>Wikipedia:Nucleolus</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0005730</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_drosophila"/>
@@ -447,16 +442,17 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006260">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009058"/>
         <obo:IAO_0000115>The cellular metabolic process in which a cell duplicates one or more molecules of DNA. DNA replication begins when specific sequences, known as origins of replication, are recognized and bound by initiation proteins, and ends when the original DNA molecule has been completely duplicated and the copies topologically separated. The unit of replication usually corresponds to the genome of the cell, an organelle, or a virus. The template for replication can either be an existing DNA molecule or RNA.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>GO:0055133</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>Wikipedia:DNA_replication</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0006260</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pombe"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_yeast"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#prokaryote_subset"/>
         <rdfs:label>DNA replication</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -476,8 +472,10 @@
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0006310</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_drosophila"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pombe"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_yeast"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#prokaryote_subset"/>
         <rdfs:label>DNA recombination</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -513,13 +511,13 @@
         <oboInOwl:hasExactSynonym>protein translation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0006412</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_drosophila"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#prokaryote_subset"/>
         <rdfs:label>translation</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -566,31 +564,29 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006810">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <obo:IAO_0000115>The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter, pore or motor protein.</obo:IAO_0000115>
+        <obo:IAO_0000115>The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or a transporter complex, a pore or a motor protein.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/20292</obo:IAO_0000233>
         <oboInOwl:created_by>jl</oboInOwl:created_by>
         <oboInOwl:creation_date>2012-12-13T16:25:32Z</oboInOwl:creation_date>
         <oboInOwl:hasAlternativeId>GO:0015457</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>GO:0015460</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>GO:0044765</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasNarrowSynonym>small molecule transport</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>solute:solute exchange</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>single-organism transport</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0006810</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#prokaryote_subset"/>
         <rdfs:label>transport</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0006810"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter, pore or motor protein.</owl:annotatedTarget>
+        <owl:annotatedTarget>The directed movement of substances (such as macromolecules, small molecules, ions) or cellular components (such as complexes and organelles) into, out of or within a cell, or between cells, or within a multicellular organism by means of some agent such as a transporter or a transporter complex, a pore or a motor protein.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dos</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dph</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jl</oboInOwl:hasDbXref>
@@ -632,6 +628,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006915">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008219"/>
         <obo:IAO_0000115>A programmed cell death process which begins when a cell receives an internal (e.g. DNA damage) or external signal (e.g. an extracellular death ligand), and proceeds through a series of biochemical events (signaling pathway phase) which trigger an execution phase. The execution phase is the last step of an apoptotic process, and is typically characterized by rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), plasma membrane blebbing and fragmentation of the cell into apoptotic bodies. When the execution phase is completed, the cell has died.</obo:IAO_0000115>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2"/>
+        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4896"/>
         <oboInOwl:hasAlternativeId>GO:0006917</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>GO:0008632</oboInOwl:hasAlternativeId>
         <oboInOwl:hasBroadSynonym>cell suicide</oboInOwl:hasBroadSynonym>
@@ -653,7 +651,6 @@
         <oboInOwl:hasRelatedSynonym>induction of apoptosis by p53</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>signaling (initiator) caspase activity</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0006915</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pombe"/>
         <rdfs:label>apoptotic process</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -661,7 +658,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A programmed cell death process which begins when a cell receives an internal (e.g. DNA damage) or external signal (e.g. an extracellular death ligand), and proceeds through a series of biochemical events (signaling pathway phase) which trigger an execution phase. The execution phase is the last step of an apoptotic process, and is typically characterized by rounding-up of the cell, retraction of pseudopodes, reduction of cellular volume (pyknosis), chromatin condensation, nuclear fragmentation (karyorrhexis), plasma membrane blebbing and fragmentation of the cell into apoptotic bodies. When the execution phase is completed, the cell has died.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:cjm</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>GOC:dhl</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dhl</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ecd</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:go_curators</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mtg_apoptosis</oboInOwl:hasDbXref>
@@ -721,10 +718,8 @@
         <oboInOwl:hasRelatedSynonym>single organism process</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>single-organism process</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0008150</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_aspergillus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
@@ -736,7 +731,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A biological process represents a specific objective that the organism is genetically programmed to achieve. Biological processes are often described by their outcome or ending state, e.g., the biological process of cell division results in the creation of two daughter cells (a divided cell) from a single parent cell. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pdt</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GOC:pdt</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -753,7 +748,6 @@
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_agr"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_drosophila"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_mouse"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
         <rdfs:label>cell death</rdfs:label>
@@ -788,7 +782,6 @@
         <oboInOwl:hasRelatedSynonym>single-organism biosynthetic process</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0009058</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
         <rdfs:label>biosynthetic process</rdfs:label>
@@ -806,21 +799,21 @@
     <!-- http://purl.obolibrary.org/obo/GO_0009405 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0009405">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <obo:IAO_0000115>The set of specific processes that generate the ability of an organism to induce an abnormal, generally detrimental state in another organism.</obo:IAO_0000115>
+        <obo:IAO_0000115>OBSOLETE. The set of specific processes that generate the ability of an organism to induce an abnormal, generally detrimental state in another organism.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/11057</obo:IAO_0000233>
+        <oboInOwl:consider>GO:0044003</oboInOwl:consider>
+        <oboInOwl:consider>GO:0052031</oboInOwl:consider>
+        <oboInOwl:consider>GO:0052042</oboInOwl:consider>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>virulence</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>GO:0009405</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_aspergillus"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_candida"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
-        <rdfs:label>pathogenesis</rdfs:label>
+        <rdfs:label>obsolete pathogenesis</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0009405"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The set of specific processes that generate the ability of an organism to induce an abnormal, generally detrimental state in another organism.</owl:annotatedTarget>
+        <owl:annotatedTarget>OBSOLETE. The set of specific processes that generate the ability of an organism to induce an abnormal, generally detrimental state in another organism.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:go_curators</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -851,7 +844,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0010467">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <obo:IAO_0000115>The process in which a gene&apos;s sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form.</obo:IAO_0000115>
+        <obo:IAO_0000115>The process in which a gene&apos;s sequence is converted into a mature gene product (protein or RNA). This includes the production of an RNA transcript and its processing, translation and maturation for protein-coding genes.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/22557</obo:IAO_0000233>
         <oboInOwl:hasDbXref>Wikipedia:Gene_expression</oboInOwl:hasDbXref>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0010467</oboInOwl:id>
@@ -861,9 +855,10 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0010467"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The process in which a gene&apos;s sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA or circRNA (for protein-coding genes) and the translation of that mRNA or circRNA into protein. Protein maturation is included when required to form an active form of a product from an inactive precursor form.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:dph</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:tb</oboInOwl:hasDbXref>
+        <owl:annotatedTarget>The process in which a gene&apos;s sequence is converted into a mature gene product (protein or RNA). This includes the production of an RNA transcript and its processing, translation and maturation for protein-coding genes.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:txnOH-2018</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25934543</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:31580950</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -871,55 +866,10 @@
     <!-- http://purl.obolibrary.org/obo/GO_0016246 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016246">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002211"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002211"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0010467"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002212"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0010467"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>The process in which double-stranded RNAs silence cognate genes. Involves posttranscriptional gene inactivation (&apos;silencing&apos;) both of transgenes or dsRNA introduced into a germline, and of the host gene(s) homologous to the transgenes or dsRNA. This silencing is triggered by the introduction of transgenes or double-stranded RNA (dsRNA), and can occur through a specific decrease in the level of mRNA, or by negative regulation of translation, of both host genes and transgenes.</obo:IAO_0000115>
-        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_4895"/>
-        <oboInOwl:hasDbXref>Wikipedia:RNA_interference</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>RNAi</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>posttranscriptional gene silencing by siRNA</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>GO:0016246</oboInOwl:id>
-        <rdfs:label>RNA interference</rdfs:label>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <obo:IAO_0100001 rdf:resource="http://purl.obolibrary.org/obo/GO_0035194"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0016246"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The process in which double-stranded RNAs silence cognate genes. Involves posttranscriptional gene inactivation (&apos;silencing&apos;) both of transgenes or dsRNA introduced into a germline, and of the host gene(s) homologous to the transgenes or dsRNA. This silencing is triggered by the introduction of transgenes or double-stranded RNA (dsRNA), and can occur through a specific decrease in the level of mRNA, or by negative regulation of translation, of both host genes and transgenes.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:ems</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:11201747</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:11713190</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:18771919</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0016246"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>posttranscriptional gene silencing by siRNA</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:mah</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -947,24 +897,9 @@
     <!-- http://purl.obolibrary.org/obo/GO_0019012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
-        <obo:IAO_0000115>The complete fully infectious extracellular virus particle.</obo:IAO_0000115>
-        <obo:RO_0002161 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_131567"/>
-        <oboInOwl:hasDbXref>Wikipedia:Virus</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>complete virus particle</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
-        <oboInOwl:id>GO:0019012</oboInOwl:id>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_metagenomics"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
-        <rdfs:label>virion</rdfs:label>
+        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000227"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019012"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The complete fully infectious extracellular virus particle.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781718325</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -972,12 +907,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>The complete protein-nucleic acid complex that is the packaged form of the genome in a virus particle.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>GO:0019014</oboInOwl:hasAlternativeId>
         <oboInOwl:hasBroadSynonym>core</oboInOwl:hasBroadSynonym>
@@ -991,7 +920,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019013"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>The complete protein-nucleic acid complex that is the packaged form of the genome in a virus particle.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781702534</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ISBN:0781702534</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1000,7 +929,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0019076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
-        <obo:IAO_0000115>The dissemination of mature viral particles from the host cell, e.g. by cell lysis or the budding of virus particles from the cell membrane.</obo:IAO_0000115>
+        <obo:IAO_0000115>The dissemination of mature viral particles from a host cell, e.g. by cell lysis or the budding of virus particles from the cell membrane.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>VZ:1076</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>release of virus from host</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>viral exit</oboInOwl:hasExactSynonym>
@@ -1014,7 +943,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019076"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The dissemination of mature viral particles from the host cell, e.g. by cell lysis or the budding of virus particles from the cell membrane.</owl:annotatedTarget>
+        <owl:annotatedTarget>The dissemination of mature viral particles from a host cell, e.g. by cell lysis or the budding of virus particles from the cell membrane.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:jl</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -1048,7 +977,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0019079"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Any process involved directly in viral genome replication, including viral nucleotide metabolism.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ISBN:0781702534</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ISBN:0781702534</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1082,12 +1011,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0036338">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>The lipid bilayer of a virion, a complete fully infectious extracellular virus particle.</obo:IAO_0000115>
         <oboInOwl:created_by>bf</oboInOwl:created_by>
         <oboInOwl:creation_date>2012-09-07T13:28:21Z</oboInOwl:creation_date>
@@ -1177,7 +1100,6 @@
         <oboInOwl:id>GO:0040007</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#gocheck_do_not_annotate"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_chembl"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_generic"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_plant"/>
         <rdfs:label>growth</rdfs:label>
@@ -1203,6 +1125,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043657">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
         <obo:IAO_0000115>A cell within a host organism. Includes the host plasma membrane and any external encapsulating structures such as the host cell wall and cell envelope.</obo:IAO_0000115>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/geneontology/go-ontology/issues/19800</obo:IAO_0000233>
         <oboInOwl:hasOBONamespace>cellular_component</oboInOwl:hasOBONamespace>
         <oboInOwl:id>GO:0043657</oboInOwl:id>
         <rdfs:label>host cell</rdfs:label>
@@ -1281,7 +1204,13 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0097659">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0009058"/>
-        <obo:IAO_0000115>The cellular synthesis of RNA on a template of nucleic acid (DNA or RNA).</obo:IAO_0000115>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0010467"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The synthesis of an RNA transcript from a nucleic acid template (DNA or RNA).</obo:IAO_0000115>
         <oboInOwl:created_by>pr</oboInOwl:created_by>
         <oboInOwl:creation_date>2014-10-01T13:49:27Z</oboInOwl:creation_date>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
@@ -1293,7 +1222,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/GO_0097659"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>The cellular synthesis of RNA on a template of nucleic acid (DNA or RNA).</owl:annotatedTarget>
+        <owl:annotatedTarget>The synthesis of an RNA transcript from a nucleic acid template (DNA or RNA).</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:pr</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:txnOH</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:vw</oboInOwl:hasDbXref>

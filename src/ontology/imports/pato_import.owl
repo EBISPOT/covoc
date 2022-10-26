@@ -8,9 +8,10 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:pato="http://purl.obolibrary.org/obo/pato#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/pato_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-28/imports/pato_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2022-10-26/imports/pato_import.owl"/>
     </owl:Ontology>
     
 
@@ -32,9 +33,17 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+    <!-- http://purl.obolibrary.org/obo/RO_0002604 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002604"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/pato#abnormal_slim -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/pato#abnormal_slim">
+        <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
+    </owl:AnnotationProperty>
     
 
 
@@ -94,6 +103,12 @@
     
 
 
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#SubsetProperty -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
@@ -148,6 +163,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
@@ -163,6 +184,41 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0015007 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0015007"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0015011 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0015011"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Classes
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -171,11 +227,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000001">
         <obo:IAO_0000115>A dependent entity that inheres in a bearer by virtue of how the bearer is related to other entities</obo:IAO_0000115>
-        <obo:IAO_0000589>quality (PATO)</obo:IAO_0000589>
         <oboInOwl:hasAlternativeId>PATO:0000072</oboInOwl:hasAlternativeId>
         <oboInOwl:hasOBONamespace>quality</oboInOwl:hasOBONamespace>
         <oboInOwl:id>PATO:0000001</oboInOwl:id>

@@ -12,7 +12,7 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/covoc-base.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-28/covoc-base.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2022-10-26/covoc-base.owl"/>
         <dc:creator>Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
         <dc:creator>Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
         <dc:creator>Michel Pierre-André (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)</dc:creator>
@@ -25,8 +25,9 @@
         <dc:creator>Zoe Pendlington  (EMBL-EBI)</dc:creator>
         <dc:description>The COVID-19 Vocabulary (COVoc) is an ontology containing terms related to the research of the COVID-19 pandemic. This includes host organisms, pathogenicity, gene and gene products, barrier gestures, treatments and more.</dc:description>
         <dc:title>CoVoc Coronavirus Vocabulary</dc:title>
-        <dc:type rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/IAO_8000001</dc:type>
+        <dc:type rdf:resource="http://purl.obolibrary.org/obo/IAO_8000001"/>
         <terms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2022-10-26</owl:versionInfo>
     </owl:Ontology>
     
 

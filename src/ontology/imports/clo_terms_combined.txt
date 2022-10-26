@@ -556,9 +556,4 @@ http://www.geneontology.org/formats/oboInOwl#hasDbXref
 http://www.geneontology.org/formats/oboInOwl#hasExactSynonym
 http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym
 http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym
-http://www.w3.org/2002/07/owl#AnnotationProperty
-http://www.w3.org/2002/07/owl#Class
-http://www.w3.org/2002/07/owl#ObjectProperty
-http://www.w3.org/2002/07/owl#Ontology
-http://www.w3.org/2002/07/owl#Restriction
 term
