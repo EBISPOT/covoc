@@ -7,9 +7,10 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/dbpedia_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-28/imports/dbpedia_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2022-10-26/imports/dbpedia_import.owl"/>
     </owl:Ontology>
     
 
@@ -28,6 +29,12 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
     
 
 
@@ -61,6 +68,12 @@
         <oboInOwl:hasDbXref>GAZ:00002560</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">Canada</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://dbpedia.org/resource/Canada"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <terms:contributor>http://e-lico.eu/populous#OPPL_pattern</terms:contributor>
+    </owl:Axiom>
     
 
 
@@ -71,6 +84,12 @@
         <oboInOwl:hasDbXref>GAZ:00002845</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">China</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://dbpedia.org/resource/China"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <terms:contributor>http://e-lico.eu/populous#OPPL_pattern</terms:contributor>
+    </owl:Axiom>
     
 
 
@@ -82,6 +101,12 @@
         <oboInOwl:hasExactSynonym xml:lang="en">China, Hong Kong SAR</oboInOwl:hasExactSynonym>
         <rdfs:label>Hong Kong</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://dbpedia.org/resource/Hong_Kong"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <terms:contributor>http://e-lico.eu/populous#OPPL_pattern</terms:contributor>
+    </owl:Axiom>
     
 
 
@@ -92,6 +117,12 @@
         <oboInOwl:hasDbXref>GAZ:00002473</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">Jordan</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://dbpedia.org/resource/Jordan"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <terms:contributor>http://e-lico.eu/populous#OPPL_pattern</terms:contributor>
+    </owl:Axiom>
     
 
 
@@ -102,6 +133,12 @@
         <oboInOwl:hasDbXref>GAZ:00005279</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">Saudi Arabia</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://dbpedia.org/resource/Saudi_Arabia"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <terms:contributor>http://e-lico.eu/populous#OPPL_pattern</terms:contributor>
+    </owl:Axiom>
     
 
 
@@ -112,6 +149,12 @@
         <oboInOwl:hasDbXref>GAZ:00003923</oboInOwl:hasDbXref>
         <rdfs:label xml:lang="en">Singapore</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://dbpedia.org/resource/Singapore"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <terms:contributor>http://e-lico.eu/populous#OPPL_pattern</terms:contributor>
+    </owl:Axiom>
     
 
 
@@ -123,6 +166,12 @@
         <oboInOwl:hasExactSynonym xml:lang="en">Republic of Korea</oboInOwl:hasExactSynonym>
         <rdfs:label>South Korea</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://dbpedia.org/resource/South_Korea"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <terms:contributor>http://e-lico.eu/populous#OPPL_pattern</terms:contributor>
+    </owl:Axiom>
     
 
 
@@ -145,6 +194,12 @@
         <oboInOwl:hasExactSynonym>United States of America</oboInOwl:hasExactSynonym>
         <rdfs:label>United States</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://dbpedia.org/resource/United_States"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://purl.obolibrary.org/obo/HANCESTRO_0003"/>
+        <terms:contributor>http://e-lico.eu/populous#OPPL_pattern</terms:contributor>
+    </owl:Axiom>
     
 
 

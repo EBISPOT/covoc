@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/pr_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-28/imports/pr_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2022-10-26/imports/pr_import.owl"/>
     </owl:Ontology>
     
 
@@ -172,6 +172,12 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002353"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0006412"/>
             </owl:Restriction>
@@ -213,18 +219,19 @@
         <oboInOwl:hasDbXref>IUPHARobj:1612</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>ADABP</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>ADCP-2</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>CD26</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>DPP IV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>DPP4</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>T-cell activation antigen CD26</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>THAM</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>TP103</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>adenosine deaminase complexing protein 2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>dipeptidyl peptidase IV</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>thymocyte-activating molecule</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>ADCP2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>CD26</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>PR:000001341</oboInOwl:id>
-        <rdfs:label>dipeptidyl peptidase IV</rdfs:label>
+        <rdfs:label>dipeptidyl peptidase 4</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001341"/>
@@ -243,6 +250,12 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001341"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>ADCP2</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001341"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>CD26</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
     </owl:Axiom>
     
@@ -286,11 +299,11 @@
         <obo:IAO_0000115>A subtilisin/kexin-type proprotein convertase that is a translation product of the human FURIN gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>IUPHARobj:2366</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>FURIN</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>PACE</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>dibasic-processing enzyme</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>paired basic amino acid residue-cleaving enzyme</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>FUR</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>PACE</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>PCSK3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>prohormone convertase 3</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>PR:000003137</oboInOwl:id>
@@ -313,6 +326,12 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003137"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>FUR</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000003137"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>PACE</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -414,7 +433,7 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A rep gene proteolytic cleavage product (SARS-CoV-2) that is the portion produced by the autocatalytic action of PL-PRO proteinase (nsp3) when it cleaves the precursor between residues 818-819 and 2763-2764.</obo:IAO_0000115>
+        <obo:IAO_0000115>A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the autocatalytic action of PL-PRO proteinase (nsp3) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 818-819 and 2763-2764.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>GenPept:YP_009725299</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>GenPept:YP_009742610</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>PLpro (SARS-CoV-2)</oboInOwl:hasExactSynonym>
@@ -423,18 +442,18 @@
         <oboInOwl:hasExactSynonym>UniProtKB:P0DTC1, 819-2763</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>UniProtKB:P0DTD1, 819-2763</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>main proteinase (SARS-CoV-2)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>non-structural protein 3 (SARS-CoV-2)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>nsp3 (SARS-CoV-2)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>papain-like proteinase (SARS-CoV-2)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>rep/Clv:nsp3 (SARS2)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace>protein</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>PL2-PRO (SARS-CoV-2)</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>PR:000050272</oboInOwl:id>
-        <rdfs:label>non-structural protein 3 (SARS-CoV-2)</rdfs:label>
+        <rdfs:label>papain-like proteinase nsp3 (SARS-CoV-2)</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050272"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A rep gene proteolytic cleavage product (SARS-CoV-2) that is the portion produced by the autocatalytic action of PL-PRO proteinase (nsp3) when it cleaves the precursor between residues 818-819 and 2763-2764.</owl:annotatedTarget>
+        <owl:annotatedTarget>A rep gene proteolytic cleavage product (SARS-CoV-2) that is the central portion produced by the autocatalytic action of PL-PRO proteinase (nsp3) when it cleaves the precursor rep gene translation product (SARS-CoV-2) between residues 818-819 and 2763-2764.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GenPept:YP_009725299</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UniProtKB:P0DTC1</oboInOwl:hasDbXref>
@@ -486,14 +505,14 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050272"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>nsp3 (SARS-CoV-2)</owl:annotatedTarget>
+        <owl:annotatedTarget>non-structural protein 3 (SARS-CoV-2)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>UniProtKB:P0DTC1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UniProtKB:P0DTD1</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000050272"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>papain-like proteinase (SARS-CoV-2)</owl:annotatedTarget>
+        <owl:annotatedTarget>nsp3 (SARS-CoV-2)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>UniProtKB:P0DTC1</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UniProtKB:P0DTD1</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -587,10 +606,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTC1-1.</obo:IAO_0000115>
+        <obo:IAO_0000115>A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTC1-1.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PR:P0DTC1</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GenPept:YP_009725295</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UniProtKB:P0DTC1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:P0DTC1-1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>ORF1a polyprotein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>PRO_0000449634</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>pp1a (SARS-CoV-2)</oboInOwl:hasExactSynonym>
@@ -602,7 +621,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC1-1"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTC1-1.</owl:annotatedTarget>
+        <owl:annotatedTarget>A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTC1-1.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GenPept:YP_009725295</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UniProtKB:P0DTC1</oboInOwl:hasDbXref>
@@ -852,7 +871,6 @@
         <oboInOwl:hasDbXref>GenPept:YP_009724392</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UniProtKB:P0DTC4</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>E (SARS2)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>E protein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>PRO_0000449651</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>envelope protein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>sM protein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
@@ -878,12 +896,6 @@
         <owl:annotatedTarget>E (SARS2)</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC4"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>E protein (SARS-CoV-2)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P0DTC4</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC4"/>
@@ -957,7 +969,6 @@
         <oboInOwl:hasDbXref>UniProtKB:P0DTC5</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>E1 glycoprotein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>M (SARS2)</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>M protein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>PRO_0000449652</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>matrix glycoprotein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>membrane glycoprotein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
@@ -988,12 +999,6 @@
         <owl:annotatedTarget>M (SARS2)</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC5"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>M protein (SARS-CoV-2)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P0DTC5</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC5"/>
@@ -1073,6 +1078,12 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC7"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>protein U122 (SARS-CoV-2)</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>UniProtKB:P0DTC7</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC7"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>protein X4 (SARS-CoV-2)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>UniProtKB:P0DTC7</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -1116,12 +1127,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC7"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>accessory protein 7a (SARS-CoV-2)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UniProtKB:P0DTC7</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC7"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>protein U122 (SARS-CoV-2)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>UniProtKB:P0DTC7</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1170,7 +1175,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC9"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>N (SARS2)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PRO:YC</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-short-label"/>
     </owl:Axiom>
     <owl:Axiom>
@@ -1202,22 +1207,23 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC9"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>GU280_gp10</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GenPept:YP_009724397</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCBIGene:43740575</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PRO:YC</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC9"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>N</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GenPept:YP_009724397</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UniProtKB:P0DTC9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PRO:YC</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTC9"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>ORF9</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>GenPept:YP_009724397</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:32447571</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PRO:YC</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
     </owl:Axiom>
     
@@ -1239,10 +1245,10 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTD1-1. Requires ribosomal frameshifting.</obo:IAO_0000115>
+        <obo:IAO_0000115>A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTD1-1. Requires ribosomal frameshifting.</obo:IAO_0000115>
         <oboInOwl:hasAlternativeId>PR:P0DTD1</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref>GenPept:YP_009724389</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UniProtKB:P0DTD1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:P0DTD1-1</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>ORF1ab polyprotein (SARS-CoV-2)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>PRO_0000449618</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>pp1ab (SARS-CoV-2)</oboInOwl:hasExactSynonym>
@@ -1254,7 +1260,7 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P0DTD1-1"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTD1-1. Requires ribosomal frameshifting.</owl:annotatedTarget>
+        <owl:annotatedTarget>A rep gene translation product (SARS-CoV-2) that is a translation product of some mRNA whose exon structure and start site selection renders it capable of giving rise to a protein with the amino acid sequence represented by UniProtKB:P0DTD1-1. Requires ribosomal frameshifting.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>GenPept:YP_009724389</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UniProtKB:P0DTD1</oboInOwl:hasDbXref>
@@ -1300,7 +1306,6 @@
         </rdfs:subClassOf>
         <obo:IAO_0000115>An angiotensin-converting enzyme that is encoded in the genome of human.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>UniProtKB:P12821</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>ACE (human)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>CD143 (human)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>dipeptidyl carboxypeptidase I (human)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>hACE</oboInOwl:hasExactSynonym>
@@ -1317,12 +1322,6 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>An angiotensin-converting enzyme that is encoded in the genome of human.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:WCB</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>UniProtKB:P12821</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_P12821"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>ACE (human)</owl:annotatedTarget>
         <oboInOwl:hasDbXref>UniProtKB:P12821</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -1545,7 +1544,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A C-type lectin domain family 4 member M that is encoded in the genome of human.</obo:IAO_0000115>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>CD209 antigen-like protein 1 (human)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>DC-SIGN-related protein (human)</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>DC-SIGN2 (human)</oboInOwl:hasExactSynonym>
@@ -1567,43 +1566,43 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A C-type lectin domain family 4 member M that is encoded in the genome of human.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:WCB</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H2X3"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>CD209 antigen-like protein 1 (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H2X3"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>DC-SIGN-related protein (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H2X3"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>DC-SIGN2 (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H2X3"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>DC-SIGNR (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H2X3"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>L-SIGN (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H2X3"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>dendritic cell-specific ICAM-3-grabbing non-integrin 2 (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H2X3"/>
@@ -1616,34 +1615,34 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H2X3"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>liver/lymph node-specific ICAM-3-grabbing non-integrin (human)</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H2X3"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>CD209L</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H2X3"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>CD209L1</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H2X3"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>CD299</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_Q9H2X3"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget>CLEC4M</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UniProtKB:Q9H2X3</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
     </owl:Axiom>
 </rdf:RDF>

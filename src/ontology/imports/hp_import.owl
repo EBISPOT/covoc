@@ -11,7 +11,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/hp_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-28/imports/hp_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2022-10-26/imports/hp_import.owl"/>
     </owl:Ontology>
     
 
@@ -38,6 +38,12 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hp#hposlim_core">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#SubsetProperty"/>
     </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/hp#is_observable_through -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/hp#is_observable_through"/>
     
 
 
@@ -92,12 +98,6 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-    
-
-
-    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
-
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
     
 
 
@@ -175,6 +175,12 @@
     <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001025 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001025"/>
     
 
 
@@ -314,8 +320,8 @@
         <oboInOwl:hasDbXref>SNOMEDCT_US:38341003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0020538</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0497247</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Arterial hypertension</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Systemic hypertension</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>High blood pressure</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>HP:0000822</oboInOwl:id>
         <rdfs:label>Hypertension</rdfs:label>
@@ -352,7 +358,6 @@
         <oboInOwl:hasExactSynonym>Hydrops</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Oedema</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Water retention</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0000969</oboInOwl:id>
         <rdfs:label>Edema</rdfs:label>
     </owl:Class>
@@ -393,9 +398,7 @@
         <oboInOwl:hasDbXref>SNOMEDCT_US:112625008</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:271807003</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0015230</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>Exanthem</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Skin rash</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0000988</oboInOwl:id>
         <rdfs:label>Skin rash</rdfs:label>
     </owl:Class>
@@ -439,8 +442,6 @@
         <oboInOwl:hasExactSynonym>Itching</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Itchy skin</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Skin itching</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>pruritis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0000989</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hp#hposlim_core"/>
         <rdfs:label>Pruritus</rdfs:label>
@@ -484,7 +485,6 @@
         <oboInOwl:hasDbXref>SNOMEDCT_US:64305001</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0042109</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Hives</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0001025</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hp#hposlim_core"/>
         <rdfs:label>Urticaria</rdfs:label>
@@ -524,7 +524,6 @@
         <oboInOwl:hasExactSynonym>Fast heart rate</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Heart racing</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Racing heart</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Elevated heart rate</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Increased heart rate</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Rapid heart beat</oboInOwl:hasRelatedSynonym>
@@ -592,10 +591,8 @@
         <oboInOwl:hasExactSynonym>Obstruction of nose</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Stuffy nose</oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>Congestion of nose</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasNarrowSynonym>Nasal congestion</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0001742</oboInOwl:id>
-        <rdfs:label>Nasal obstruction</rdfs:label>
+        <rdfs:label>Nasal congestion</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0001742"/>
@@ -644,20 +641,13 @@
         <oboInOwl:hasDbXref>ORCID:0000-0001-5889-4463</oboInOwl:hasDbXref>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
     </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0001742"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-        <owl:annotatedTarget>Nasal congestion</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ORCID:0000-0001-5889-4463</oboInOwl:hasDbXref>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
-    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/HP_0001945 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001945">
-        <obo:IAO_0000115>Elevated body temperature due to failed thermoregulation.</obo:IAO_0000115>
+        <obo:IAO_0000115>Body temperature elevated above the normal range.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MSH:D005334</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:386661006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:50177009</oboInOwl:hasDbXref>
@@ -665,15 +655,15 @@
         <oboInOwl:hasExactSynonym>Fever</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Hyperthermia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Pyrexia</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0001945</oboInOwl:id>
         <rdfs:label>Fever</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0001945"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Elevated body temperature due to failed thermoregulation.</owl:annotatedTarget>
+        <owl:annotatedTarget>Body temperature elevated above the normal range.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:sdoelken</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:9759682</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0001945"/>
@@ -698,7 +688,6 @@
         <oboInOwl:hasExactSynonym>Emesis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Throwing up</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Vomiting</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0002013</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/hp#hposlim_core"/>
         <rdfs:label>Vomiting</rdfs:label>
@@ -733,7 +722,7 @@
     <!-- http://purl.obolibrary.org/obo/HP_0002014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002014">
-        <obo:IAO_0000115>Abnormally increased frequency of loose or watery bowel movements.</obo:IAO_0000115>
+        <obo:IAO_0000115>Abnormally increased frequency (usually defined as three or more) loose or watery bowel movements a day.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MSH:D003967</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:267060006</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:62315008</oboInOwl:hasDbXref>
@@ -741,14 +730,13 @@
         <oboInOwl:hasExactSynonym>Diarrhea</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Diarrhoea</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Watery stool</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0002014</oboInOwl:id>
         <rdfs:label>Diarrhea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002014"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Abnormally increased frequency of loose or watery bowel movements.</owl:annotatedTarget>
+        <owl:annotatedTarget>Abnormally increased frequency (usually defined as three or more) loose or watery bowel movements a day.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:probinson</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -768,6 +756,12 @@
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Watery stool</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002014"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#id"/>
+        <owl:annotatedTarget>HP:0002014</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:28846339</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -847,7 +841,6 @@
         <oboInOwl:hasExactSynonym>Abdominal pain</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Pain in stomach</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Stomach pain</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Abdominal discomfort</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym>Upset stomach</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>HP:0002027</oboInOwl:id>
@@ -916,7 +909,7 @@
     <!-- http://purl.obolibrary.org/obo/HP_0002094 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002094">
-        <obo:IAO_0000115>Difficult or labored breathing.</obo:IAO_0000115>
+        <obo:IAO_0000115>Difficult or labored breathing. Dyspnea is a subjective feeling only the patient can rate, e.g., on a Borg scale.</obo:IAO_0000115>
         <oboInOwl:hasDbXref>MSH:D004417</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:230145002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:267036007</oboInOwl:hasDbXref>
@@ -924,17 +917,38 @@
         <oboInOwl:hasExactSynonym>Abnormal breathing</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Breathing difficulty</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Difficult to breathe</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Difficulty breathing</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Dyspnoea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Shortness of breath</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Trouble breathing</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Panting</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>HP:0002094</oboInOwl:id>
         <rdfs:label>Dyspnea</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002094"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Difficult or labored breathing.</owl:annotatedTarget>
+        <owl:annotatedTarget>Difficult or labored breathing. Dyspnea is a subjective feeling only the patient can rate, e.g., on a Borg scale.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:probinson</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16914301</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002094"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Breathing difficulty</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002094"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Difficult to breathe</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002094"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Difficulty breathing</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
     </owl:Axiom>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002094"/>
@@ -945,7 +959,19 @@
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002094"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Shortness of breath</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002094"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Trouble breathing</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0002094"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget>Panting</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
     </owl:Axiom>
     
@@ -962,7 +988,6 @@
         <oboInOwl:hasDbXref>UMLS:C0231835</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Increased respiratory rate or depth of breathing</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Polypnea</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0002789</oboInOwl:id>
         <rdfs:label>Tachypnea</rdfs:label>
     </owl:Class>
@@ -991,7 +1016,6 @@
         <oboInOwl:hasDbXref>SNOMEDCT_US:55822004</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0020473</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Elevated lipids in blood</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0003077</oboInOwl:id>
         <rdfs:label>Hyperlipidemia</rdfs:label>
     </owl:Class>
@@ -1022,7 +1046,6 @@
         <oboInOwl:hasDbXref>UMLS:C0231528</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Muscle ache</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Muscle pain</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym>Myalgias</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>HP:0003326</oboInOwl:id>
         <rdfs:label>Myalgia</rdfs:label>
@@ -1066,7 +1089,6 @@
         <oboInOwl:hasDbXref>MSH:D001988</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>SNOMEDCT_US:4120002</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0006271</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0011950</oboInOwl:id>
         <rdfs:label>Bronchiolitis</rdfs:label>
     </owl:Class>
@@ -1092,8 +1114,6 @@
         <oboInOwl:hasExactSynonym>Fatigue</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Tired</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Tiredness</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym>Malaise</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>HP:0012378</oboInOwl:id>
         <rdfs:label>Fatigue</rdfs:label>
     </owl:Class>
@@ -1134,7 +1154,6 @@
         <oboInOwl:hasDbXref>SNOMEDCT_US:22253000</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0030193</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Pain</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0012531</oboInOwl:id>
         <rdfs:label>Pain</rdfs:label>
     </owl:Class>
@@ -1166,7 +1185,6 @@
         <oboInOwl:hasDbXref>UMLS:C0010200</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Cough</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Coughing</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0012735</oboInOwl:id>
         <rdfs:label>Cough</rdfs:label>
     </owl:Class>
@@ -1175,6 +1193,7 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A sudden, audible expulsion of air from the lungs through a partially closed glottis, preceded by inhalation.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HPO:probinson</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16428719</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>PMID:17540788</oboInOwl:hasDbXref>
     </owl:Axiom>
     <owl:Axiom>
@@ -1216,8 +1235,23 @@
         <obo:IAO_0000115>A state characterized by a feeling of weakness and loss of strength leading to a generalized weakness of the body.</obo:IAO_0000115>
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-04-22T14:48:03Z</dc:date>
         <oboInOwl:created_by>HPO:probinson</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym>Lack of energy and strength</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Weakness</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>Prostration</oboInOwl:hasRelatedSynonym>
         <rdfs:label xml:lang="en">Asthenia</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0025406"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Lack of energy and strength</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0025406"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Weakness</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/hp#layperson"/>
+    </owl:Axiom>
     
 
 
@@ -1236,7 +1270,7 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/HP_0030830"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>Crackles are discontinuous, explosive, and nonmusical adventitious lung sounds normally heard in inspiration and sometimes during expiration. Crackles are usually classified as fine and coarse crackles based on their duration, loudness, pitch, timing in the respiratory cycle, and relationship to coughing and changing body position.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:26229557</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:26229557</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UToronto:chum</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -1329,7 +1363,7 @@
         <oboInOwl:hasDbXref>UMLS:C0008031</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Chest pain</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Thoracic pain</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Chest discomfort</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id>HP:0100749</oboInOwl:id>
         <rdfs:label>Chest pain</rdfs:label>
     </owl:Class>
@@ -1351,7 +1385,6 @@
         <oboInOwl:hasDbXref>MSH:D018805</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>UMLS:C0036690</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>Infection in blood stream</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace>human_phenotype</oboInOwl:hasOBONamespace>
         <oboInOwl:id>HP:0100806</oboInOwl:id>
         <rdfs:label>Sepsis</rdfs:label>
     </owl:Class>
@@ -1374,6 +1407,12 @@
     <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001"/>
     
 
 

@@ -1,5 +1,5 @@
 format-version: 1.2
-data-version: covoc/releases/2020-08-28/covoc-base.owl
+data-version: covoc/releases/2022-10-26/covoc-base.owl
 ontology: covoc/covoc-base
 property_value: http://purl.org/dc/elements/1.1/creator "Agosti Donat (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Caucheteur Déborah (SIB Swiss Institute of Bioinformatics, HEG Genève / HES-SO)" xsd:string
@@ -13,8 +13,9 @@ property_value: http://purl.org/dc/elements/1.1/creator "Ruch Patrick (SIB Swiss
 property_value: http://purl.org/dc/elements/1.1/creator "Zoe Pendlington  (EMBL-EBI)" xsd:string
 property_value: http://purl.org/dc/elements/1.1/description "The COVID-19 Vocabulary (COVoc) is an ontology containing terms related to the research of the COVID-19 pandemic. This includes host organisms, pathogenicity, gene and gene products, barrier gestures, treatments and more." xsd:string
 property_value: http://purl.org/dc/elements/1.1/title "CoVoc Coronavirus Vocabulary" xsd:string
-property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 xsd:string
+property_value: http://purl.org/dc/elements/1.1/type IAO:8000001
 property_value: http://purl.org/dc/terms/license http://creativecommons.org/licenses/by/4.0/
+property_value: owl:versionInfo "2022-10-26" xsd:string
 
 [Term]
 id: CHEBI:134722
@@ -684,6 +685,46 @@ property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_37" 
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "cryo-EM structure" xsd:string
 
 [Term]
+id: CIDO:0000371
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_22" xsd:string
+
+[Term]
+id: CIDO:0000375
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_23" xsd:string
+
+[Term]
+id: CIDO:0000376
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_25" xsd:string
+
+[Term]
+id: CIDO:0000377
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_24" xsd:string
+
+[Term]
+id: CIDO:0000378
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_26" xsd:string
+
+[Term]
+id: CIDO:0000379
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_32" xsd:string
+
+[Term]
+id: CIDO:0000380
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_27" xsd:string
+
+[Term]
+id: CIDO:0000382
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_28" xsd:string
+
+[Term]
+id: CIDO:0000383
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_29" xsd:string
+
+[Term]
+id: CIDO:0000590
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_33" xsd:string
+
+[Term]
 id: CL:0000000
 is_a: COVOC:00000000 ! COVOC Term
 is_a: EFO:0000001
@@ -973,14 +1014,9 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "prob
 
 [Term]
 id: COVOC:0010048
-comment: Molecular Biology Research Technique
-synonym: "massively parallel sequencing" EXACT []
-synonym: "massively-parallel sequencing" EXACT []
-xref: ERO:0001211
-xref: UMLS:C2936622
-is_a: OBI:0000070
-property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_87" xsd:string
-property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "massively parallel signature sequencing" xsd:string
+name: obsolete_massively parallel signature sequencing
+is_obsolete: true
+replaced_by: EFO:0010805
 
 [Term]
 id: COVOC:0020001
@@ -2180,6 +2216,20 @@ is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "continent" xsd:string
 
 [Term]
+id: COVOC:0080001
+name: SARS-CoV-2 1.617.3 variant
+is_a: CIDO:0000407
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_30" xsd:string
+
+[Term]
+id: COVOC:0080002
+name: SARS-CoV-2 Mu variant
+synonym: "SARS-CoV-2 B.1.621 variant" EXACT []
+synonym: "SARS-CoV-2 B.1.621.1 variant" EXACT []
+is_a: CIDO:0000407
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "SP_31" xsd:string
+
+[Term]
 id: COVOC:0090001
 name: CLEC4M gene
 comment: Gene or Genome
@@ -2237,12 +2287,6 @@ synonym: "haemagglutinin-esterase" NARROW []
 synonym: "HEF" RELATED []
 is_a: CHEBI:36080
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "haemagglutinin-esterase fusion glycoprotein" xsd:string
-
-[Term]
-id: COVOC:9999999
-name: obsolete example
-is_obsolete: true
-replaced_by: NCIT:C48938
 
 [Term]
 id: EFO:0000001
@@ -2505,6 +2549,17 @@ property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "coin
 id: EFO:0010717
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "DIS_4" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "afebrile" xsd:string
+
+[Term]
+id: EFO:0010805
+comment: Molecular Biology Research Technique
+synonym: "massively parallel sequencing" EXACT []
+synonym: "massively-parallel sequencing" EXACT []
+xref: ERO:0001211
+xref: UMLS:C2936622
+is_a: OBI:0000070
+property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "BMV_87" xsd:string
+property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "massively parallel signature sequencing" xsd:string
 
 [Term]
 id: GO:0002250
@@ -3840,7 +3895,6 @@ id: NCIT:C19254
 synonym: "medical occupation" EXACT []
 xref: OMIT:0009569
 xref: UMLS:C0025106
-is_a: COVOC:00000000 ! COVOC Term
 property_value: http://purl.obolibrary.org/obo/covoc/internal_covoc_id "CE_50" xsd:string
 property_value: http://purl.obolibrary.org/obo/covoc/preferred_covoc_label "medical staff" xsd:string
 

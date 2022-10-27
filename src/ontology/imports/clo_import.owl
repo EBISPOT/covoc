@@ -1,16 +1,14 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/covoc/imports/clo_import.owl#"
      xml:base="http://purl.obolibrary.org/obo/covoc/imports/clo_import.owl"
-     xmlns:efo="http://www.ebi.ac.uk/efo/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:cellline="http://www.ebi.ac.uk/cellline/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/covoc/imports/clo_import.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2020-08-28/imports/clo_import.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/covoc/releases/2022-10-26/imports/clo_import.owl"/>
     </owl:Ontology>
     
 
@@ -80,24 +78,6 @@
     
 
 
-    <!-- http://www.ebi.ac.uk/cellline/definition -->
-
-    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/cellline/definition"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/cellline/definition_editor -->
-
-    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/cellline/definition_editor"/>
-    
-
-
-    <!-- http://www.ebi.ac.uk/efo/alternative_term -->
-
-    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/alternative_term"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -125,10 +105,10 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0000015">
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0001000"/>
-        <cellline:definition>a &apos;derives from&apos; object property between an entity (in CLO case, cell line) and a  disease in a patient where the entity is derived from some cell in the patient who has the disease. 
+        <obo:IAO_0000115>a &apos;derives from&apos; object property between an entity (in CLO case, cell line) and a  disease in a patient where the entity is derived from some cell in the patient who has the disease. 
 This is a short cut relation that represents:
-&apos;derived from&apos; some (cell and (&apos;part of&apos; some &apos;organism&apos; and (&apos;has disease&apos; some disease)))</cellline:definition>
-        <cellline:definition_editor>Yongqun He</cellline:definition_editor>
+&apos;derived from&apos; some (cell and (&apos;part of&apos; some &apos;organism&apos; and (&apos;has disease&apos; some disease)))</obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">derives from patient having disease</rdfs:label>
     </owl:ObjectProperty>
     
@@ -138,8 +118,8 @@ This is a short cut relation that represents:
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CLO_0000179">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <cellline:definition>an object property that represents a relation between a cell line cell and a disease.</cellline:definition>
-        <cellline:definition_editor>Asiyah Yu Lin, Yongqun He</cellline:definition_editor>
+        <obo:IAO_0000115>an object property that represents a relation between a cell line cell and a disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>Asiyah Yu Lin, Yongqun He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">is disease model for</rdfs:label>
     </owl:ObjectProperty>
     
@@ -232,12 +212,8 @@ in CLO, this is a short cut relation that represents:
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1170</obo:CLO_0000178>
-        <obo:CLO_0000178 xml:lang="en">LCL-1170</obo:CLO_0000178>
         <obo:IAO_0000118>Caco-2</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">Caco-2</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <rdfs:label>Caco-2 cell</rdfs:label>
-        <rdfs:label xml:lang="en">Caco-2 cell</rdfs:label>
     </owl:Class>
     
 
@@ -258,14 +234,9 @@ in CLO, this is a short cut relation that represents:
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1631</obo:CLO_0000178>
-        <obo:CLO_0000178 xml:lang="en">LCL-1631</obo:CLO_0000178>
         <obo:IAO_0000117>ZN</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">ZN</obo:IAO_0000117>
         <obo:IAO_0000118>Calu-3</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">Calu-3</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <rdfs:label>Calu-3 cell</rdfs:label>
-        <rdfs:label xml:lang="en">Calu-3 cell</rdfs:label>
     </owl:Class>
     
 
@@ -275,10 +246,7 @@ in CLO, this is a short cut relation that represents:
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002462">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
         <obo:IAO_0000118>CHO-K1</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">CHO-K1</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <rdfs:label>CHO-K1 cell</rdfs:label>
-        <rdfs:label xml:lang="en">CHO-K1 cell</rdfs:label>
     </owl:Class>
     
 
@@ -299,12 +267,8 @@ in CLO, this is a short cut relation that represents:
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:CLO_0000178>LCL-1103</obo:CLO_0000178>
-        <obo:CLO_0000178 xml:lang="en">LCL-1103</obo:CLO_0000178>
         <obo:IAO_0000118>K-562</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">K-562</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <rdfs:label>K-562 cell</rdfs:label>
-        <rdfs:label xml:lang="en">K-562 cell</rdfs:label>
     </owl:Class>
     
 
@@ -314,10 +278,7 @@ in CLO, this is a short cut relation that represents:
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0009524">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
         <obo:IAO_0000118>Vero</obo:IAO_0000118>
-        <obo:IAO_0000118 xml:lang="en">Vero</obo:IAO_0000118>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/clo.owl"/>
         <rdfs:label>Vero cell</rdfs:label>
-        <rdfs:label xml:lang="en">Vero cell</rdfs:label>
     </owl:Class>
     
 
@@ -331,6 +292,12 @@ in CLO, this is a short cut relation that represents:
     <!-- http://purl.obolibrary.org/obo/CL_0000010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000010"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000235"/>
     
 
 

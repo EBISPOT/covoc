@@ -17,6 +17,8 @@ import_group:
     - id: hp
     - id: mondo
     - id: chebi
+      is_large: TRUE
+      use_gzipped: TRUE
     - id: go
     - id: bao
       mirror_from: http://www.bioassayontology.org/bao/bao_complete.owl
